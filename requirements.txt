@@ -1,0 +1,25 @@
+# Core LLM Framework
+langchain
+langchain-community
+langchain-openai
+langchain-google-genai
+
+# Document Processing
+pypdf
+unstructured
+python-docx
+markdownify
+
+# Vector Database
+chromadb
+pysqlite3-binary
+
+# UI
+streamlit
+
+# Utils
+python-dotenv
+pandas
+tqdm
+ragas
+pytest
