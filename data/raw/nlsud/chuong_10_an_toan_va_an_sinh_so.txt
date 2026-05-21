@@ -1,0 +1,571 @@
+
+
+--- PAGE 1 ---
+
+HỌC VIỆN NGÂN HÀNG
+KHOA HỆ THỐNG THÔNG TIN QUẢN LÝ
+An toàn và an sinh số
+Hà Nội – 2022
+
+--- PAGE 2 ---
+
+BPM
+2
+1. Dấu chân số (Digital Footprint)
+
+--- PAGE 3 ---
+
+Dấu chân số là gì?
+❖Bạn đã từng làm gì trên
+Internet?
+❖Những thông tin bạn từng để lại
+trên Internet là gì?
+❖Bạn có thể đánh giá ai đó khi chỉ 
+tìm hiểu người đó trên Internet 
+không?
+❖Bạn cho chăm chút hình ảnh của 
+mình trên Internet không?
+3
+
+
+--- PAGE 4 ---
+
+Dấu chân số là gì?
+4
+
+
+--- PAGE 5 ---
+
+Dấu chân số là gì?
+5
+Dấu chân kỹ
+thuật số vẽ
+trên một bức
+chân dung của
+chính bạn.
+“Dấu chân số” hay “Dấu chân
+kỹ thuật số” là tập hợp các
+dấu vết dữ liệu chúng ta tạo
+ra khi sử dụng Internet. 
+
+--- PAGE 6 ---
+
+Dấu chân số tạo ra từ đâu?
+❖Bài viết / hình ảnh đăng trên mạng xã hội
+❖Tương tác trực tuyến: like, share, comment
+❖Đăng nhập vào các ứng dụng trực tuyến
+❖Truy cập các trang web
+❖Sử dụng Email, SMS
+❖Lịch sử tìm kiếm trên Internet
+❖Lịch sử mua sắm trực tuyến….
+6
+
+--- PAGE 7 ---
+
+Dữ liệu về bạn được lưu lại như thế nào?
+7
+
+
+--- PAGE 8 ---
+
+Ai có thể truy cập thông tin của bạn?
+810/31/2022
+Bạn bè Thầy cô Gia đình
+Đồng nghiệp Nhà tuyển dụng
+Nhà quảng cáo
+Các công ty có sản phẩm / dịch vụ
+Tin tặc Những kẻ lừa đảo
+Người lạ
+
+--- PAGE 9 ---
+
+Phân loại dấu chân số
+❖Dấu chân số thụ động: Là một dấu vết dữ liệu bạn
+vô tình để lại trực tuyến.
+▪ Ví dụ: khi bạn truy cập một trang web, máy chủ web có
+thể ghi lại địa chỉ IP của bạn, địa chỉ này xác định nhà
+cung cấp dịch vụ Internet và vị trí gần đúng của bạn.
+Mặc dù địa chỉ IP của bạn có thể thay đổi và không bao
+gồm bất kỳ thông tin cá nhân nào, nhưng nó vẫn được
+coi là một phần của dấu ấn kỹ thuật số của bạn. Một khía
+cạnh cá nhân hơn của dấu chân kỹ thuật số thụ động của
+bạn là lịch sử tìm kiếm của bạn, được một số công cụ
+tìm kiếm lưu trong khi bạn đăng nhập.
+9
+
+--- PAGE 10 ---
+
+Phân loại dấu chân số
+❖Dấu chân số chủ động: bao gồm dữ liệu mà bạn cố
+ý gửi trực tuyến. Gửi email góp phần vào dấu ấn kỹ
+thuật số hoạt động của bạn, vì bạn mong đợi dữ
+liệu được người khác xem và/hoặc lưu. Bạn càng
+gửi nhiều email, dấu ấn kỹ thuật số của bạn càng
+phát triển. Vì hầu hết mọi người lưu email của họ
+trực tuyến, các tin nhắn bạn gửi có thể dễ dàng vẫn
+trực tuyến trong vài năm hoặc hơn.
+10
+
+--- PAGE 11 ---
+
+BPM
+11
+2. Danh tính số (Digital Identity)
+
+--- PAGE 12 ---
+
+Danh tính số là gì?
+❖ ISO / IEC 24760-1 định nghĩa
+danh tính là tập hợp các thuộc
+tính liên quan đến một thực
+thể.
+❖ Danh tính số là thông tin về
+một thực thể được hệ thống
+máy tính sử dụng để đại diện
+cho một mục tiêu cụ thể. Mục
+tiêu đó có thể là một người, tổ
+chức, ứng dụng hoặc thiết bị.12
+
+
+--- PAGE 13 ---
+
+Danh tính số của một cá nhân
+Giới thiệu môn học 1310/31/2022
+Những gì chúng ta biết từ khía cạnh danh tính của bạn ấy
+MỘT
+EM TRAI
+Y TÁ
+KHÁC GIA ĐÌNH 
+CƠ BẢN
+NỮ
+HÀ NỘI
+ĐẠO PHẬT
+VIỆT 
+NAM
+
+--- PAGE 14 ---
+
+Tầm quan trọng của việc giữ an toàn
+cho danh tính số của bạn?
+
+
+--- PAGE 15 ---
+
+BPM
+15
+3. Lợi ích và rủi ro của dấu chân số
+
+--- PAGE 16 ---
+
+Rủi ro tiềm ẩn
+❖Nhà tuyển dụng tìm 
+kiếm thông tin của ứng 
+viên trên Internet.
+❖Nếu họ tìm thấy:
+- Hình ảnh không mấy 
+thiện cảm
+- Nhận xét / video khiếm 
+nhã
+=> Sẽ ảnh hưởng đến việc 
+bạn có được chọn hay 
+không.
+Giới thiệu môn học 1610/31/2022
+BÁO CÁO CÁ NHÂN
+
+--- PAGE 17 ---
+
+Nữ dân biểu Hoa Kỳ
+Marjorie Taylor Greene
+Rủi ro tiềm ẩn
+
+--- PAGE 18 ---
+
+Rủi ro tiềm ẩn
+1810/31/2022
+SỰ RIÊNG TƯ
+❖ Dấu chân số đã đánh 
+cắp quyền riêng tư và 
+ẩn danh trực tuyến.
+
+
+--- PAGE 19 ---
+
+Rủi ro tiềm ẩn
+1910/31/2022
+TRỘM CẮP TIỀN
+❖ Trang web bán hàng giả
+❖ Bạn nhập thông tin thẻ tín 
+dụng để thanh toán
+❖ Bạn không nhận được 
+hàng.
+❖ Những kẻ lừa đảo sử dụng 
+thông tin thẻ của bạn để 
+mua hàng của họ
+
+
+--- PAGE 20 ---
+
+Rủi ro tiềm ẩn
+2010/31/2022
+HÀNH VI TRỘM CẮP DANH 
+TÍNH
+❖ Thông tin cá nhân bị đánh
+cắp.
+❖ Bạn chia sẻ thông tin cá
+nhân trên các trang web
+uy tín, bảo mật kém:
+- Họ và tên
+- Ngày sinh
+- Địa chỉ nhà
+❖ Danh tính của bạn có thể
+bị đánh cắp và ai đó giả vờ
+là bạn.
+
+
+--- PAGE 21 ---
+
+Đe dọa trực tuyến
+2110/31/2022
+Rủi ro tiềm ẩn
+
+--- PAGE 22 ---
+
+Rủi ro tiềm ẩn
+2210/31/2022
+NHỮNG KẺ LẠ MẶT
+Có 1,3 tỷ người dùng
+giả mạo trên Facebook.
+(2019)
+
+
+--- PAGE 23 ---
+
+Lợi ích của dấu chân số
+23
+❖Xây dựng hình
+ảnh cá nhân
+trong môi trường
+số (Tạo cơ hội
+kết nối và tương
+tác)
+
+
+--- PAGE 24 ---
+
+Lợi ích của dấu chân số
+24
+❖Cá nhân hóa
+quảng cáo
+
+
+--- PAGE 25 ---
+
+Lợi ích của dấu chân số
+25
+❖Xây dựng các
+mối quan hệ
+
+
+--- PAGE 26 ---
+
+Lợi ích của dấu chân số
+26
+❖Đạt được danh tiếng
+Có dấu chân số có thể giúp bạn nổi tiếng và được 
+nhiều người biết đến.
+Ví dụ: bạn có thể muốn trở thành một blogger và 
+xây dựng khán giả thông qua nội dung trang web 
+của bạn hoặc các cập nhật trên mạng xã hội. Bạn 
+cũng có thể sử dụng sự hiện diện kỹ thuật số của 
+mình như một phương tiện để quảng bá bản thân, 
+chẳng hạn như công việc của bạn với tư cách là 
+một nghệ sĩ hoặc nhạc sĩ.
+
+--- PAGE 27 ---
+
+Lợi ích của dấu chân số
+27
+❖Kiếm tiền
+Nếu bạn có một blog, bạn có thể sử dụng nó như một
+kênh để kiếm tiền trực tuyến thông qua các quảng
+cáo và các chương trình liên kết.
+Nếu bạn sở hữu một cửa hàng trực tuyến, thì bạn có
+thể bán sản phẩm bằng cách sử dụng loại nền tảng
+này.
+Dấu chân kỹ thuật số có thể giúp bạn tạo ra cả thu
+nhập cá nhân và doanh nghiệp nếu bạn sử dụng nó
+một cách hiệu quả.
+
+--- PAGE 28 ---
+
+Luật đối với dấu chân số
+28
+Dữ liệu cá nhân Quyền riêng tư Luật
+
+--- PAGE 29 ---
+
+29
+Quyền riêng tư và dữ liệu cá nhân
+nhà ở, việc làm, khuynh 
+hướng tình dục
+Hồ sơ bệnh án, 
+thông tin sức khỏe
+lịch sử hành vi trực
+tuyến,thiết bị kỹ thuật số
+đã sử dụng
+tài chính, thẻ ngân hàng, 
+thẻ thành viên
+gia đình, nhân khẩu học và
+tôn giáo
+dấu vân tay, di truyền
+hoạt động giải trí, 
+sở thích,  quan
+điểm chính trị
+Thói quen hành vi, lĩnh
+vực quan tâm
+lịch sử du lịch, các địa điểm đã
+ghé thăm
+Dữ liệu khác
+
+--- PAGE 30 ---
+
+“Dấu chân kỹ thuật số của bạn giờ đây đã trở thành
+hiện thực của cuộc sống. Nếu bạn muốn làm bất cứ
+điều gì lớn lao trên thế giới, bạn sẽ phải hiểu cách tạo
+ra dấu chân của mình và sử dụng nó“
+Harrington
+3010/31/2022
+
+--- PAGE 31 ---
+
+BPM
+31
+4. Quản lý và bảo vệ dấu chân số
+
+--- PAGE 32 ---
+
+Quản lý dấu chân số
+32
+❖ Tìm kiếm tên đầy đủ của bạn
+
+--- PAGE 33 ---
+
+Quản lý dấu chân số
+33
+❖ Xóa những gì thể hiện không tốt về bạn
+
+
+--- PAGE 34 ---
+
+Quản lý dấu chân số
+34
+❖ Luôn chuyên nghiệp bất cứ khi nào bạn đăng nội dung
+trực tuyến.
+
+
+--- PAGE 35 ---
+
+Quản lý dấu chân số
+35
+❖Tắt hồ sơ hoặc tài khoản bạn không sử dụng nữa
+
+
+--- PAGE 36 ---
+
+Quản lý dấu chân số
+36
+❖Cập nhật thông tin về hồ sơ trực tuyến chuyên
+nghiệp của bạn.
+
+
+--- PAGE 37 ---
+
+Quản lý dấu chân số
+37
+❖Chia sẻ những thành tích và thông tin mà bạn tự hào.
+
+
+--- PAGE 38 ---
+
+Quản lý dấu chân số
+38
+❖Đặt các tùy chọn tài khoản của bạn thành riêng tư.
+
+
+--- PAGE 39 ---
+
+Quản lý dấu chân số
+39
+❖Bảo vệ tất cả mật khẩu và tên người dùng của bạn.
+
+
+--- PAGE 40 ---
+
+Quản lý dấu chân số
+40
+❖Sử dụng cửa sổ riêng tư hoặc ẩn danh để duyệt web.
+
+
+--- PAGE 41 ---
+
+Quản lý dấu chân số
+41
+❖Xóa cookie vài tháng một lần để xóa dữ liệu
+theo dõi.
+
+
+--- PAGE 42 ---
+
+Quản lý dấu chân số
+42
+❖Sử dụng tùy chọn "Thanh toán với tư cách khách"
+để mua sắm trực tuyến.
+
+
+--- PAGE 43 ---
+
+Sinh viên nên quản lý dấu chân số như thế nào?
+1. Tử tế, hữu ích và hiểu biết
+2. Sử dụng cài đặt quyền riêng tư
+3. Giữ một danh sách các tài khoản
+4. Đừng chia sẻ quá mức
+5. Sử dụng trình giữ mật khẩu
+6. Google, Facebook giá của bạn
+7. Giám sát việc liên kết các tài khoản
+8. Cân nhắc sử dụng email phụ ẩn danh
+9. Ít nhất hãy đọc lướt các điều khoản và điều kiện
+10. Biết rằng gửi giống như đẩy mãi mãi
+11. Hiểu rằng các tìm kiếm mang tính xã hội
+12. Sử dụng các công cụ kỹ thuật số để quản lý dấu ấn 
+kỹ thuật số của bạn
+
+
+--- PAGE 44 ---
+
+BPM
+44
+5. An sinh số
+
+--- PAGE 45 ---
+
+An sinh số
+4510/31/2022
+“An sinh số là việc tăng cường và cải thiện phúc lợi 
+của con người, trong trung hạn và dài hạn, thông 
+qua việc sử dụng các phương tiện kỹ thuật số”
+
+
+--- PAGE 46 ---
+
+An sinh số
+4610/31/2022
+“An sinh số là về việc tạo ra và duy trì một mối quan hệ lành 
+mạnh với công nghệ. Đó là về cách công nghệ phục vụ chúng ta 
+và đưa chúng ta đến mục tiêu của mình, thay vì làm chúng ta 
+mất tập trung, làm gián đoạn hoặc cản đường chúng ta. Kiểm 
+soát công nghệ cho phép chúng tôi sử dụng toàn bộ tiềm năng 
+của nó và đạt được tất cả những lợi ích của nó”
+
+
+--- PAGE 47 ---
+
+Kiểm soát thời gian dành cho các thiết bị số
+4710/31/2022
+❖Thời gian bạn sử dụng
+các thiết bị số là bao
+lâu?
+
+--- PAGE 48 ---
+
+Thiết lập sự cân 
+bằng
+Offline Social 
+Media
+Hạnh phúc trong thế giới số
+Cân bằng thời gian sử
+dụng thiết bị số và tham
+gia trực tuyến với thời
+gian ngoại tuyến
+An sinh số
+
+--- PAGE 49 ---
+
+Hạn chế sử dụng thiết bị số
+4910/31/2022
+Cách hạn chế sử
+dụng thiết bị số
+Theo dõi
+việc sử
+dụng ứng
+dụng
+Làm cho
+màn hình
+trở nên đen
+trắng
+Đặt mục
+tiêu và
+giới hạn
+thời gian
+Tạo ra
+các quy
+tắc xã hội
+mới
+Sử dụng
+các ứng
+dụng chặn
+
+--- PAGE 50 ---
+
+Ứng dụng Digital Wellbeing
+5010/31/2022
+
+
+--- PAGE 51 ---
+
+5110/31/2022
+❖Hàng ngày bạn làm
+gì trên mạng?
+
+
+--- PAGE 52 ---
+
+Nhà sáng tạo
+nội dung số
+
+--- PAGE 53 ---
+
+Writer
+
+--- PAGE 54 ---
+
+Nhà làm phim
+
+--- PAGE 55 ---
+
+Bạn có thể là nhà sáng tạo
+khi đăng, bình luận hoặc
+chia sẻ thông tin lên mạng
+xã hội
+
+--- PAGE 56 ---
+
+Là sinh viên, hàng ngày
+bạn có thể tham gia vào
+các cuộc trò chuyện trong
+lớp hoặc đăng bài tập
+
+--- PAGE 57 ---
+
+Participate in 
+healthy physical 
+activities
+Chăm sóc bản thân
+
+--- PAGE 58 ---
+
+5
+8
+You are in 
+control of your 
+digital self
+Be yourself  But be your best self

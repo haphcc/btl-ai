@@ -1,0 +1,619 @@
+
+
+--- PAGE 1 ---
+
+HỌC VIỆN NGÂN HÀNG
+KHOA HỆ THỐNG THÔNG TIN QUẢN LÝ
+MIS
+Digital Competence 
+Năng lực số ứng dụng
+DigiComBA
+31/10/2022 Khoa Hệ thống thông tin quản lý 1
+
+
+--- PAGE 2 ---
+
+HỌC VIỆN NGÂN HÀNG
+KHOA HỆ THỐNG THÔNG TIN QUẢN LÝ
+MIS
+CHƯƠNG I
+GIỚI THIỆU NĂNG LỰC SỐ
+NĂNG LỰC SỐ ỨNG DỤNG
+31/10/2022 Khoa Hệ thống thông tin quản lý 2
+
+--- PAGE 3 ---
+
+NỘI DUNG CHƯƠNG
+1.1. Một số khái niệm liên quan đến năng lực số
+1.1.1. Khái niệm năng lực số
+1.1.2. Công dân số
+1.2.3. Nền kinh tế số
+1.2. Một số khung năng lực số phổ biến trên thế giới
+1.2.1. Khung năng lực số Châu Âu
+1.2.2. Khung tham chiếu về kỹ năng số của CAUL (Council of Australian
+University Librarians)
+1.2.3. Khung tham chiếu toàn cầu về trình độ kỹ thuật số của UNESCO
+1.2.4. Khung tham chiếu về kỹ năng số của World Bank
+1.2.5. Một số chuẩn quốc tế về kỹ năng số
+1.3. Khung năng lực số của Học viện Ngân hàng - DigiComBA
+331/10/2022 Khoa Hệ thống thông tin quản lý
+
+--- PAGE 4 ---
+
+Bối cảnh chuyển đổi số
+31/10/2022 Khoa Hệ thống thông tin quản lý 4
+
+--- PAGE 5 ---
+
+Công nghệ làm thay đổi cuộc sống và hoạt động kinh doanh
+❖ Thế giới đã và đang thay đổi – và cách chúng ta sống và 
+kinh doanh cũng đã thay đổi
+❖ Các hệ thống thông tin doanh nghiệp giải quyết những
+công việc nghiệp vụ theo những phương pháp mới, 
+nâng cao hiệu quả và làm gia tăng giá trị cho doanh
+nghiệp
+❖ Doanh nghiệp số trong nền kinh tế số đứng trước những
+thách thức mới và đối diện với “khoảng trống” nhân lực
+số
+31/10/2022 Khoa Hệ thống thông tin quản lý 5
+
+--- PAGE 6 ---
+
+Thách thức về nguồn nhân lực
+trong doanh nghiệp ngày nay
+Thay đổi đối với nguồn nhân lực trong nền kinh tế số
+31/10/2022 Khoa Hệ thống thông tin quản lý 6
+
+--- PAGE 7 ---
+
+Keywords
+❖Digital Transformation
+❖Digital Organization
+❖Digital GAP
+❖Digital skills
+❖Big Data
+❖Digital Age
+❖ICT skills
+❖Key digital technology 
+areas
+❖Big Data Analytics
+❖Social Media
+❖Mobile Devices
+❖Cloud
+❖Employee Exchange 
+program
+❖Online skills platform
+❖…
+31/10/2022 Khoa Hệ thống thông tin quản lý 7
+
+--- PAGE 8 ---
+
+Thách thức về nguồn nhân lực
+trong doanhnghiệp ngày nay
+Thay đổi đối với nguồn nhân lực trong nền kinh tế số
+31/10/2022 Khoa Hệ thống thông tin quản lý 8
+
+--- PAGE 9 ---
+
+Thay đổi đối với nguồn nhân lực trong nền kinh tế số
+❖ Các hoạt động kinh tế không thể tách rời với công nghệ
+❖ Yêu cầu, kỹ năng công việc cao hơn, bởi những công 
+việc lặp đi lặp lại đã có máy móc thay thế
+❖ Khả năng thích nghi, thay đổi tư duy phù hợp với thời
+đại
+❖ Hiểu biết và kỹ năng số sử dụng trong công việc
+31/10/2022 Khoa Hệ thống thông tin quản lý 9
+
+
+--- PAGE 10 ---
+
+Theo bạn
+Đâu là những kỹ năng 
+THỰC SỰ CẦN THIẾT 
+đối với sinh viên ngày nay? 
+31/10/2022 Khoa Hệ thống thông tin quản lý 10
+
+--- PAGE 11 ---
+
+1.1. Một số khái niệm liên quan đến năng lực số
+❖ 1.1.1. Khái niệm năng lực số
+▪ Năng lực số là khả năng truy cập, quản lý, hiểu, kết 
+hợp, giao tiếp, đánh giá và sáng tạo thông tin một 
+cách an toàn, phù hợp thông qua công nghệ số để 
+phục vụ cho các công việc từ đơn giản đến phức tạp 
+cũng như khởi nghiệp. 
+▪ Năng lực số là tổng hợp của năng lực sử dụng máy 
+tính, năng lực công nghệ thông tin, năng lực thông tin 
+và năng lực truyền thông. [UNESCO]
+1131/10/2022
+ Khoa Hệ thống thông tin quản lý
+
+--- PAGE 12 ---
+
+1.1. Một số khái niệm liên quan đến năng lực số
+❖ 1.1.2. Khái niệm công dân số
+▪ Công dân số có những đặc điểm sau:
+• Có năng lực về công nghệ số (tạo lập, làm việc, chia 
+sẻ, xã hội hóa, khám phá, vui chơi, giao tiếp và học 
+hỏi); 
+• Tham gia tích cực và có trách nhiệm (giá trị, kỹ năng, 
+thái độ, kiến thức) vào cộng đồng (địa phương, quốc 
+gia, toàn cầu) ở mọi cấp độ (chính trị, kinh tế, xã hội, 
+văn hóa và liên văn hóa); 
+• Được tham gia vào một quá trình kép của học tập suốt 
+đời (trong môi trường chính quy và hoặc phi chính quy) 
+và liên tục bảo vệ phẩm giá con người.
+▪ Để trở thành một công dân số, mỗi cá nhân cần được 
+trang bị năng lực số. 
+1231/10/2022 Khoa Hệ thống thông tin quản lý
+
+--- PAGE 13 ---
+
+1.1. Một số khái niệm liên quan đến năng lực số
+❖ 1.1.3. Khái niệm nền kinh tế số
+▪ Kinh tế số là được hiểu là một nền kinh tế vận hành 
+chủ yếu dựa trên công nghệ số, đặc biệt là các giao 
+dịch điện tử tiến hành thông qua Internet.
+1331/10/2022 Khoa Hệ thống thông tin quản lý
+
+
+--- PAGE 14 ---
+
+1.2. Một số khung năng lực số phổ biến trên thế giới
+❖ 1.2.1. Khung năng lực số Châu Âu
+❖ 1.2.2. Khung tham chiếu về kỹ năng số của CAUL (Council of
+Australian University Librarians)
+❖ 1.2.3. Khung tham chiếu toàn cầu về trình độ kỹ thuật số của
+UNESCO
+❖ 1.2.4. Khung tham chiếu về kỹ năng số của World Bank
+1431/10/2022
+DigiComBA
+DigComp
+European 
+Commission 
+Council of Australian 
+University Librarians
+Digital 
+Skills
+Frameworks &
+Programs
+The World Bank
+Global Framework of
+Reference on Digital 
+Literacy
+Khoa Hệ thống thông tin quản lý
+
+--- PAGE 15 ---
+
+1.2.1. Khung năng lực số Châu Âu
+❖ DigComp Framework: Khung năng lực số Châu Âu với 5 nhóm 
+năng lực (Areas) chia thành 21 năng lực cụ thể 
+(Competences)
+1531/10/2022
+ Khoa Hệ thống thông tin quản lý
+
+--- PAGE 16 ---
+
+1.2.2. Khung tham chiếu về kỹ năng số của CAUL
+❖ Digital Dexterity Framework: Khung tham chiếu về kỹ 
+năng số của CAUL (Council of Australian University 
+Librarians), thể hiện kiến thức, kỹ năng và thái độ mà 
+nhân sự cần có trong thời đại số, với 6 nhóm năng lực 
+chính
+1631/10/2022
+ Khoa Hệ thống thông tin quản lý
+
+--- PAGE 17 ---
+
+1.2.2. Khung tham chiếu về kỹ năng số của CAUL
+1731/10/2022
+ Khoa Hệ thống thông tin quản lý
+
+--- PAGE 18 ---
+
+1.2.2. Khung tham chiếu về kỹ năng số của CAUL
+1831/10/2022
+ Khoa Hệ thống thông tin quản lý
+
+--- PAGE 19 ---
+
+1.1.3. Khung tham chiếu toàn cầu về trình độ kỹ thuật số của 
+UNESCO
+❖ Digital Literacy Global Framework - Khung tham chiếu 
+toàn cầu về trình độ kỹ thuật số của UNESCO: với 6 
+nhóm năng lực (Areas) chia thành 26 năng lực cụ thể 
+(Competences)
+1931/10/2022
+ Khoa Hệ thống thông tin quản lý
+
+--- PAGE 20 ---
+
+Digital Literacy Global Framework
+Kiến thức về thông tin và dữ liệu
+Giao tiếp và hợp tác
+Vận hành T/bị & PM
+Digital Literacy Global Framework
+31/10/2022 Khoa Hệ thống thông tin quản lý 20
+
+--- PAGE 21 ---
+
+Digital Literacy Global Framework
+Sáng tạo nội dung số
+An toàn
+31/10/2022 Khoa Hệ thống thông tin quản lý 21
+
+--- PAGE 22 ---
+
+Digital Literacy Global Framework
+Giải quyết vấn đề
+Năng lực số nghề nghiệp
+31/10/2022 Khoa Hệ thống thông tin quản lý 22
+
+--- PAGE 23 ---
+
+1.2.4. Khung tham chiếu về kỹ năng số của World Bank
+❖ Digital Skills Framework: Khung tham chiếu về kỹ năng 
+số của World Bank với 7 nhóm năng lực (Domains), 4 
+mức độ (Digital Skill Levels)
+2331/10/2022
+ Khoa Hệ thống thông tin quản lý
+
+--- PAGE 24 ---
+
+1.2.5. Một số chuẩn quốc tế về kỹ năng số
+❖ ICDL (International Computer Driving Licence): Là thước 
+đo chuẩn quốc tế về kỹ năng sử dụng máy tính do tổ 
+chức European Computer Driving Licence Foundation 
+Limited (ECDL-F) và British Computer Society quản lý 
+trên quy mô toàn cầu.
+❖ IC3 (Internet and Computing Core Certification): Là 
+thước đo chuẩn quốc tế về mức độ sử dụng thành thạo 
+máy tính và các thiết bị công nghệ số, được nghiên cứu 
+và phát triển bởi Certiport (Hoa Kỳ)
+❖ MOS (Microsoft Office Specialist): Là thước đo chuẩn 
+quốc tế về kỹ năng sử dụng tin học văn phòng trên các 
+ứng dụng Microsoft Office, triển khai bởi Certiport (Hoa 
+Kỳ)
+31/10/2022 Khoa Hệ thống thông tin quản lý 24
+
+--- PAGE 25 ---
+
+31/10/2022 Khoa Hệ thống thông tin quản lý 25
+
+--- PAGE 26 ---
+
+HỌC VIỆN NGÂN HÀNG
+KHOA HỆ THỐNG THÔNG TIN QUẢN LÝ
+MIS
+ICDL (International Computer Driving Licence)
+31/10/2022 Khoa Hệ thống thông tin quản lý 26
+
+--- PAGE 27 ---
+
+Bài thi ICDL
+❖ ICDL (International Computer Driving Licence) là bộ 
+chứng chỉ kỹ năng sử dụng công nghệ thông tin (CNTT) 
+quốc tế, được công nhận và đã sử dụng tại hơn 100 
+quốc gia, với 41 ngôn ngữ, 24.000 trung tâm khảo thí 
+(ATC), và hàng chục triệu thí sinh tham dự.
+❖ ICDL được triển khai, vận hành và tổ chức thi một cách 
+thống nhất trên phạm vi toàn thế giới trên cơ sở Hệ 
+thống Quản lý Chất lượng theo tiêu chuẩn ISO 9001-
+2008.
+❖ Hình thức thi: trắc nghiệm dưới hình thức giả lập hoặc 
+câu hỏi khách quan thông qua trực tiếp ở máy tính (test 
+online)
+2731/10/2022 Khoa Hệ thống thông tin quản lý
+
+--- PAGE 28 ---
+
+Bài thi ICDL
+2831/10/2022
+ Khoa Hệ thống thông tin quản lý
+
+--- PAGE 29 ---
+
+Chứng chỉ & Phiếu điểm ICDL
+2931/10/2022
+ Khoa Hệ thống thông tin quản lý
+
+--- PAGE 30 ---
+
+Ưu điểm của bài thi ICDL
+❖ Tin cậy và bảo mật
+❖ Công nhận rộng rãi
+❖ Quy trình thi đơn giản
+❖ Kết quả nhanh chóng, 
+chính xác
+3031/10/2022 Khoa Hệ thống thông tin quản lý
+
+--- PAGE 31 ---
+
+HỌC VIỆN NGÂN HÀNG
+KHOA HỆ THỐNG THÔNG TIN QUẢN LÝ
+MIS
+IC3 (Internet and computing core certification)
+31/10/2022 Khoa Hệ thống thông tin quản lý 31
+
+--- PAGE 32 ---
+
+BÀI THI IC3
+❖ Là thước đo chuẩn quốc tế về mức độ sử dụng thành 
+thạo máy tính và các thiết bị công nghệ số.
+❖ Được nghiên cứu và phát triển bởi Certiport (Hoa Kỳ)
+❖ Bài thi được thực hiện trực tuyến, với hơn 25 ngôn ngữ 
+được xây dựng và đã được Việt hóa đầy đủ về bài thi, 
+giáo trình.
+3231/10/2022 Khoa Hệ thống thông tin quản lý
+
+--- PAGE 33 ---
+
+BÀI THI IC3
+❖ IC3 được xây dựng bao gồm 03 bài thi thành phần:
+▪ Máy tính căn bản: Hiểu biết cơ bản về phần cứng, 
+phần mềm, hệ điều hành và cách xử lý những sự cố 
+thường gặp.
+▪ Các ứng dụng chủ chốt: Word, Excel, PowerPoint, 
+Access.
+▪ Cuộc sống trực tuyến: Các nguyên tắc mạng, cách 
+sử dụng và tìm kiếm thông tin trên mạng, các phần 
+mềm duyệt web, thư điện tử.
+3331/10/2022 Khoa Hệ thống thông tin quản lý
+
+--- PAGE 34 ---
+
+BÀI THI IC3
+NỘI DUNG THI SỐ LƯỢNG 
+CÂU HỎI THỜI GIAN ĐIỂM TỐI ĐA ĐIỂM ĐẠT
+Máy tính căn bản 45 50 phút 1000 650
+Các ứng dụng chủ chốt 43 50 phút 1000 720
+Cuộc sống trực tuyến 45 50 phút 1000 620
+3431/10/2022 Khoa Hệ thống thông tin quản lý
+
+--- PAGE 35 ---
+
+CHỨNG CHỈ IC3 & PHIẾU ĐIỂM IC3
+VS
+ VS
+3531/10/2022 Khoa Hệ thống thông tin quản lý
+
+--- PAGE 36 ---
+
+ƯU ĐIỂM CỦA BÀI THI IC3
+❖ Tin cậy và bảo mật
+❖ Công nhận rộng rãi
+❖ Mức phí hợp lý
+❖ Quy trình thi đơn giản
+❖ Kết quả nhanh chóng, 
+chính xác
+3631/10/2022 Khoa Hệ thống thông tin quản lý
+
+--- PAGE 37 ---
+
+HỌC VIỆN NGÂN HÀNG
+KHOA HỆ THỐNG THÔNG TIN QUẢN LÝ
+MIS
+Microsoft Office Specialist
+31/10/2022 Khoa Hệ thống thông tin quản lý 37
+
+--- PAGE 38 ---
+
+Bài thi MOS
+❖ Được sáng tạo bởi Microsoft (Hoa Kỳ) và triển khai bởi 
+Certiport (Hoa Kỳ)
+❖ Là thước đo chuẩn quốc tế về kỹ năng sử dụng tin học 
+văn phòng.
+❖ Bài thi được thực hiện trực tuyến, với hơn 25 ngôn ngữ 
+được xây dựng và đã được Việt hóa.
+❖ Chuẩn đào tạo và đầu ra cho sinh viên các Trường Đại 
+học, Cao đẳng.
+❖ Nhiều Doanh nghiệp sử dụng làm công cụ đánh giá và 
+chuẩn hóa trình độ tin học cho CBNV
+3831/10/2022 Khoa Hệ thống thông tin quản lý
+
+--- PAGE 39 ---
+
+Bài thi MOS
+❖ Các bài thi MOS hiện nay đang được triển khai
+3931/10/2022 Khoa Hệ thống thông tin quản lý
+
+--- PAGE 40 ---
+
+MẪU PHIẾU ĐIỂM VÀ CHỨNG CHỈ MOS
+4031/10/2022 Khoa Hệ thống thông tin quản lý
+
+--- PAGE 41 ---
+
+MOS CHO TỪNG VỊ TRÍ CÔNG VIỆC
+Specialist
+Word
+Excel
+PowerPoint
+Outlook
+Access
+SharePoint
+Expert
+Word
+Excel
+*Master
+*Chứng chỉ Master yêu cầu các chứng chỉ core Word Expert, Excel Expert, PowerPoint, 
+và một trong hai chứng chỉ Outlook hoặc Access
+4131/10/2022 Khoa Hệ thống thông tin quản lý
+
+--- PAGE 42 ---
+
+CÁC CẤP ĐỘ CỦA CHỨNG CHỈ MOS
+Chứng nhận kỹ năng toàn diện và chuyên sâu trên
+toàn bộ hệ thống phần mềm ứng dùng trong bộ phần
+mềm Microsoft Office.
+Cần vượt qua 04 bài thi: Word Expert, Excel Expert, 
+PowerPoint, và Outlook hoặc Access.
+Chứng nhận các kỹ năng cao cấp trong sử dụng
+các ứng dụng Microsoft Word và Microsoft 
+Excel.
+Chứng nhận các kỹ năng trên từng phần mềm
+ứng dụng: Word, Excel, PowerPoint, Access, 
+Outlook.
+4231/10/2022 Khoa Hệ thống thông tin quản lý
+
+--- PAGE 43 ---
+
+MOS VỚI DOANH NGHIỆP
+Hiệu quả của Microsoft® Office Specialist trong môi trường doanh nghiệp:
+89% những người giám sát, quản lý được phỏng vấn
+cho rằng những nhân viên đạt được chứng chỉ MOS làm
+việc có năng suất cao hơn nhờ chứng chỉ của họ. 
+82% nhà tuyển dụng tin rằng chứng chỉ MOS trực tiếp
+mang lại lợi ích cho tổ chức của họ.
+80% hoặc hơn là tỷ lệ thời gian trong ngày mà nhân
+viên công sở phải làm việc trên Microsoft Office, tùy theo
+người sử dụng vào mục đích học tập, quản lý hay làm việc
+trong khối hành chính sự nghiệp.
+4331/10/2022 Khoa Hệ thống thông tin quản lý
+
+--- PAGE 44 ---
+
+Năng lực số của sinh viên Học viện Ngân hàng khi tốt nghiệp được
+thể hiện ở khả năng truy cập, quản lý, thấu hiểu, giao tiếp, cộng tác,
+đánh giá, vận dụng và sáng tạo thông tin một cách an toàn và phù
+hợp thông qua các công nghệ số để phục vụ cho các công việc từ
+đơn giản đến phức tạp cũng như khởi nghiệp.
+DIGICOMBA 1.0
+1.3. Khung năng lực số của Học viện Ngân hàng - DigiComBA
+31/10/2022 Khoa Hệ thống thông tin quản lý 45
+
+--- PAGE 45 ---
+
+❖ Thể hiện năng lực số trong hoạt động chuyên môn, đời 
+sống xã hội và học tập suốt đời, bao gồm:
+▪ Vận hành thiết bị và phần mềm
+▪ Khai thác dữ liệu và thông tin
+▪ Học tập, giao tiếp và cộng tác
+▪ Sử dụng năng lực số trong chuyên môn
+1.3. Khung năng lực số của Học viện Ngân hàng - DigiComBA
+31/10/2022 Khoa Hệ thống thông tin quản lý 46
+
+--- PAGE 46 ---
+
+STT Nhóm năng lực Mô tả năng lực
+1 Vận hành thiết bị 
+và phần mềm
+Nhận biết, lựa chọn và sử dụng các thiết bị phần cứng và ứng dụng phần 
+mềm để nhận diện, xử lý dữ liệu, thông tin số trong giải quyết vấn đề. Quản 
+lý dữ liệu cá nhân, nội dung, quyền riêng tư và uy tín số của bản thân khi 
+sử dụng thiết bị và phần mềm. Bảo vệ sức khỏe, tinh thần cũng như kiểm 
+soát các thiết bị, trong môi trường số. Nhận thức về ảnh hưởng và việc sử 
+dụng công nghệ số an toàn đối với môi trường.
+2 Khai thác dữ liệu
+và thông tin
+Nhận diện được nhu cầu thông tin của cá nhân; triển khai các chiến lược 
+tìm dữ liệu, định vị và truy cập được thông tin; đánh giá các nguồn tin và 
+nội dung của chúng; lưu trữ, quản lý và tổ chức thông tin; 
+3 Học tập, giao 
+tiếp và cộng tác
+Tương tác và giao tiếp thông qua công nghệ số. Sử dụng công cụ số để 
+học tập, cộng tác, tạo lập các nguồn tin và tri thức. Chuyển đổi, kết hợp 
+thông tin và nội dung số vào vốn tri thức sẵn có. Hiểu rõ về hệ thống giấy 
+phép và bản quyền liên quan đến quá trình sáng tạo nội dung số; sử dụng 
+thông tin phù hợp với đạo đức và pháp luật.
+4 Sử dụng năng 
+lực số trong 
+chuyên môn
+Vận hành các công nghệ số trong các bối cảnh nghiệp vụ cụ thể. Hiểu, 
+phân tích và đánh giá dữ liệu, thông tin và nội dung số đặc thù trong hoạt 
+động nghề nghiệp. Vận dụng tư duy chuyển đổi số trong lĩnh vực nghề 
+nghiệp, thực hành đổi mới sáng tạo và khởi nghiệp trong môi trường số.
+D i g i C o m B A  1 . 0
+1.3. Khung năng lực số của Học viện Ngân hàng - DigiComBA
+31/10/2022 Khoa Hệ thống thông tin quản lý 47
+
+--- PAGE 47 ---
+
+Khung năng lực số cho sinh viên 
+HỌC VIỆN NGÂN HÀNG
+1. Vận hành thiết 
+bị và phần mềm
+1.1. Vận hành thiết bị số
+1.2. Vận hành phần mềm 
+và dịch vụ
+1.3. Kiểm soát dấu chân 
+số và Bảo vệ danh tính số  
+1.4. Bảo vệ sức khỏe và 
+môi trường khi sử dụng 
+thiết bị và dịch vụ số 
+2. Khai thác dữ 
+liệu và thông tin
+2.1. Xác định nhu cầu 
+thông tin và dữ liệu
+2.2. Tìm kiếm, 
+đánh giá và lựa chọn
+2.3. Tổ chức và lưu 
+trữ
+2.4. Xử lý và phân 
+phối
+3. Giao tiếp, học tập, 
+và cộng tác
+3.1. Học tập và liên tục phát 
+triển kỹ năng số
+3.2. Tương tác, giao tiếp và 
+cộng tác hiệu quả trên môi 
+trường số
+3.3.  Ứng xử trên môi 
+trường số theo chuẩn mực 
+đạo đức và pháp luật
+4. Sử dụng 
+năng lực số 
+trong chuyên môn
+4.1. Nhận diện những 
+năng lực số còn thiếu 
+trong chuyên môn
+4.2. Đánh giá, lựa chọn 
+và sử dụng công cụ số 
+trong  chuyển môn
+4.3. Sử dụng công nghệ 
+số trong khởi nghiệp và 
+đổi mới sáng tạo
+4.4. Vận dựng tư duy 
+chuyển đổi số
+DigiComBA 1.0
+1.3. Khung năng lực số của Học viện Ngân hàng - DigiComBA
+31/10/2022 Khoa Hệ thống thông tin quản lý 48
+
+--- PAGE 48 ---
+
+HỌC VIỆN NGÂN HÀNG – KHOA HỆ THỐNG THÔNG TIN QUẢN LÝ
+Hành trình năng lực số
+sinh viên Học viện Ngân hàng
+
+
+--- PAGE 49 ---
+
+Phát triển CTĐT tại Học viện Ngân hàng
+
+
+--- PAGE 50 ---
+
+Các môn học giúp sinh viên đạt Năng lực số
+Do các khoa chuyên ngành phối hợp giảng dạy
+
+
+--- PAGE 51 ---
+
+Các môn học giúp sinh viên đạt Năng lực số
+Do Khoa MIS phối hợp với các Khoa chuyên ngành giảng dạy
+Môn Tin học ứng dụng – Năng lực số
+
+
+--- PAGE 52 ---
+
+HỌC VIỆN NGÂN HÀNG – KHOA HỆ THỐNG THÔNG TIN QUẢN LÝ
+Hành trình năng lực số
+sinh viên Học viện Ngân hàng
+❖ Học tập, tích lũy kiến thức về công nghệ số và năng lực số cho hoạt 
+động nghề nghiệp sau này.
+❖ Tham gia các đề tài, dự án NCKH và trải nghiệm để có được các kỹ 
+năng cần thiết trong cuộc sống số.
+Khoa MIS luôn đồng hành cùng sinh viên 
+để chuẩn bị cho sinh viên có thể đạt 
+được năng lực số phục vụ công việc 
+chuyên môn và cuộc sống

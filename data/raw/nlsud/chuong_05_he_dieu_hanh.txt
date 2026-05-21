@@ -1,0 +1,919 @@
+
+
+--- PAGE 1 ---
+
+HỌC VIỆN NGÂN HÀNG
+KHOA HỆ THỐNG THÔNG TIN QUẢN LÝ
+MIS
+Digital Competence 
+Năng
+ lực
+ số
+ ứng
+ dụng
+DigiComBA
+
+--- PAGE 2 ---
+
+HỌC VIỆN NGÂN HÀNG
+KHOA HỆ THỐNG THÔNG TIN QUẢN LÝ
+MIS
+CHƯƠNG V 
+-
+ HỆ ĐIỀU HÀNH
+NĂNG LỰC SỐ ỨNG DỤNG
+
+--- PAGE 3 ---
+
+NỘI DUNG CHƯƠNG
+5.1. Các chức năng chính của một hệ điều hành
+5.1.1. Khởi động (Booting)
+5.1.2. Quản lý CPU (CPU Management)
+5.1.3. Quản lý tệp (File Management)
+5.1.4. Quản lý tác vụ (Task Management)
+5.1.5. Quản lý bảo mật (Security Management)
+5.2. Các phần mềm hệ thống khác
+5.2.1. Trình điều khiển thiết bị (Device Drivers)
+5.2.2. Tiện ích (Utilities)
+5.3. Các đặc điểm chung về giao diện người dùng
+5.3.1. Giao diện đồ hoạ người dùng (GUI)
+5.3.2. Trợ giúp (Help)
+5.4. Hệ điều hành Windows 10
+5.5. Hệ điều hành macOS
+310/31/2022 Khoa Hệ thống thông tin quản lý
+
+--- PAGE 4 ---
+
+Bối cảnh về ứng dụng CNTT hiện nay
+❖ McQuivey tin rằng công nghệ với
+“phần mềm mới, điện thoại
+không dây, kết nối Internet,
+v.v…” - cho phép mọi người có
+thể “sắp xếp chúng” nhằm biến ý
+tưởng thành hiện thực.
+❖ Và những người có tư tưởng đột
+phá như vậy có thể làm thay đổi
+nhanh chóng và sâu rộng trong
+các doanh nghiệp, tổ chức,…
+Khoa Hệ thống thông tin quản lý 410/31/2022
+TS. McQuivey, giám 
+đốc điều hành của 
+Forrester Research
+
+--- PAGE 5 ---
+
+Bối cảnh về ứng dụng CNTT hiện nay
+❖ Microsoft trong nhiều năm đã cung cấp phần
+mềm phổ biến nhất cho các cá nhân & doanh
+nghiệp thông qua phần mềm Microsoft Office,
+được cài đặt trên máy tính để bàn hoặc máy
+tính xách tay.
+❖ Giờ đây, sự thống trị của Microsoft đang bị suy
+giảm bởi sự xuất hiện của điện toán đám mây,
+công nghệ này rẻ hơn vì phần mềm không cần
+phải có trên máy tính của nhân viên văn
+phòng. Thay vào đó, công ty có thể chọn
+Google Apps, phần mềm của Google dành cho
+doanh nghiệp, bao gồm các ứng dụng dựa
+trên đám mây, giá thấp hơn và hoạt động
+nhanh hơn không chỉ để viết tài liệu, phân tích
+dữ liệu mà còn để cộng tác và truyền thông.
+Khoa Hệ thống thông tin quản lý 510/31/2022
+
+
+--- PAGE 6 ---
+
+Bối cảnh về ứng dụng CNTT hiện nay
+❖ Các ứng dụng dựa trên
+đám mây thực sự đã tạo
+thành một động lực thay
+đổi, chuyển từ sử dụng
+phần mềm cài đặt trên
+máy tính để bàn (cách
+nghĩ, cách làm truyền
+thống) → điện thoại
+thông minh, máy tính
+bảng và các thiết bị di
+động khác (xu hướng
+hiện nay).
+Khoa Hệ thống thông tin quản lý 610/31/2022
+
+
+--- PAGE 7 ---
+
+Phần mềm ứng dụng & Phần mềm hệ thống
+❖ Cho dù bạn đang sử dụng một máy tính được cài đặt với
+các chương trình phần mềm thông thường hay tiện ích
+không dây trên di động thì bạn đang sử dụng 2 loại phần
+mềm cho nhiệm vụ của bạn:
+▪ Phần mềm ứng dụng (Application software): là phần mềm
+được phát triển để giải quyết một vấn đề cụ thể cho người dùng,
+để thực hiện công việc trong các nhiệm vụ cụ thể hoặc để giải
+trí,...
+▪ Phần mềm hệ thống (System Software): là phần mềm chạy ở
+mức cơ bản nhất của máy tính; cho phép phần mềm ứng dụng
+tương tác/cài đặt trên máy tính, giúp máy tính quản lý tài nguyên
+bên trong/bên ngoài, cũng như quản lý phần cứng.
+Khoa Hệ thống thông tin quản lý 710/31/2022
+
+--- PAGE 8 ---
+
+Phần mềm ứng dụng & Phần mềm hệ thống
+❖ Người dùng chủ yếu
+sẽ tương tác với phần
+mềm ứng dụng.
+❖ Phần mềm ứng dụng
+tương tác với phần
+mềm hệ thống.
+❖ Phần mềm hệ thống
+điều khiển phần cứng,
+gồm 3 thành phần cơ
+bản là:
+▪ Hệ điều hành
+▪ Trình điều khiển
+thiết bị
+▪ Các chương trình
+tiện ích
+Khoa Hệ thống thông tin quản lý 810/31/2022
+
+
+--- PAGE 9 ---
+
+Phần mềm ứng dụng & Phần mềm hệ thống
+❖ Mô hình thiết kế phần mềm:
+▪ Chuyên môn hóa trong thiết kế phần mềm
+▪ Quản lý tài nguyên hệ thống trong môi trường đa nhiệm
+910/31/2022
+Phần 
+cứng
+Phần 
+mềmPhần mềm 
+hệ thống
+Phần mềm 
+ứng dụng
+Người 
+dùng
+Khoa Hệ thống thông tin quản lý
+
+--- PAGE 10 ---
+
+5.1. Định nghĩa HĐH
+❖ Hệ điều hành: là thành phần chính của phần mềm hệ
+thống trong bất kỳ hệ thống máy tính nào.
+❖ Hệ điều hành: là tập hợp các chương trình được tổ
+chức thành một hệ thống với nhiệm vụ đảm bảo tương
+tác giữa người dùng với máy tính, cung cấp các phương
+tiện và dịch vụ để điều phối việc thực hiện các chương
+trình, quản lí chặt chẽ các tài nguyên của máy, tổ chức
+khai thác chúng một cách thuận tiện và tối ưu.
+Khoa Hệ thống thông tin quản lý 1010/31/2022
+
+
+--- PAGE 11 ---
+
+5.1. Một số HĐH thông dụng
+❖ MS-DOS (Microsoft Disk
+Operating System) - ra đời 8/1981
+với giao diện dòng lệnh
+❖ Windows - ra mắt 11/1985 với giao
+diện đồ hoạ (GUI - Graphical User
+Interfaces)
+11/52
+
+
+--- PAGE 12 ---
+
+5.1. Một số HĐH thông dụng
+❖ Mac OS (Macintosh Operating System)
+được phát triển bởi công ty Apple cho các
+máy tính Apple Macintosh, ra mắt năm 1984
+với giao diện đồ hoạ.
+12/5231/10/2022
+
+
+--- PAGE 13 ---
+
+5.1. Một số HĐH thông dụng
+❖ Linux là tên gọi của một hệ điều
+hành máy tính và cũng là tên hạt
+nhân của hệ điều hành.
+▪ Phiên bản đầu tiên do Linus Torvalds viết
+vào năm 1991.
+▪ Phân phối dưới bản quyền GNU (General
+Public License).
+▪ Có nhiều bản phân phối khác nhau:
+• Ubuntu
+• Debian
+• Redhat
+• Google Chrome OS
+• Fedora…
+13/5231/10/2022
+
+
+--- PAGE 14 ---
+
+5.1. Các thành phần chính của một HĐH
+Khoa Hệ thống thông tin quản lý 1410/31/2022
+Kernel
+Shell
+Utilities
+Applications
+Shell
+GUI CLI
+Kernel: phần nhân, thực
+hiện chức năng cơ bản của
+HĐH.
+Shell: Giao tiếp giữa hệ
+thống và người dùng, gồm
+hai loại: giao diện đồ họa
+(GUI) và giao diện dòng lệnh
+(CLI)
+Utilities: Các tiện ích cho
+người sử dụng, kèm theo
+HĐH hoặc được phát triển
+thêm.
+Applications: Chương trình
+ứng dụng.
+
+--- PAGE 15 ---
+
+5.1. Các chức năng chính của một HĐH
+❖ Các chức năng chính của một hệ điều hành:
+▪ Tổ chức giao tiếp giữa người dùng và hệ thống.
+▪ Cung cấp tài nguyên cho các chương trình và tổ chức
+thực hiện các chương trình đó.
+▪ Tổ chức lưu trữ thông tin trên bộ nhớ ngoài, cung cấp
+các công cụ để tìm kiếm và truy cập thông tin.
+▪ Kiểm tra và hỗ trợ phần mềm cho các thiết bị ngoại vi
+để khai thác thuận tiện và hiệu quả.
+▪ Cung cấp các dịch vụ tiện ích hệ thống và một số
+phần mềm ứng dụng thông thường như trình duyệt
+Web, soạn thảo văn bản…
+Khoa Hệ thống thông tin quản lý 1510/31/2022
+
+--- PAGE 16 ---
+
+5.1. Phân loại HĐH
+❖ Phân loại HĐH theo loại máy tính:
+▪ Hệ điều hành dành cho máy nhiều CPU
+▪ Hệ điều hành dành cho máy MainFrame
+▪ Hệ điều hành dành cho máy Server
+▪ Hệ điều hành dành cho máy tính cá nhân (PC) 
+▪ Hệ điều hành dành cho máy chuyên biệt, v.v…
+Khoa Hệ thống thông tin quản lý 1610/31/2022
+
+
+--- PAGE 17 ---
+
+5.1. Phân loại HĐH
+❖ Phân loại HĐH theo user và số chương trình sử
+dụng:
+▪ Hệ điều hành đơn nhiệm một người dùng: mỗi lần chỉ cho
+phép một người đăng nhập, các chương trình phải thực hiện lần
+lượt.
+Ví dụ: MS-DOS.
+▪ Hệ điều hành đa nhiệm một người dùng: mỗi lần chỉ cho
+phép một người đăng nhập song có thể kích hoạt nhiều chương
+trình, đòi hỏi bộ vi xử lí mạnh.
+Ví dụ: Windows 95, Windows 98,…
+▪ Hệ điều hành đa nhiệm nhiều người dùng: cho phép nhiều
+người đăng nhập vào hệ thống, thực hiện đồng thời nhiều
+chương trình. Đòi hỏi bộ vi xử lí mạnh, bộ nhớ trong lớn, thiết bị
+ngoại vi phong phú.
+Ví dụ: Windows 2000, XP, Vista, 7, 10, Ubuntu, Mac OS X,…
+Khoa Hệ thống thông tin quản lý 1710/31/2022
+
+--- PAGE 18 ---
+
+5.1. Nguyên lý hoạt động cơ bản của HĐH
+Khoa Hệ thống thông tin quản lý 1810/31/2022
+1. Khởi động 
+(Booting)
+2. Quản lý 
+CPU (CPU 
+Management)
+3. Quản lý tệp 
+(File 
+Management)
+4. Quản lý tác 
+vụ (Task 
+Management)
+5. Quản lý bảo 
+mật (Security 
+Management)
+
+--- PAGE 19 ---
+
+5.1.1. Khởi động (Booting) 
+❖ Điều gì xảy ra nếu bạn khởi động máy tính?
+Khoa Hệ thống thông tin quản lý 1910/31/2022
+
+
+--- PAGE 20 ---
+
+5.1.1. Khởi động (Booting) 
+❖ Khởi động (Booting): là quá trình tải hệ điều hành vào
+bộ nhớ chính của máy tính. Cụ thể, quá trình này gồm 5
+bước chính:
+▪ (1) Khi bạn bật máy tính. . .
+▪ (2) … bộ xử lý (CPU) tự động bắt đầu ...
+▪ (3) … thực thi một phần của hệ thống khởi động của
+hệ điều hành (BIOS) nằm trong ROM.
+▪ (4) Tải hệ điều hành từ đĩa cứng vào RAM (bộ nhớ
+chính) và ...
+▪ (5) … chuyển quyền kiểm soát cho Hệ điều hành.
+Khoa Hệ thống thông tin quản lý 2010/31/2022
+
+--- PAGE 21 ---
+
+5.1.1. Khởi động (Booting) 
+❖ Khi bạn khởi động máy tính bằng
+cách bật công tắc “bật” nguồn, đây
+được gọi là “khởi động nguội”.
+❖ Nếu máy tính của bạn đã được bật
+và bạn khởi động lại nó, đây được
+gọi là “khởi động ấm”.
+❖ Sau khi cài đặt phần mềm mới trên
+máy tính, bạn thường sẽ thấy nút
+“Khởi động lại” hiển thị; bằng cách
+nhấp vào nút này, bạn cho phép
+khởi động ấm và hoạt động này
+giúp máy tính nhận dạng phần
+mềm mới.
+Khoa Hệ thống thông tin quản lý 2110/31/2022
+
+
+--- PAGE 22 ---
+
+5.1.1. Khởi động (Booting) 
+❖ Đĩa khởi động (boot disk):
+▪ Thông thường, máy tính của bạn sẽ khởi động từ ổ cứng.
+▪ Nhưng nếu ổ đĩa đó bị lỗi (không khởi động được), bạn có thể sử dụng
+đĩa gọi là đĩa khởi động để khởi động máy tính của mình.
+▪ Đĩa khởi động thường là CD hoặc ổ đĩa flash USB chứa tất cả các tệp
+cần thiết để khởi chạy Hệ điều hành.
+▪ Khi bạn lắp đĩa khởi động vào ổ CD của máy tính, bạn có thể khởi chạy
+hệ điều hành và hoàn thành quy trình khởi động.
+▪ Sau khi hệ điều hành tải hoàn toàn, bạn có thể truy cập nội dung của ổ
+cứng, chạy các tiện ích bảo trì ổ đĩa cơ bản và thực hiện các tác vụ
+khắc phục sự cố liên quan tới ổ đĩa cứng.
+Khoa Hệ thống thông tin quản lý 2210/31/2022
+
+
+--- PAGE 23 ---
+
+5.1.2. Quản lý CPU (CPU Management)
+❖ Thành phần trung tâm của hệ điều hành là trình giám
+sát (hoặc nhân - kernel) quản lý CPU (giống như một sĩ
+quan cảnh sát chỉ đạo giao thông).
+❖ Trình giám sát ở trong bộ nhớ chính trong khi máy tính
+đang chạy và sao chép các chương trình (các chương
+trình không có trong bộ nhớ) vào bộ nhớ để thực hiện
+các tác vụ hỗ trợ các chương trình ứng dụng.
+❖ Trình giám sát vẫn còn trong bộ nhớ cho đến khi tắt
+máy tính.
+Khoa Hệ thống thông tin quản lý 2310/31/2022
+
+--- PAGE 24 ---
+
+5.1.2. Quản lý CPU (CPU Management)
+Khoa Hệ thống thông tin quản lý 2410/31/2022
+
+
+--- PAGE 25 ---
+
+5.1.2. Quản lý CPU (CPU Management)
+Khoa Hệ thống thông tin quản lý 2510/31/2022
+
+
+--- PAGE 26 ---
+
+5.1.3 Quản lý tệp (File Management)
+Khoa Hệ thống thông tin quản lý 2610/31/2022
+❖ Tệp là:
+▪ (1) tập hợp dữ liệu được
+đặt tên hoặc
+▪ (2) chương trình tồn tại
+trong bộ nhớ thứ cấp của
+máy tính như ổ đĩa cứng
+hoặc CD / DVD.
+▪ Ví dụ về tệp dữ liệu là tài
+liệu văn bản, bảng tính,
+hình ảnh, bài hát, v.v…
+❖ Mọi hệ điều hành hoặc chương
+trình đều sử dụng hệ thống
+quản lý tệp để tổ chức và theo
+dõi các tệp.
+Thư mục, Thư mục con & File
+
+--- PAGE 27 ---
+
+5.1.3 Quản lý tệp (File Management)
+Khoa Hệ thống thông tin quản lý 2710/31/2022
+❖ Tìm và xử lý các tệp:
+▪ Các tập tin tồn tại ở nhiều
+nơi trên đĩa cứng và các
+thiết bị lưu trữ phụ khác. Hệ
+điều hành ghi lại vị trí lưu
+trữ của tất cả các tệp.
+▪ Nếu bạn di chuyển, đổi tên
+hoặc xóa một tệp, hệ điều
+hành sẽ xử lý những thay
+đổi đó và giúp xác định vị trí
+và quyền truy cập vào tệp
+đó.
+Thư mục, Thư mục con & File
+
+--- PAGE 28 ---
+
+5.1.3 Quản lý tệp (File Management)
+Khoa Hệ thống thông tin quản lý 2810/31/2022
+❖ Tổ chức quản lý các thư
+mục, thư mục con &
+đường dẫn:
+▪ Hệ điều hành sắp xếp các
+tệp theo cách phân cấp.
+Trước tiên vào các thư
+mục và sau đó vào các thư
+mục con.
+▪ Thư mục trên cùng được gọi là
+thư mục gốc
+▪ Một thư mục bên dưới một thư
+mục khác được gọi là thư mục
+con;
+▪ Bất kỳ thư mục nào bên trên
+một thư mục con được gọi là
+thư mục cha.
+ Thư mục, Thư mục con & File
+
+--- PAGE 29 ---
+
+5.1.3 Quản lý tệp (File Management)
+Khoa Hệ thống thông tin quản lý 2910/31/2022
+❖ Tổ chức quản lý các thư
+mục, thư mục con &
+đường dẫn:
+▪ Để tìm một tệp cụ thể trong
+hệ thống, bạn nhập địa chỉ
+đường dẫn của tệp.
+▪ Ví dụ: “C:\My Documents\
+Term Paper\Section1.doc”.
+Thư mục, Thư mục con & File
+
+--- PAGE 30 ---
+
+5.1.4. Quản lý tác vụ (Task Management)
+❖ Hệ điều hành có chức năng
+quản lý / giám sát các tác vụ
+(Task Management) mà máy
+tính thực hiện.
+▪ Phần lớn Hệ điều hành hiện đại
+ngày nay sẽ nhận được nhiều yêu
+cầu thực hiện (các tác vụ) khác
+nhau cùng một lúc (HĐH đa
+nhiệm) từ phía người dùng. Ví dụ:
+vừa soạn thảo văn bản trên MS
+Word, vừa nghe nhạc qua Spotify,
+vừa nhận tin nhắn qua Zalo,…
+▪ Một số hệ điều hành có thể đáp
+ứng nhu cầu của nhiều người
+dùng khác nhau cùng một lúc.
+Khoa Hệ thống thông tin quản lý 3010/31/2022
+
+
+--- PAGE 31 ---
+
+5.1.5. Quản lý bảo mật (Security Management)
+❖ Hệ điều hành cũng đảm nhận việc quản lý bảo mật
+(Security Management).
+Khoa Hệ thống thông tin quản lý 3110/31/2022
+
+
+--- PAGE 32 ---
+
+5.1.5. Quản lý bảo mật (Security Management)
+❖ Hệ điều hành cũng đảm nhận việc quản lý bảo mật
+(Security Management).
+▪ Hệ điều hành cho phép người dùng kiểm soát quyền
+truy cập vào máy tính của họ - một vấn đề đặc biệt
+quan trọng khi nhiều người dùng chung một máy tính
+hoặc máy tính được kết nối trong một mạng máy tính.
+▪ Người dùng có quyền truy cập theo cách tương tự
+như truy cập email của họ - thông qua tên người
+dùng (ID người dùng) và mật khẩu.
+Khoa Hệ thống thông tin quản lý 3210/31/2022
+
+--- PAGE 33 ---
+
+5.2. Các phần mềm hệ thống khác
+❖ Trình điều khiển thiết bị và các chương trình tiện ích
+bổ sung chức năng cho máy tính của bạn và giúp nó
+hoạt động tốt hơn.
+Khoa Hệ thống thông tin quản lý 3310/31/2022
+
+
+--- PAGE 34 ---
+
+5.2.1. Trình điều khiển thiết bị (Device Drivers)
+❖ Trình điều khiển thiết bị là các chương trình phần mềm
+chuyên dụng cho phép các thiết bị đầu vào và đầu ra
+giao tiếp với hệ thống máy tính.
+▪ Thương hiệu và kiểu máy của mỗi thiết bị được hỗ trợ bởi một
+trình điều khiển khác nhau chỉ hoạt động với một hệ điều hành.
+▪ Nhiều trình điều khiển thiết bị cơ bản đi kèm (được cài đặt sẵn
+trong) phần mềm hệ thống khi bạn mua máy và phần mềm hệ
+thống sẽ hướng dẫn bạn chọn và cài đặt trình điều khiển cần
+thiết.
+▪ Tuy nhiên, nếu bạn mua một thiết bị ngoại vi mới (chẳng hạn
+như máy quét hoặc máy in, bạn có thể cài trình điều khiển thiết
+bị cho máy tính (có thể là trên đĩa CD hoặc DVD hoặc được tải
+xuống từ Internet).
+Khoa Hệ thống thông tin quản lý 3410/31/2022
+
+--- PAGE 35 ---
+
+5.2.1. Trình điều khiển thiết bị (Device Drivers)
+❖ Hầu hết các hệ điều
+hành mới đều tự nhận ra
+nhiều thiết bị phần cứng
+mới và tự động cài đặt
+chúng.
+❖ Nếu hệ điều hành của
+bạn không nhận ra phần
+cứng mới của bạn, nó sẽ
+phát một thông báo và
+yêu cầu bạn cài đặt trình
+điều khiển từ đĩa CD đi
+kèm với phần cứng của
+bạn.
+Khoa Hệ thống thông tin quản lý 3510/31/2022
+
+
+--- PAGE 36 ---
+
+5.2.2. Tiện ích (Utilities)
+❖ Tiện ích (Utilities) là các
+chương trình nhỏ đóng vai
+trò hỗ trợ, thực hiện các tác
+vụ liên quan đến việc kiểm
+soát, phân bổ và duy trì tài
+nguyên máy tính. Chúng
+nâng cao các chức năng
+hiện có hoặc cung cấp các
+tính năng không được cung
+cấp bởi các chương trình
+phần mềm hệ thống khác.
+Khoa Hệ thống thông tin quản lý 3610/31/2022
+
+
+--- PAGE 37 ---
+
+5.2.2. Tiện ích (Utilities)
+❖ Hầu hết các máy tính đều có các tiện ích cài sẵn như
+một phần của phần mềm hệ thống.
+❖ Tuy nhiên, chúng cũng có thể được mua riêng dưới
+dạng các chương trình tiện ích bên ngoài (chẳng hạn
+như nén tệp, khôi phục dữ liệu bị mất, xác định các sự
+cố phần cứng,...)
+Khoa Hệ thống thông tin quản lý 3710/31/2022
+
+
+--- PAGE 38 ---
+
+5.3. Các đặc điểm chung về giao diện người dùng
+❖ Các Hệ điều hành hiện đại hiện nay đều sử dụng giao
+diện đồ hoạ người dùng (GUI - Graphic User
+Interface) nhằm tạo điều kiện cho người dùng giao tiếp,
+tương tác với máy tính dễ dàng, thuận tiện.
+Khoa Hệ thống thông tin quản lý 3810/31/2022
+Giao diện dòng lệnh (CLI) Giao diện đồ hoạ người dùng (GUI)
+
+--- PAGE 39 ---
+
+5.3. Các đặc điểm chung về giao diện người dùng
+❖ Bên cạnh đó, một số phím hoặc tổ hợp phím có mục
+đích đặc biệt trên bàn phím được sử dụng để nhập,
+xóa, chỉnh sửa dữ liệu và thực hiện các lệnh. Ví dụ: Esc,
+Ctrl, Alt, Del, Ins, Home, End, PgUp, PgDn, Num Lock,
+F2, “Ctrl+A”, “Ctrl+B”, “⌘+A”, “⌘+B”,…
+Khoa Hệ thống thông tin quản lý 3910/31/2022
+Bàn phím phổ thông trên máy chạy 
+HĐH Windows
+Bàn phím phổ thông trên máy chạy
+HĐH macOS
+
+--- PAGE 40 ---
+
+5.3. Các đặc điểm chung về giao diện người dùng
+❖ Chuột & con trỏ chuột: người dùng có thể thường
+xuyên sử dụng chuột để tương tác với giao diện người
+dùng.
+▪ Chuột cho phép người dùng hướng một con trỏ trên màn hình
+để thực hiện bất kỳ số lượng hoạt động nào.
+▪ Con trỏ thường xuất hiện dưới dạng mũi tên, mặc dù nó thay đổi
+hình dạng tùy thuộc vào ứng dụng.
+▪ Chuột được sử dụng để di chuyển con trỏ đến một vị trí cụ thể
+trên màn hình hiển thị hoặc để trỏ đến các ký hiệu hoặc biểu
+tượng nhỏ.
+▪ Bạn có thể kích hoạt chức năng tương ứng với biểu tượng bằng
+cách nhấn (“click”) các nút trên chuột.
+▪ Sử dụng chuột, bạn có thể chọn và trượt (“kéo”) một hình ảnh từ
+bên này sang bên kia của màn hình hoặc thay đổi kích thước
+của nó.
+Khoa Hệ thống thông tin quản lý 4010/31/2022
+
+--- PAGE 41 ---
+
+5.3.1. Giao diện đồ hoạ người dùng (GUI)
+❖ Giao diện đồ họa người dùng (GUI) giúp người dùng
+máy tính dễ dàng tương tác với máy tính của họ.
+❖ GUI trên máy tính cá nhân PC (sử dụng HĐH Windows)
+và trên Apple Macintosh (sử dụng HĐH macOS) khá
+giống nhau. Sau khi người dùng học cách sử dụng GUI
+của HĐH này, việc học cách sử dụng GUI của HĐH kia
+khá dễ dàng.
+❖ Tuy nhiên, GUI nổi tiếng nhất là của HĐH Microsoft
+Windows.
+Khoa Hệ thống thông tin quản lý 4110/31/2022
+
+--- PAGE 42 ---
+
+5.3.1. Giao diện đồ hoạ người dùng (GUI)
+❖ Những tính năng cơ bản liên quan tới GUI trên các
+HĐH:
+▪ Desktop, Icon & Menu
+▪ Documents, Title Bars, Menu Bars, ToolBars, TaskBars &
+Windows
+Khoa Hệ thống thông tin quản lý 4210/31/2022
+
+
+--- PAGE 43 ---
+
+5.3.2. Trợ giúp (Help)
+❖ Chức năng Trợ giúp (Help) giải quyết các vấn đề khi bạn
+quên cách thực hiện điều gì đó trên máy tính.
+❖ “Không hiểu cách làm điều gì đó? Quên một lệnh? Vô
+tình nhấn một số phím làm rối bố cục màn hình của
+bạn và bạn muốn hoàn tác nó?” Hầu hết các thanh
+công cụ đều chứa lệnh Trợ giúp.
+Khoa Hệ thống thông tin quản lý 4310/31/2022
+❖ Ngoài ra, nhiều ứng dụng có
+trợ giúp theo ngữ cảnh,
+chuyển bạn đến thông tin về
+tác vụ bạn đang thực hiện.
+
+--- PAGE 44 ---
+
+5.4. Hệ điều hành Windows 10
+❖ Tại sao chúng ta tìm hiểu HĐH Windows 10?
+▪ Windows 10 là Hệ điều hành phổ biến nhất của hãng Microsoft.
+▪ Thân thiện hơn (đặc biệt đã trả lại nút START cho người dùng),
+bảo mật hơn, chạy tốt hơn (sử dụng ít tài nguyên hơn),… so với
+Hệ điều hành tiền nhiệm Windows 8.
+▪ Không yêu cầu cấu hình phần cứng cao như Windows 11
+Windows 10
+ Windows 8
+
+
+--- PAGE 45 ---
+
+5.4. Hệ điều hành Windows 10
+❖ Thông tin về Hệ điều hành Windows 10
+▪ Windows 10 được phát hành ngày 29/07/2015.
+▪ Các phiên bản:
+• Home: Lược bỏ một số các chức năng giải trí nâng cao (như
+Media Center).
+• Education: Các chức năng hỗ trợ các cơ sở giáo dục.
+• Professional: Các chức năng kết nối mạng văn phòng cũng
+như kết nối mạng đầy đủ.
+• Enterprise: Tập hợp đầy đủ các chức năng của tất cả các
+phiên bản kia cộng lại.
+Khoa Hệ thống thông tin quản lý 4510/31/2022
+
+--- PAGE 46 ---
+
+5.4. Hệ điều hành Windows 10
+❖ Những điểm mới trong
+HĐH Windows 10
+▪ Nút Start
+▪ Tối ưu tìm kiếm
+▪ Chế độ xem ứng dụng
+đang thực thi
+▪ Màn hình máy tính ảo
+▪ Tối ưu không gian làm
+việc trên màn hình
+▪ Các công cụ truy cập
+nhanh
+
+
+--- PAGE 47 ---
+
+5.4. Hệ điều hành Windows 10
+❖ Cách sử dụng Menu Start
+▪ Để hiển thị Menu Start
+• Lựa chọn nút Start trên thanh
+Taskbar
+• Hoặc ấn vào phím biểu tượng
+Windows trên bàn phím
+▪ Để tắt máy, khởi động lại hoặc
+chuyển máy tính sang chế độ
+ngủ:
+• Trên menu Start, lựa chọn
+“Power”
+• Lựa chọn tính năng mà bạn
+muốn: “Sleep”, “Shut down”,
+“Restart”
+
+--- PAGE 48 ---
+
+5.4. Hệ điều hành Windows 10
+❖ Windows 10 đem tới một công cụ tìm kiếm tuyệt vời:
+▪ Tìm kiếm ứng dụng (apps)
+▪ Tìm kiếm tệp tin (files)
+▪ Tìm kiếm trên Web
+▪ Sử dung Cortana
+
+
+--- PAGE 49 ---
+
+5.4. Hệ điều hành Windows 10
+❖ Hiển thị rất tốt danh sách ứng dụng đang thực thi
+▪ Tách tất cả các ứng dụng thành một chế độ xem trải rộng để tìm
+cửa sổ bạn đang tìm kiếm.
+▪ Tuyệt vời cho tổ chức ứng dụng, tài liệu.
+▪ Ngoài click trực tiếp vào “Task View”, có thể sử dụng phím tắt
+“Windows + TAB”
+
+
+--- PAGE 50 ---
+
+5.4. Hệ điều hành Windows 10
+❖ Màn hình máy tính ảo (1)
+▪ Windows 10 hỗ trợ sử dung nhiều màn hình máy tính ảo → giúp
+tổ chức các nội dung/ứng dụng đang mở một cách tốt hơn.
+▪ Để kích hoạt, chọn “Task View” trên thanh Taskbar. Sau đó
+chọn “New Desktop”.
+
+
+--- PAGE 51 ---
+
+5.4. Hệ điều hành Windows 10
+❖ Màn hình máy tính ảo (2)
+▪ Bạn có thể dịch chuyển giữa các cửa sổ màn hình máy tính bằm 
+phím tắt “Ctrl + Windows + →” hoặc “Ctrl + Windows + ” để 
+dịch chuyển giữa chúng.
+
+
+--- PAGE 52 ---
+
+5.4. Hệ điều hành Windows 10
+❖ Tối ưu không gian làm việc
+trên màn hình
+▪ Chia màn hình thành các phần, hỗ
+trợ nhiều cách chia khác nhau.
+▪ Cách thực hiện:
+• Kéo cửa sổ của một ứng dụng
+Windows vào một góc của màn
+hình cho tới khi một nửa màn
+hình còn lại xuất hiện.
+• Dùng chuột chọn cửa sổ một
+ứng dụng Windows khác sẽ hiển
+thị trên cửa sổ còn lại.
+• Lặp lại 2 bước trên nếu bạn
+muốn sắp xếp ứng dụng hiển thị
+theo chiều (hoặc nội dung) khác
+của màn hình.
+
+
+--- PAGE 53 ---
+
+5.4. Hệ điều hành Windows 10
+❖ Các công cụ truy cập nhanh
+▪ Menu truy cập nhanh cấp quyền
+truy cập vào các công cụ hệ
+thống nâng cao như Power
+Options, Task Manager và
+Control Panel,…
+▪ Cách thực hiện:
+• Cách 1: “Click” chuột trái vào
+cửa sổ Windows
+• Cách 2: Dùng phím tắt
+“Windows + X”
+
+
+--- PAGE 54 ---
+
+5.4. Hệ điều hành Windows 10
+❖ Thiết lập hệ thống trong Windows 10:
+▪ Click vào biểu tượng “Settings” trên Menu Start
+▪ Hoặc sử dung phím tắt “Windows + I”
+
+
+--- PAGE 55 ---
+
+5.4. Hệ điều hành Windows 10
+❖ Thiết lập hệ thống
+▪ Thay đổi các thiết lập hệ thống như: chế độ hiển thị (độ phân
+giải màn hình,…), ứng dụng mặc định, v.v…
+
+
+--- PAGE 56 ---
+
+5.4. Hệ điều hành Windows 10
+❖ Thiết lập chế độ hiển
+thị trong Windows 10:
+▪ Vào Cài đặt → Hệ thống
+→ Hiển thị → “Scale and
+layout”.
+▪ Trình đơn thả xuống cho
+phép bạn phóng to văn
+bản, ứng dụng và các
+mục khác.
+
+
+--- PAGE 57 ---
+
+5.4. Hệ điều hành Windows 10
+❖ Thiết lập cá nhân hoá
+(Personalization Settings)
+▪ Chỉnh sửa màn hình khóa
+theo ý thích của bạn.
+▪ Thay đổi nền thành ảnh hoặc
+trình chiếu yêu thích.
+▪ Hiển thị các sự kiện lịch sắp
+tới.
+▪ Cập nhật tin tức, mạng xã
+hội.
+▪ Các thông báo hệ thống và
+ứng dụng khác.
+▪ v.v…
+
+
+--- PAGE 58 ---
+
+5.4. Hệ điều hành Windows 10
+❖ Quản lý thiết bị ngoại vi:
+▪ Quản lý cài đặt các thiết bị ngoại vi trên Hệ điều hành (như thêm
+mới/xoá bỏ các loại máy in, máy scan, tai nghe Bluetooth, v.v…).
+
+
+--- PAGE 59 ---
+
+5.4. Hệ điều hành Windows 10
+❖ Quản lý tài nguyên (tệp tin, thư mục,…) dễ dàng trên
+Windows Explorer
+▪ Thực hiện quản lý, tạo mới, đổi tên, sao chép, xoá, khôi phục…
+các tệp tin, thư mục với Windows Explorer
+▪ Lựa chọn hàng loạt (Ctrl + A), chọn liên tiếp (Shift+…) hoặc
+chọn không liên tiếp (Ctrl+…) các tệp tin, thư mục.
+
+
+--- PAGE 60 ---
+
+5.4. Hệ điều hành Windows 10
+❖ Phím tắt (Keyboard Shortcuts) tiện ích
+
+
+--- PAGE 61 ---
+
+5.5. Hệ điều hành macOS
+❖ macOS (trước đây là Mac OS, Mac OS X, sau là OS X)
+là một dòng hệ điều hành độc quyền, được phát triển và
+phân phối bởi Apple, được cài đặt sẵn trên các máy tính
+Macintosh.
+❖ macOS là thế hệ tiếp theo của Mac OS, hệ điều hành
+ban đầu của Apple. Không như Mac OS, macOS là một
+hệ điều hành kiểu Unix được xây dựng trên công nghệ
+được phát triển tại NeXT trong nửa đầu những năm
+1980 và cho đến khi Apple mua công ty này vào đầu
+năm 1997.
+Khoa Hệ thống thông tin quản lý 6110/31/2022
+
+--- PAGE 62 ---
+
+5.5. Hệ điều hành macOS
+❖ Các phiên bản macOS
+Khoa Hệ thống thông tin quản lý 6210/31/2022
+Phiên bản macOS Tên phiên bản macOS
+10.12 (#13, 20/9/2016)
+Sierra được đặt tên theo dãy núi Sierra Nevada 
+ở California và Nevada
+macOS Sierra
+10.13 (#14, 5/6/2017, WWDC 2017) macOS High Sierra,
+10.14  (#15, 4/6/2018, WWDC 2018) macOS Mojave
+10.15 (#16, 3/6/2019, WWDC2019) macOS Catalina
+11.0 (#17, 22/6/2020, WWDC 2020) macOS Big Sur
+12.0 (#18, 7/6/2021, WWDC 2021) macOS Monterey
+13.0 (#19, 6/6/2022, WWDC 2022) macOS Ventura
+
+--- PAGE 63 ---
+
+5.5. Hệ điều hành macOS
+❖ Những tính năng nổi bật trên macOS Monterey 12.6
+Khoa Hệ thống thông tin quản lý 6310/31/2022
+
+
+--- PAGE 64 ---
+
+Q&A
+Khoa Hệ thống thông tin quản lý 6410/31/2022
