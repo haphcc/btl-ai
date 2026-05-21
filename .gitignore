@@ -10,18 +10,12 @@ env/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Data & DB
-database/
-data/raw/
-data/processed/
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!database/.gitkeep
-
 # IDEs
 .vscode/
 .idea/
+.vs/
 
 # OS
 .DS_Store
 Thumbs.db
+
