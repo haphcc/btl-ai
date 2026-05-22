@@ -1,100 +1,58 @@
-# C1_TQ ve ATBMTT
+# 
 
-# Chương I
-
-## Tổng Quan Về An Toàn Bảo Mật
-
-## Thông Tin
-
-## Học ViệN Ngân HàNg
-
-## Khoa Công Nghệ Thông Tin & Kinh Tế Số
-
-Nội dung
+## Nội dung chính
 
 Khái quát về ATBMTT
 
-## 1.1
+## 1. 1
 
 Các yêu cầu đảm bảo ATTT
 
-## 1.2
+## 1. 2
 
-Các thành phần của ATTT
+## Các thành phần của ATTT
 
-## 1.3
+## 1. 3
 
-## 1.5
+## 1. 5
 
-## 1.4
+## 1. 4
 
-Các bài toán ATTT
+## Các bài toán ATTT
 
-Chính sách, pháp luật về ATBMTT
+## Chính sách, pháp luật về ATBMTT
 
-## 1.1. Khái quát về ATBMTT
+## 1. 1. Khái quát về ATBMTT
 
 - An toàn dữ liệu là gì?
 
-- Dữ liệu không bị hỏng hóc, không mất
+- Dữ liệu không bị hỏng hóc, không mất thông tin
 
-thông tin
+## 1. 1. 1 Khái niệm về ATTT
 
-## 1.1.1 Khái niệm về ATTT
+## 1. 1. Khái quát về ATBMTT
 
-## 1.1. Khái quát về ATBMTT
+- Là việc bảo vệ chống truy nhập, sử dụng, tiết lộ, sửa đổi, hoặc phá hủy thông tin một cách trái phép
 
-- Là việc bảo vệ chống truy nhập, sử dụng, tiết lộ,
-
-sửa đổi, hoặc phá hủy thông tin một cách trái phép
-
-- Là
-
-việc
-
-bảo
-
-vệ
-
-các
-
-thuộc
-
-tính
-
-bí
-
-mật
-
-(confidentiality), tính toàn vẹn (integrity) và tính sẵn
-
-dùng (availability) của các tài sản thông tin trong
-
-quá trình chúng được lưu trữ, xửlý, hoặc truyền tải
+- Là việc bảo vệ các thuộc tính bí mật (confidentiality), tính toàn vẹn (integrity) và tính sẵn dùng (availability) của các tài sản thông tin trong quá trình chúng được lưu trữ, xửlý, hoặc truyền tải
 
 - An toàn thông tin là gì
 
-## 1.1. Khái quát về ATBMTT
-
-## 1.1.2. Lĩnh vực chính của ATBMTT
+## 1. 1. 2. Lĩnh vực chính của ATBMTT
 
 - An toàn công nghệ thông tin (IT security)
 
 - Đảm bảo thông tin
 
-## 1.1. Khái quát về ATBMTT
+## 1. 1. Khái quát về ATBMTT
 
-## 1.1.3. Tại sao cần bảo đảm an toàn thông tin
+## 1. 1. 3. Tại sao cần bảo đảm an toàn thông tin
 
 - Tầm quan trọng của thông tin
 
-- Sự xuất hiện của Internet và Thương mại điện
+- Sự xuất hiện của Internet và Thương mại điện tử
 
-tử
-
-- Uy tín của các quốc gia, các tổ chức và các cá
-
-nhân
+- Uy tín của các quốc gia, các tổ chức và các cá nhân
 
 - Đối với chính phủ :
 
@@ -114,23 +72,9 @@ nhân
 
 - Đối với cá nhân
 
-- Dữ liệu cá nhân
+- Dữ liệu cá nhân Tất cả các dữ liệu cần phải được bảo đảm an toàn Phải đảm bảo an toàn cho những dữ liệu gì
 
-Tất cả
-
-các dữ
-
-liệu cần
-
-phải được
-
-bảo đảm
-
-an toàn
-
-Phải đảm bảo an toàn cho những dữ liệu gì
-
-## 1.2. Các yêu cầu đảm bảo ATTT
+## 1. 2. Các yêu cầu đảm bảo ATTT
 
 - Bảo đảm bí mật (Bảo mật) - C
 
@@ -140,11 +84,9 @@ Phải đảm bảo an toàn cho những dữ liệu gì
 
 - Bảo đảm sẵn dùng - A
 
-## 1.2. Các yêu cầu đảm bảo ATTT
+## 1. 2. 1 Bí mật
 
-## 1.2.1 Bí mật
-
-## 1.2. Các yêu cầu đảm bảo ATTT
+## 1. 2. Các yêu cầu đảm bảo ATTT
 
 - Không bị thay đổi
 
@@ -152,9 +94,9 @@ Phải đảm bảo an toàn cho những dữ liệu gì
 
 - Hợp lệ
 
-## 1.2.2 Toàn vẹn
+## 1. 2. 2 Toàn vẹn
 
-## 1.2. Các yêu cầu đảm bảo ATTT
+## 1. 2. Các yêu cầu đảm bảo ATTT
 
 - Thời gian cung cấp dịch vụ (Uptime)
 
@@ -168,21 +110,19 @@ Phải đảm bảo an toàn cho những dữ liệu gì
 
 - Thời gian khôi phục sau sự cố
 
-## 1.2.3 Sẵn dùng
+## 1. 2. 3 Sẵn dùng
 
-## 1.2. Các yêu cầu đảm bảo ATTT
+## 1. 2. Các yêu cầu đảm bảo ATTT
 
-## 1.2.3 Sẵn dùng
+## 1. 2. 3 Sẵn dùng
 
-## 1.3. Các thành phần của ATTT
+## 1. 3. Các thành phần của ATTT
 
 - An toàn máy tính và dữ liệu
 
 - An ninh mạng
 
 - Quản lý an toàn thông tin
-
-## 1.3. Các thành phần của ATTT
 
 - Đảm bảo an toàn hệ điều hành, ứng dụng, dịch vụ
 
@@ -194,25 +134,21 @@ Phải đảm bảo an toàn cho những dữ liệu gì
 
 - Việc sao lưu tạo dự phòng dữ liệu
 
-## 1.3.1 An toàn máy tính và dữ liệu
+## 1. 3. 1 An toàn máy tính và dữ liệu
 
-## 1.3. Các thành phần của ATTT
+## 1. 3. Các thành phần của ATTT
 
-- Các tường lửa, proxy cho lọc gói tin và điều khiển
+- Các tường lửa, proxy cho lọc gói tin và điều khiển truy cập
 
-truy cập
-
-- Mạng riêng ảo và các kỹ thuật bảo mật thông tin
-
-truyền
+- Mạng riêng ảo và các kỹ thuật bảo mật thông tin truyền
 
 - Các kỹ thuật và hệ thống phát hiện, ngăn chặn
 
 - Vấn đề giám sát mạng
 
-## 1.3.2 An ninh mạng
+## 1. 3. 2 An ninh mạng
 
-## 1.3. Các thành phần của ATTT
+## 1. 3. Các thành phần của ATTT
 
 - Quản lý các rủi ro
 
@@ -220,15 +156,13 @@ truyền
 
 - Chính sách an toàn thông tin
 
-- Đào tạo, nâng cao ý thức an toàn thông tin của
+- Đào tạo, nâng cao ý thức an toàn thông tin của người dùng
 
-người dùng
+## 1. 3. 3 Quản lý an toàn thông tin
 
-## 1.3.3 Quản lý an toàn thông tin
+## 1. 4. Các bài toán ATTT
 
-## 1.4. Các bài toán ATTT
-
-## 1.4.1 Công cụ đảm bảo ATBMTT
+## 1. 4. 1 Công cụ đảm bảo ATBMTT
 
 - Mật mã:
 
@@ -242,21 +176,17 @@ người dùng
 
 - Thủy ký
 
-Ví dụ:
+## Ví dụ:
 
-- Ví dụ 1: Giấu một thông tin sở hữu của người
+- Ví dụ 1: Giấu một thông tin sở hữu của người chủ vào trong tác phẩm (tài liệu số) của họ
 
-chủ vào trong tác phẩm (tài liệu số) của họ
+- Ví dụ 2: Khi giấu một thông tin vào trong một tác phẩm (tài liệu số), với thông tin giấu nhằm kiểm
 
-- Ví dụ 2: Khi giấu một thông tin vào trong một tác
+## xem tác phẩm có bị thay đổi nội dung hay không
 
-phẩm (tài liệu số), với thông tin giấu nhằm kiểm
+## 1. 4. Các bài toán ATTT
 
-xem tác phẩm có bị thay đổi nội dung hay không
-
-## 1.4. Các bài toán ATTT
-
-## 1.4.1 Công cụ đảm bảo ATBMTT
+## 1. 4. 1 Công cụ đảm bảo ATBMTT
 
 - Nén thông tin:
 
@@ -270,9 +200,9 @@ xem tác phẩm có bị thay đổi nội dung hay không
 
 - Mạng riêng ảo
 
-## 1.4. Các bài toán ATTT
+## 1. 4. Các bài toán ATTT
 
-## 1.4.2 Các bài toán trong lý thuyết
+## 1. 4. 2 Các bài toán trong lý thuyết
 
 - Bài toán bảo mật thông tin:
 
@@ -282,29 +212,23 @@ xem tác phẩm có bị thay đổi nội dung hay không
 
 - Mã hóa Huffman
 
-## 1.4. Các bài toán ATTT
+## 1. 4. Các bài toán ATTT
 
-## 1.4.2 Các bài toán trong lý thuyết
+## 1. 4. 2 Các bài toán trong lý thuyết
 
-- Bảo toàn thông tin bằng các kỹ thuật : Nén thông
+- Bảo toàn thông tin bằng các kỹ thuật : Nén thông tin, Mã hóa thông tin, Giấu tin
 
-tin, Mã hóa thông tin, Giấu tin
-
-- Bảo toàn thông tin bằng các kỹ thuật : Hàm băm
-
-tạo đại diện bản tin
+- Bảo toàn thông tin bằng các kỹ thuật : Hàm băm tạo đại diện bản tin
 
 - Bảo toàn thông tin bằng các kỹ thuật : Chữ ký số
 
-- Bảo toàn thông tin bằng các kỹ thuật : Thủy ký
-
-(WaterMarking)
+- Bảo toàn thông tin bằng các kỹ thuật : Thủy ký (WaterMarking)
 
 - Bài toán bảo toàn thông tin:
 
-## 1.4. Các bài toán ATTT
+## 1. 4. Các bài toán ATTT
 
-## 1.4.2 Các bài toán trong lý thuyết
+## 1. 4. 2 Các bài toán trong lý thuyết
 
 - Bài toán xác thực :
 
@@ -316,15 +240,13 @@ tạo đại diện bản tin
 
 - Bài toán cấp quyền , phân quyền :
 
-- Cấp quyền cho người dùng hợp pháp, không
-
-cấp quyền cho người dùng bất hợp pháp
+- Cấp quyền cho người dùng hợp pháp, không cấp quyền cho người dùng bất hợp pháp
 
 - Phân quyền cho đối tượng khác nhau
 
-## 1.4. Các bài toán ATTT
+## 1. 4. Các bài toán ATTT
 
-## 1.4.2 Các bài toán trong lý thuyết
+## 1. 4. 2 Các bài toán trong lý thuyết
 
 - Bài toán liên quan:
 
@@ -342,21 +264,13 @@ cấp quyền cho người dùng bất hợp pháp
 
 - Chống chối cãi
 
-- Bài toán công cụ tính toán: Tính toán “Mềm ”,
+- Bài toán công cụ tính toán: Tính toán “Mềm ”, Tính toán song song, Tính toán “hiệu năng cao”, Tính toán “lưới ”, …
 
-Tính toán song song, Tính toán “hiệu
+## 1. 4. Các bài toán ATTT
 
-năng
+## 1. 4. 3 Các bài toán trong Ứng dụng
 
-cao”, Tính toán “lưới ”, …
-
-## 1.4. Các bài toán ATTT
-
-## 1.4.3 Các bài toán trong Ứng dụng
-
-- Bài toán xây dựng cơ sở hạ tầng An toàn
-
-thông tin:
+- Bài toán xây dựng cơ sở hạ tầng An toàn thông tin:
 
 - Tường lửa
 
@@ -366,13 +280,11 @@ thông tin:
 
 - Cơ sở hạ tầng mật mã Khóa công khai (PKI)
 
-- Cơ sở hạ tầng ATTT phục vụ cho hệ thống
+- Cơ sở hạ tầng ATTT phục vụ cho hệ thống tính toán và di động
 
-tính toán và di động
+## 1. 4. Các bài toán ATTT
 
-## 1.4. Các bài toán ATTT
-
-## 1.4.3 Các bài toán trong Ứng dụng
+## 1. 4. 3 Các bài toán trong Ứng dụng
 
 - Bài toán bảo vệ bản quyền bản tin số :
 
@@ -380,9 +292,7 @@ tính toán và di động
 
 - Thủy ký
 
-- Giải pháp Lưu vết và Thu hồi thiết bị thu bất
-
-hợp pháp
+- Giải pháp Lưu vết và Thu hồi thiết bị thu bất hợp pháp
 
 - Bài toán kinh tế xã hội:
 
@@ -394,9 +304,9 @@ hợp pháp
 
 - Giao dịch chứng khoán từ xa
 
-## 1.5. Chính sách, pháp luật về ATTT
+## 1. 5. Chính sách, pháp luật về ATTT
 
-## 1.5.1 Chính sách, pháp luật ATBMTT
+## 1. 5. 1 Chính sách, pháp luật ATBMTT
 
 - Giới thiệu về pháp luật và chính sách ATTT :
 
@@ -406,13 +316,11 @@ hợp pháp
 
 - Đạo đức
 
-## 1.5. Chính sách, pháp luật về ATTT
+## 1. 5. Chính sách, pháp luật về ATTT
 
-## 1.5.1 Chính sách, pháp luật ATBMTT
+## 1. 5. 1 Chính sách, pháp luật ATBMTT
 
-- Các yêu cầu đảm bảo chính sách có thể được áp
-
-dụng hiệu quả :
+- Các yêu cầu đảm bảo chính sách có thể được áp dụng hiệu quả :
 
 - Có khả năng phổ biến rộng rãi
 
@@ -422,13 +330,11 @@ dụng hiệu quả :
 
 - Cần biện pháp để nhân viên cam kết thực hiện
 
-- Cần được thực hiện đồng đều, bình đẳng, nhất
+- Cần được thực hiện đồng đều, bình đẳng, nhất quán
 
-quán
+## 1. 5. Chính sách, pháp luật về ATTT
 
-## 1.5. Chính sách, pháp luật về ATTT
-
-## 1.5.2 Luật quốc tế về ATTT
+## 1. 5. 2 Luật quốc tế về ATTT
 
 - Luật tội phạm máy tính:
 
@@ -440,13 +346,11 @@ quán
 
 - USA PATRIOT Act, 2001
 
-- USA PATRIOT Improvement and Reauthorization
+- USA PATRIOT Improvement and Reauthorization Act
 
-Act
+## 1. 5. Chính sách, pháp luật về ATTT
 
-## 1.5. Chính sách, pháp luật về ATTT
-
-## 1.5.2 Luật quốc tế về ATTT
+## 1. 5. 2 Luật quốc tế về ATTT
 
 - Luật riêng tư bảo vệ quyền riêng tư người dùng:
 
@@ -458,13 +362,11 @@ Act
 
 ## 1996 (HIPAA)
 
-- Financial Services Modernization Act or Gramm-
+- Financial Services Modernization Act or Gramm- Leach-Bliley Act, 1999
 
-Leach-Bliley Act, 1999
+## 1. 5. Chính sách, pháp luật về ATTT
 
-## 1.5. Chính sách, pháp luật về ATTT
-
-## 1.5.2 Luật quốc tế về ATTT
+## 1. 5. 2 Luật quốc tế về ATTT
 
 - Luật xuất khẩu và chống gián điệp:
 
@@ -472,112 +374,74 @@ Leach-Bliley Act, 1999
 
 - Security and Freedom through Encryption Act, 1999
 
-## 1.5. Chính sách, pháp luật về ATTT
+## 1. 5. Chính sách, pháp luật về ATTT
 
-## 1.5.2 Luật quốc tế về ATTT
+## 1. 5. 2 Luật quốc tế về ATTT
 
 - Luật xuất khẩu và chống gián điệp:
 
-- 
+Hội đồng Châu Âu về chống tội phạm mạng (Council of Europe Convention on Cybercrime)
 
-Hội đồng Châu Âu về chống tội phạm mạng
+- Hiệp ước vềchống tội phạm mạng được Hội đồng châu Âu phê chuẩn vào năm 2001
 
-(Council of Europe Convention on Cybercrime)
-
-- Hiệp ước vềchống tội phạm mạng được Hội đồng châu
-
-Âu phê chuẩn vào năm 2001
-
-- Hiệp ước bảo vệquyền sởhữu trí tuệ(Agreement on
-
-Trade-Related Aspects of Intellectual Property Rights
-
-## (Trips))
+- Hiệp ước bảo vệquyền sởhữu trí tuệ(Agreement on Trade-Related Aspects of Intellectual Property Rights (TRIPS))
 
 - Digital Millennium Copyright Act (DMCA)
 
-## 1.5. Chính sách, pháp luật về ATTT
+## 1. 5. Chính sách, pháp luật về ATTT
 
-## 1.5.3 Luật Việt Nam về ATTT
+## 1. 5. 3 Luật Việt Nam về ATTT
 
 - Luật ATTT mạng
 
 - Các văn bản liên quan
 
-- 
+## Luật công nghệ thông tin số 67/2006/QH11
 
-Luật công nghệ thông tin số 67/2006/QH11
-
-- Nghịđịnh số90/2008/NÐ-CP
+- Nghịđịnh số 90/2008/NÐ-CP
 
 - Quyết định số 59/2008/QÐ-BTTTT
 
 - Quyết định 63/QÐ-TTg của Thủtướng CP
 
-## 1.5. Chính sách, pháp luật về ATTT
+## 1. 5. Chính sách, pháp luật về ATTT
 
-## 1.5.3 Luật Việt Nam về ATTT
+## 1. 5. 3 Luật Việt Nam về ATTT
 
 - Luật ATTT mạng
 
-- Các văn bản liên quan
+- Các văn bản liên quan Chỉthịsố 897/CT-TTg của Thủtướng CP
 
-- 
+- Thông tư số 23/2011/TT-BTTTT
 
-Chỉthịsố897/CT-TTg của Thủtướng CP
-
-- Thông tư số23/2011/TT-BTTTT
-
-- Nghịđịnh số77/2012/NĐ-CP của Chính Phủ
+- Nghịđịnh số 77/2012/NĐ-CP của Chính Phủ
 
 - Nghị định 72/2013/NĐ-CP
 
-## 1.5. Chính sách, pháp luật về ATTT
+## 1. 5. Chính sách, pháp luật về ATTT
 
-## 1.5.4 Vấn đề đạo đức ATTT
+## 1. 5. 4 Vấn đề đạo đức ATTT
 
 - Sự cần thiết:
 
-- Một số bộ quy tắc ứng xử trong CNTT và ATTT
+- Một số bộ quy tắc ứng xử trong CNTT và ATTT Trong lĩnh vực CNTT và ATTT chưa có bộ quy tắc ứng xử bắt buộc
 
-- 
+- ACM (Association for Computing Machinery) và ISSA (Information Systems Security Association) hợp tác để đề ra các quy tắc ứng xử trong an toàn thông tin
 
-Trong lĩnh vực CNTT và ATTT chưa có bộ quy tắc
+- Hiệp hội an toàn thông tin Việt Nam đã công bố Bộ Qui tắc ứng xử an toàn thông tin vào đầu năm 2015
 
-ứng xử bắt buộc
+## 1. 5. Chính sách, pháp luật về ATTT
 
-- ACM (Association for Computing Machinery) và ISSA
-
-(Information Systems Security Association) hợp tác để
-
-đề ra các quy tắc ứng xử trong an toàn thông tin
-
-- Hiệp hội an toàn thông tin Việt Nam đã công bố Bộ Qui
-
-tắc ứng xử an toàn thông tin vào đầu năm 2015
-
-## 1.5. Chính sách, pháp luật về ATTT
-
-## 1.5.4 Vấn đề đạo đức ATTT
+## 1. 5. 4 Vấn đề đạo đức ATTT
 
 - Bộ quy tắc ứng xử của Viện đạo đức máy tính (Mỹ)
 
-## 1.5. Chính sách, pháp luật về ATTT
+## 1. 5. Chính sách, pháp luật về ATTT
 
-## 1.5.4 Vấn đề đạo đức ATTT
+## 1. 5. 4 Vấn đề đạo đức ATTT
 
-- Một số vấn đề khác
+- Một số vấn đề khác o Sự khác biệt về vấn đề đạo đức giữa các nền văn hóa o Vi phạm bản quyền phần mềm o Lạm dụng các tài nguyên của cơ quan tổ chức
 
-o Sự khác biệt về vấn đề đạo đức giữa các
-
-nền văn hóa
-
-o Vi phạm bản quyền phần mềm
-
-o Lạm dụng các tài nguyên của cơ quan tổ
-
-chức
-
-Thank You !
+ Thank You !
 
 www.themegallery.com
