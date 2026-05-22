@@ -1,293 +1,325 @@
-# 
+# C5_Sao luu du lieu va phuc hoi thong tin
 
-## Nội dung chính
 
-## Một số khái niệm
 
-## 5. 1
+<!-- page 1 -->
 
-Sao lưu dự phòng dữ liệu
+# HỌC VIỆN NGÂN HÀNG
+## KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 
-## 5. 2
+# **CHƯƠNG V**
+# **SAO LƯU DỮ LIỆU VÀ PHỤC HỒI THÔNG TIN**
 
-Phục hồi dữ liệu sau sự cố
 
-## 5. 3
+<!-- page 2 -->
 
-## 5. 4
+# Nội dung
 
-## Các xu hướng công nghệ trong đảm bảo ATTT
+## 5.1 Một số khái niệm
+## 5.2 Sao lưu dự phòng dữ liệu
+## 5.3 Phục hồi dữ liệu sau sự cố
+## 5.4 Các xu hướng công nghệ trong đảm bảo ATTT
 
-## 5. 1. Một số khái niệm
 
-- Sao lưu dữ liệu (Data Backup): Là quá trình tạo ra bản sao của dữliệu gốc và lưu trữtại các vịtrí khác nhau nhằm phòng ngừa mất mát dữliệu do sựcố (lỗi phần cứng, tấn công mạng, lỗi con người, ...)
+<!-- page 3 -->
 
-- Phục hồi dữ liệu (Data Recovery): Là quá trình khôi phục lại dữliệu từcác bản sao lưu khi xảy ra sựcố.
+# 5.1. Một số khái niệm
 
-- Khôi phục thảm họa (Disaster Recovery - DR): Là
+- **Sao lưu dữ liệu (Data Backup):** Là quá trình tạo ra bản sao của dữ liệu gốc và lưu trữ tại các vị trí khác nhau nhằm phòng ngừa mất mát dữ liệu do sự cố (lỗi phần cứng, tấn công mạng, lỗi con người,...)
 
-## tập hợp các chính sách, công cụ và quy trình nhằm
+- **Phục hồi dữ liệu (Data Recovery):** Là quá trình khôi phục lại dữ liệu từ các bản sao lưu khi xảy ra sự cố.
 
-khôi phục hệ thống CNTT sau các sự cố nghiêm trọng (cháy nổ, tấn công ransomware, thiên tai, ...).
+- **Khôi phục thảm họa (Disaster Recovery – DR):** Là tập hợp các chính sách, công cụ và quy trình nhằm khôi phục hệ thống CNTT sau các sự cố nghiêm trọng (cháy nổ, tấn công ransomware, thiên tai,...).
 
-- Chỉ số RPO (Recovery Point Objective): Xác định mức độ dữ liệu có thể chấp nhận mất mát (tính theo thời gian).
+3
 
-- Chỉ số RTO (Recovery Time Objective): Xác định thời gian tối đa cho phép để phục hồi hệ thống sau sự cố.
 
-## 5. 2. Sao lưu dự phòng dữ liệu
+<!-- page 4 -->
 
-## 5. 2. 1 Mục tiêu
+# 5.1. Một số khái niệm
 
-- Đảm bảo khả năng phục hồi dữ liệu khi xảy ra sự cố
+- **Chỉ số RPO (Recovery Point Objective):** Xác định mức độ dữ liệu có thể chấp nhận mất mát (tính theo thời gian).
 
-- Giảm thiểu gián đoạn hoạt động
+- **Chỉ số RTO (Recovery Time Objective):** Xác định thời gian tối đa cho phép để phục hồi hệ thống sau sự cố.
 
-- Tuân thủ các quy định pháp lý và tiêu chuẩn bảo mật
 
-## 5. 2. Sao lưu dự phòng dữ liệu
+<!-- page 5 -->
 
-## 5. 2. 2 Các phương pháp sao lưu
+# 5.2. Sao lưu dự phòng dữ liệu
 
-- Sao lưu toàn bộ (Full Backup): Sao chép toàn bộ dữ liệu tại một thời điểm
+## 5.2.1 Mục tiêu
 
-- Ưu điểm: dễ phục hồi
+- **Đảm bảo khả năng phục hồi dữ liệu khi xảy ra sự cố**
+- **Giảm thiểu gián đoạn hoạt động**
+- **Tuân thủ các quy định pháp lý và tiêu chuẩn bảo mật**
 
-- Nhược điểm: tốn tài nguyên và thời gian
 
-## 5. 2. Sao lưu dự phòng dữ liệu
+<!-- page 6 -->
 
-## 5. 2. 2 Các phương pháp sao lưu
+# 5.2. Sao lưu dự phòng dữ liệu
 
-- Sao lưu gia tăng (Incremental Backup): Chỉ sao lưu phần dữ liệu thay đổi kể từ lần sao lưu gần nhất
+## 5.2.2 Các phương pháp sao lưu
 
-- Ưu điểm: Tiết kiệm dung lượng
+- **Sao lưu toàn bộ (Full Backup)**: Sao chép toàn bộ dữ liệu tại một thời điểm
+    - **Ưu điểm**: dễ phục hồi
+    - **Nhược điểm**: tốn tài nguyên và thời gian
 
-- Nhược điểm: Phục hồi phức tạp
 
-## 5. 2. Sao lưu dự phòng dữ liệu
+<!-- page 7 -->
 
-## 5. 2. 2 Các phương pháp sao lưu
+# 5.2. Sao lưu dự phòng dữ liệu
 
-- Sao lưu vi sai (Differential Backup): Sao lưu phần dữ liệu thay đổi kể từ lần sao lưu toàn bộ gần nhất
+## 5.2.2 Các phương pháp sao lưu
 
-- Ưu điểm: Phục hồi đơn giản
+- **Sao lưu gia tăng (Incremental Backup)**: Chỉ sao lưu phần dữ liệu thay đổi kể từ lần sao lưu gần nhất
+    - **Ưu điểm**: Tiết kiệm dung lượng
+    - **Nhược điểm**: Phục hồi phức tạp
 
-- Nhược điểm: Tốn thời gian và dung lượng sao lưu gia tăng
 
-## 5. 2. Sao lưu dự phòng dữ liệu
+<!-- page 8 -->
 
-## 5. 2. 3 Mô hình và chiến lược sao lưu
+# 5.2. Sao lưu dự phòng dữ liệu
 
-- Quy tắc 3 - 2 - 1:
+## 5.2.2 Các phương pháp sao lưu
+
+- **Sao lưu vi sai (Diffirential Backup):** Sao lưu phần dữ liệu thay đổi kể từ lần sao lưu toàn bộ gần nhất
+
+    - **Ưu điểm:** Phục hồi đơn giản
+
+    - **Nhược điểm:** Tốn thời gian và dung lượng sao lưu gia tăng
+
+
+<!-- page 9 -->
+
+# 5.2. Sao lưu dự phòng dữ liệu
+
+## 5.2.3 Mô hình và chiến lược sao lưu
+
+- **Quy tắc 3 - 2 - 1:**
 
 - 3 bản sao lưu dữ liệu
-
 - 2 loại phương tiện lưu trữ khác nhau
+- 1 bản lưu ngoài site (offsite)
 
-- 1 bản lưu ngoài site (offsite
 
-## 5. 2. Sao lưu dự phòng dữ liệu
+<!-- page 10 -->
 
-## 5. 2. 3 Mô hình và chiến lược sao lưu
+# 5.2. Sao lưu dự phòng dữ liệu
 
-- Sao lưu tại chỗ (on-site backup)
+## 5.2.3 Mô hình và chiến lược sao lưu
 
-- Sao lưu ngoài site (Off-site backup)
+- **Sao lưu tại chỗ (on-site backup)**
+- **Sao lưu ngoài site (Off-site backup)**
+- **Sao lưu đám mây (Cloud backup)**
 
-- Sao lưu đám mây (Cloud backup
 
-## 5. 2. Sao lưu dự phòng dữ liệu
+<!-- page 11 -->
 
-## 5. 2. 4 Công nghệ và công cụ hỗ trợ
+# 5.2. Sao lưu dự phòng dữ liệu
 
-- Hệ thống NAS, SAN
+## 5.2.4 Công nghệ và công cụ hỗ trợ
 
-## 5. 2. Sao lưu dự phòng dữ liệu
+- **Hệ thống NAS, SAN**
 
-## 5. 2. 4 Công nghệ và công cụ hỗ trợ
+| SAN vs NAS |
+| :--- |
+| **STORAGE AREA NETWORK (SAN)** | **NETWORK ATTACHED STORAGE (NAS)** |
+| (Hình ảnh minh họa kết nối từ máy tính đến thiết bị lưu trữ) | (Hình ảnh minh họa kết nối từ máy tính đến thiết bị lưu trữ) |
+| **STORAGE DEVICES** | **STORAGE DEVICE** |
 
-- Lưu trữ đám mây (AWS S3, Azure Backup, Google Cloud Storage)
 
-- AWS S3: Độ bền cực cao, hệ sinh thái lớn
+<!-- page 12 -->
 
-- Azure: Tích hợp sâu với hệ sinh thái Microsoft
+# 5.2. Sao lưu dự phòng dữ liệu
 
-- GCS: Cung cấp các lớp lưu trữ với tốc độ truy cập nhanh
+## 5.2.4 Công nghệ và công cụ hỗ trợ
 
-## 5. 2. Sao lưu dự phòng dữ liệu
+- **Lưu trữ đám mây (AWS S3, Azure Backup, Google Cloud Storage)**
 
-## 5. 2. 4 Công nghệ và công cụ hỗ trợ
+- **AWS S3**: Độ bền cực cao, hệ sinh thái lớn
 
-- Phần mềm sao lưu chuyên dụng
+- **Azure**: Tích hợp sâu với hệ sinh thái Microsoft
 
-- Veeam: nổi bật với sao lưu ảo hóa
+- **GCS**: Cung cấp các lớp lưu trữ với tốc độ truy cập nhanh
 
-- Acronis: Tích hợp bảo mật AI
 
-- Bacula: mạnh về khải năng mở rộng
+<!-- page 13 -->
 
-## 5. 2. Sao lưu dự phòng dữ liệu
+# 5.2. Sao lưu dự phòng dữ liệu
 
-## 5. 2. 5 Các rủi ro trong sao lưu
+## 5.2.4 Công nghệ và công cụ hỗ trợ
 
-- Sao lưu không đầy đủ hoặc không kiểm tra định kỳ
+### Phần mềm sao lưu chuyên dụng
 
-- Dữ liệu Backup bị mã hóa bởi ransomware
+- **Veeam**: nổi bật với sao lưu ảo hóa
+- **Acronis**: Tích hợp bảo mật AI
+- **Bacula**: mạnh về khả năng mở rộng
 
-- Lỗi cấu hình hoặc lỗi con người
+13
 
-## 5. 3. Phục hồi dữ liệu sau sự cố
 
-## 5. 3. 1 Các loại sự cố phổ biến
+<!-- page 14 -->
 
-- Lỗi phần cứng (ổ cứng, máy chủ)
+# 5.2. Sao lưu dự phòng dữ liệu
 
-- Tấn công mạng (ransomware, DDoS)
+## 5.2.5 Các rủi ro trong sao lưu
 
-- Lỗi phần mềm
+- **Sao lưu không đầy đủ hoặc không kiểm tra định kỳ**
+- **Dữ liệu Backup bị mã hóa bởi ransomware**
+- **Lỗi cấu hình hoặc lỗi con người**
 
-- Sai sót do con người
 
-- Thiên tai
+<!-- page 15 -->
 
-## 5. 3. Phục hồi dữ liệu sau sự cố
+# 5.3. Phục hồi dữ liệu sau sự cố
 
-## 5. 3. 2 Quy trình phục hồi dữ liệu
+## 5.3.1 Các loại sự cố phổ biến
 
-## 1. Phát hiện sự cố
+- **Lỗi phần cứng (ổ cứng, máy chủ)**
+- **Tấn công mạng (ransomware, DDoS)**
+- **Lỗi phần mềm**
+- **Sai sót do con người**
+- **Thiên tai**
 
-## 2. Đánh giá mức độ thiệt hại
 
-## 3. Xác định nguồn Backup phù hợp
+<!-- page 16 -->
 
-## 4. Thực hiện phục hồi
+# 5.3. Phục hồi dữ liệu sau sự cố
 
-## 5. Kiểm tra tính toàn vẹn dữ liệu
+## 5.3.2 Quy trình phục hồi dữ liệu
 
-## 6. Đưa hệ thống trở lại hoạt động
+1. **Phát hiện sự cố**
 
-## 5. 3. Phục hồi dữ liệu sau sự cố
+2. **Đánh giá mức độ thiệt hại**
 
-## 5. 3. 3 Các mô hình phục hồi
+3. **Xác định nguồn Backup phù hợp**
 
-- Cold Site:
+4. **Thực hiện phục hồi**
 
-- Warm Site
+5. **Kiểm tra tính toàn vẹn dữ liệu**
 
-- Hot Site:
+6. **Đưa hệ thống trở lại hoạt động**
 
-## 5. 3. Phục hồi dữ liệu sau sự cố
 
-## 5. 3. 4 Kiểm thử phục hồi
+<!-- page 17 -->
 
-- Kiểm tra định kỳ khả năng khôi phục
+# 5.3. Phục hồi dữ liệu sau sự cố
 
-- Xác thực khả năng phục hồi: Đảm bảo dữliệu sao lưu có thểsửdụng được và kếhoạch DR (Disaster Recovery) thực sựhoạt động trong tình huống khẩn cấp
+## 5.3.3 Các mô hình phục hồi
 
-- Đo lường thời gian: Đánh giá mục tiêu thời gian
+- **Cold Site:**
 
-## khôi phục RTO và mục tiêu điểm khôi phục (RPO)
+- **Warm Site:**
 
-có đạt yêu cầu không
+- **Hot Site:**
 
-- Phát hiện lỗ hổng: Nhận diện các điểm yếu trong quy trình khôi phục hiện tại để cải thiện kịp thời
 
-## 5. 3. Phục hồi dữ liệu sau sự cố
+<!-- page 18 -->
 
-## 5. 3. 4 Kiểm thử phục hồi
+# 5.3. Phục hồi dữ liệu sau sự cố
 
-- Mô phỏng kịch bản tấn công
+## 5.3.4 Kiểm thử phục hồi
 
-- Các kịch bản tấn công phổ biến • Tấn công mạng & Hạ tầng
+### Kiểm tra định kỳ khả năng khôi phục
 
-## • Tấn công ứng dụng Web
+- **Xác thực khả năng phục hồi:** Đảm bảo dữ liệu sao lưu có thể sử dụng được và kế hoạch DR (Disaster Recovery) thực sự hoạt động trong tình huống khẩn cấp
+- **Đo lường thời gian:** Đánh giá mục tiêu thời gian khôi phục RTO và mục tiêu điểm khôi phục (RPO) có đạt yêu cầu không
+- **Phát hiện lỗ hổng:** Nhận diện các điểm yếu trong quy trình khôi phục hiện tại để cải thiện kịp thời
 
-• Tấn công lừa đảo (Phishing)
 
-• Tấn công Ransomware • Tấn công có chủ đích
+<!-- page 19 -->
 
-## 5. 3. Phục hồi dữ liệu sau sự cố
+# 5.3. Phục hồi dữ liệu sau sự cố
 
-## 5. 3. 4 Kiểm thử phục hồi
+## 5.3.4 Kiểm thử phục hồi
 
-- Mô phỏng kịch bản tấn công
+### Mô phỏng kịch bản tấn công
 
-- Quy trình xây dựng kịch bản diễn tập:
+- **Các kịch bản tấn công phổ biến**
+    - Tấn công mạng & Hạ tầng
+    - Tấn công ứng dụng Web
+    - Tấn công lừa đảo (Phishing)
+    - Tấn công Ransomware
+    - Tấn công có chủ đích
 
-## 1. Xác định phạm vi
+19
 
-## 2. Thiết kê kịch bản: Dựa trên các mối đe dọa
 
-thực tế
+<!-- page 20 -->
 
-## 3. Thực hiện mô phỏng: Chạy kịch bản trong
+# 5.3. Phục hồi dữ liệu sau sự cố
 
-môi trường an toàn
+## 5.3.4 Kiểm thử phục hồi
 
-## 4. Phân tích & Báo cáo: Đánh giá khả năng
+### Mô phỏng kịch bản tấn công
 
-phòng thủ và đưa ra khuyến nghị và vá lỗi
+- **Quy trình xây dựng kịch bản diễn tập:**
 
-## 5. 3. Phục hồi dữ liệu sau sự cố
+1. Xác định phạm vi
+2. Thiết kế kịch bản: Dựa trên các mối đe dọa thực tế
+3. Thực hiện mô phỏng: Chạy kịch bản trong môi trường an toàn
+4. Phân tích & Báo cáo: Đánh giá khả năng phòng thủ và đưa ra khuyến nghị và vá lỗi
 
-## 5. 3. 4 Kiểm thử phục hồi
+20
 
-- Đánh giá thời gian RTO/RPO thực tế
 
-- Mức độ quan trọng của dữ liệu (RPO):
+<!-- page 21 -->
 
-• Tài chính/Ngân hàng: RPO rất thấp, gần bằng
+# 5.3. Phục hồi dữ liệu sau sự cố
 
-## 0 để tránh tổn thất
+## 5.3.4 Kiểm tra phục hồi
 
-• Y tế/Logistics: RPO khoảng 1-4 giờ để đảm bảo dữ liệu cập nhật
+### Đánh giá thời gian RTO/RPO thực tế
 
-## • Giáo dục/Ứng dụng nhỏ: RPO có thể là 4-24
+- **Mức độ quan trọng của dữ liệu (RPO):**
 
-giờ
+- Tài chính/Ngân hàng: RPO rất thấp, gần bằng 0 để tránh tổn thất
+- Y tế/Logistics: RPO khoảng 1-4 giờ để đảm bảo dữ liệu cập nhật
+- Giáo dục/Ứng dụng nhỏ: RPO có thể là 4-24 giờ
 
-## 5. 3. Phục hồi dữ liệu sau sự cố
 
-## 5. 3. 4 Kiểm thử phục hồi
+<!-- page 22 -->
 
-- Đánh giá thời gian RTO/RPO thực tế
+# 5.3. Phục hồi dữ liệu sau sự cố
 
-- Thời gian cho phép dừng hệ thống (RTO):
+## 5.3.4 Kiểm thử phục hồi
 
-Tổng thời gian khôi phục, bao gồm phát hiện sự cố, khôi phục dữliệu và kiểm tra hệthống
+- **Đánh giá thời gian RTO/RPO thực tế**
 
-- Chi phí thực thi
+    - **Thời gian cho phép dừng hệ thống (RTO):** Tổng thời gian khôi phục, bao gồm phát hiện sự cố, khôi phục dữ liệu và kiểm tra hệ thống
+    - Chi phí thực thi
+    - Kiểm tra và đánh giá lại: Cần thường xuyên kiểm tra, so sánh dữ liệu thực tế với mục tiêu đã đề ra để điều chỉnh chiến lược backup
 
-- Kiểm tra và đánh giá lại: Cần thường xuyên kiểm
 
-## tra, so sánh dữliệu thực tếvới mục tiêu đã đềra
+<!-- page 23 -->
 
-đểđiều chỉnh chiến lược backup
+# 5.3. Phục hồi dữ liệu sau sự cố
 
-## 5. 3. Phục hồi dữ liệu sau sự cố
+## 5.3.5 Những thách thức
 
-## 5. 3. 5 Những thách thức
+- **Thời gian downtime dài**
+- **Dữ liệu không đồng nhất**
+- **Thiếu quy trình chuẩn hóa**
 
-- Thời gian downtime dài
+23
 
-- Dữ liệu không đồng nhất
 
-- Thiếu quy trình chuẩn hóa
+<!-- page 24 -->
 
-## 5. 4. Các xu hướng công nghệ trong ATTT
+# 5.4. Các xu hướng công nghệ trong ATTT
 
-## 5. 4. 1 Sao lưu thông minh
+## 5.4.1 Sao lưu thông minh
 
-## 5. 4. 2 Bảo vệ chống ransomware
+## 5.4.2 Bảo vệ chống ransomware
 
-## 5. 4. 3 Điện toán đám mây và đa đám mây
+## 5.4.3 Điện toán đám mây và đa đám mây
 
-## 5. 4. 4 Tự động hóa và Orchestration
+## 5.4.4 Tự động hóa và Orchestration
 
-## 5. 4. 5 Zero Trust trong sao lưu
+## 5.4.5 Zero Trust trong sao lưu
+......
 
-……
 
- Thank You !
+<!-- page 25 -->
 
-www.themegallery.com
+# Thank You !

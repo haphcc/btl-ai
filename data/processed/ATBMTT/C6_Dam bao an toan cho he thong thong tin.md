@@ -1,727 +1,973 @@
-# 
+# C6_Dam bao an toan cho he thong thong tin
 
-## Nội dung chính
 
-## Đảm bảo an toàn bằng mô hình nhiều lớp
 
-## 6. 1
+<!-- page 1 -->
 
-Các kiến trúc an toàn cho HTTT
+HỌC VIỆN NGÂN HÀNG
+KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 
-## 6. 2
+# CHƯƠNG VI
+# ĐẢM BẢO AN TOÀN CHO HỆ THỐNG THÔNG TIN
 
-## Một số giải pháp an toàn cho HTTT
 
-## 6. 3
+<!-- page 2 -->
 
-## 6. 4
+# Nội dung
 
-## Một số giải pháp an toàn cho người dùng
+- **6.1** Đảm bảo an toàn bằng mô hình nhiều lớp
+- **6.2** Các kiến trúc an toàn cho HTTT
+- **6.3** Một số giải pháp an toàn cho HTTT
+- **6.4** Một số giải pháp an toàn cho người dùng
 
-## 6. 1. Đảm bảo an toàn bằng mô hình nhiều lớp
 
-## 6. 1. 1 Khái niệm
+<!-- page 3 -->
 
-- Khái niệm: là chiến lược thiết kếan toàn thông tin dựa trên việc xây dựng nhiều lớp phòng thủđộc lập nhưng bổtrợlẫn nhau. Khi một lớp bịvượt qua, các lớp khác vẫn tiếp tục bảo vệhệthống
+# 6.1. Đảm bảo an toàn bằng mô hình nhiều lớp
 
-- Nguyên lý cốt lõi:
+## 6.1.1 Khái niệm
 
-- Không tin tưởng bất kỳ thành phần nào
+- **Khái niệm**: là chiến lược thiết kế an toàn thông tin dựa trên việc xây dựng nhiều lớp phòng thủ độc lập nhưng bổ trợ lẫn nhau. Khi một lớp bị vượt qua, các lớp khác vẫn tiếp tục bảo vệ hệ thống
+- **Nguyên lý cốt lõi**:
+    - Không tin tưởng bất kỳ thành phần nào
+    - Giả định hệ thống có thể bị xâm nhập
+    - Tăng chi phí và độ phức tạp cho kẻ tấn công
 
-- Giả định hệ thống có thể bị xâm nhập
 
-- Tăng chi phí và độ phức tạp cho kẻ tấn công
+<!-- page 4 -->
 
-## 6. 1. Đảm bảo an toàn bằng mô hình nhiều lớp
+# 6.1. Đảm bảo an toàn bằng mô hình nhiều lớp
 
-## 6. 1. 2 Các lớp trong mô hình bảo mật nhiều lớp
+## 6.1.2 Các lớp trong mô hình bảo mật nhiều lớp
 
-- Lớp vật lý (Physical Security):
+### **Lớp vật lý (Physical Security):**
 
 - Kiểm soát truy cập vật lý
-
 - Camera giám sát, hệ thống báo động
-
 - Bảo vệ trung tâm dữ liệu (Data Center)
 
-## Mục tiêu: Ngăn chặn truy cập trái phép vào hạ tầng
+**Mục tiêu:** Ngăn chặn truy cập trái phép vào hạ tầng phần cứng
 
-phần cứng
 
-## 6. 1. Đảm bảo an toàn bằng mô hình nhiều lớp
+<!-- page 5 -->
 
-## 6. 1. 2 Các lớp trong mô hình bảo mật nhiều lớp
+# 6.1. Đảm bảo an toàn bằng mô hình nhiều lớp
 
-- Lớp mạng (Network Security):
+## 6.1.2 Các lớp trong mô hình bảo mật nhiều lớp
 
-- Tường lửa
+- **Lớp mạng (Network Security):**
+    - Tường lửa
+    - Hệ thống phát hiện xử lý xâm nhập (IDS/IPS)
+    - VPN, phân loại đoạn mạng
 
-- Hệ thống phát hiện xử lý xâm nhập (IDS/IPS)
+**Mục tiêu: Ngăn chặn truy cập trái phép và kiểm soát lưu lượng mạng**
 
-- VPN, phân loại đoạn mạng
 
-## Mục tiêu: Ngăn chặn truy cập trái phép và kiểm soát
+<!-- page 6 -->
 
-lưu lượng mạng
+# 6.1. Đảm bảo an toàn bằng mô hình nhiều lớp
 
-## 6. 1. Đảm bảo an toàn bằng mô hình nhiều lớp
+## 6.1.2 Các lớp trong mô hình bảo mật nhiều lớp
 
-## 6. 1. 2 Các lớp trong mô hình bảo mật nhiều lớp
+### Lớp hệ thống (Hot/Endpoint Security):
 
-- Lớp hệ thống (Host/Endpoint Security):
+- **Antivirus/EDR**
+- **Quản lý các bản vá**
+- **Cấu hình hệ điều hành an toàn**
 
-- Antivirus/EDR
+**Mục tiêu: Bảo vệ máy chủ, máy trạm khỏi mã độc và khai thác lỗ hổng**
 
-- Quản lý các bản vá
 
-- Cấu hình hệ điều hành an toàn
+<!-- page 7 -->
 
-## Mục tiêu: Bảo vệ máy chủ, máy trạm khỏi mã độc và
+# 6.1. Đảm bảo an toàn bằng mô hình nhiều lớp
 
-khai thác lỗ hổng
+## 6.1.2 Các lớp trong mô hình bảo mật nhiều lớp
 
-## 6. 1. Đảm bảo an toàn bằng mô hình nhiều lớp
-
-## 6. 1. 2 Các lớp trong mô hình bảo mật nhiều lớp
-
-- Lớp ứng dụng (Host/Endpoint Security):
+### Lớp ứng dụng (Hot/Endpoint Security):
 
 - Kiểm tra bảo mật ứng dụng (SAST, DAST)
-
 - Xác thực và phân quyền
-
 - Bảo vệ API
 
-## Mục tiêu: Ngăn chặn các lỗ hổng như SQL injection,
+**Mục tiêu:** Ngăn chặn các lỗ hổng như SQL injection, XSS
 
-XSS
 
-## 6. 1. Đảm bảo an toàn bằng mô hình nhiều lớp
+<!-- page 8 -->
 
-## 6. 1. 2 Các lớp trong mô hình bảo mật nhiều lớp
+# 6.1. Đảm bảo an toàn bằng mô hình nhiều lớp
 
-- Lớp dữ liệu(Data Security):
+## 6.1.2 Các lớp trong mô hình bảo mật nhiều lớp
+
+- **Lớp dữ liệu (Data Security):**
 
 - Mã hóa dữ liệu (Encryption at rest & in transit)
-
 - Quản lý khóa (Key Management)
-
 - Phân loại và kiểm soát truy cập dữ liệu
 
-## Mục tiêu: Bảo vệ dữ liệu - Tài sản quan trọng nhất
+**Mục tiêu: Bảo vệ dữ liệu – Tài sản quan trọng nhất**
 
-## 6. 1. Đảm bảo an toàn bằng mô hình nhiều lớp
 
-## 6. 1. 2 Các lớp trong mô hình bảo mật nhiều lớp
+<!-- page 9 -->
 
-- Lớp con người (human layer):
+# 6.1. Đảm bảo an toàn bằng mô hình nhiều lớp
+
+## 6.1.2 Các lớp trong mô hình bảo mật nhiều lớp
+
+❖ **Lớp con người (human layer):**
 
 - Đào tạo nhận thức an toàn thông tin
-
 - Chính sách và quy trình
-
 - Kiểm soát nội bộ
 
-## Mục tiêu: Giảm thiểu rủi ro từ con người - mắt xích
+**Mục tiêu: Giảm thiểu rủi ro từ con người – mắt xích yếu nhất**
 
-yếu nhất
 
-## 6. 1. Đảm bảo an toàn bằng mô hình nhiều lớp
+<!-- page 10 -->
 
-## 6. 1. 2 Các lớp trong mô hình bảo mật nhiều lớp
+# 6.1. Đảm bảo an toàn bằng mô hình nhiều lớp
 
-- Lớp giám sát và phản ứng (Monitor & Response):
+## 6.1.2 Các lớp trong mô hình bảo mật nhiều lớp
 
-- SOC (Security Operations Center)
+- **Lớp giám sát và phản ứng (Monitor & Response):**
+    - SOC (Security Operations Center)
+    - SIEM, SOAR
+    - Kiểm soát nội bộ
 
-- SIEM, SOAR
+**Mục tiêu: Phát hiện sớm, phản ứng nhanh và giảm thiểu thiệt hại**
 
-- Kiểm soát nội bộ
 
-## Mục tiêu: Phát hiện sớm, phản ứng nhanh và giảm
+<!-- page 11 -->
 
-thiểu thiệt hại
+# 6.1. Đảm bảo an toàn bằng mô hình nhiều lớp
 
-## 6. 1. Đảm bảo an toàn bằng mô hình nhiều lớp
+## 6.1.3 Mô hình minh họa kiến trúc nhiều lớp
 
-## 6. 1. 3 Mô hình minh họa kiến trúc nhiều lớp
+**MÔ HÌNH BẢO MẬT NHIỀU LỚP**
+**(Defense in Depth)**
 
-## 6. 1. Đảm bảo an toàn bằng mô hình nhiều lớp
+### NGƯỜI DÙNG (USERS)
+- Nhân viên nội bộ
+- Khách hàng / Đối tác
 
-## 6. 1. 3 Mô hình minh họa kiến trúc nhiều lớp
+### KIỂM SOÁT TRUY CẬP (IAM)
+- Xác thực đa yếu tố (MFA)
+- Single Sign-On (SSO)
+- Quản lý danh tính
 
-## 6. 1. Đảm bảo an toàn bằng mô hình nhiều lớp
+### BIÊN MẠNG (PERIMETER)
+- Firewall / WAF
+- Anti-DDoS
+- VPN Gateway
 
-## 6. 1. 4 Ưu điểm của mô hình nhiều lớp
+### PHÂN ĐOẠN MẠNG (NETWORK ZONES)
+- DMZ
+- Internal Network
+- IDS / IPS
+- Network Segmentation
 
-- Tăng khả năng phòng thủ
+### HỆ THỐNG (ENDPOINT / SERVER)
+- EDR / XDR
+- Patch Management
+- Privilege Control
 
-- Giảm thiểu rủi ro đơn điểm
+### ỨNG DỤNG (APPLICATION)
+- Secure Development
+- SAST / DAST
+- API Security
 
-- Phát hiện sớm và phản ứng nhanh
+### GIÁM SÁT & PHẢN ỨNG (SECURITY MONITORING)
+- SOC / SIEM / SOAR
+- Phân tích hành vi (UEBA)
+- Incident Response
 
-- Tuân thủ tiêu chuẩn (ISO27001, NIST, CIS)
+### QUẢN TRỊ & NHẬN THỨC (GOVERNANCE & AWARENESS)
+- Chính sách bảo mật
+- Đào tạo an ninh
 
-## 6. 1. Đảm bảo an toàn bằng mô hình nhiều lớp
 
-## 6. 1. 5 Thách thức khi triển khai
+<!-- page 12 -->
 
-- Chi phí cao: Công nghệ + Vận hành
+# 6.1. Đảm bảo an toàn bằng mô hình nhiều lớp
 
-- Phức tạp trong quản lý
+## 6.1.3 Mô hình minh họa kiến trúc nhiều lớp
 
-- Cần tích hợp giữa các hệ thống
+- **Physical controls**
+    - Perimeter security
+    - Monitoring systems
+    - Environmental protections
+- **Administrative control**
+    - Training awareness
+    - Incident response plans
+    - Policies & procedures
+    - Vendor & supply chain management
+- **Technical control**
+    - Accsess control mechanisms
+    - Network security
+    - Access management
+    - Host security
+    - Data security
 
-- Đòi hỏi nhân lực có chuyên môn
 
-## 6. 2. Các kiến trúc an toàn cho HTTT
+<!-- page 13 -->
 
-## 6. 2. 1 Kiến trúc phòng thủ nhiều lớp
+# 6.1. Đảm bảo an toàn bằng mô hình nhiều lớp
 
-- Đặc điểm: triển khai nhiều lớp bảo vệ
+## 6.1.4 Ưu điểm của mô hình nhiều lớp
 
-- Thành phần
+- **Tăng khả năng phòng thủ**
 
-- Tường lửa, IDS/IPS
+- **Giảm thiểu rủi ro đơn điểm**
 
-- Endpoint Security
+- **Phát hiện sớm và phản ứng nhanh**
 
-- Application Security
+- **Tuân thủ tiêu chuẩn (ISO27001, NIST, CIS)**
 
-- Data Encryption
 
-- Ưu điểm: Giảm thiểu rủi ro tổng thể, tăng khả năng phát hiện tấn công
+<!-- page 14 -->
 
-## 6. 2. Các kiến trúc an toàn cho HTTT
+# 6.1. Đảm bảo an toàn bằng mô hình nhiều lớp
 
-## 6. 2. 2 Kiến trúc Zero Trust
+## 6.1.5 Thách thức khi triển khai
 
-- Đặc điểm: Không tin ai, xác thực liên tục
+- **Chi phí cao: Công nghệ + Vận hành**
+- **Phức tạp trong quản lý**
+- **Cần tích hợp giữa các hệ thống**
+- **Đòi hỏi nhân lực có chuyên môn**
 
-- Thành phần
 
-- IAM - quản lý danh tính và quyền truy cập
+<!-- page 15 -->
 
-- MFA - Xác thực đa nhân tố
+# 6.2. Các kiến trúc an toàn cho HTTT
 
-- Microsegmentation
+## 6.2.1 Kiến trúc phòng thủ nhiều lớp
 
-- Ưu điểm: Phù hợp với môi trường Cloud, ngăn chặn Lateral Movement
+- **Đặc điểm:** triển khai nhiều lớp bảo vệ
+- **Thành phần**
+    - Tường lửa, IDS/IPS
+    - Endpoint Security
+    - Application Security
+    - Data Encrytion
+- **Ưu điểm:** Giảm thiểu rủi ro tổng thể, tăng khả năng phát hiện tấn công
 
-## 6. 2. Các kiến trúc an toàn cho HTTT
 
-## 6. 2. 3 Kiến trúc Phân vùng mạng
+<!-- page 16 -->
 
-- Mô hình: Internet -> DMZ -> Internal Network -> Security Zone
+# 6.2. Các kiến trúc an toàn cho HTTT
 
-- Kỹ thuật
+## 6.2.2 Kiến trúc Zero Trust
 
-- VLAN
+- **Đặc điểm:** Không tin ai, xác thực liên tục
+- **Thành phần**
+    - IAM – quản lý danh tính và quyền truy cập
+    - MFA – Xác thực đa nhân tố
+    - Microsegmentation
 
-- Subnet
+- **Ưu điểm:** Phù hợp với môi trường Cloud, ngăn chặn Lateral Movement
 
-- Firewall nội bộ
 
-- Mục tiêu: Cô lập hệ thống quan trọng, giảm phạm vi ảnh hưởng khi bị tấn công
+<!-- page 17 -->
 
-## 6. 2. Các kiến trúc an toàn cho HTTT
+# 6.2. Các kiến trúc an toàn cho HTTT
 
-## 6. 2. 4 Kiến trúc SOC
+## 6.2.3 Kiến trúc Phân vùng mạng
 
-- Thành phần: SIEM, SOAR, Threat Intelligence
+- **Mô hình:** Internet -> DMZ -> Internal Network -> Security Zone
+- **Kỹ thuật**
+    - VLAN
+    - Subnet
+    - Firewall nội bộ
+- **Mục tiêu:** Cô lập hệ thống quan trọng, giảm phạm vi ảnh hưởng khi bị tấn công
 
-- Chức năng: Giám sát 24/7, phát hiện và phản ứng sự cố
 
-- Đặc điểm:
+<!-- page 18 -->
 
-- Là lớp giám sát ngang
+# 6.2. Các kiến trúc an toàn cho HTTT
 
-- Tích hợp với các hệ thống khác
+## 6.2.4 Kiến trúc SOC
 
-## 6. 2. Các kiến trúc an toàn cho HTTT
+- **Thành phần:** SIEM, SOAR, Threat Intelligence
 
-## 6. 2. 5 Kiến trúc bảo mật dữ liệu
+- **Chức năng:** Giám sát 24/7, phát hiện và phản ứng sự cố
 
-- Trọng tâm: Dữ liệu là tài sản quan trọng nhất
+- **Đặc điểm:**
 
-- Thành phần: Encryption, Data Masking, DLP
+    - Là lớp giám sát ngang
 
-- Áp dụng: Ngân hàng, y tế, chính phủ
+    - Tích hợp với các hệ thống khác
 
-## 6. 2. Các kiến trúc an toàn cho HTTT
 
-## 6. 2. 6 Kiến trúc bảo mật Cloud
+<!-- page 19 -->
 
-- Mô hình: Shared Responsibility Model
+# 6.2. Các kiến trúc an toàn cho HTTT
 
-- Thành phần: CSPM, CWPP, CASB
+## 6.2.5 Kiến trúc bảo mật dữ liệu
 
-- Đặc điểm:
+- **Trọng tâm:** Dữ liệu là tài sản quan trọng nhất
+- **Thành phần:** Encryption, Data Masking, DLP
+- **Áp dụng:** Ngân hàng, y tế, chính phủ
 
-- Linh hoạt, mở rộng cao
+19
 
-- Rủi ro cấu hình sai
 
-## 6. 2. Các kiến trúc an toàn cho HTTT
+<!-- page 20 -->
 
-## 6. 2. 7 Kiến trúc XDR (Extended Detection &
+# 6.2. Các kiến trúc an toàn cho HTTT
 
-Response)
+## 6.2.6 Kiến trúc bảo mật Cloud
 
-- Phát triển từ: EDR → NDR → XDR
+- **Mô hình: Shared Responsibility Model**
 
-- Chức năng: Thu thập dữ liệu từ Endpoint, Network, Email, Cloud
+- **Thành phần: CSPM, CWPP, CASB**
 
-- Ưu điểm:
+- **Đặc điểm:**
 
-- Phát hiện tấn công đa điểm
+    - Linh hoạt, mở rộng cao
+    - Rủi ro cấu hình sai
 
-- Tự động hóa phản ứng
 
-## 6. 2. Các kiến trúc an toàn cho HTTT
+<!-- page 21 -->
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+# 6.2. Các kiến trúc an toàn cho HTTT
 
-- Secure socket layer (SSL) cung cấp dịch vụ an toàn giữa TCP và ứng dụng dùng TCP.
+## 6.2.7 Kiến trúc XDR (Extended Detection & Response)
 
-- Transport layer service (TLS) là phiên bản tiêu chuẩn Internet.
+- **Phát triển từ:** EDR $\rightarrow$ NDR $\rightarrow$ XDR
 
-- SSL/TLS dùng mã hóa mã hóa đối xứng và mã chứng thực message
+- **Chức năng:** Thu thập dữ liệu từ Endpoint, Network, Email, Cloud
 
-## 6. 3. 1. An toàn Web
+- **Ưu điểm:**
+    - **Phát hiện tấn công đa điểm**
+    - **Tự động hóa phản ứng**
 
-## 6. 3. 1. 1 Tổng quan về các giao thức bảo mật trên Web
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+<!-- page 22 -->
 
-## 6. 3. 1. An toàn Web
+# 6.2. Các kiến trúc an toàn cho HTTT
 
-## 6. 3. 1. 1 Tổng quan về các giao thức bảo mật trên Web
+| Kiến trúc | Trọng tâm | Phù hợp |
+| :--- | :--- | :--- |
+| Defense in Depth | Lớp bảo vệ | Mọi hệ thống |
+| Zero Trust | Danh tính | Cloud, hybrid |
+| Network Segmentation | Mạng | Data center |
+| SOC | Giám sát | Doanh nghiệp lớn |
+| Data-Centric | Dữ liệu | Ngân hàng |
+| Cloud Security | Hạ tầng cloud | SaaS/IaaS |
+| XDR | Phát hiện nâng cao | SOC hiện đại |
 
-- SSL/TLS bao gồm những kỹ thuật về giao thức để cung cấp dịch vụ an toàn.
+22
 
-- Secure electronic transaction (SET) là một đặc tả an toàn và mã hóa mở cho phép giao dịch bằng thẻ tín dụng trong Internet
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+<!-- page 23 -->
 
-## 6. 3. 1. An toàn Web
+# 6.3. Một số giải pháp an toàn cho HTTP
 
-## 6. 3. 1. 2 Thách thức về Internet
+## 6.3.1. An toàn Web
+### 6.3.1.1 Tổng quan về các giao thức bảo mật trên Web
 
-- Internet với môi trường phức tạp, tương tác dễ bị tấn công.
+- **Secure socket layer (SSL)** cung cấp dịch vụ an toàn giữa TCP và ứng dụng dùng TCP.
+- **Transport layer service (TLS)** là phiên bản tiêu chuẩn Internet.
+- **SSL/TLS** dùng mã hóa mã hóa đối xứng và mã chứng thực message
 
-- Web cung cấp thông tin và giao dịch thương mại, nếu bị tấn công sẽ gây ra thiệt hại lớn.
 
-- Những phần mềm dùng trong Web phức tạp và chứa đựng nhiều rủi ro về an toàn, có nhiều loại tấn công đã được sử dụng
+<!-- page 24 -->
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-## 6. 3. 1. An toàn Web
+## 6.3.1. An toàn Web
+### 6.3.1.1 Tổng quan về các giao thức bảo mật trên Web
 
-## 6. 3. 1. 2 Thách thức về Internet
+- **SSL/TLS** bao gồm những kỹ thuật về giao thức để cung cấp dịch vụ an toàn.
+- **Secure electronic transaction (SET)** là một đặc tả an toàn và mã hóa mở cho phép giao dịch bằng thẻ tín dụng trong Internet.
 
-- Web server là nơi có thể bị khai thác để xâm nhập vào hệ thống.
+24
 
-- Hầu hết người sử dụng dịch vụ Web là những người không thông thạo và không được huấn luyện
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+<!-- page 25 -->
 
-## 6. 3. 1. An toàn Web
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-## 6. 3. 1. 3 Kiến trúc SSL
+## 6.3.1. An toàn Web
+## 6.3.1.2 Thách thức về Internet
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+- **Internet** với môi trường phức tạp, tương tác dễ bị tấn công.
+- **Web** cung cấp thông tin và giao dịch thương mại, nếu bị tấn công sẽ gây ra thiệt hại lớn.
+- Những **phần mềm** dùng trong **Web** phức tạp và chứa đựng nhiều rủi ro về an toàn, có nhiều loại tấn công đã được sử dụng.
 
-## 6. 3. 1. An toàn Web
 
-## 6. 3. 1. 3 Kiến trúc SSL
+<!-- page 26 -->
 
-- SSL Record Protocol
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-- Dịch vụ cung cấp: cung cấp 2 dịch vụ:
+## 6.3.1. An toàn Web
+## 6.3.1.2 Thách thức về Internet
+
+- **Web server** là nơi có thể bị khai thác để xâm nhập vào hệ thống.
+
+- Hầu hết người sử dụng dịch vụ Web là những người không thông thạo và không được huấn luyện.
+
+26
+
+
+<!-- page 27 -->
+
+# 6.3. Một số giải pháp an toàn cho HTTP
+
+## 6.3.1. An toàn Web
+## 6.3.1.3 Kiến trúc SSL
+
+| SSL Handshake Protocol | SSL Change Cipher Spec Protocol | SSL Alert Protocol | HTTP |
+| :--- | :--- | :--- | :--- |
+| **SSL Record Protocol** |
+| **TCP** |
+| **IP** |
+
+
+<!-- page 28 -->
+
+# 6.3. Một số giải pháp an toàn cho HTTT
+
+## 6.3.1. An toàn Web
+## 6.3.1.3 Kiến trúc SSL
+### SSL Record Protocol
+
+- **Dịch vụ cung cấp: cung cấp 2 dịch vụ:**
 
 - Tin cậy (Confidentiality): giao thức bắt tay xác định một khóa bí mật chia sẻ mà được dùng cho cho việc mã hóa thông thường.
 
 - Toàn vẹn thông điệp (Message Integrity): giao thức bắt tay xác định một khóa bí mật chia sẻ mà được dùng để hình thành một MAC (message authentication code)
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
 
-## 6. 3. 1. An toàn Web
+<!-- page 29 -->
 
-## 6. 3. 1. 3 Kiến trúc SSL
+# 6.3. Một số giải pháp an toàn cho HTTP
 
-- SSL Record Protocol
+## 6.3.1. An toàn Web
+## 6.3.1.3 Kiến trúc SSL
+### SSL Record Protocol
+- **Hoạt động:**
 
-- Hoạt động:
+| Bước | Mô tả |
+| :--- | :--- |
+| Application data | Dữ liệu ứng dụng |
+| Fragment | Phân mảnh |
+| Compress | Nén |
+| Add MAC | Thêm mã xác thực thông điệp (MAC) |
+| Encrypt | Mã hóa |
+| Append SSL record header | Thêm tiêu đề bản ghi SSL |
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
 
-## 6. 3. 1. An toàn Web
+<!-- page 30 -->
 
-## 6. 3. 1. 3 Kiến trúc SSL
+# 6.3. Một số giải pháp an toàn cho HTTP
 
-- SSL Record Protocol
+## 6.3.1. An toàn Web
+## 6.3.1.3 Kiến trúc SSL
+### SSL Record Protocol
+- **Định dạng của SSL Record:**
 
-- Định dạng của SSL Record:
+| Content type | Major version | Minor version | Compressed length |
+| :--- | :--- | :--- | :--- |
+| **Encrypted** | | | |
+| | | Plaintext (optionally compressed) | |
+| | | MAC (0, 16, or 20 bytes) | |
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
 
-## 6. 3. 1. An toàn Web
+<!-- page 31 -->
 
-## 6. 3. 1. 3 Kiến trúc SSL
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-- Change Cipher Spec Protocol Mục đích duy nhất của Msg này là để gây ra trạng thái chờ để được copy vào trạng thái hiện hành
+## 6.3.1. An toàn Web
+## 6.3.1.3 Kiến trúc SSL
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+- **Change Cipher Spec Protocol**
+    Mục đích duy nhất của Msg này là để gây ra trạng thái chờ để được copy vào trạng thái hiện hành
 
-## 6. 3. 1. An toàn Web
+| 1 byte |
+| :---: |
+| 1 |
+**Change Cipher Spec Protocol**
 
-## 6. 3. 1. 3 Kiến trúc SSL
 
-- Alert Protocol
+<!-- page 32 -->
 
-- Byte đầu tiên nhận giá trị warning (1) hay fatal (2).
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-Nếu fatal SSL ngay lập tức kết thúc kết nối, các kết nối khác cùng session có thể tiếp tục nhưng không có kết nối mới nào trong session này được thành lập
+## 6.3.1. An toàn Web
+## 6.3.1.3 Kiến trúc SSL
 
-- Byte thứhai chứa một mã mà xác định cảnh báo đặc trưng
+- **Alert Protocol**
+    - Byte đầu tiên nhận giá trị warning (1) hay fatal (2). Nếu fatal SSL ngay lập tức kết thúc kết nối, các kết nối khác cùng session có thể tiếp tục nhưng không có kết nối mới nào trong session này được thành lập.
+    - Byte thứ hai chứa một mã mà xác định cảnh báo đặc trưng.
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+| 1 byte | 1 byte |
+| :--- | :--- |
+| Level | Alert |
 
-## 6. 3. 1. An toàn Web
+(b) Alert Protocol
 
-## 6. 3. 1. 3 Kiến trúc SSL
 
-- Handshake Protocol (Giao thức bắt tay)
+<!-- page 33 -->
 
-- Là phần phức tạp nhất của SSL
+# 6.3. Một số giải pháp an toàn cho HTTP
 
-- Giao thức này cho phép client vàserver chứng thực lẫn nhau và giao tiếp để xác định việc mã hóa, giải thuật MAC và khóa mã hóa được dùng để bảo vệ dữ liệu gởi trong record SSL
+## 6.3.1. An toàn Web
 
-- Giao thức bắt tay được dùng trước khi dữ liệu ứng dụng được truyền
+## 6.3.1.3 Kiến trúc SSL
 
-- Giao thức bắt tay http: //datasecurity.vn/images/stories/thumbnails/images-stories-ssl 4-222 x 482.gif 1: Xác định phiên bản cao nhất của giao thức SSL/TLS, một mã số ngẫu nhiên, một danh sách các bộ mật mã và phương pháp nén 2: Gồm phiên bản giao thức được chọn, mã sốngẫu nhiên, bộmật mã và phương pháp nén từlựa chọn được khách hàng đưa ra. Có thểgửi một phiên id làm phần tin nhắn thực hiện quá trình thương lượng nối tiếp 3: Yêu cầu giấy chứng nhận từkhách hàng đểkết nối có thểđược cảhai bên chứng thực, sửdụng tin nhắn CertificateRequest
+### Handshake Protocol (Giao thức bắt tay)
 
- http: //datasecurity.vn/images/stories/thumbnails/images-stories-ssl 4-222 x 482.gif 4: Cho biết nó đã thực hiện quá trình thương lượng. Khách hàng phản hồi bằng tin nhắn Certificate có chứa giấy chứng nhận của khách hàng 5: Có thểcó chứa PreMasterSecret, khóa công cộng hoặc không có gì.
+- Là phần phức tạp nhất của SSL.
+- Giao thức này cho phép client và server chứng thực lẫn nhau và giao tiếp để xác định việc mã hóa, giải thuật MAC và khóa mã hóa được dùng để bảo vệ dữ liệu gửi trong record SSL.
+- Giao thức bắt tay được dùng trước khi dữ liệu ứng dụng được truyền.
 
-PreMasterSecret được mã hóa bằng cách sửdụng khóa công cộng của giấy chứng nhận máy chủ Client gửi tin nhắn CertificateVerify, nó là một chữký trên các tin nhắn trước có sửdụng khóa cá nhân trong giấy chứng nhận của khách hàng.
 
-Điều này sẽgiúp cho máy chủbiết được khách hàng truy cập vào khóa cá nhân và sởhữu giấy chứng nhận đó
+<!-- page 34 -->
 
- http: //datasecurity.vn/images/stories/thumbnails/images-stories-ssl 4-222 x 482.gif Sau đó, khách hàng và máy chủsẽ sử dụng các số ngẫu nhiên và PreMasterSecret đểtính toán bí mật chung, được gọi là "master secret" (bí mật chính). Tất cảcác dữliệu khóa khác được sửdụng cho kết nối này đều xuất phát từbí mật chính này (các giá trịngẫu nhiên được khách hàng và máy chủtạo ra), thông qua một “hàm giảngẫu nhiên” được thiết kếmột cách cẩn trọng 6: Chủyếu đểcho máy chủbiết rằng:
+## Giao thức bắt tay
 
-"Từbây giờ, mọi điều mà tôi nói với bạn đều sẽđược chứng thực (và được mã hóa nếu có thương lượng vềđiều đó)."
+1: Xác định phiên bản cao nhất của giao thức SSL/TLS, một mã số ngẫu nhiên, một danh sách các bộ mật mã và phương pháp nén
 
- http: //datasecurity.vn/images/stories/thumbnails/images-stories-ssl 4-222 x 482.gif 7: Tin nhắn Finished đã mã hóa, nó có chứa một giá trịbăm và MAC trên các tin nhắn thương lượng trước 8: Server giải mã tin nhắn Finished của khách hang và xác nhận giá trịbăm cùng MAC đó.
+2: Gồm phiên bản giao thức được chọn, mã số ngẫu nhiên, bộ mật mã và phương pháp nén từ lựa chọn được khách hàng đưa ra. Có thể gửi một phiên id làm phần tin nhắn thực hiện quá trình thương lượng nối tiếp
 
-Cho khách hàng biết " Từbây giờ, mọi điều mà tôi nói với bạn đều sẽđược chứng thực (và được mã hóa nếu có thương lượng vềđiều đó)”.
+3: Yêu cầu giấy chứng nhận từ khách hàng để kết nối có thể được cả hai bên chứng thực, sử dụng tin nhắn *CertificateRequest*
 
-9: Tin nhắn Finished mã hóa của chính mình.
+---
 
-Khách hàng thực hiện sựgiải mã và xác nhận tương tự Tại thời điểm này quá trình thương lượng được hoàn tất.
+**Hình ảnh minh họa các bước:**
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+1. Client Hello
+2. Server Hello
+3. Certificate
+4. Server Hello Done
+5. Client Key Exchange
+6. Change Cipher Spec
+7. Finished
+8. Change Cipher Spec
+9. Finished
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
 
-## 6. 3. 2. 1 Định nghĩa
+<!-- page 35 -->
 
-- Giao dịch điện tử an toàn (SET) là một mã hóa mã và đặc tả thiết kế an toàn được thiết kế để bảo vệ giao dịch bằng thẻ tín dụng trên Internet.
+4: Cho biết nó đã thực hiện quá trình thương lượng. Khách hàng phản hồi bằng tin nhắn *Certificate* có chứa giấy chứng nhận của khách hàng
 
-- SET không phải là hệ thống thanh toán. Nó là một tập những giao thức an ninh và định dạng mà cho phép người dùng sử dụng phương tiện thanh toán thẻ tín dụng tồn tại trên một mạng mở, như Internet trong một cách thức an toàn
+5: Có thể có chứa PreMasterSecret, khóa công cộng hoặc không có gì. PreMasterSecret được mã hóa bằng cách sử dụng khóa công cộng của giấy chứng nhận máy chủ. Client gửi tin nhắn *CertificateVerify*, nó là một chữ ký trên các tin nhắn trước có sử dụng khóa cá nhân trong giấy chứng nhận của khách hàng. Điều này sẽ giúp cho máy chủ biết được khách hàng truy cập vào khóa cá nhân và sở hữu giấy chứng nhận đó.
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+1. Client Hello
+2. Server Hello
+3. Certificate
+4. Server Hello Done
+5. Client Key Exchange
+6. Change Cipher Spec
+7. Finished
+8. Change Cipher Spec
+9. Finished
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+35
 
-## 6. 3. 2. 2 Các dịch vụ của SET
+
+<!-- page 36 -->
+
+Sau đó, khách hàng và máy chủ sẽ sử dụng các số ngẫu nhiên và PreMasterSecret để tính toán bí mật chung, được gọi là "**master secret**" (bí mật chính). Tất cả các dữ liệu khóa khác được sử dụng cho kết nối này đều xuất phát từ bí mật chính này (các giá trị ngẫu nhiên được khách hàng và máy chủ tạo ra), thông qua một “hàm giả ngẫu nhiên” được thiết kế một cách cẩn trọng.
+
+6: Chủ yếu để cho máy chủ biết rằng: "Từ bây giờ, mọi điều mà tôi nói với bạn đều sẽ được chứng thực (và được mã hóa nếu có thương lượng về điều đó)."
+
+1. Client Hello
+2. Server Hello
+3. Certificate
+4. Server Hello Done
+5. Client Key Exchange
+6. Change Cipher Spec
+7. Finished
+8. Change Cipher Spec
+9. Finished
+
+36
+
+
+<!-- page 37 -->
+
+- 7: Tin nhắn *Finished* đã mã hóa, nó có chứa một giá trị băm và MAC trên các tin nhắn thương lượng trước
+- 8: Server giải mã tin nhắn *Finished* của khách hàng và xác nhận giá trị băm cùng MAC đó.
+Cho khách hàng biết "Từ bây giờ, mọi điều mà tôi nói với bạn đều sẽ được chứng thực (và được mã hóa nếu có thương lượng về điều đó)".
+- 9: Tin nhắn *Finished* mã hóa của chính mình.
+Khách hàng thực hiện sự giải mã và xác nhận tương tự
+
+Tại thời điểm này quá trình thương lượng được hoàn tất.
+
+**Hình ảnh minh họa quy trình:**
+1. Client Hello
+2. Server Hello
+3. Certificate
+4. Server Hello Done
+5. Client Key Exchange
+6. Change Cipher Spec
+7. Finished
+8. Change Cipher Spec
+9. Finished
+
+37
+
+
+<!-- page 38 -->
+
+# 6.3. Một số giải pháp an toàn cho HTTT
+
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+
+### 6.3.2.1 Định nghĩa
+
+- **Giao dịch điện tử an toàn (SET)** là một mã hóa mã và đặc tả thiết kế an toàn được thiết kế để bảo vệ giao dịch bằng thẻ tín dụng trên Internet.
+- **SET** không phải là hệ thống thanh toán. Nó là một tập những giao thức an ninh và định dạng mà cho phép người dùng sử dụng phương tiện thanh toán thẻ tín dụng tồn tại trên một mạng mở, như Internet trong một cách thức an toàn
+
+
+<!-- page 39 -->
+
+# 6.3. Một số giải pháp an toàn cho HTTT
+
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+### 6.3.2.2 Các dịch vụ của SET
 
 - Cung cấp một kênh truyền thông an ninh giữa tất cả các người tham gia trong một giao dịch.
 
-- Cung cấp sự tin cậy bằng cách sử dụng chứng nhận sốX. 509 v 3
+- Cung cấp sự tin cậy bằng cách sử dụng chứng nhận số X.509v3
 
 - Bảo đảm tính riêng tư do thông tin chỉ sẵn có cho những người tham gia trong giao dịch khi nào cần thiết và ở nơi cần thiết
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+<!-- page 40 -->
 
-## 6. 3. 2. 3 Các yêu cầu của SET
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-- Cung cấp sự tin tưởng cho người trả và thông tin.
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+### 6.3.2.3 Các yêu cầu của SET
 
-- Bảo đảm sự toàn vẹn của tất cả thông tin truyền.
+- Cung cấp **sự tin tưởng** cho người trả và thông tin.
 
-- Cung cấp sự chứng thực cho cardholder là người dùng hợp pháp của tài khoản thẻ tín dụng
+- **Bảo đảm sự toàn vẹn** của tất cả thông tin truyền.
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+- Cung cấp **sự chứng thực** cho cardholder là người dùng hợp pháp của tài khoản thẻ tín dụng.
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+40
 
-## 6. 3. 2. 3 Các yêu cầu của SET
 
-- Cung cấp sự chứng thực rằng người bán có thể giao dịch bằng thẻ tín dụng qua quan hệ của nó với một viện tài chánh.
+<!-- page 41 -->
 
+# 6.3. Một số giải pháp an toàn cho HTTT
+
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+
+### 6.3.2.3 Các yêu cầu của SET
+
+- Cung cấp sự chứng thực rằng người bán có thể giao dịch bằng thẻ tín dụng qua quan hệ của nó với một viện tài chính.
 - Bảo đảm việc dùng những phương cách an ninh thực tiễn tốt nhất và những kỹ thuật thiết kế hệ thống để bảo vệ tất cả những người tham gia hợp pháp trong giao dịch thương mại điện tử.
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+<!-- page 42 -->
 
-## 6. 3. 2. 3 Các yêu cầu của SET
+# 6.3. Một số giải pháp an toàn cho HTTT
+
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+## 6.3.2.3 Các yêu cầu của SET
 
 - Tạo ra một giao thức mà không phụ thuộc kỹ thuật an ninh vận chuyển cũng như không ngăn ngừa việc dùng chúng.
 
 - Thuận tiện và hỗ trợ khả năng tác động giữa phần mềm và mạng.
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+<!-- page 43 -->
 
-## 6. 3. 2. 4 Các đặc trưng khóa của SET
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-- Sự tin cậy của thông tin.
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+### 6.3.2.4 Các đặc trưng khóa của SET
 
-- Sự toàn vẹn của dữ liệu.
+- **Sự tin cậy của thông tin.**
+- **Sự toàn vẹn của dữ liệu.**
+- **Chứng thực tài khoản Cardholder**
+- **Chứng thực người bán**
 
-- Chứng thực tài khoản Cardholder
 
-- Chứng thực người bán
+<!-- page 44 -->
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+### 6.3.2.5 Các thành phần tham gia
 
-## 6. 3. 2. 5 Các thành phần tham gia
+- Cardholder
+- Internet
+- Merchant
+- Certificate Authority
+- Issuer
+- Payment Network
+- Acquirer
+- Payment Gateway
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+<!-- page 45 -->
 
-## 6. 3. 2. 6 Trình tự các sự kiện
+# 6.3. Một số giải pháp an toàn cho HTTT
+
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+### 6.3.2.6 Trình tự các sự kiện
 
 - Khách hàng mở một tài khoản.
-
 - Khách hàng nhận một chứng nhận.
+- Người bán có chứng nhận riêng của họ.
+- Khách hàng đặt một đơn hàng.
+- Người bán được kiểm tra.
 
-- Người bán có chứng nhận riêng của họ
 
-- Khách hàng đặt một đơn hàng
+<!-- page 46 -->
 
-- Người bán được kiểm tra
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+## 6.3.2. Giao dịch điện tử an toàn (SET)
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+### 6.3.2.6 Trình tự các sự kiện
 
-## 6. 3. 2. 6 Trình tự các sự kiện
+- **Đơn hàng và cách thức thanh toán được gởi.**
+- **Người bán yêu cầu sự cho phép thanh toán.**
+- **Người bán xác nhận đơn hàng**
+- **Người bán cung cấp hàng hóa và dịch vụ**
+- **Người bán yêu cầu thanh toán**
 
-- Đơn hàng và cách thức thanh toán được gởi.
 
-- Người bán yêu cầu sự cho phép thanh toán.
+<!-- page 47 -->
 
-- Người bán xác nhận đơn hàng
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-- Người bán cung cấp hàng hóa và dịch vụ
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+## 6.3.7 Xử lý thanh toán
 
-- Người bán yêu cầu thanh toán
+- **Yêu cầu mua (Purchase request).**
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+- **Cấp quyền thanh toán (Payment authorization)**
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+- **Đạt được thanh toán (Payment capture)**
 
-## 6. 3. 2. 7 Xử lý thanh toán
 
-- Yêu cầu mua (Purchase request).
+<!-- page 48 -->
 
-- Cấp quyền thanh toán (Payment authorization)
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-- Đạt được thanh toán (Payment capture)
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+## 6.3.2.7 Xử lý thanh toán
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+### Yêu cầu mua
+- Trao đổi yêu cầu mua gồm 4 Msg: **Initiate Request**, **Initiate Response**, **Purchase Request**, và **Purchase Response**.
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+- **Initiate Request**: bao gồm các thương hiệu của thẻ tín dụng mà khách hàng đang sử dụng; một ID giao cho cặp yêu cầu/đáp ứng này của khách hàng và một **nonce** sử dụng để đảm bảo kịp thời.
 
-## 6. 3. 2. 7 Xử lý thanh toán
 
-- Yêu cầu mua
+<!-- page 49 -->
 
-- Trao đổi yêu cầu mua gồm 4 Msg: Initiate Request, Initiate Response, Purchase Request, và Purchase Response.
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-- Initiate Request: bao gồm các thương hiệu của thẻtín dụng mà khách hàng đang sửdụng; một ID giao cho cặp yêu cầu/đáp ứng này của khách hàng và một nonce sửdụng đểđảm bảo kịp thời
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+## 6.3.2.7 Xử lý thanh toán
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+### Yêu cầu mua
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+- **Initiate Response**: tạo ra một phản hồi và các dấu hiệu với chữ ký riêng của nó. Phản hồi này bao gồm: Nonce từ khách hàng, nonce khác cho các khách hàng trở lại trong thư tiếp theo, và một ID giao dịch cho giao dịch mua, giấy chứng nhận chữ ký của thương nhân và giấy chứng nhận trao đổi khóa của cổng thanh toán.
 
-## 6. 3. 2. 7 Xử lý thanh toán
+- **Purchase Request**:
+    - Cardholder tạo một khóa mã hóa đối xứng một lần $Ks$
+    - Cardholder tạo Purchase Request message
 
-- Yêu cầu mua
 
-- Initiate Response: tạo ra một phản hồi và các dấu hiệu với chữký riêng của nó. Phản hồi này bao gồm:
+<!-- page 50 -->
 
-Nonce từkhách hàng, nonce khác cho các khách hàng trởlại trong thư tiếp theo, và một ID giao dịch cho giao dịch mua, giấy chứng nhận chữký của thương nhân và giấy chứng nhận trao đổi khóa của cổng thanh toán.
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-- Purchase Request:
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+## 6.3.2.7 Xử lý thanh toán
+### Yêu cầu mua
 
-- Cardholder tạo một khóa mã hóa đối xứng một lần Ks
+Mô hình của **Purchase Request**:
 
-- Cardholder tạo Purchase Request message
+(Hình ảnh minh họa quy trình tạo Purchase Request với các thành phần: PI, OI, PIMD, OIMD, Dual signature, E, $K_s$, $PU_b$)
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+**Chú thích:**
+- PI = Payment Information
+- OI = Order Information
+- PIMD = PI message digest
+- OIMD = OI message digest
+- E = Encryption (RSA for asymmetric; DES for symmetric)
+- $K_s$ = Temporary symmetric key
+- $PU_b$ = Bank's public key-exchange key
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
 
-## 6. 3. 2. 7 Xử lý thanh toán
+<!-- page 51 -->
 
-- Yêu cầu mua
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-## Mô hình của
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+## 6.3.2.7 Xử lý thanh toán
+### Yêu cầu mua
 
-Purchase Request:
+**Người bán kiểm tra:**
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+| Ký hiệu | Giải thích |
+| :--- | :--- |
+| OI | Order information |
+| OIMD | OI message digest |
+| POMD | Payment order message digest |
+| D | Decryption (RSA) |
+| H | Hash function (SHA-1) |
+| $PU_c$ | Customer's public signature key |
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+**Sơ đồ quy trình:**
 
-## 6. 3. 2. 7 Xử lý thanh toán
+- Request message
+- Passed on by merchant to payment gateway
+- Digital envelope
+- PIMD
+- OI
+- Dual signature
+- Cardholder certificate
+- || (Concatenation)
+- H (Hash)
+- D (Decryption)
+- Compare
+- POMD
 
-- Yêu cầu mua Người bán kiểm tra:
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+<!-- page 52 -->
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-## 6. 3. 2. 7 Xử lý thanh toán
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+## 6.3.2.7 Xử lý thanh toán
 
-- Yêu cầu mua
-
+### Yêu cầu mua
 - Hoạt động của người bán:
+    + Kiểm tra chứng nhận của cardholder bằng phương tiện chữ ký CA của nó.
+    + Kiểm tra dual signature dùng khóa chữ ký công cộng của khách hàng. Điều này bảo đảm rằng đơn hàng không bị thay đổi trong khi truyền và nó được ký bằng chữ ký riêng của cardholder.
+    + Xử lý đơn hàng và chuyển thông tin thanh toán tới cổng thanh toán cho việc cấp phép.
+    + Gửi purchase response tới cardholder
 
-+Kiểm tra chứng nhận của cardholder bằng phương tiện chữ ký CA của nó.
 
-+Kiểm tra dual signature dùng khóa chữ ký công cộng của khách hàng. Điều này bảo đảm rằng đơn hàng không bị thay đổi trong khi truyền và nó được ký bằng chữ ký riêng của cardholder +Xử lý đơn hàng và chuyển thông tin thanh toán tới cổng thanh toán cho việc cấp phép +Gởi purchase response tới cardholder
+<!-- page 53 -->
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+## 6.3.2.7 Xử lý thanh toán
+### Yêu cầu mua
 
-## 6. 3. 2. 7 Xử lý thanh toán
+- Purchase Response bao gồm: một khối đáp ứng thừa nhận đơn hàng và tham chiếu số giao dịch tương ứng. Khối này được ký bởi người bán dùng khóa chữ ký riêng của họ.
 
-- Yêu cầu mua
 
-- Purchase Response bao gồm: một khối đáp ứng thừa nhận đơn hàng và tham chiếu số giao dịch tương ứng.
+<!-- page 54 -->
 
-Khối này được ký bởi người bán dùng khóa chữ ký riêng của họ.
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+## 6.3.2.7 Xử lý thanh toán
+### Cấp quyền thanh toán
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+- Suốt quá trình xử lý đơn hàng từ cardholder, người bán giao dịch với cổng thanh toán. Việc cấp phép thanh toán bảo đảm rằng giao dịch đã được chấp thuận bởi Issuer, người bán có thể cung cấp hàng hóa hay dịch vụ cho khách hàng.
 
-## 6. 3. 2. 7 Xử lý thanh toán
+- Trao đổi cấp phép thanh toán gồm 2 Msg: **Authorization Request** và **Authorization response**
 
-- Cấp quyền thanh toán
 
-- Suốt quá trình xử lý đơn hàng từ cardholder, người bán giao dịch với cổng thanh toán. Việc cấp phép thanh toán bảo đảm rằng giao dịch đã được chấp thuận bởi Issuer, người bán có thểcung cấp hàng hóa hay dịch vụ cho khách hàng.
+<!-- page 55 -->
 
-- Trao đổi cấp phép thanh toán gồm 2 Msg:
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-Authorization Request và Authorization response
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+## 6.3.2.7 Xử lý thanh toán
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+### Cấp quyền thanh toán
+- **Authorization Request**:
+    - Purchase-related information (Thông tin này nhận từ khách hàng)
+    - Authorization-related information (Authorization block gồm transaction ID, Digital envelope)
+    - **Certificates**:
+        - Bao gồm the cardholder's signature key certificate (dùng để kiểm tra dual signature)
+        - The merchant's signature key certificate (dùng để kiểm tra chữ ký của người bán)
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
 
-## 6. 3. 2. 7 Xử lý thanh toán
+<!-- page 56 -->
 
-- Cấp quyền thanh toán
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-- Authorization Request:
-
-- Purchase-related information (Thông tin này nhận từ khách hàng)
-
-- Authorization-related information (Authorization block gồm transaction ID, Digital envelope )
-
-- Certificates:
-
-+ Bao gồm the cardholder's signature key certificate (dùng để kiểm tra dual signature)
-
-+ The merchant's signature key certificate (dùng để kiểm tra chữ ký của người bán)
-
-## 6. 3. Một số giải pháp an toàn cho HTTT
-
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
-
-## 6. 3. 2. 7 Xử lý thanh toán
-
-- Cấp quyền thanh toán
-
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+### 6.3.2.7 Xử lý thanh toán
+#### **Cấp quyền thanh toán**
 - Việc thực hiện của Payment gateway:
+    + Kiểm tra tất cả các chứng nhận
+    + Kiểm tra chữ ký của người bán trên Authorization block
+    + Kiểm tra dual signature
+    + Kiểm tra transaction ID nhận từ người bán trùng với transaction ID trong PI nhận từ khách hàng
+    + Yêu cầu và nhận giấy phép từ Issuer
 
-+Kiểm tra tất cả các chứng nhận +Kiểm tra chữ ký của người bán trên Authorization block + Kiểm tra dual signature + Kiểm tra transaction ID nhận từ người bán trùng với transaction ID trong PI nhận từ khách hàng + Yêu cầu và nhận giấy phép từ Issuer
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+<!-- page 57 -->
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-## 6. 3. 2. 7 Xử lý thanh toán
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+### 6.3.2.7 Xử lý thanh toán
 
-- Cấp quyền thanh toán
+#### ❖ Cấp quyền thanh toán
+- **Authorization response** :
+    - **Authorization-related information**: bao gồm authorization được ký với khóa chữ ký riêng của gateway và mã hóa với khóa đối xứng dùng một lần. Nó cũng gồm một **digital envelope** mà chứa khóa dùng một lần được mã hóa bằng **public key-exchange key** của người bán.
 
-- Authorization response :
+    - **Capture token information**: được dùng để thực hiện việc thanh toán sau đó, token này không được xử lý bởi người bán.
 
-- Authorization-related information: bao gồm authorization được ký với khóa chữ ký riêng của gateway và mã hóa với khóa đối xứng dùng một lần. Nó cũng gồm một digital envelope mà chứa khóa dùng một lần được mã hóa bằng public key-exchange key của người bán
+    - **Chứng nhận của gateway**
 
-- Capture token information: được dùng để thực hiện việc thanh toán sau đó, token này không được xử lý bởi người bán
 
-- Chứng nhận của gateway
+<!-- page 58 -->
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+## 6.3.2.7 Xử lý thanh toán
 
-## 6. 3. 2. 7 Xử lý thanh toán
+### Đạt được thanh toán
 
-- Đạt được thanh toán
+- Để đạt được việc thanh toán, người bán phối hợp với cổng thanh toán trong giao dịch đạt được thanh toán, gồm có **capture request** và **capture response message**.
 
-- Để đạt được việc thanh toán, người bán phối hợp với cổng thanh toán trong giao dịch đạt được thanh toán, gồm có capture request và capture response message.
+- **Capture request**:
+    - Người bán tạo, ký và mã hóa những khối bao gồm số lượng thanh toán và transaction ID
+    - Msg cũng bao gồm capture token được mã hóa mà nhận được trước đó (trong **Authorization Response**) cho giao dịch này
 
-- Capture request:
 
-- Người bán tạo, ký và mã hóa những khối bao gồm số lượng thanh toán và transaction ID
+<!-- page 59 -->
 
-- Msg cũng bao gồm capture token được mã hóa mà nhận được trước đó (trong Authorization Response) cho giao dịch này
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-## 6. 3. Một số giải pháp an toàn cho HTTT
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+## 6.3.2.7 Xử lý thanh toán
 
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
+### Đạt được thanh toán
 
-## 6. 3. 2. 7 Xử lý thanh toán
+- **Capture response**:
+    - Khi cổng thanh toán nhận capture request message nó giải mã và kiểm tra khối capture request block, giải mã và kiểm tra khối capture token.
+    - Nó kiểm tra tính toàn vẹn giữa capture request và capture token.
+    - Nó tạo một clearing request gởi tới Issuer trên mạng thanh toán riêng. Yêu cầu này cho phép tiền được chuyển tới tài khoản người bán.
 
-- Đạt được thanh toán
 
-- Capture response :
+<!-- page 60 -->
 
-- Khi cổng thanh toán nhận capture request message nó giải mã và kiểm tra khối capture request block, giải mã và kiểm tra khối capture token.
+# 6.3. Một số giải pháp an toàn cho HTTT
 
-- Nó kiểm tra tính toàn vẹn giữa capture request và capture token
+## 6.3.2. Giao dịch điện tử an toàn (SET)
+### 6.3.2.7 Xử lý thanh toán
+#### Đạt được thanh toán
 
-- Nó tạo một clearing request gởi tới Issuer trên mạng thanh toán riêng. Yêu cầu này cho phép tiền được chuyển tới tài khoản người bán
-
-## 6. 3. Một số giải pháp an toàn cho HTTT
-
-## 6. 3. 2. Giao dịch điện tử an toàn (SET)
-
-## 6. 3. 2. 7 Xử lý thanh toán
-
-- Đạt được thanh toán
-
-- Cổng thanh toán khi đó thông báo cho người bán việc thanh toán trong một Capture Response message
-
+- Cổng thanh toán khi đó thông báo cho người bán việc thanh toán trong một **Capture Response message**
 - Msg có một khối capture response mà cổng đã ký và mã hóa. Phần mềm của người bán lưu trữ capture response để làm căn cứ cho việc thanh toán nhận từ người thu
 
-## 6. 4. Một số giải pháp an toàn cho người dùng
 
- Thank You !
+<!-- page 61 -->
 
-www.themegallery.com
+# 6.4. Một số giải pháp an toàn cho người dùng
+
+
+<!-- page 62 -->
+
+# Thank You !

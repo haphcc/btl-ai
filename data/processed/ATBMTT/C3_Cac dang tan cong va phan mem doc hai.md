@@ -1,279 +1,431 @@
-# 
+# C3_Cac dang tan cong va phan mem doc hai
 
-## Nội dung chính
 
-Khái quát về mối đe dọa và tấn công
 
-## 3. 1
+<!-- page 1 -->
 
-Các công cụ hỗ trợ tấn công
+HỌC VIỆN NGÂN HÀNG
+KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 
-## 3. 2
+# CHƯƠNG III
+# CÁC DẠNG TẤN CÔNG & PHẦN MỀM ĐỘC HẠI
 
-## Các dạng tấn công thường gặp
 
-## 3. 3
+<!-- page 2 -->
 
-## 3. 4
+# Nội dung
 
-Những xu hướng tấn công mới gây mất an toàn và bảo mật thông tin
+## 3.1 Khái quát về mối đe dọa và tấn công
+## 3.2 Các công cụ hỗ trợ tấn công
+## 3.3 Các dạng tấn công thường gặp
+## 3.4 Những xu hướng tấn công mới gây mất an toàn và bảo mật thông tin
 
-## 3. 1. Khái quát về mối đe dọa và tấn công
 
-- Mối đe dọa:
+<!-- page 3 -->
 
-- Các điểm yếu:
+### 3.1. Khái quát về mối đe dọa và tấn công
 
-- Lỗ hổng bảo mật:
+- **Mối đe dọa:**
+- **Các điểm yếu:**
+- **Lỗ hổng bảo mật:**
+- **Tấn công:**
 
-- Tấn công:
+$$\text{Tấn công} = \text{Mối đe dọa} + \text{Lỗ hổng}$$
 
-Tấn công = Mối đe dọa + Lỗ hổng
 
-## 3. 2. Các công cụ hỗ trợ tấn công
+<!-- page 4 -->
 
-- Công cụ rà quét lỗ hổng, điểm yếu hệ thống
+## 3.2. Các công cụ hỗ trợ tấn công
 
-- Công cụ quét cổng dịch vụ:
+- **Công cụ rà quét lỗ hổng, điểm yếu hệ thống**
+- **Công cụ quét cổng dịch vụ:**
+- **Công cụ nghe trộm**
+- **Công cụ ghi phím gõ:**
 
-- Công cụ nghe trộm
 
-- Công cụ ghi phím gõ:
+<!-- page 5 -->
 
-## 3. 3. Các dạng tấn công thường gặp
+# 3.3. Các dạng tấn công thường gặp
 
-## 3. 3. 1 Tấn công vào mật khẩu
+## 3.3.1 Tấn công vào mật khẩu
 
-- Định nghĩa: Là dạng tấn công nhằm đánh cắp mật khẩu và thông tin tài khoản người dùng
+- **Định nghĩa**: Là dạng tấn công nhằm đánh cắp mật khẩu và thông tin tài khoản người dùng
+- **Các dạng**:
+    - Tấn công dựa trên từ điển
+    - Tấn công vét cạn
 
-- Các dạng:
 
-- Tấn công dựa trên từ điển
+<!-- page 6 -->
 
-- Tấn công vét cạn
+### 3.3. Các dạng tấn công thường gặp
 
-## 3. 3. Các dạng tấn công thường gặp
-
-- Phòng chống
+**Phòng chống**
 
 - Chọn mật khẩu đủ mạnh:
-
 - Định kỳ thay đổi mật khẩu:
-
 - Mật khẩu không lưu ở dạng rõ, nên lưu dạng mã hóa
-
 - Hạn chế trao đổi tên người dùng và mật khẩu trên kênh truyền không được mã hóa
 
-## 3. 3. 2 Tấn công bằng mã độc
 
-- Định nghĩa: Là dạng tấn công sử dụng các mã độc làm công cụ để tấn công hệ thống nạn nhân
+<!-- page 7 -->
 
-- Các dạng:
+# 3.3. Các dạng tấn công thường gặp
 
-- Khai thác các lỗ hổng về lập trình, cấu hình hệ thống để chèn và thực hiện mã độc: Khai thác lỗi tràn bộ đệm; khai thác lỗi không kiểm tra đầu vào, tấn công chèn mã SQL và tấn công sử dụng mã script, kiểu XSS, CSRF.
+## 3.3.2 Tấn công bằng mã độc
 
-- Lừa người sử dụng tải, cài đặt và thực hiện các phần mềm độc hại
+- **Định nghĩa:** Là dạng tấn công sử dụng các mã độc làm công cụ để tấn công hệ thống nạn nhân
 
-## 3. 3. Các dạng tấn công thường gặp
+- **Các dạng:**
+    - Khai thác các lỗ hổng về lập trình, cấu hình hệ thống để chèn và thực hiện mã độc: Khai thác lỗi tràn bộ đệm; khai thác lỗi không kiểm tra đầu vào, tấn công chèn mã SQL và tấn công sử dụng mã script, kiểu XSS, CSRF.
+    - Lừa người sử dụng tải, cài đặt và thực hiện các phần mềm độc hại
 
-## 3. 3. 2. 1 Tấn công khai thác lỗi tràn bộ đệm
 
-- Lỗi tràn bộ nhớ đệm:
+<!-- page 8 -->
 
-- Là một trong các lỗi thường gặp trong các HĐH và đặc biệt nhiều ở phần mềm ỨD
+# 3.3. Các dạng tấn công thường gặp
 
-- Xảy ra khi một ỨD cố gắng ghi dữ liệu vượt khỏi phạm vi của bộ nhớ đệm.
+## 3.3.2.1 Tấn công khai thác lỗi tràn bộ đệm
 
-- Nguyên nhân việc tràn bộ nhớ đệm: do người lập trình không kiểm tra hoặc kiểm tra không đầy đủ các dữ liệu đầu vào
+### Lỗi tràn bộ nhớ đệm:
+- Là một trong các lỗi thường gặp trong các HĐH và đặc biệt nhiều ở phần mềm ƯD
+- Xảy ra khi một ƯD cố gắng ghi dữ liệu vượt khỏi phạm vi của bộ nhớ đệm.
 
-## 3. 3. Các dạng tấn công thường gặp
+### Nguyên nhân việc tràn bộ nhớ đệm: do người lập trình không kiểm tra hoặc kiểm tra không đầy đủ các dữ liệu đầu vào
 
-- Khai thác lỗi tràn bộ đệm:
 
-- Tin tặc gửi mã độc dưới dạng dữ liệu đến
+<!-- page 9 -->
 
-## ứng dụng nhằm ghi đè, thay thế địa chỉ trở về
+## 3.3. Các dạng tấn công thường gặp
 
-với mục đích tái định hướng chương trình đến thực hiện đoạn mã độc
+### Khai thác lỗi tràn bộ đệm:
 
-- Tin tặc thường phải thực hiện việc gỡ rối (debug) chương trình và nắm chắc cơ chế gây lỗi và phương pháp quản lý, cấp phát
+- Tin tặc gửi mã độc dưới dạng dữ liệu đến ứng dụng nhằm ghi đè, thay thế địa chỉ trở về với mục đích tái định hướng chương trình đến thực hiện đoạn mã độc.
+- Tin tặc thường phải thực hiện việc gỡ rối (debug) chương trình và nắm chắc cơ chế gây lỗi và phương pháp quản lý, cấp phát vùng nhớ ngăn xếp của ứng dụng.
 
-## vùng nhớ ngăn xếp của ứng dụng
 
- Shellcode viết bằng hợp ngữ và chuyển thành chuỗi tấn công
+<!-- page 10 -->
 
- Chèn và thực hiện shellcode khai thác lỗi tràn bộ đệm Chèn Shellcode với phần đệm bằng lệnh NOP(N)
+# 3.3. Các dạng tấn công thường gặp
 
-## Ví dụ: Sâu SQL Slammer
+| | | |
+| :--- | :--- | :--- |
+| jmp | 0x1F | `char shellcode[] =` |
+| popl | %esi | `"\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89"` |
+| movl | %esi, 0x8(%esi) | `"\x46\x0c\xb0\x0b\x89\xf3\x8d\x4e\x08\x8d\x56\x0c"` |
+| xorl | %eax, %eax | `"\xcd\x80\x31\xdb\x89\xd8\x40\xcd\x80\xe8\xdc\xff"` |
+| movb | %eax, 0x7(%esi) | `"\xff\xff/bin/sh";` |
+| movl | %eax, 0xC(%esi) | |
+| movb | $0xB, %al | |
+| movl | %esi, %ebx | |
+| leal | 0x8(%esi), %ecx | |
+| leal | 0xC(%esi), %edx | |
+| int | $0x80 | |
+| xorl | %ebx, %ebx | |
+| movl | %ebx, %eax | |
+| inc | %eax | |
+| int | $0x80 | |
+| call | -0x24 | |
+| .string | "/bin/sh" | |
 
-Bản đồ lây nhiễm sâu Slammer (mầu xanh) theo trang www.caida.org vào ngày 25/1/2003 lúc 6 h 00 (giờ UTC) với 74. 855 máy chủ bị nhiễm
+**Shellcode viết bằng hợp ngữ và chuyển thành chuỗi tấn công**
 
-- Phòng chống
+
+<!-- page 11 -->
+
+# 3.3. Các dạng tấn công thường gặp
+
+## Chèn và thực hiện shellcode khai thác lỗi tràn bộ đệm
+
+- Hình ảnh minh họa cấu trúc bộ nhớ với các thành phần: `buffer`, `sfp`, `ret`.
+- Các ký tự 'S' đại diện cho shellcode được chèn vào vùng `buffer`.
+
+## Chèn Shellcode với phần đệm bằng lệnh NOP(N)
+
+- Hình ảnh minh họa việc chèn thêm các lệnh NOP (ký tự 'N') vào trước shellcode (ký tự 'S') trong vùng `buffer`.
+- Có một chú thích trỏ vào vùng đệm: "2.2. Các dạng lỗ hổng trong H..."
+
+11
+
+
+<!-- page 12 -->
+
+# Ví dụ: Sâu SQL Slammer
+
+![Bản đồ thế giới với các điểm màu xanh thể hiện sự lây nhiễm của sâu SQL Slammer](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Slammer.gif/800px-Slammer.gif)
+
+Bản đồ lây nhiễm sâu Slammer (màu xanh) theo trang www.caida.org vào ngày 25/1/2003 lúc 6h00 (giờ UTC) với 74.855 máy chủ bị nhiễm
+
+12
+
+
+<!-- page 13 -->
+
+# 3.3. Các dạng tấn công thường gặp
+
+### Phòng chống
 
 - Kiểm tra thủ công mã nguồn hay sử dụng các công cụ phân tích mã tự động
-
-- Sử dụng cơ chế không cho phép thực hiện mã trong dữ liệu DEP (Data Execution Prevention):
-
+- Sử dụng cơ chế không cho phép thực hiện mã trong dữ liệu **DEP (Data Execution Prevention)**:
 - Ngẫu nhiên hóa sơ đồ địa chỉ cấp phát các ô nhớ trong ngăn xếp khi thực hiện chương trình
-
 - Sử dụng các cơ chế bảo vệ ngăn xếp
-
 - Sử dụng các ngôn ngữ, thư viện và công cụ lập trình an toàn
 
-## 3. 3. 2. 2 Tấn công khai thác lỗi không kiểm tra
 
-đầu vào
+<!-- page 14 -->
 
-- Lỗi không kiểm tra đầu vào:
+# 3.3. Các dạng tấn công thường gặp
 
+## 3.3.2.2 Tấn công khai thác lỗi không kiểm tra đầu vào
+
+### Lỗi không kiểm tra đầu vào:
 - Là lỗ hổng trong đó ứng dụng không kiểm tra, hoặc kiểm tra không đầy đủ các dữ liệu đầu vào
 
-- Các dạng dữ liệu đầu vào điển hình:
+### Các dạng dữ liệu đầu vào điển hình:
+- Các trường dữ liệu văn bản
+- Các lệnh được truyền qua địa chỉ URL
+- Các file âm thanh, hình ảnh, đồ họa do người dùng hoặc các tiến trình khác cung cấp
+- Các đối số đầu vào trong dòng lệnh
+- Các dữ liệu từ mạng hoặc từ các nguồn không tin cậy
 
-Các trường dữ liệu văn bản Các lệnh được truyền qua địa chỉ URL Các file âm thành, hình ảnh, đồ họa do người dùng hoặc các tiến trình khác cung cấp Các dối số đầu vào trong dòng lệnh Các dữ liệu từ mạng hoặc từ các nguồn không tin cậy
 
-## 3. 3. Các dạng tấn công thường gặp
+<!-- page 15 -->
 
-- Tấn công khai thác:
+## 3.3. Các dạng tấn công thường gặp
 
-- Dạng 1: Cung cấp đữ liệu quá lớn hoặc sai
+### Tấn công khai thác:
 
-## định dạng để gây lỗi cho ứng dụng
+- **Dạng 1:** Cung cấp dữ liệu quá lớn hoặc sai định dạng để gây lỗi cho ứng dụng
+- **Dạng 2:** Chèn mã khai thác vào dữ liệu đầu vào để thực hiện trên hệ thống của nạn nhân
 
-- Dạng 2: Chèn mã khai thác vào dữ liệu đầu vào để thực hiện trên hệ thống của nạn nhân
 
- Dạng 1:
+<!-- page 16 -->
 
- Dạng 2:
+# 3.3. Các dạng tấn công thường gặp
 
-- Phòng chống: Biện pháp chủ yếu là lọc dữ liệu đầu vào
+[Hình ảnh minh họa URL với tham số bị thay đổi từ "58" thành "5811111111" dẫn đến lỗi "500 - Internal server error"]
+
+**Dạng 1:**
+
+
+<!-- page 17 -->
+
+# 3.3. Các dạng tấn công thường gặp
+
+"SELECT * FROM tbl_products WHERE product_name like '%' + keyword + '%'"
+
+"SELECT * FROM tbl_products WHERE product_name like '%iPhone 7%'"
+
+"SELECT * FROM tbl_products WHERE product_name like '%iPhone 7';**DELETE FROM tbl_products;--%**'"
+
+## Dạng 2:
+
+
+<!-- page 18 -->
+
+## 3.3. Các dạng tấn công thường gặp
+
+- **Phòng chống: Biện pháp chủ yếu là lọc dữ liệu đầu vào**
 
 - Kiểm tra kích thước và định dạng dữ liệu đầu vào
-
 - Kiểm tra sự hợp lý của nội dung dữ liệu
+- Tạo các bộ lọc để lọc bỏ các ký hiệu đặc biệt và các từ khóa mà kẻ tấn công có thể sử dụng như: *, =, --, SELECT, INSERT,...
 
-- Tạo ra các bộ lọc để lọc bỏ các ký hiệu đặc biệt và các từ khóa mà kẻ tấn công có thể sử dụng như: *, =, --, SELECT, INSERT, …
 
-## 3. 3. 3 Tấn công từ chối dịch vụ và từ chối
+<!-- page 19 -->
 
-dịch vụ phân tán
+# 3.3. Các dạng tấn công thường gặp
 
-## 3. 3. 3. 1. Tấn công từ chối dịch vụ (DoS)
+## 3.3.3 Tấn công từ chối dịch vụ và từ chối dịch vụ phân tán
 
-- Tấn công logic: là dạng tấn công khai thác các lỗi phần mềm làm dịch vụ ngừng hoạt động hoặc giảm hiệu năng
+### 3.3.3.1. Tấn công từ chối dịch vụ (DoS)
 
-- Tấn công gây ngập lụt: Kẻ tấn công gửi một lượng lớn yêu cầu gây cạn kiệt tài nguyên
+- **Định nghĩa:** là dạng tấn công nhằm ngăn chặn người dùng hợp pháp truy cập các tài nguyên mạng
+- **Các dạng:**
+    - **Tấn công logic:** là dạng tấn công khai thác các lỗi phần mềm làm dịch vụ ngừng hoạt động hoặc giảm hiệu năng
+    - **Tấn công gây ngập lụt:** Kẻ tấn công gửi một lượng lớn yêu cầu gây cạn kiệt tài nguyên
 
-- Định nghĩa: là dạng tấn công nhằm ngăn chặn người dùng hợp pháp truy cập các tài nguyên mạng
 
-- Các dạng:
+<!-- page 20 -->
 
-## 3. 3. Các dạng tấn công thường gặp
+# 3.3. Các dạng tấn công thường gặp
 
-- Tấn công SYN flood: Khai thác điểm yếu trong bắt tay 3 bước:
+- **Các kỹ thuật tấn công:**
+    - **Tấn công SYN flood: Khai thác điểm yếu trong bắt tay 3 bước:**
 
-- Các kỹ thuật tấn công:
+| | |
+| :--- | :--- |
+| ![Người dùng](https://i.imgur.com/5y1yY5S.png) | SYN $\rightarrow$ [Máy chủ] |
+| | SYN-ACK $\rightarrow$ [Người dùng] |
+| ![Người dùng](https://i.imgur.com/5y1yY5S.png) | ACK $\rightarrow$ [Máy chủ] ✅ |
 
-## Phòng chống: Chưa có giải pháp nào ngăn
 
-chặn triệt để, cần kết hợp các biện pháp sau:
+<!-- page 21 -->
+
+# 3.3. Các dạng tấn công thường gặp
+
+- SYN
+- SYN-ACK
+- SYN
+
+
+<!-- page 22 -->
+
+## 3.3. Các dạng tấn công thường gặp
+
+**Phòng chống: Chưa có giải pháp nào ngăn chặn triệt để, cần kết hợp các biện pháp sau:**
 
 - Sử dụng kỹ thuật lọc địa chỉ giả mạo
-
 - Tăng kích thước Bảng kết nối
-
 - Giảm thời gian chờ
-
 - SYN cache
-
 - Sử dụng tường lửa và Proxy
 
-- Tấn công Smurf: Sử dụng giao thức điều khiển truyền ICMP và kiểu phát quảng bá có định hướng để gây ngập lụt
+22
 
-## Phòng chống:
+
+<!-- page 23 -->
+
+## 3.3. Các dạng tấn công thường gặp
+
+- **Tấn công Smurf**: Sử dụng giao thức điều khiển truyền ICMP và kiểu phát quảng bá có định hướng để gây ngập lụt
+
+**SMURF ATTACK**
+
+| Thành phần | Hoạt động |
+| :--- | :--- |
+| **Attacker** | Gửi gói tin đến Router với To: 1.1.1.255, From: 9.9.9.9 |
+| **Router** | Chuyển tiếp gói tin đến các **Device** với From: 9.9.9.9 |
+| **Device** | Gửi phản hồi ICMP đến **Victim** (To: 9.9.9.9, From: 1.1.1.x) |
+| **Victim** | Bị ngập lụt bởi các gói tin phản hồi từ các **Device** |
+
+23
+
+
+<!-- page 24 -->
+
+## 3.3. Các dạng tấn công thường gặp
+
+**Phòng chống:**
 
 - Cấu hình các máy trong mạng và router không trả lời các yêu cầu ICMP hoặc các yêu cầu phát quảng bá
-
 - Cấu hình các router không chuyển tiếp các yêu cầu ICMP gửi đến các địa chỉ quảng bá
-
 - Sử dụng tường lửa để lọc các gói tin với địa chỉ giả mạo địa chỉ trong mạng
 
-## 3. 3. 3. 2. Tấn công từ chối dịch vụ phân tán (DDoS)
 
-- Tấn công DDoS trực tiếp: Các yêu cầu tấn công được các máy tấn công gửi trực tiếp đến máy nạn nhân
+<!-- page 25 -->
 
-- Tấn công DDoS gián tiếp: Các yêu cầu tấn công được gửi đến cá máy phản xạ và sau đó gián tiếp chuyển đến máy nạn nhân
+# 3.3. Các dạng tấn công thường gặp
 
-- Định nghĩa: là một loại DoS liên quan đến việc gây ngập lụt các máy nạn nhân với một lượng rất lớn các yêu cầu kết nối giả mạo
+## 3.3.2. Tấn công từ chối dịch vụ phân tán (DDoS)
 
-- Các dạng:
+- **Định nghĩa:** là một loại DoS liên quan đến việc gây ngập lụt các máy nạn nhân với một lượng rất lớn các yêu cầu kết nối giả mạo
+- **Các dạng:**
+    - Tấn công DDoS trực tiếp: Các yêu cầu tấn công được các máy tấn công gửi trực tiếp đến máy nạn nhân
+    - Tấn công DDoS gián tiếp: Các yêu cầu tấn công được gửi đến các máy phản xạ và sau đó gián tiếp chuyển đến máy nạn nhân
 
-## 3. 3. Các dạng tấn công thường gặp
 
-## Phòng chống:
+<!-- page 26 -->
+
+## 3.3. Các dạng tấn công thường gặp
+
+**Phòng chống:**
 
 - Sử dụng các phần mềm rà quét virus và các phần mềm độc hại
-
 - Sử dụng các hệ thống lọc đặt trên các router, tường lửa của các nhà cung cấp dịch vụ Internet
-
 - Sử dụng các hệ thống giám sát, phát hiện bất thường nhằm phát hiện sớm các dấu hiệu
-
 - Sử dụng tường lửa để chặn tạm thời các cổng dịch vụ bị tấn công
 
-## 3. 3. 4 Tấn công giả mạo địa chỉ
 
-- Thường gặp nhất là giả mạo địa chỉ IP
+<!-- page 27 -->
 
-## 3. 3. Các dạng tấn công thường gặp
+# 3.3. Các dạng tấn công thường gặp
 
-## Phòng chống: Biện pháp phòng chống tấn
+## 3.3.4 Tấn công giả mạo địa chỉ
 
-công giả mạo địa chỉ IP hiệu quả nhất là sử dụng kỹ thuật lọc trên tường lửa, hoặc các
+- **Thường gặp nhất là giả mạo địa chỉ IP**
 
-## router với nguyên tắc lọc: các gói tin từ
+| Data: Payload | IP source: 192.168.0.25 | IP destination: 100.0.0.75 | Original IP packet from hacker's system |
+| :--- | :--- | :--- | :--- |
 
-mạng ngoài đi vào mạng LAN mà có địa chỉ nguồn là địa chỉ nội bộ của mạng LAN đó thì chúng là các gói tin giả mạo và phải bị chặn
+| Data: Payload | IP source: 100.0.0.80 | IP destination: 100.0.0.75 | Spoofed (modified) IP packet |
 
-## 3. 3. 5 Tấn công nghe lén
+- Hacker modifies source address to spoof firewall
+- Firewall allows packet in, mistaking it for legitimate traffic
+- Spoofed packet slips into intranet to wreak havoc
 
-## 3. 3. Các dạng tấn công thường gặp
 
-## Phòng chống:
+<!-- page 28 -->
+
+## 3.3. Các dạng tấn công thường gặp
+
+**Phòng chống:** Biện pháp phòng chống tấn công giả mạo địa chỉ IP hiệu quả nhất là sử dụng kỹ thuật lọc trên tường lửa, hoặc các router với nguyên tắc lọc: các gói tin từ mạng ngoài đi vào mạng LAN mà có địa chỉ nguồn là địa chỉ nội bộ của mạng LAN đó thì chúng là các gói tin giả mạo và phải bị chặn.
+
+
+<!-- page 29 -->
+
+# 3.3. Các dạng tấn công thường gặp
+
+## 3.3.5 Tấn công nghe lén
+
+- **Victim**: ID: Victim1; Password: Secret;
+- **Attacker**: ID: Victim1; Password: Secret;
+- **File Server**: ID: Victim1; Password: Secret;
+- **HUB**
+- **Web Server**
+- **Database Server**
+
+
+<!-- page 30 -->
+
+## 3.3. Các dạng tấn công thường gặp
+
+**Phòng chống:**
 
 - Có cơ chế bảo vệ các thiết bị mạng và hệ thống truyền dẫn ở mức vật lý
-
 - Sử dụng các biện pháp, cơ chế xác thực người dùng đủ mạnh
-
 - Sử dụng các biện pháp bảo mật thông tin truyền dựa trên các kỹ thuật mã hóa
 
-## 3. 3. 6 Tấn công kiểu người đứng giữa
 
-- Định nghĩa: là dạng tấn công dựa trên quá trình chuyển gói tin đi qua nhiều trạm thuộc các mạng khác nhau, và kẻ tấn công chặn bắt các thông điệp giữa 2 bên và chuyển thông điệp lại cho bên kia
+<!-- page 31 -->
 
-## 3. 3. Các dạng tấn công thường gặp
+# 3.3. Các dạng tấn công thường gặp
 
-## Phòng chống: Một trong các biện pháp hiệu
+## 3.3.6 Tấn công kiểu người đứng giữa
 
-## quả để phòng chống tấn công kiểu người
+- **Định nghĩa:** là dạng tấn công dựa trên quá trình chuyển gói tin đi qua nhiều trạm thuộc các mạng khác nhau, và kẻ tấn công chặn bắt các thông điệp giữa 2 bên và chuyển thông điệp lại cho bên kia.
 
-đứng giữa là hai bên tham gia truyền thông phải có cơ chế xác thực thông tin nhận dạng của nhau và xác thực tính toàn vẹn của các thông điệp trao đổi.
+FTP transmits in plaintext
 
-## 3. 3. 7 Tấn công bằng bom thư và thư rác
+[Server] --- [Document icon] --- [man-in-the-middle attacker] --- [Client]
 
-- Định nghĩa: là một dạng tấn công DoS khi kẻ tấn công gửi một lượng rất lớn email đến hộp thư nạn nhân
 
-- Các thủ thuật:
+<!-- page 32 -->
 
-- Gửi bom thư bằng cách sử dụng kỹ thuật xã hội, đánh lừa người dùng phát tán email
+## 3.3. Các dạng tấn công thường gặp
 
-- Khai thác lỗi trong hệ thống gửi nhận email SMTP
+**Phòng chống:** Một trong các biện pháp hiệu quả để phòng chống tấn công kiểu người đứng giữa là hai bên tham gia truyền thông phải có cơ chế xác thực thông tin nhận dạng của nhau và xác thực tính toàn vẹn của các thông điệp trao đổi.
 
-- Lợi dụng các máy chủ email không được cấu hình tốt để gửi email (relay) cho chúng
 
-## 3. 4. Những xu hướng tấn công mới gây
+<!-- page 33 -->
 
-mất an toàn thông tin ĐÂY LÀ MỘT TRONG CÁC CHỦ ĐỀ BÀI TẬP LỚN
+# 3.3. Các dạng tấn công thường gặp
 
- Thank You !
+## 3.3.7 Tấn công bằng bom thư và thư rác
 
-www.themegallery.com
+- **Định nghĩa:** là một dạng tấn công DoS khi kẻ tấn công gửi một lượng rất lớn email đến hộp thư nạn nhân
+- **Các thủ thuật:**
+    - Gửi bom thư bằng cách sử dụng kỹ thuật xã hội, đánh lừa người dùng phát tán email
+    - Khai thác lỗi trong hệ thống gửi nhận email SMTP
+    - Lợi dụng các máy chủ email không được cấu hình tốt để gửi email (relay) cho chúng
+
+
+<!-- page 34 -->
+
+## 3.4. Những xu hướng tấn công mới gây mất an toàn thông tin
+
+**ĐÂY LÀ MỘT TRONG CÁC CHỦ ĐỀ BÀI TẬP LỚN**
+
+
+<!-- page 35 -->
+
+# Thank You !
