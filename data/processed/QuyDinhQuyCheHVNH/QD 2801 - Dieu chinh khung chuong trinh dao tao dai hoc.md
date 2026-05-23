@@ -1,9 +1,3 @@
-
-
-#### 2023.9.25.2801.QĐ.HVNH. QUYẾT ĐỊNH VỀ VIỆC ĐIỀU CHỈNH KHUNG CHƯƠNG TRÌNH ĐÀO TẠO ĐẠI HỌC (2)
-
-## TRANG 1
-
 ## NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 
 HỌC VIỆN NGÂN HÀNG Độc lập - Tự do - Hạnh phúc

@@ -1,8 +1,3 @@
-
-#### 269 NQ HĐHV VV BAN HÀNH QC ĐT ĐẠI HỌC CHÍNH QUY CỦA HVNH
-
-## TRANG 1
-
 ## NGÂN HÀNG NHÀ NƯỚC VIỆT NAM CỘNG HOA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 
 HỘI ĐỒNG HỌC VIỆN NGÂN HÀNG Độc lập - Tự do - Hạnh phúc Số: 26 /NQ-HĐHV Hà Nội, ngày 04tháng 12 năm 2024

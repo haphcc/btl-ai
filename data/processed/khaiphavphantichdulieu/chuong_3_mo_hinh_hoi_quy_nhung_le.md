@@ -4,7 +4,7 @@
 
 ## TRANG 1
 
-## CHƯƠNG3
+## CHƯƠNG 3
 
 ## MÔ HÌNH HOI QUY
 

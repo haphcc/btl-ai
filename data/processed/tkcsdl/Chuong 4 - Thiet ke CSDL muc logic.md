@@ -1,0 +1,326 @@
+# HỌC VIỆN NGÂN HÀNG
+# BANKING ACADEMY OF VIETNAM
+
+# CHƯƠNG 4
+# THIẾT KẾ CSDL MỨC LOGIC
+
+KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
+
+
+<!-- page 2 -->
+
+# Các giai đoạn thiết kế
+
+- **Khái niệm**
+    - Sơ đồ thực thể liên kết (ERD)
+- **Logic**
+    - Lược đồ quan hệ
+    - Chuẩn hóa
+- **Vật lý**
+    - Bảng và mối quan hệ
+
+
+<!-- page 3 -->
+
+# Thiết kế CSDL mức logic
+
+- **Mục đích:**
+    - Chuyển mô hình khái niệm thành mô hình dữ liệu logic (mô hình quan hệ)
+
+- **Các bước thực hiện:**
+
+1. ERM
+2. Biểu diễn thực thể
+3. Biểu diễn quan hệ
+4. Chuẩn hóa
+5. Hợp nhất quan hệ
+6. Vẽ biểu đồ
+7. Mô hình quan hệ
+
+
+<!-- page 4 -->
+
+# Biểu diễn thực thể
+
+## Quy tắc chuyển:
+
+- **Tên thực thể** $\rightarrow$ **Tên quan hệ**, ngoài ra:
+    - **Thực thể yếu** $\rightarrow$ quan hệ mới. Quan hệ mới này bao gồm các thuộc tính là thuộc tính của **thực thể yếu** cùng với thuộc tính khóa của **thực thể chủ**, **khóa của quan hệ mới** bao gồm các thuộc tính là **khóa của thực thể chủ** và **thuộc tính phân biệt** của **thực thể yếu**.
+
+
+<!-- page 5 -->
+
+# Biểu diễn thực thể
+
+- **Thuộc tính của thực thể $\rightarrow$ Thuộc tính quan hệ, đặc biệt:**
+    - **Thuộc tính phức hợp** có thể được xem xét:
+        - Xem **thuộc tính phức hợp** như **thuộc tính đơn**
+        - Chuyển thành các **thuộc tính đơn**
+    - Mỗi **thuộc tính đa trị** sẽ tương ứng với quan hệ mới
+        - **Thuộc tính của quan hệ mới** bao gồm **khóa của thực thể** chứa **thuộc tính đa trị** và **thuộc tính đa trị**.
+
+- **Thuộc tính định danh $\rightarrow$ Khóa quan hệ**
+
+
+<!-- page 6 -->
+
+# V d (chng 3)
+
+## Cc thc th v thuc tnh
+
+- **HNG**: MaH, TenH, GiaH, SLTon, DVT
+- **NH CUNG CP**: MaNCC, TenNCC, DiaChi
+- **KHCH HNG**: MaKH, TenKH, DiaChi (Tinh, Phuong, ChiTiet)
+- **NHN VIN**: MaNV, TenNV, DiaChi
+
+## Cc mi quan h v thuc tnh lin kt
+
+- **Nhp** (gia HNG v NH CUNG CP): MaHDN, SoLuong, Ngay, ThanhTien, TongTien, GiaNhap
+- **Bn** (gia HNG, KHCH HNG v NHN VIN): SoHDB, NgayBan, SoLuong, ThanhTien, TongTien, GiaBan, TongCong, VAT
+
+---
+*Lu : Cc thuc tnh c ng vin nt t (ThanhTien, TongTien, TongCong) thng l cc thuc tnh dn xut.*
+
+
+<!-- page 7 -->
+
+# Biểu diễn thực thể
+
+- **HÀNG** (**MaH**, GiaH, SLTon, TenH, DVT)
+- **NHÀ CUNG CẤP** (**MaNCC**, TenNCC, DiaChi)
+- **KHÁCH HÀNG** (**MaKH**, TenKH, ChiTiet, Tinh, Huyen, Phuong)
+- **NHÂN VIÊN** (**MaNV**, TenNV, DiaChi)
+
+
+<!-- page 8 -->
+
+# Biểu diễn mối liên kết
+
+- **Quan hệ 1:n và quan hệ không có thuộc tính riêng**
+    - Thêm khóa của quan hệ phía 1 làm khóa ngoại của quan hệ phía nhiều
+- **Quan hệ 1:1**
+    - Chọn khóa của một trong hai quan hệ (hoặc cả 2) làm khóa ngoại của quan hệ còn lại
+- **Quan hệ khác**
+    - Thêm một quan hệ mới gồm thuộc tính:
+        - Thuộc tính riêng của quan hệ (nếu có) & sử dụng tính chất hay thuộc tính của liên kết để tạo ra khóa chính.
+        - Các thuộc tính định danh của thực thể liên quan (khóa chính).
+
+
+<!-- page 9 -->
+
+# Biểu diễn mối liên kết
+
+Sử dụng thuộc tính riêng của liên kết làm khóa chính
+
+- **NHẬP** (**MaHDN**, MaH, MaNCC, SoLuong, DonGia, Ngay, ThanhTien, TongTien)
+- **BÁN** (**SoHDB**, MaKH, MaNV, Ngay, MaH, GiaBan, SoLuong, ThanhTien, TongTien, VAT, TongCong)
+
+### Nhận xét Khóa chính của các quan hệ trên?
+
+
+<!-- page 10 -->
+
+# Biểu diễn mối liên kết
+
+- **MaHDN** và **SoHDB** chưa đủ điều kiện làm khóa chính... vậy:
+- **NHẬP** (**MaHDN**, **MaH**, MaNCC, SoLuong, DonGia, Ngay, ThanhTien, TongTien)
+- **BÁN** (**SoHDB**, MaKH, MaNV, Ngay, **MaH**, GiaBan, SoLuong, ThanhTien, TongTien, VAT, TongCong)
+
+
+<!-- page 11 -->
+
+# Ví dụ
+
+# Sau khi chuyển theo quy tắc, các quan hệ bao gồm:
+
+- **HÀNG** (**MaH**, GiaH, SLTon, TenH, DVT)
+- **NHÀ CUNG CẤP** (**MaNCC**, TenNCC, DiaChi)
+- **KHÁCH HÀNG** (**MaKH**, TenKH, ChiTiet, Tinh, Huyen, Phuong)
+- **NHÂN VIÊN** (**MaNV**, TenNV, DiaChi)
+- **NHẬP** (**MaHDN**, **MaH**, **MaNCC**, SoLuong, DonGia, Ngay, ThanhTien, TongTien)
+- **BÁN** (**SoHDB**, **MaKH**, **MaNV**, Ngay, **MaH**, GiaBan, SoLuong, ThanhTien, TongTien, VAT, TongCong)
+
+### Nhận xét về chuẩn hóa và tính khả thi của lược đồ quan hệ trên?
+
+
+<!-- page 12 -->
+
+# Chuẩn hóa
+
+- **Chỉ cần xem xét các quan hệ mới phát sinh ở bước 2 (biểu diễn mối liên kết)**
+- **Thực hiện chuẩn hóa theo quy tắc đã học bài trước**
+- **Các quan hệ nên để ở dạng chuẩn 3**
+
+
+<!-- page 13 -->
+
+# Ví dụ
+
+**Xét quan hệ mới phát sinh đã đạt dạng chuẩn 3 chưa?**
+**Vì sao?**
+
+- **NHẬP (MaHDN, MaH, MaNCC, SoLuong, DonGia, Ngay, ThanhTien, TongTien)**
+- **BÁN (SoHDB, MaKH, MaNV, Ngay, MaH, GiaBan, SoLuong, ThanhTien, TongTien, VAT, TongCong)**
+
+**Nếu chưa -> Chuẩn hóa về 3NF**
+
+
+<!-- page 14 -->
+
+# Ví dụ
+
+- **Trả lời: Quan hệ NHẬP chưa đạt 2NF, vì tồn tại thuộc tính không khóa (vd: Ngay) phụ thuộc bộ phận vào khóa (vd: MaHD) -> đương nhiên chưa đạt 3NF**
+
+=> **Tách quan hệ NHẬP để được hai quan hệ mới đạt 2NF:**
+
+**NHẬP** (**MaHDN**, **MaNCC**, Ngay, TongTien)
+
+**CHI TIẾT NHẬP** (**MaHDN**, **MaH**, SoLuong, DonGia, ThanhTien)
+
+**Quan hệ trên đã ở 3NF?**
+
+
+<!-- page 15 -->
+
+# Ví dụ
+
+## Nhận xét:
+
+- Trong CHI TIẾT NHẬP (MaHDN, MaH, SoLuong, DonGia, ThanhTien) vẫn tồn tại phụ thuộc hàm bắc cầu giữa thuộc tính không khóa là ThanhTien vào khóa chính (SoLuong, DonGia -> ThanhTien). Vậy, chưa đạt chuẩn 3NF.
+- Tùy yêu cầu của bài toán:
+    - Nếu muốn đưa về 3NF thì có thể bỏ thuộc tính ThanhTien vì thuộc tính này là thuộc tính dẫn xuất, có thể tính toán được khi cần.
+    - Nếu vẫn muốn giữ thuộc tính ThanhTien để không mất thời gian tính toán khi cần => giảm chuẩn, giữ ở 2NF
+
+=> *Theo phân tích (chương 3): bỏ thuộc tính ThanhTien*
+
+
+<!-- page 16 -->
+
+# Ví dụ
+
+- Sinh viên phân tích tương tự với quan hệ BÁN:
+
+$\Rightarrow$ **Tách quan hệ BÁN để được hai quan hệ mới đạt 3NF:**
+
+**BÁN** (**SoHDB**, **MaKH**, **MaNV**, Ngay, TongTien, VAT, TongCong)
+
+**CHI TIẾT BÁN** (**SoHDB**, **MaH**, GiaBan, SoLuong)
+
+
+<!-- page 17 -->
+
+# Ví dụ
+
+# Các quan hệ sau khi chuẩn hóa:
+
+- **HÀNG** (**MaH**, GiaH, SLTon, TenH, DVT)
+- **NHÀ CUNG CẤP** (**MaNCC**, TenNCC, DiaChi)
+- **KHÁCH HÀNG** (**MaKH**, TenKH, ChiTiet, Tinh, Huyen, Phuong)
+- **NHÂN VIÊN** (**MaNV**, TenNV, DiaChi)
+- **NHẬP** (**MaHDN**, MaNCC, Ngay, TongTien)
+- **CHI TIẾT NHẬP** (**MaHDN**, **MaH**, SoLuong, DonGia)
+- **BÁN** (**SoHDB**, **MaKH**, **MaNV**, Ngay, TongTien, VAT, TongCong)
+- **CHI TIẾT BÁN** (**SoHDB**, **MaH**, GiaBan, SoLuong)
+
+> **Nhận xét xem có quan hệ dư thừa? Nhận xét về tên các quan hệ và tên các thuộc tính ?**
+
+
+<!-- page 18 -->
+
+# Hợp nhất quan hệ
+
+- **Loại đi những quan hệ thừa**
+- **Chính xác hóa các từ đồng nghĩa**
+- **Hợp nhất các quan hệ cùng khóa**
+- **KẾT QUẢ**: các quan hệ có **cấu trúc tốt**
+
+
+<!-- page 19 -->
+
+# Ví dụ
+
+## Trả lời:
+
+- Nên đặt tên các quan hệ và các thuộc tính theo quy tắc đặt tên của Hệ quản trị CSDL lựa chọn để thực hiện; gợi nhớ & dễ quản lý.
+- Thống nhất về tên gọi cho các quan hệ & các thuộc tính: Nếu cùng tên mà khác ý nghĩa thì **NÊN** thay đổi lại tên cho khác nhau. Nếu khác tên mà cùng ý nghĩa thì **NÊN** đặt lại tên cho giống nhau.
+
+
+<!-- page 20 -->
+
+# Ví dụ
+
+## Sau khi thay đổi, có thể là:
+
+- **HANG** (**MaH**, GiaH, SLTon, TenH, DVT)
+- **NHA_CUNG_CAP** (**MaNCC**, TenNCC, **DiaChiNCC**)
+- **KHACH_HANG** (**MaKH**, TenKH, ChiTiet, Tinh, Huyen, Phuong)
+- **NHAN_VIEN** (**MaNV**, TenNV, DiaChi)
+- **HOA_DON_NHAP** (**MaHDN**, MaNCC, **NgayN**, **TongTienN**)
+- **CHI_TIET_HDN** (**MaHDN**, **MaH**, **SoLuongN**, DonGia)
+- **HOA_DON_BAN** (**SoHDB**, **MaKH**, **MaNV**, TongTien, VAT, TongCong)
+- **CHI_TIET_HDB** (**SoHDB**, **MaH**, GiaBan, SoLuong)
+
+
+<!-- page 21 -->
+
+# Ví dụ
+
+## Sơ đồ quan hệ
+
+| HANG | CHI_TIET_HDN | HOA_DON_NHAP | NHA_CUNG_CAP |
+| :--- | :--- | :--- | :--- |
+| MaH | MaHDN | MaHDN | MaNCC |
+| GiaH | MaH | MaNCC | TenNCC |
+| SLTon | SoLuongN | NgayN | DiaChiNCC |
+| TenH | DonGia | TongTienN | |
+| DVT | | | |
+
+| CHI_TIET_HDB | HOA_DON_BAN | NHAN_VIEN | KHACH_HANG |
+| :--- | :--- | :--- | :--- |
+| HoaHDB | SoHDB | MaNV | MaKH |
+| MaH | MaKH | TenNV | TenKH |
+| GiaBan | MaNV | DiaChi | ChiTiet |
+| SoLuong | Ngay | | Tinh |
+| | TongTien | | Huyen |
+| | VAT | | Phuong |
+| | TongCong | | |
+
+
+<!-- page 22 -->
+
+# Bài tập
+
+## Bài tập áp dụng trên lớp:
+
+Các thực thể và thuộc tính trong sơ đồ:
+
+- **PHONG**: MaP, TruSo, TenP
+- **DU_AN**: MaDA, TenDA, DiaDiem
+- **NHAN_VIEN**: HoTenNV, MaNV, NgSinh, GioiTinh, Luong, SoThich
+- **THAN_NHAN**: HoTen, Gioi_Tinh, NgaySinh, QuanHe
+
+Các mối quan hệ:
+
+- **Giam_Sat**: Giữa PHONG và DU_AN
+- **Thuoc**: Giữa NHAN_VIEN và PHONG
+- **Lanh_Dao**: Giữa NHAN_VIEN và PHONG (có thuộc tính NgayNC)
+- **Tham_Gia**: Giữa NHAN_VIEN và DU_AN (có thuộc tính SoGio)
+- **Có**: Giữa NHAN_VIEN và THAN_NHAN
+
+
+<!-- page 23 -->
+
+# Bài tập
+
+- **BTVN: Thực hiện chuyển từ ERD sang mô hình dữ liệu quan hệ (chuyển từ thiết kế mức khái niệm sang logic) với:**
+    - Case study đã cho ở chương 3
+    - Bài tập BTC2.1 đã vẽ xong ERD
+
+23
+
+
+<!-- page 24 -->
+
+![HỌC VIỆN NGÂN HÀNG - BANKING ACADEMY OF VIETNAM](https://upload.wikimedia.org/wikipedia/vi/thumb/e/e5/Logo_H%E1%BB%8Dc_vi%E1%BB%87n_Ng%C3%A2n_h%C3%A0ng.svg/1200px-Logo_H%E1%BB%8Dc_vi%E1%BB%87n_Ng%C3%A2n_h%C3%A0ng.svg.png)
+
+?

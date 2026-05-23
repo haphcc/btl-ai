@@ -1,9 +1,3 @@
-### BÀI 1
-
-#### QUYẾT ĐỊNH VỀ VIỆC BAN HÀNH HƯỚNG DẪN QUY ĐỔI TÍN CHỈ HVNH
-
-## TRANG 1
-
 ## NGÂN HÀNG NHÀ NƯỚC VIỆT NAM
 
 ## HỌC VIỆN NGÂN HÀNG

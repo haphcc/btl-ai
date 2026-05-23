@@ -1,9 +1,3 @@
-### BÀI 14
-
-#### QUYẾT ĐỊNH VỀ VIỆC CỘNG ĐIỂM KHUYẾN KHÍCH CHO SINH VIÊN CÓ CÔNG TRÌNH NGHIÊN CỨU KHOA HỌC ĐẠT GIẢI THƯỞNG CÁC CẤP
-
-## TRANG 1
-
 ## NGÂN HÀNG NHÀ NƯỚC VIỆT NAM
 
 ## HỌC VIỆN NGÂN HÀNG
