@@ -1,4 +1,3 @@
-### BÀI 6
 
 #### 269 NQ HĐHV VV BAN HÀNH QC ĐT ĐẠI HỌC CHÍNH QUY CỦA HVNH
 
