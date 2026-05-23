@@ -300,4 +300,3 @@ Người dùng có thể chọn công cụ theo nhu cầu, chi phí, khả năng
 6. Styles có lợi ích gì khi soạn tài liệu dài?
 7. Mail Merge dùng trong tình huống nào?
 8. Khi dùng công cụ soạn thảo trực tuyến cần lưu ý gì?
-

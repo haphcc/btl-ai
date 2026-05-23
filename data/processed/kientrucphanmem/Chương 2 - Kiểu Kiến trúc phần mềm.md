@@ -1,9 +1,3 @@
-# Chương 2 - Kiểu Kiến trúc phần mềm
-
-
-
-<!-- page 1 -->
-
 ![Logo Học viện Ngân hàng](https://upload.wikimedia.org/wikipedia/vi/thumb/a/a5/Logo_Hoc_vien_Ngan_hang.svg/1200px-Logo_Hoc_vien_Ngan_hang.svg.png)
 
 # CHƯƠNG 2
@@ -11,17 +5,11 @@
 
 Hà Nội - 2026
 
-
-<!-- page 2 -->
-
 # Nội dung trình bày
 
 - Một số khái niệm
 - Phân loại Kiểu Kiến trúc phần mềm
 - Giới thiệu một số Kiểu kiến trúc phần mềm
-
-
-<!-- page 3 -->
 
 # Kiểu Kiến trúc phần mềm
 
@@ -32,20 +20,12 @@ Hà Nội - 2026
     - Các quyết định về cách dữ liệu được lưu trữ, xử lý và truyền tải
 - Kiểu kiến trúc phần mềm không chỉ là một khung cảnh về cấu trúc, mà còn đặt ra các nguyên tắc hướng dẫn việc xây dựng, triển khai, và duy trì hệ thống phần mềm.
 
-3
-
-
-<!-- page 4 -->
-
 # Kiểu Kiến trúc phần mềm
 
 - Một số khía cạnh chính của Kiểu kiến trúc phần mềm:
     - **Cấu trúc Tổ chức**: Quyết định cách hệ thống được tổ chức thành các thành phần khác nhau và cách chúng tương tác với nhau. Các kiến trúc thường được biểu diễn dưới dạng biểu đồ hoặc mô hình.
     - **Quyết định Kiến trúc**: Bao gồm các quyết định lớn về nền tảng công nghệ, ngôn ngữ lập trình, kiểu cơ sở dữ liệu, và các quy tắc tổ chức chung.
     - **Mô hình Dữ liệu**: Định nghĩa cách dữ liệu được tổ chức, lưu trữ và truy cập. Bao gồm cả cấu trúc cơ sở dữ liệu và cách dữ liệu di chuyển qua hệ thống.
-
-
-<!-- page 5 -->
 
 # Kiểu Kiến trúc phần mềm
 
@@ -55,9 +35,6 @@ Hà Nội - 2026
     - **Hiệu suất và Độ tin cậy**: Bao gồm các quyết định về hiệu suất hệ thống và khả năng đảm bảo tính tin cậy và ổn định.
 
 Kiến trúc phần mềm đóng vai trò quan trọng trong việc đảm bảo sự hiểu rõ và quản lý chặt chẽ của một dự án phần mềm, giúp tăng tính linh hoạt, tái sử dụng mã nguồn và giảm rủi ro trong quá trình phát triển và duy trì hệ thống.
-
-
-<!-- page 7 -->
 
 # Phân loại Kiểu Kiến trúc phần mềm (1)
 
@@ -69,23 +46,14 @@ Kiến trúc phần mềm đóng vai trò quan trọng trong việc đảm bảo
     - Các thành phần độc lập (Independent components):
         - Quy trình giao tiếp (Communicating process); Hệ thống sự kiện (Event systems)
 
-
-<!-- page 9 -->
-
 ## Nội dung trình bày
 - Một số khái niệm
 - Phân loại Kiểu Kiến trúc phần mềm
 - Giới thiệu một số Kiểu kiến trúc phần mềm
 
-
-<!-- page 11 -->
-
 # Hệ thống Luồng dữ liệu (DataFolow Systems)
 
 ## Kiểu kiến trúc tuần tự hàng loạt
-
-
-<!-- page 12 -->
 
 # Kiểu kiến trúc tuần tự hàng loạt
 

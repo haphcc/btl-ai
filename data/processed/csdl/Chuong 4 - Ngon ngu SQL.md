@@ -5,9 +5,6 @@
 
 **KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ**
 
-
-<!-- page 2 -->
-
 # NỘI DUNG CHÍNH
 
 1. Giới thiệu ngôn ngữ SQL
@@ -23,20 +20,12 @@
 
 Ngôn ngữ SQL 2
 
-
-<!-- page 3 -->
-
 # 1. Giới thiệu về SQL
 
 - **SQL** là một chuẩn của **ANSI** (American National Standards Institute - Viện tiêu chuẩn quốc gia Hoa kỳ) về truy xuất các hệ thống CSDL. Các câu lệnh **SQL** được sử dụng để truy xuất và cập nhật dữ liệu trong một CSDL.
 - **SQL** hoạt động với hầu hết các chương trình CSDL như MS Access, DB2, Informix, MS SQL Server, Oracle, Sybase v.v...
 
 Ngôn ngữ SQL
-
-
-<!-- page 4 -->
-
-# 1. Giới thiệu về SQL
 
 **SQL dùng để quản lý dữ liệu trong các hệ quản trị CSDL quan hệ:**
 
@@ -50,11 +39,6 @@ Ngôn ngữ SQL
 
 Ngôn ngữ SQL
 
-
-<!-- page 5 -->
-
-# 1. Giới thiệu về SQL
-
 ## Lịch sử ngôn ngữ SQL
 
 - **1970 --** Dr. Edgar F. "Ted" Codd của IBM được biết đến như là cha đẻ của Relational Database (Cơ sở dữ liệu quan hệ). Ông miêu tả một mô hình quan hệ (Relational Model) cho các Database.
@@ -63,11 +47,6 @@ Ngôn ngữ SQL
 - **1986 --** IBM phát triển nguyên mẫu đầu tiên về Relation Database và được chuẩn hóa bởi ANSI. Relation Database đầu tiên được công bố là Relational Software và sau đó là Oracle.
 
 Ngôn ngữ SQL 5
-
-
-<!-- page 6 -->
-
-# 1. Giới thiệu về SQL
 
 ## Phân loại ngôn ngữ SQL
 
@@ -78,21 +57,11 @@ Ngôn ngữ SQL 5
 
 Ngôn ngữ SQL 6
 
-
-<!-- page 7 -->
-
-# 1. Giới thiệu về SQL
-
 ## DQL (Data Query Language) – Ngôn ngữ truy vấn dữ liệu
 
 - **SELECT**: Lấy các bản ghi cụ thể từ một hoặc nhiều bảng.
 
 Ngôn ngữ SQL 7
-
-
-<!-- page 8 -->
-
-# 1. Giới thiệu về SQL
 
 - **DDL (Data Definition Language) – Ngôn ngữ định nghĩa dữ liệu**
 
@@ -102,11 +71,6 @@ Ngôn ngữ SQL 7
 
 Ngôn ngữ SQL 8
 
-
-<!-- page 9 -->
-
-# 1. Giới thiệu về SQL
-
 - **DML (Data Manipulation Language) – Ngôn ngữ thao tác dữ liệu**
     - **INSERT**: Tạo một bản ghi.
     - **UPDATE**: Sửa đổi các bản ghi.
@@ -114,19 +78,11 @@ Ngôn ngữ SQL 8
 
 Ngôn ngữ SQL 9
 
-
-<!-- page 10 -->
-
-# 1. Giới thiệu về SQL
-
 - **DCL (Data Control Language) – Ngôn ngữ điều khiển dữ liệu**
     - **GRANT**: Trao một quyền tới người dùng.
     - **REVOKE**: Thu hồi quyền đã trao cho người dùng.
 
 Ngôn ngữ SQL 10
-
-
-<!-- page 11 -->
 
 # 2. Truy vấn dữ liệu từ bảng đơn
 
@@ -158,31 +114,16 @@ Ngôn ngữ SQL 10
 
 Ngôn ngữ SQL
 
-
-<!-- page 12 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
-
 # DQL
 **(DATA QUERY LANGUAGE)**
 
 Ngôn ngữ SQL 12
-
-
-<!-- page 13 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
 
 - **SQL không phân biệt chữ hoa chữ thường**
 - **Câu lệnh SQL có thể viết trên một hoặc nhiều dòng**
 - **Các dấu tab và xuống dòng thường được sử dụng cho mục đích dễ đọc**
 
 Ngôn ngữ SQL 13
-
-
-<!-- page 14 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
 
 ## Cú pháp tổng quát:
 
@@ -198,22 +139,12 @@ FROM {tên_bảng | tên_view}
 
 Ngôn ngữ SQL
 
-
-<!-- page 15 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
-
 - Danh sách chọn trong câu lệnh Select
 - Điều kiện truy vấn dữ liệu
 - Sắp xếp dữ liệu
 - Sử dụng bí danh
 
 Ngôn ngữ SQL 15
-
-
-<!-- page 16 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
 
 - **Chọn tất cả các cột**: dùng dấu * trong câu lệnh Select
 
@@ -223,22 +154,12 @@ Ngôn ngữ SQL 15
 
 Ngôn ngữ SQL 16
 
-
-<!-- page 17 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
-
 - **Chọn các cột có giá trị khác nhau:** SQL sử dụng từ khóa **DISTINCT** để lấy các giá trị khác nhau trong các cột được chọn.
 - **Ví dụ: Cho biết đã có những môn nào được thi**
 
 `Select distinct MaMH From Ket_Qua`
 
 Ngôn ngữ SQL 17
-
-
-<!-- page 18 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
 
 - **Chọn một số cột cụ thể**
 - Ví dụ: Cho biết mã sinh viên, họ đệm, tên, giới tính của các sinh viên trong danh sách sinh viên
@@ -249,11 +170,6 @@ Ngôn ngữ SQL 17
 
 Ngôn ngữ SQL 18
 
-
-<!-- page 19 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
-
 - **Hằng và biểu thức trong danh sách chọn:**
 - **Biểu thức có thể chứa các phép toán số học và các hàm thư viện: count(); min(); max(); sum(); avg(); month(); year()...**
 - **Ví dụ:**
@@ -261,11 +177,6 @@ Ngôn ngữ SQL 18
 `Select Masv, HDem, Ten, 'Tuoi' = YEAR(GETDATE()) - YEAR(NgSinh) From Sinh_Vien`
 
 Ngôn ngữ SQL 19
-
-
-<!-- page 20 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
 
 - **Giới hạn số dòng trong kết quả truy vấn:**
 - **Ví dụ: Lấy ra 5 môn học đầu tiên trong danh sách các môn học**
@@ -279,11 +190,6 @@ Ngôn ngữ SQL 19
 
 Ngôn ngữ SQL
 
-
-<!-- page 21 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
-
 - **Tạo bảng mới lấy dữ liệu từ kết quả của câu lệnh SELECT**
 
 - **Ví dụ: Câu lệnh sau lấy dữ liệu từ bảng SINH VIÊN và tạo ra một bảng mới có tên là DSSV gồm các thuộc tính: MaSV và Họ tên**
@@ -292,11 +198,6 @@ Select MaSV, HDem+' '+Ten as Ho_ten
 Into DSSV From Sinh_Vien
 
 Ngôn ngữ SQL
-
-
-<!-- page 22 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
 
 - **Sử dụng bảng DSSV mới tạo**
 
@@ -316,11 +217,6 @@ Select * From DSSV
 
 Ngôn ngữ SQL
 
-
-<!-- page 23 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
-
 - **Mệnh đề WHERE trong câu lệnh SELECT được sử dụng nhằm xác định các điều kiện truy xuất dữ liệu**
 
 - **Ví dụ: Đưa ra danh sách gồm các sinh viên có giới tính là nam**
@@ -329,11 +225,6 @@ Ngôn ngữ SQL
 `From Sinh_Vien Where GTinh = 'nam'`
 
 Ngôn ngữ SQL 23
-
-
-<!-- page 24 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
 
 **Các toán tử được sử dụng trong các biểu thức điều kiện:**
 
@@ -347,11 +238,6 @@ Ngôn ngữ SQL 23
 
 Ngôn ngữ SQL 24
 
-
-<!-- page 25 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
-
 - **Sử dụng BETWEEN để kiểm tra giới hạn của dữ liệu:** Để kiểm tra xem giá trị dữ liệu nằm trong (ngoài) một khoảng nào đó.
 - **Ví dụ: Trả về danh sách kết quả có điểm thi nằm trong khoảng từ 5 đến 10.**
 
@@ -361,11 +247,6 @@ Where Diem BETWEEN 5 AND 10
 ```
 
 Ngôn ngữ SQL
-
-
-<!-- page 26 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
 
 - **Giá trị NULL**
 - **Ví dụ: Kết quả của câu lệnh sau trả về danh sách các sinh viên có địa chỉ email là null.**
@@ -383,11 +264,6 @@ Where EMail is null;
 
 Ngôn ngữ SQL
 
-
-<!-- page 27 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
-
 - **Từ khoá LIKE**
 - **Các kí tự đại diện:**
 
@@ -404,11 +280,6 @@ Ngôn ngữ SQL
 
 Ngôn ngữ SQL
 
-
-<!-- page 28 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
-
 **Danh sách IN**
 
 - **Ví dụ:**
@@ -420,11 +291,6 @@ Ngôn ngữ SQL
   `Where MaMH='CSDL1' OR MaMH='TDC' OR MaMH='ToanRR'`
 
 Ngôn ngữ SQL
-
-
-<!-- page 29 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
 
 - **Sử dụng hàm có sẵn trong truy vấn.**
 
@@ -443,11 +309,6 @@ $$Tên\_hàm\ ([danh\_sách\_tham\_số])$$
 
 Ngôn ngữ SQL
 
-
-<!-- page 30 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
-
 - **Cho biết danh sách gồm các thông tin: Mã sinh viên, họ tên và tuổi:**
 
 ```sql
@@ -465,11 +326,6 @@ Where MaMH='CSDL1'
 
 Ngôn ngữ SQL
 
-
-<!-- page 31 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
-
 ## **Hàm ngày tháng:**
 
 | Function name | Parameters | Description |
@@ -480,11 +336,6 @@ Ngôn ngữ SQL
 | `datepart` | (date part, date) | Returns date part from the listed date as an integer |
 
 Ngôn ngữ SQL
-
-
-<!-- page 32 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
 
 | Date part | Abbreviation | Values |
 | :--- | :--- | :--- |
@@ -500,11 +351,6 @@ Ngôn ngữ SQL
 | *second* | *ss, s* | *0-59* |
 
 Ngôn ngữ SQL
-
-
-<!-- page 33 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
 
 Ví dụ: Cho biết danh sách gồm họ tên và tháng sinh của mỗi sinh viên
 
@@ -526,11 +372,6 @@ Kết quả:
 
 Ngôn ngữ SQL
 
-
-<!-- page 34 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
-
 - **Sắp xếp kết quả truy vấn:** **ORDER BY ASC/DESC**
 - **Ví dụ:** Sắp xếp danh sách kết quả theo chiều tăng dần của Mã sinh viên, sau đó điểm của mỗi sinh viên lại được sắp xếp điểm theo chiều giảm dần.
 
@@ -541,11 +382,6 @@ Ngôn ngữ SQL
 `Select MaSV, MaMH, Diem From Ket_Qua Order by 1, 3 Desc`
 
 Ngôn ngữ SQL 34
-
-
-<!-- page 35 -->
-
-# 2. Truy vấn dữ liệu từ bảng đơn
 
 ## **Đổi tiêu đề các cột**
 
@@ -569,9 +405,6 @@ Ngôn ngữ SQL 34
 
 Ngôn ngữ SQL 35
 
-
-<!-- page 36 -->
-
 # 3. Sử dụng hàm nhóm và mệnh đề HAVING
 
 - **Gom nhóm GROUP BY**
@@ -580,11 +413,6 @@ Ngôn ngữ SQL 35
     - Mệnh đề HAVING dùng để đặt điều kiện lọc cho phân nhóm con ở Group by.
 
 Ngôn ngữ SQL
-
-
-<!-- page 37 -->
-
-# 3. Sử dụng hàm nhóm và mệnh đề HAVING
 
 | DEPTNO | JOB | SAL |
 | :--- | :--- | :--- |
@@ -619,11 +447,6 @@ Ngôn ngữ SQL
 
 Ngôn ngữ SQL
 
-
-<!-- page 38 -->
-
-# 3. Sử dụng hàm nhóm và mệnh đề HAVING
-
 ```sql
 SELECT      [column,] group_function(column)
 FROM        table
@@ -639,11 +462,6 @@ FROM        table
 
 Ngôn ngữ SQL 38
 
-
-<!-- page 39 -->
-
-# 3. Sử dụng hàm nhóm và mệnh đề HAVING
-
 | | |
 | :--- | :--- |
 | **SELECT** | *column, group_function(column)* |
@@ -658,11 +476,6 @@ Ngôn ngữ SQL 38
 - Có thể nhóm trên nhiều cột
 
 Ngôn ngữ SQL 39
-
-
-<!-- page 40 -->
-
-# 3. Sử dụng hàm nhóm và mệnh đề HAVING
 
 - **Cho biết mỗi môn học đã có bao nhiêu sinh viên có kết quả?**
 
@@ -687,11 +500,6 @@ Ngôn ngữ SQL 39
 | 11 | 6 | TDC |
 
 Ngôn ngữ SQL
-
-
-<!-- page 41 -->
-
-# 3. Sử dụng hàm nhóm và mệnh đề HAVING
 
 **EMP**
 
@@ -726,11 +534,6 @@ Ngôn ngữ SQL
 
 Ngôn ngữ SQL
 
-
-<!-- page 42 -->
-
-# 3. Sử dụng hàm nhóm và mệnh đề HAVING
-
 - **Chú ý: Các câu lệnh không thể sử dụng**
 
 - **Cột không có trong hàm nhóm & group by:**
@@ -750,11 +553,6 @@ Ngôn ngữ SQL
 > An aggregate may not appear in the WHERE clause unless it is in a subquery contained in a HAVING clause or a select list, and the column being aggregated is an outer reference.
 
 Ngôn ngữ SQL
-
-
-<!-- page 43 -->
-
-# 3. Sử dụng hàm nhóm và mệnh đề HAVING
 
 ## EMP
 
@@ -790,11 +588,6 @@ Ngôn ngữ SQL
 
 Ngôn ngữ SQL
 
-
-<!-- page 44 -->
-
-# 3. Sử dụng hàm nhóm và mệnh đề HAVING
-
 - **Các môn học có số lượng sinh viên thi lớn hơn 1:**
 `Select MaMH, COUNT(MaSV) as TongSo From Ket_Qua`
 `Group by MaMH Having COUNT(MaSV)>1`
@@ -805,9 +598,6 @@ Ngôn ngữ SQL
 `Having COUNT(MaL)<=3`
 
 Ngôn ngữ SQL
-
-
-<!-- page 45 -->
 
 # Bài tập
 
@@ -822,9 +612,6 @@ Ngôn ngữ SQL
 
 Ngôn ngữ SQL
 
-
-<!-- page 46 -->
-
 # 4. Truy vấn dữ liệu từ nhiều bảng
 
 ## Các loại nối
@@ -835,11 +622,6 @@ Ngôn ngữ SQL
 - Tự nối
 
 Ngôn ngữ SQL 46
-
-
-<!-- page 47 -->
-
-# 4. Truy vấn dữ liệu từ nhiều bảng
 
 - **Phép nối trong (INNER JOIN)**
 - Thực hiện nối nhiều bảng, trong đó các giá trị thỏa mãn điều kiện kết nối mới được hiển thị trong kết quả truy vấn
@@ -852,11 +634,6 @@ ON bảng_1.tên_cột SO_SÁNH bảng_2.tên_cột
 ```
 
 Ngôn ngữ SQL 47
-
-
-<!-- page 48 -->
-
-# 4. Truy vấn dữ liệu từ nhiều bảng
 
 **Nối trong:**
 
@@ -883,11 +660,6 @@ Ngôn ngữ SQL 47
 
 Ngôn ngữ SQL 48
 
-
-<!-- page 49 -->
-
-# 4. Truy vấn dữ liệu từ nhiều bảng
-
 - **Ví dụ:** Cho danh sách thông tin gồm MaSV, HDem, Ten, MaMH, Diem
 
 ```sql
@@ -913,21 +685,11 @@ Sinh_Vien.MaSV = Ket_Qua.MaSV
 
 Ngôn ngữ SQL
 
-
-<!-- page 50 -->
-
-# 4. Truy vấn dữ liệu từ nhiều bảng
-
 - **Phép nối ngoài (OUTER JOIN)**
 - Kết quả trả về bao gồm tất cả bản ghi của một bảng và mỗi bản ghi kết nối với bảng còn lại
 - Hiển thị giá trị NULL cho những ô không thỏa mãn điều kiện nối
 
 Ngôn ngữ SQL 50
-
-
-<!-- page 51 -->
-
-# 4. Truy vấn dữ liệu từ nhiều bảng
 
 - **Có 3 loại nối ngoài:**
     - Nối ngoài trái (`left outer join`/`left join`)
@@ -943,11 +705,6 @@ Ngôn ngữ SQL 50
 `ON bảng_1.tên_cột SO_SÁNH bảng_2.tên_cột`
 
 Ngôn ngữ SQL 51
-
-
-<!-- page 52 -->
-
-# 4. Truy vấn dữ liệu từ nhiều bảng
 
 **Nối ngoài trái:**
 
@@ -971,17 +728,9 @@ A B C D E
 
 Ngôn ngữ SQL
 
-52
-
-
-<!-- page 53 -->
-
-# 4. Truy vấn dữ liệu từ nhiều bảng
-
 **Ví dụ:**
 
-**Select** Sinh_Vien.MaSV, HDem, Ten, MaMH, Diem
-**From** Sinh_Vien left outer join Ket_Qua On
+**Select** Sinh_Vien.MaSV, HDem, Ten, MaMH, Diem **From** Sinh_Vien left outer join Ket_Qua On
 Sinh_Vien.MaSV = Ket_Qua.MaSV;
 
 **Kết quả**
@@ -1002,11 +751,6 @@ Sinh_Vien.MaSV = Ket_Qua.MaSV;
 
 Ngôn ngữ SQL
 
-
-<!-- page 54 -->
-
-# 4. Truy vấn dữ liệu từ nhiều bảng
-
 **Nối ngoài phải**
 
 | Cột | Cột |
@@ -1024,11 +768,6 @@ A B C D E
 **OUTPUT**
 
 Ngôn ngữ SQL 54
-
-
-<!-- page 55 -->
-
-# 4. Truy vấn dữ liệu từ nhiều bảng
 
 - **Ví dụ:**
 
@@ -1054,11 +793,6 @@ Select MaSV, Hdem, Ten, Lop.MaL, TenL From Sinh_Vien Right outer Join Lop On Sin
 
 Ngôn ngữ SQL
 
-
-<!-- page 56 -->
-
-# 4. Truy vấn dữ liệu từ nhiều bảng
-
 | Cột | Cột |
 | :--- | :--- |
 | A B C | B D E |
@@ -1077,11 +811,6 @@ A B C D E
 **OUTPUT**
 
 Ngôn ngữ SQL 56
-
-
-<!-- page 57 -->
-
-# 4. Truy vấn dữ liệu từ nhiều bảng
 
 **Ví dụ:**
 
@@ -1105,11 +834,6 @@ On Sinh_Vien.MaSV = Ket_Qua.MaSV
 | 15 | 8 | Nguyen T... | Thanh | NULL | NU... |
 
 Ngôn ngữ SQL
-
-
-<!-- page 58 -->
-
-# 4. Truy vấn dữ liệu từ nhiều bảng
 
 **Cột**
 A B C
@@ -1135,11 +859,6 @@ Tất cả bản ghi (n X m) kết hợp giữa bảng X và bảng Y
 
 Ngôn ngữ SQL 58
 
-
-<!-- page 59 -->
-
-# 4. Truy vấn dữ liệu từ nhiều bảng
-
 - **Ví dụ:** `Select p.MaMH, p.TenMH, p.SoTC, p1.MaSV, p1.Diem`
   `From M_hoc p Cross Join Ket_qua p1`
 - **Kết quả**
@@ -1156,11 +875,6 @@ Ngôn ngữ SQL 58
 | | ... | ... | ... | ... | ... |
 
 Ngôn ngữ SQL
-
-
-<!-- page 60 -->
-
-# 4. Truy vấn dữ liệu từ nhiều bảng
 
 **Nối bằng**
 
@@ -1179,11 +893,6 @@ A **B** C D **B** E
 **OUTPUT**
 
 Ngôn ngữ SQL 60
-
-
-<!-- page 61 -->
-
-# 4. Truy vấn dữ liệu từ nhiều bảng
 
 - **Ví dụ:**
 
@@ -1206,11 +915,6 @@ Ngôn ngữ SQL 60
 
 Ngôn ngữ SQL
 
-
-<!-- page 62 -->
-
-# 4. Truy vấn dữ liệu từ nhiều bảng
-
 - **VD: Tìm thông tin của sinh viên trong lớp có cùng ngày sinh với sinh viên Nguyễn Văn An.**
 
 ```sql
@@ -1221,19 +925,11 @@ Where a.MaL=c.MaL AND a.HDem='Nguyen Van' AND a.Ten='An' AND a.NgSinh=b.NgSinh A
 
 Ngôn ngữ SQL
 
-
-<!-- page 63 -->
-
-# 4. Truy vấn dữ liệu từ nhiều bảng
-
 - **Ví dụ: Bảng kết quả cần các thông tin sau: Mã sinh viên, họ tên sinh viên, tên lớp và tên khoa của các sinh viên đó.**
 
 `Select MaSV, HDem+' '+Ten as 'Ho va ten', TenL, TenKh From Sinh_Vien a join Lop b on a.MaL=b.MaL join Khoa c on b.MaKH=c.MaKH`
 
 Ngôn ngữ SQL 63
-
-
-<!-- page 64 -->
 
 # 5. Truy vấn lồng
 
@@ -1244,23 +940,11 @@ Ngôn ngữ SQL 63
 
 Ngôn ngữ SQL 64
 
-
-<!-- page 65 -->
-
-# 5. Truy vấn lồng
-
 **Lưu ý:**
 
 - Một truy vấn con phải được viết trong cặp dấu ngoặc
 - ORDER BY không được phép sử dụng trong truy vấn con
 - Một truy vấn con thường được sử dụng làm điều kiện trong mệnh đề WHERE hoặc HAVING của một truy vấn khác
-
-65
-
-
-<!-- page 66 -->
-
-# 5. Truy vấn lồng
 
 ## Sử dụng với ALL/ ANY
 
@@ -1269,21 +953,11 @@ Ngôn ngữ SQL 64
 
 Ngôn ngữ SQL 66
 
-
-<!-- page 67 -->
-
-# 5. Truy vấn lồng
-
 - **Ví dụ:**
 `Select * From Ket_qua Where diem>ALL (select Diem From ket_qua Where Masv=3)`
 
 - **Khác như thế nào với:**
 `Select * From Ket_qua Where diem>ANY (select Diem From ket_qua Where Masv=3)`
-
-
-<!-- page 68 -->
-
-# 5. Truy vấn lồng
 
 - **Sử dụng với IN/ NOT IN**
 - **Ví dụ: Tìm những sinh viên có cùng ngày sinh với sinh viên Nguyễn Văn An**
@@ -1298,11 +972,6 @@ Where HDem='Nguyen Van' AND Ten='An' )
 
 Ngôn ngữ SQL 68
 
-
-<!-- page 69 -->
-
-# 5. Truy vấn lồng
-
 - **Sử dụng với EXISTS/ NOT EXISTS:** để kiểm tra xem một truy vấn con có trả về dòng kết quả nào hay không
 - Ví dụ: Cho danh sách các sinh viên chưa thi môn nào
 
@@ -1314,11 +983,6 @@ Where not exists (Select * From Ket_Qua Where Sinh_Vien.MaSV=Ket_Qua.MaSV)
 - **Điểm khác biệt là trong danh sách chọn của truy vấn con có thể có nhiều hơn hai cột.**
 
 Ngôn ngữ SQL 69
-
-
-<!-- page 70 -->
-
-# Bài tập
 
 1. Cho biết thông tin Khoa của lớp CNTTAK14
 2. Cho biết thông tin của sinh viên có điểm thi cao nhất
@@ -1332,9 +996,6 @@ Ngôn ngữ SQL 69
 10. Cho biết điểm trung bình của mỗi sinh viên
 
 Ngôn ngữ SQL
-
-
-<!-- page 71 -->
 
 # 6. Hợp nhất câu truy vấn
 
@@ -1354,20 +1015,12 @@ Ngôn ngữ SQL
 
 Ngôn ngữ SQL 71
 
-
-<!-- page 72 -->
-
 # 7. Ngôn ngữ định nghĩa dữ liệu
 
 # DDL
 **(DATA DEFINITION LANGUAGE)**
 
 Ngôn ngữ SQL 72
-
-
-<!-- page 73 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
 
 **Các đối tượng:**
 
@@ -1377,11 +1030,6 @@ Ngôn ngữ SQL 72
 
 Ngôn ngữ SQL 73
 
-
-<!-- page 74 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
-
 **Mỗi CSDL chứa trong 3 kiểu tập tin**
 
 - **Primary data file (.mdf )**: bắt buộc có dùng để lưu trữ thông tin liên quan đến cấu trúc và đặc điểm của chính database đó.
@@ -1389,11 +1037,6 @@ Ngôn ngữ SQL 73
 - **Transaction log file (.ldf)**: dùng để lưu vết các giao tác, là những hành động dùng cập nhật dữ liệu (thêm, sửa, xóa) vào các bảng do người tác động trên CSDL.
 
 Ngôn ngữ SQL 74
-
-
-<!-- page 75 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
 
 - **Tạo cơ sở dữ liệu**
 ```sql
@@ -1413,11 +1056,6 @@ FILENAME = 'os_file_name'
 
 Ngôn ngữ SQL
 
-
-<!-- page 76 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
-
 - **Tạo CSDL QL_SinhVien**
 
 ```sql
@@ -1436,11 +1074,6 @@ Log On
 
 Ngôn ngữ SQL
 
-
-<!-- page 77 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
-
 ## Sửa CSDL
 
 **ALTER DATABASE** <tên CSDL>
@@ -1456,11 +1089,6 @@ Ngôn ngữ SQL
 [**COLLATE** <Tên collation>]
 
 Ngôn ngữ SQL
-
-
-<!-- page 78 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
 
 ## Thêm một file secondary vào CSDL QL_SinhVien
 
@@ -1485,11 +1113,6 @@ Modify file (name = qlsv_log, size = 5 mb)
 
 Ngôn ngữ SQL
 
-
-<!-- page 79 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
-
 - **Tạo bảng**
     `CREATE TABLE tên_bảng (`
     `tên_cột_1 kiểu_dữ_liệu[option], ,`
@@ -1499,11 +1122,6 @@ Ngôn ngữ SQL
 - **Thứ tự tạo bảng?**
 
 Ngôn ngữ SQL 79
-
-
-<!-- page 80 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
 
 ```sql
 Create table Sinh Vien
@@ -1530,11 +1148,6 @@ Create table Ket Qua
 
 Ngôn ngữ SQL
 
-
-<!-- page 81 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
-
 ## Sửa bảng
 
 `ALTER TABLE <Tên bảng> ADD <tên cột> | ALTER COLUMN <Tên cột> <Kiểu dữ liệu> [<Các thuộc tính khác>] | DROP COLUMN <Tên cột> | ADD CONSTRAINT <Tên ràng buộc> <Định nghĩa ràng buộc> | DROP CONSTRAINT <Tên ràng buộc> | ADD PRIMARY KEY<Tên cột>| ADD FOREIGN KEY<Tên cột> REFERENCES <Tên bảng>`
@@ -1544,11 +1157,6 @@ Ngôn ngữ SQL
 
 Ngôn ngữ SQL 81
 
-
-<!-- page 82 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
-
 - **Xóa bảng: Thứ tự xóa bảng?**
 **DROP TABLE Ten_Bang**
 
@@ -1557,20 +1165,10 @@ Ngôn ngữ SQL 81
 
 Ngôn ngữ SQL 82
 
-
-<!-- page 83 -->
-
-# Bài tập
-
 - **Tạo các bảng trong CSDL mẫu**
 - **Thêm bảng Giảng viên với các quan hệ: Giảng viên thuộc Khoa, Giảng viên giảng dạy các môn học (mỗi môn học có nhiều Giảng viên giảng dạy)**
 
 Ngôn ngữ SQL 83
-
-
-<!-- page 84 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
 
 - **Có thể tạo ràng buộc khi:**
     - **CREATE TABLE**
@@ -1578,19 +1176,11 @@ Ngôn ngữ SQL 83
 - **Cú pháp:**
     **CREATE TABLE** tên_bảng
     (
-    tên_cột kiểu_DL **CONSTRAINT** tên_constraint
-    loại_constraint [,**CONSTRAINT**
-    tên_constraint
-    loại_constraint],
+    tên_cột kiểu_DL **CONSTRAINT** tên_constraint loại_constraint [,**CONSTRAINT** tên_constraint loại_constraint],
     ...
     )
 
 Ngôn ngữ SQL 84
-
-
-<!-- page 85 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
 
 ## Các loại ràng buộc
 
@@ -1602,22 +1192,12 @@ Ngôn ngữ SQL 84
 
 Ngôn ngữ SQL 85
 
-
-<!-- page 86 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
-
 - **Khóa chính: không chấp nhận giá trị NULL**
 - **Cú pháp:**
 
 [CONSTRAINT tên_ràng_buộc] PRIMARY KEY [(danh_sách_cột)]
 
 Ngôn ngữ SQL 86
-
-
-<!-- page 87 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
 
 - **Cách 1:**
     - `CREATE TABLE Ten_Bang (Cot_1 KieuDL NOT NULL PRIMARY KEY, Cot_2 KieuDL..)`
@@ -1629,11 +1209,6 @@ Ngôn ngữ SQL 86
     - `ALTER TABLE Ten_Bang ADD CONSTRANT PK_TEN PRIMARY KEY(Cot_1, Cot_2..)`
 
 Ngôn ngữ SQL 87
-
-
-<!-- page 88 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
 
 **Cách 1:**
 ```sql
@@ -1664,11 +1239,6 @@ Create table M_Hoc
 
 Ngôn ngữ SQL
 
-
-<!-- page 89 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
-
 ## Khóa ngoại
 
 [CONSTRAINT tên_ràng_buộc] FOREIGN KEY [(danh_sách_cột)] REFERENCES tên_bảng_tham_chiếu [(danh_sách_cột_tham_chiếu)] [ON DELETE CASCADE | NO ACTION | SET NULL | SET DEFAULT] [ON UPDATE CASCADE | NO ACTION | SET NULL | SET DEFAULT]
@@ -1678,13 +1248,6 @@ SQL chuẩn đưa ra 4 cách xử lý khi **Delete** hoặc **Update**:
 - **NO ACTION**: (Mặc định) Nếu bản ghi trong bảng tham chiếu đang được tham chiếu bởi một bản ghi bất kỳ trong bảng được định nghĩa thì bản ghi đó không được phép xoá hoặc cập nhật (đối với cột được tham chiếu).
 - **SET NULL**: Cập nhật lại khoá ngoài của bản ghi thành giá trị NULL (nếu cột cho phép nhận giá trị NULL).
 - **SET DEFAULT**: Cập nhật lại khoá ngoài của bản ghi nhận giá trị mặc định (nếu cột có qui định giá trị mặc định).
-
-89
-
-
-<!-- page 90 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
 
 ## **Tạo khóa ngoại trong bảng lớp**
 
@@ -1708,11 +1271,6 @@ references Khoa
 
 Ngôn ngữ SQL
 
-
-<!-- page 91 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
-
 - **Duy nhất**
 
 [CONSTRAINT tên_ràng_buộc] UNIQUE [(danh_sách_cột)]
@@ -1729,11 +1287,6 @@ Ngôn ngữ SQL
 
 Ngôn ngữ SQL 91
 
-
-<!-- page 92 -->
-
-# 7. Ngôn ngữ định nghĩa dữ liệu
-
 ## CHECK:
 
 - Ràng buộc **CHECK** được dùng để hạn chế những dữ liệu lưu trong một trường.
@@ -1748,11 +1301,6 @@ $[CONSTRAINT \text{ tên\_ràng\_buộc}] \text{ CHECK } (<\text{điều kiện}
 
 Ngôn ngữ SQL 92
 
-
-<!-- page 93 -->
-
-# Bài tập
-
 ## Tạo các ràng buộc sau:
 
 - **Khóa chính**, **khóa ngoại** cho các bảng
@@ -1763,20 +1311,12 @@ Ngôn ngữ SQL 92
 
 Ngôn ngữ SQL 93
 
-
-<!-- page 94 -->
-
 # 8. Ngôn ngữ thao tác dữ liệu
 
 # DML
 # (DATA MANIPULATION LANGUAGE)
 
 Ngôn ngữ SQL 94
-
-
-<!-- page 95 -->
-
-# 8. Ngôn ngữ thao tác dữ liệu
 
 - **Thêm mới**
     - INSERT
@@ -1788,11 +1328,6 @@ Ngôn ngữ SQL 94
     - TRUNCATE
 
 Ngôn ngữ SQL 95
-
-
-<!-- page 96 -->
-
-# 8. Ngôn ngữ thao tác dữ liệu
 
 - **Thêm mới bản ghi:**
 
@@ -1811,11 +1346,6 @@ Ngôn ngữ SQL 95
 
 Ngôn ngữ SQL
 
-
-<!-- page 97 -->
-
-# 8. Ngôn ngữ thao tác dữ liệu
-
 **Ví dụ:**
 
 INSERT INTO universities.dbo.country (id, country_name) VALUES
@@ -1825,11 +1355,6 @@ INSERT INTO universities.dbo.country (id, country_name) VALUES
 (4,'Bangladesh');
 
 Ngôn ngữ SQL 97
-
-
-<!-- page 98 -->
-
-# 8. Ngôn ngữ thao tác dữ liệu
 
 - **Cập nhật dữ liệu**
 
@@ -1843,11 +1368,6 @@ Ngôn ngữ SQL 97
 `Where MaSV = 5`
 
 Ngôn ngữ SQL 98
-
-
-<!-- page 99 -->
-
-# 8. Ngôn ngữ thao tác dữ liệu
 
 - **Xóa dữ liệu:**
 - **Lần lượt từng bản ghi**
@@ -1865,31 +1385,16 @@ Ngôn ngữ SQL 98
 
 Ngôn ngữ SQL 99
 
-
-<!-- page 100 -->
-
-# Bài tập
-
 - **Nhập vào 20 dòng dữ liệu cho các bảng**
 - **Cập nhật lại tên của các lớp trong khoa Công nghệ Thông tin (dạng: CNTT.Tên lớp)**
 
 Ngôn ngữ SQL
-
-
-<!-- page 101 -->
 
 # 9. VIEW
 
 - Giả sử, cứ mỗi ngày bạn cần một danh sách các sản phẩm. Vậy bạn chọn cách gõ cùng một truy vấn vào mỗi cuối ngày? Hay một bảng dữ liệu lưu sẵn kết quả của truy vấn đó trong CSDL?
     - **View**
 - **VIEW** là là một **BẢNG ảo** được định nghĩa dựa trên truy vấn **SELECT**. Truy vấn có thể chứa các cột, biểu thức, bí danh, các hàm và lấy từ một hoặc nhiều bảng khác nhau (bảng cơ sở).
-
-101
-
-
-<!-- page 102 -->
-
-# 9. VIEW
 
 **Mục đích:**
 
@@ -1899,11 +1404,6 @@ Ngôn ngữ SQL
 
 Ngôn ngữ SQL 102
 
-
-<!-- page 103 -->
-
-# 9. VIEW
-
 - **Tạo view:**
 CREATE VIEW *viewname* [*column_list*] AS SELECT *query*
 
@@ -1912,20 +1412,10 @@ Create view DSlop_khoa as Select MaSV, HDem, Ten, TenL, TenKh From Sinh_Vien a j
 
 Ngôn ngữ SQL 103
 
-
-<!-- page 104 -->
-
-# 9. VIEW
-
 - **Ví dụ:**
 - **Create View SoLuongThi (TenMH, TongSo) As Select TenMH, COUNT(MaSV) From Ket_Qua join M_Hoc on Ket_Qua.MaMH=M_Hoc.MaMH Group by TenMH Having COUNT(MaSV)>1**
 
 Ngôn ngữ SQL 104
-
-
-<!-- page 105 -->
-
-# 9. VIEW
 
 - Tương tự như đối với bảng, view cũng sử dụng **Alter** để sửa và **Drop** để xóa:
 
@@ -1939,11 +1429,6 @@ Ngôn ngữ SQL 104
 
 Ngôn ngữ SQL 105
 
-
-<!-- page 106 -->
-
-# 9. VIEW
-
 ## Truy vấn trên view:
 
 - Select * from DSlop_khoa
@@ -1953,11 +1438,6 @@ Ngôn ngữ SQL 105
 - Select * from SoLuongThi where TongSo>1
 
 Ngôn ngữ SQL 106
-
-
-<!-- page 107 -->
-
-# 9. VIEW
 
 - Một khung nhìn (view) có thể sử dụng các câu lệnh **Insert/Update/Delete** như một bảng. Khi đó, tùy từng trường hợp mà dữ liệu cũng sẽ được thêm/sửa/xóa ở bảng cơ sở.
 - **Thêm dữ liệu trên view:**
@@ -1969,11 +1449,6 @@ Ngôn ngữ SQL 106
         `values ('Dang Quang', 'Khanh', 'TAAK14')`
 
 Ngôn ngữ SQL 107
-
-
-<!-- page 108 -->
-
-# 9. VIEW
 
 - **Sửa dữ liệu trên view:**
   `Update DSSV`
@@ -1987,11 +1462,6 @@ Ngôn ngữ SQL 107
 
 Ngôn ngữ SQL
 
-
-<!-- page 109 -->
-
-# 9. VIEW
-
 **Dữ liệu sẽ không được thêm/sửa/xóa vào bảng khi thêm/sửa/xóa dữ liệu vào view nếu:**
 
 - Mệnh đề FROM trong định nghĩa view bao gồm nhiều bảng
@@ -2000,9 +1470,6 @@ Ngôn ngữ SQL
 - Không thể thêm/sửa nếu một cột của khung nhìn được dẫn xuất từ một hằng số hoặc một biểu thức.
 
 Ngôn ngữ SQL 109
-
-
-<!-- page 110 -->
 
 # 10. INDEX
 
@@ -2013,22 +1480,12 @@ Ngôn ngữ SQL 109
 
 Ngôn ngữ SQL 110
 
-
-<!-- page 111 -->
-
-# 10. INDEX
-
 - **Một chỉ mục (Index) là một sự sắp xếp có trật tự được sử dụng để truy cập hợp lý các hàng trong một bảng.**
     - Sử dụng để nâng cao hiệu quả tìm kiếm
     - Tránh các giá trị cột trùng lặp.
 - **Một chỉ mục bao gồm một khóa chỉ mục và một tập hợp các điểm trỏ. Khóa chỉ mục là điểm tham chiếu của chỉ mục. Chính xác hơn, chỉ mục là sự sắp xếp có thứ tự của các khóa và điểm trỏ. Mỗi điểm trỏ, trỏ đến vị trí của dữ liệu được xác định bởi khóa.**
 
 Ngôn ngữ SQL 111
-
-
-<!-- page 112 -->
-
-# 10. INDEX
 
 **Ví dụ:**
 
@@ -2051,11 +1508,6 @@ Ngôn ngữ SQL 111
 
 Ngôn ngữ SQL 112
 
-
-<!-- page 113 -->
-
-# 10. INDEX
-
 ## Chú ý:
 
 - Một bảng có thể có nhiều chỉ mục, nhưng mỗi chỉ mục được liên kết với chỉ một bảng.
@@ -2063,11 +1515,6 @@ Ngôn ngữ SQL 112
 - Indexes được tạo tự động khi các ràng buộc PRIMARY KEY và UNIQUE được định nghĩa trên các cột của bảng.
 
 Ngôn ngữ SQL 113
-
-
-<!-- page 114 -->
-
-# 10. INDEX
 
 ## **Tạo index:**
 **CREATE [UNIQUE]INDEX indexname ON tablename(column1 [, column2])**
@@ -2083,11 +1530,5 @@ Ngôn ngữ SQL 113
 **Drop index KT on Ket_qua;**
 
 Ngôn ngữ SQL 114
-
-
-<!-- page 115 -->
-
-HỌC VIỆN NGÂN HÀNG
-BANKING ACADEMY OF VIETNAM
 
 Mô hình cơ sở dữ liệu quan hệ

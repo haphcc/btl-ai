@@ -2,13 +2,9 @@
 
 #### C00 GIOI THIEU MON HOC
 
-## TRANG 1
-
 Lập trình .NET
 
 Hà Nội - 2026
-
-## TRANG 2
 
 Giới thiệu môn học
 
@@ -17,8 +13,6 @@ Giới thiệu môn học
 ◼ Lý thuyết: 35% ◼ Thực hành, thảo luận: 65% ◼ Tự học: 200% Đánh giá ◼ Chuyên cần: 10% ◼ Kiểm tra giữa kì: 30% (thực hành trên máy) ◼ Thi cuối kì: 60% (thi thực hành)
 
 23/05/2026 Giới thiệu môn học 2/10
-
-## TRANG 3
 
 CLO Nội dung
 
@@ -41,8 +35,6 @@ giao diện đồ họa, có kết nối đến cơ sở dữ liệu theo yêu c
 | CLO3 | Sử dụng chiến lược giao tiếp, giao tiếp bằng văn bản và thuyết
 trình để thực hiện được dự án phần mềm quản lý trong thực tế |
 
-## TRANG 4
-
 Tài liệu tham khảo
 
 Giáo trình ◼ Phạm Quang Hiển, Tự học C# bằng hình ảnh, NXB Thanh Niên, 2023 ◼ Phạm Quang Huy, Vũ Trọng Luật, Phạm Quang Hiển, Lập trình với C#, NXB Thanh Niên, 2019.
@@ -53,15 +45,11 @@ Tài liệu tham khảo
 
 23/05/2026 Giới thiệu môn học 4/10
 
-## TRANG 5
-
 Công cụ cần thiết
 
 Cài đặt ◼ MS Visual Studio (Bản community) ◼ MS SQL Server 2008/2012/2019 (bản Express) - tuỳ chọn Địa chỉ do wnload ◼ http://www. microsoft. com/do wnloads
 
 23/05/2026 Giới thiệu môn học 5/10
-
-## TRANG 6
 
 Yêu cầu đối với sinh viên
 
@@ -69,15 +57,11 @@ Yêu cầu đối với sinh viên
 
 23/05/2026 Giới thiệu môn học 6/10
 
-## TRANG 7
-
 ## Nội dung
 
  Chương 1. Tổng quan về lập trình .NET và ngôn ngữC# ◼ Tổng quan về .NET Framework ◼ Giới thiệu về Microsoft Visual Studio ◼ Giới thiệu ngôn ngữC# ◼ Các bước xây dựng chương trình C# ◼ Hướng dẫn debug trên công cụMicrosoft Visual Studio Chương 2. Ngữ pháp C# cơ bản ◼ Cấu trúc chương trình C# ◼ Kiểu dữ liệu ◼ Các thành phần điều khiển
 
 23/05/2026 Giới thiệu môn học 7/10
-
-## TRANG 8
 
 ## Nội dung
 
@@ -85,15 +69,11 @@ Yêu cầu đối với sinh viên
 
 23/05/2026 Giới thiệu môn học 8/10
 
-## TRANG 9
-
 ## Nội dung
 
 Chương 5. Lập trình cơ sở dữ liệu ◼ Tổng quan về ADO.NET ◼ Những lệnh cơ bản trong ADO.NET Chương 6. Tạo lập báo cáo trong ứng dụng
 
 23/05/2026 Giới thiệu môn học 9/10
-
-## TRANG 10
 
 Tiến trình học tập
 

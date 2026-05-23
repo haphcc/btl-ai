@@ -190,4 +190,3 @@ Một số đặc tả định dạng thường dùng:
 - Chương trình C được xây dựng từ từ khóa, tên, hằng, biến, toán tử và câu lệnh.
 - Hàm `main` là điểm bắt đầu thực thi chương trình.
 - C hỗ trợ nhiều kiểu dữ liệu cơ sở và các lệnh nhập xuất cơ bản qua `printf`, `scanf`.
-

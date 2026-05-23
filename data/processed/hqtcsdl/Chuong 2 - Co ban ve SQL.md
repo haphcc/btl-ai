@@ -2,12 +2,6 @@
 
 ➢ **Giảng viên: Ngô Thùy Linh**
 
-ORACLE
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 2 -->
-
 # Nội dung chính
 
 - Giới thiệu về SQL
@@ -15,12 +9,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
 - Định nghĩa dữ liệu: DDL (Create, Alter, Drop)
 - Thao tác dữ liệu: DML (Insert, Update, Delete)
 - Tối ưu hóa câu lệnh SQL
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 3 -->
 
 # SQL
 
@@ -31,12 +19,6 @@ ORACLE
     - Transaction Control
     - Session Control
     - System Control
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 4 -->
 
 # Kiểu dữ liệu
 
@@ -49,11 +31,6 @@ ORACLE
 | | | INTERVAL DAY[($m$)] TO **SECOND**[($n$)] | | | |
 
 ABC 42 AAAM4yAABAAAO9KAAA
-ORACLE
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 5 -->
 
 # Kiểu dữ liệu
 
@@ -69,12 +46,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
 ## Kiểu ngày tháng
 - Date: Jan 1, 4712 BC $\rightarrow$ Dec 31, 9999 AD
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 6 -->
-
 # Kiểu dữ liệu (tt)
 
 ## Kiểu số: Number(p,s)
@@ -88,12 +59,6 @@ ORACLE
     - $\uparrow$ (phần 00000): 8-3
     - $\uparrow$ (phần 999): 3
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 7 -->
-
 # Lấy dữ liệu
 
 **SELECT** [DISTINCT] danh_sách_cột
@@ -102,12 +67,6 @@ ORACLE
 [**GROUP BY** danh_sách_cột_1]
 [**HAVING** điều_kiện_lọc]
 [**ORDER BY** danh_sách_cột_2 [ASC | DESC]]
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 8 -->
 
 # Phép toán
 
@@ -119,11 +78,6 @@ ORACLE
 | Logic | NOT, AND, OR |
 | Các phép toán chuỗi | \|\|, LIKE, NOT LIKE |
 | Các phép toán khác | IN, NOT IN, BETWEEN, EXISTS, IS NULL, IS NOT NULL |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng ORACLE
-
-
-<!-- page 9 -->
 
 # VÍ DỤ
 
@@ -149,12 +103,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng ORACLE
 - detai (1) $\rightarrow$ canbo ($\infty$)
 - canbo (1) $\rightarrow$ ngoaingu ($\infty$)
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 10 -->
-
 # Câu lệnh SELECT đơn giản
 
 - SELECT [DISTINCT] {*, *column_list* [alias],...}
@@ -163,12 +111,6 @@ ORACLE
 - Chọn tất cả các cột?
 - Một cột cụ thể?
 - Thay đổi tên hiển thị
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 11 -->
 
 # Câu lệnh SELECT đơn giản
 
@@ -192,12 +134,6 @@ ORACLE
 | cb3 | Anh | B |
 | cb4 | Trung Quoc | C |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 12 -->
-
 # Select (Limiting Results)
 
 - Hiển thị N bản ghi đầu tiên của bảng
@@ -206,12 +142,6 @@ select *
 from sometable
 where **rownum <= N**
 order by name_col
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 13 -->
 
 # SQL Alias (Bí danh cột)
 
@@ -228,12 +158,6 @@ ORACLE
 | cb3 | Anh |
 | cb4 | Trung Quoc |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 14 -->
-
 # Toán tử nối
 
 - Nối các cột hoặc chuỗi ký tự vào các cột
@@ -248,12 +172,6 @@ ORACLE
 | cb2Anh |
 | cb3Anh |
 | cb4Trung Quoc |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 15 -->
 
 # SQL SELECT DISTINCT
 
@@ -282,12 +200,6 @@ ORACLE
 | 5 | Nam Dinh |
 | 6 | Cao Bang |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 16 -->
-
 # Biểu thức số học
 
 - Phép toán số học: * / + -
@@ -307,12 +219,6 @@ ORACLE
 | Vu Thi Hoa | 7000000 | 7500000 |
 | Hoang Thi Hue | 8000000 | 8500000 |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 17 -->
-
 # SQL WHERE Syntax
 
 - SELECT column_name,column_name
@@ -328,12 +234,6 @@ ORACLE
 | >= | greater than or equal to |
 | <= | less than or equal to |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 18 -->
-
 # SQL WHERE Syntax ...
 
 - Ví dụ: Hiển thị tên và lương của các cán bộ có lương hơn 3 triệu:
@@ -348,12 +248,6 @@ ORACLE
 | Dinh Thuy Hien | 3500000 |
 | Vu Thi Hoa | 7000000 |
 | Hoang Thi Hue | 8000000 |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 19 -->
 
 # ALL, ANY/SOME
 
@@ -380,12 +274,6 @@ ORACLE
 | 7000000 |
 | 8000000 |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 20 -->
-
 # ANY/ SOME
 
 - The ANY comparison condition is used to compare a value to a list or subquery.
@@ -399,12 +287,6 @@ ORACLE
 | 2 | Vu Thi Hoa | 7000000 |
 | 3 | Hoang Thi Hue | 8000000 |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 21 -->
-
 # Một số phép toán khác
 
 ## Các phép toán so sánh khác
@@ -416,27 +298,11 @@ ORACLE
 | BETWEEN...AND | column value is between two values, including the end values specified in the range. |
 | IS NULL | column value does not exist. |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 22 -->
-
-# Một số phép toán khác ...
-
 - **IN (NOT IN)**
     - Dùng để kiểm tra các giá trị thuộc (không thuộc) một danh sách cho trước
 - **SELECT** *column_name(s)*
   **FROM** *table_name*
   **WHERE** *column_name* **IN** (*value1,value2,...*);
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 23 -->
-
-# Một số phép toán khác ...
 
 - Ví dụ: hiển thị lương các cán bộ thỏa mãn 1 trong các giá trị sau
 - select tencb, luong
@@ -450,14 +316,6 @@ ORACLE
 | Dang Thi Hang | 4000000 |
 | Ha Thi Hien | 5000000 |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 24 -->
-
-# Một số phép toán khác ...
-
 Select tencb, luong
 from canbo
 where luong **NOT IN** (2000000, 3000000, 4000000);
@@ -469,14 +327,6 @@ where luong **NOT IN** (2000000, 3000000, 4000000);
 | 3 | Dinh Thuy Hien | 3500000 |
 | 4 | Vu Thi Hoa | 7000000 |
 | 5 | Hoang Thi Hue | 8000000 |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 25 -->
-
-# Một số phép toán khác ...
 
 ## SQL LIKE Syntax
 - The LIKE operator is used to search for a specified pattern in a column.
@@ -494,14 +344,6 @@ WHERE column_name LIKE pattern;
 | [charlist] | Sets and ranges of characters to match |
 | [^charlist] or [!charlist] | Matches only a character NOT specified within the brackets |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 26 -->
-
-# Một số phép toán khác ...
-
 - Ví dụ: hiển thị ra các cán bộ có quê quán bắt đầu bởi chữ H
 - Select tencb,quequan
 - from canbo
@@ -513,14 +355,6 @@ ORACLE
 | Luu Ngoc Duc | Ha Nam |
 | Vu Thi Hoa | Ha Noi |
 | Hoang Thi Hue | Ha Noi |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 27 -->
-
-# Một số phép toán khác ...
 
 - **BETWEEN ... AND...**
     - Dùng để lựa chọn giá trị của trường trong một khoảng giá trị (numbers, text, dates) cho trước.
@@ -543,14 +377,6 @@ from detai
 where madetai between 'dt2' and 'dt4' ;
 ```
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 28 -->
-
-# Một số phép toán khác ...
-
 - IS NULL/ IS NOT NULL
 - Giá trị NULL
     - Nếu một bản ghi thiếu giá trị tại một trường nào đó thì giá trị đó là NULL.
@@ -562,19 +388,7 @@ from ngoaingu
 where tengoaingu IS NULL;
 ```
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 29 -->
-
 # EXISTS
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 30 -->
 
 # Phép toán logic
 
@@ -585,12 +399,6 @@ ORACLE
 | OR | For the row to be selected at least one of the conditions must be true. |
 | AND | For a row to be selected all the specified conditions must be true. |
 | NOT | For a row to be selected the specified condition must be false. |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 31 -->
 
 # Phép toán logic ...
 
@@ -610,12 +418,6 @@ select * from ngoaingu
 where tengoaingu LIKE 'Phap' OR trinhdo LIKE 'B';
 ```
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 32 -->
-
 # Phép toán logic ...
 
 ## NOT
@@ -625,12 +427,6 @@ ORACLE
 select * from ngoaingu
 where NOT ( tengoaingu = 'Trung Quoc');
 ```
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 33 -->
 
 # Mệnh đề ORDER BY
 
@@ -649,11 +445,6 @@ order by luong
 desc;
 ```
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 34 -->
-
 # Hàm đơn
 ## Single – Row Functions
 
@@ -663,12 +454,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
 - Có thể hiệu chỉnh kiểu dữ liệu
 - Có thể lồng nhau
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 35 -->
-
 # Hàm đơn ...
 
 ## Các loại hàm đơn:
@@ -676,11 +461,6 @@ ORACLE
 - Number
 - Date
 - Conversion
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng | ORACLE
-
-
-<!-- page 36 -->
 
 # Một hàm phục vụ cho truy vấn
 
@@ -691,11 +471,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng | ORACLE
 | LPAD, RPAD | SQRT | EXTRACT | TO_DATE | | AVG |
 | LTRIM, RTRIM, TRIM | | MONTHS_BETWEEN | TO_NUMBER | | SUM |
 | SUBSTR | | | SIGN | | |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng ORACLE
-
-
-<!-- page 37 -->
 
 # Hàm Character
 
@@ -717,12 +492,6 @@ $\downarrow$
 `INITCAP('XINCHAO')`
 `Xin Chao`
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 38 -->
-
 # Hàm Character ...
 
 | Tên hàm | Ý nghĩa |
@@ -734,12 +503,6 @@ ORACLE
 | RTRIM (string_value, trim_text) | All occurrences of 'trim_text' is removed from the right of 'string_value' |
 | LPAD (string_value, n, pad_value) | Returns 'string_value' left-padded with 'pad_value'. The length of the whole string will be of 'n' characters. |
 | RPAD (string_value, n, pad_value) | Returns 'string_value' right-padded with 'pad_value'. The length of the whole string will be of 'n' characters. |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 39 -->
 
 | Tên hàm | Ví dụ | Giá trị trả về |
 | :--- | :--- | :--- |
@@ -753,12 +516,6 @@ ORACLE
 | LENGTH (string_value) | LENGTH ('Good Morning') | 12 |
 | LPAD (string_value, n, pad_value) | LPAD ('Good', 6, '*') | **Good |
 | RPAD (string_value, n, pad_value) | RPAD ('Good', 6, '*') | Good** |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 40 -->
 
 # Ví dụ các hàm ký tự
 
@@ -776,12 +533,6 @@ ORACLE
 
 ***
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 41 -->
-
 # Ví dụ các hàm ký tự ...
 
 ## Hàm LTRIM
@@ -795,12 +546,6 @@ ORACLE
 | `LTRIM('123123Tech123', '123');` | would return 'Tech123' |
 | `LTRIM('xyxzyyyTech', 'xyz');` | would return 'Tech' |
 | `LTRIM('6372Tech', '0123456789');` | would return 'Tech' |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 42 -->
 
 # Ví dụ các hàm ký tự ...
 
@@ -816,12 +561,6 @@ ORACLE
 | `RTRIM('Techxyxzyyy', 'xyz');` | would return 'Tech' |
 | `RTRIM('Tech6372', '0123456789');` | would return 'Tech' |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 43 -->
-
 # Hàm Number
 
 | **Tên hàm** | **Mô tả** |
@@ -831,12 +570,6 @@ ORACLE
 | FLOOR (x) | Integer value that is Less than or equal to the number 'x' |
 | TRUNC (x, y) | Truncates value of number 'x' up to 'y' decimal places |
 | ROUND (x, y) | Rounded off value of the number 'x' up to the number 'y' decimal places |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 44 -->
 
 # Hàm Number ...
 
@@ -849,12 +582,6 @@ ORACLE
 | FLOOR (x) | FLOOR (2.83)<br>FLOOR (2.49)<br>FLOOR (-1.6) | 2<br>2<br>-2 |
 | TRUNC (x, y) | ROUND (125.456, 1)<br>ROUND (125.456, 0)<br>ROUND (124.456, -1) | 125.4<br>125<br>120 |
 | ROUND (x, y) | TRUNC (140.234, 2)<br>TRUNC (-54, 1)<br>TRUNC (5.7)<br>TRUNC (142, -1) | 140.23<br>54<br>5<br>140 |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 45 -->
 
 # Hàm Number ...
 
@@ -870,11 +597,6 @@ FROM table_name;
 - If N = 0 then 0 is returned
 - If N < 0 then -1 is returned
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 46 -->
-
 # Hàm DATE
 
 - Tất cả hàm Date trả về giá trị kiểu Date ngoại trừ hàm **MONTHS_BETWEEN** (trả về numeric)
@@ -886,14 +608,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
 | ROUND (x, date_format) | Returns the date 'x' rounded off to the nearest century, year, month, date, hour, minute, or second as specified by the 'date_format'. |
 | TRUNC (x, date_format) | Returns the date 'x' lesser than or equal to the nearest century, year, month, date, hour, minute, or second as specified by the 'date_format'. |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 47 -->
-
-# Hàm DATE ...
-
 | Tên hàm | Mô tả |
 | :--- | :--- |
 | NEXT_DAY (x, week_day) | Returns the next date of the 'week_day' on or after the date 'x' occurs. |
@@ -902,13 +616,6 @@ ORACLE
 | CURRENT_DATE | Returns the current date (client) |
 | EXTRACT( c FROM date) | Returns and extracts a value c from a date or interval value. |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng ORACLE
-
-
-<!-- page 48 -->
-
-# Hàm DATE ...
-
 ## ❖ Ví dụ
 
 `select add_months('1-JAN-2013', 5) from dual;`
@@ -916,14 +623,6 @@ $\rightarrow$ `01-JUN-13`
 
 `select months_between('1-JAN-2013', '1-AUG-2013') "So Thang" from dual;`
 $\rightarrow$ `So Thang: -7`
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-ORACLE
-
-
-<!-- page 49 -->
-
-# Hàm DATE ...
 
 - **Ví dụ**
 
@@ -951,13 +650,6 @@ from detai
 where extract(year from to_date(ngaycuoi,'dd/mm/yy'))>2012;
 ```
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 50 -->
-
-# Hàm DATE ...
-
 - **Ví dụ**
 
 | Câu lệnh SQL | Kết quả |
@@ -969,10 +661,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
 | `select extract(month from to_date('2-9-2013', 'dd-mm-yy')) from dual;` | 9 |
 
 ---
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 51 -->
 
 # Hàm Conversion
 
@@ -985,11 +673,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
 | TO_NUMBER(char) | Converts a string to a number |
 | NVL(expr1, expr2) | Converts a NULL to a vaild |
 | CAST(x AS type) | Converts x to a compatible database type specified in type |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 52 -->
 
 # Hàm Conversion ...
 
@@ -1008,11 +691,6 @@ initcap(to_char(ngaydau, 'ddspth "of" month yyyy')) "Ngay Nhan De Tai"
 from detai;
 ```
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 53 -->
-
 # Hàm Conversion ...
 
 ### Hàm CAST
@@ -1030,11 +708,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
 `select cast('1-sep-2013' as varchar2(30))`
 `from dual;`
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
-
-
-<!-- page 54 -->
-
 # SQL GROUP Functions
 
 - **Hàm Group**
@@ -1049,11 +722,6 @@ FROM table
 [ORDER BY column names]
 ```
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 55 -->
-
 # SQL GROUP Functions
 
 ### Một số chú ý
@@ -1061,11 +729,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
 - Hàm COUNT(*) đếm cả giá trị NULL, nếu dùng COUNT(expr) đếm giá trị khác NULL
 - Hàm MIN, MAX dùng với mọi kiểu dữ liệu
 - Dùng hàm NVL giúp hàm group tính giá trị NULL
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 56 -->
 
 # SQL GROUP Functions ...
 
@@ -1086,11 +749,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
     select count(distinct(tengoaingu)) "So loai ngoai ngu"
     from ngoaingu;
     ```
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 57 -->
 
 # SQL GROUP Functions ...
 
@@ -1117,11 +775,6 @@ $\downarrow$
 ORA-00937: not a single-group group function
 00937. 00000 - "not a single-group group function"
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 58 -->
-
 # SQL GROUP Functions ...
 
 ❖ Ví dụ 5: Tính lương trung bình của các cán bộ
@@ -1141,11 +794,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
 | :--- |
 | 3518181.818181 |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
-
-
-<!-- page 59 -->
-
 # SQL GROUP BY Clause
 
 ## Mệnh đề GROUP BY
@@ -1155,11 +803,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
 - Cột GROUP BY không nhất thiết phải có trong SELECT
 - Tất cả các trường trong SELECT mà không có trong HÀM GROUP thì **PHẢI** có trong GROUP BY
 - Mệnh đề WHERE có thể loại bỏ các bản ghi trước khi chia chúng thành nhóm
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
-
-
-<!-- page 60 -->
 
 # SQL GROUP BY Clause ...
 
@@ -1178,11 +821,6 @@ group by tengoaingu;
 | Nga | 1 |
 | Phap | 1 |
 | Trung Quoc | 1 |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 61 -->
 
 # SQL GROUP BY Clause ...
 
@@ -1208,13 +846,6 @@ order by madetai;
 | dt4 | hai duong | 2 |
 | dt5 | Lang Son | 2 |
 
-ORACLE
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 62 -->
-
 # SQL GROUP BY Clause ...
 
 - Ví dụ: trường **tencb** không có trong GROUP BY
@@ -1231,11 +862,6 @@ ORA-00979: not a GROUP BY expression
 *Cause:
 *Action:
 Error at Line: 228 Column: 9
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 63 -->
 
 # SQL HAVING Clause
 
@@ -1255,11 +881,6 @@ group by quequan
 having avg(luong)>3000000;
 ```
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
-
-
-<!-- page 64 -->
-
 # Hàm rẽ nhánh
 
 ## Hàm DECODE
@@ -1270,11 +891,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
 - *search* is the value that is compared against *expression*.
 - *result* is the value returned, if *expression* is equal to *search*.
 - *default* is optional. If no matches are found, the **DECODE function** will return *default*. If *default* is omitted, then the **DECODE function** will return null (if no matches are found).
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 65 -->
 
 # Hàm rẽ nhánh ...
 
@@ -1288,11 +904,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
 | `select decode( 2*3-1, 5, 20) from dual;` | 20 |
 | `select decode( 2*3-1, 6, 20) from dual;` | null |
 | `select decode( 2*3-1,6,20,7,40,5,50,0) from dual;` | 50 |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 66 -->
 
 # Hàm rẽ nhánh ...
 
@@ -1313,11 +924,6 @@ END
 
 - *Chú ý: Nếu không có ELSE thì hàm CASE sẽ trả về giá trị NULL*
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
-
-
-<!-- page 67 -->
-
 # Hàm rẽ nhánh ...
 
 ❖ **Ví dụ**
@@ -1335,11 +941,6 @@ from dual;
 | :--- |
 | xin chao tat ca cac ban sinh vien |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
-
-
-<!-- page 68 -->
-
 # Hàm rẽ nhánh
 
 - Ví dụ: so sánh giá trị 20 và 10
@@ -1355,11 +956,6 @@ from dual;
 | :--- |
 | 20 is greater than 10 |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 69 -->
-
 # Lấy dữ liệu từ nhiều bảng
 
 ❖ **Sử dụng phép nối**
@@ -1369,13 +965,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
     - LEFT OUTER JOIN
     - RIGHT OUTER JOIN
     - FULL OUTER JOIN
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
-
-
-<!-- page 70 -->
-
-# Lấy dữ liệu từ nhiều bảng ...
 
 - Cho csdl gồm 2 bảng
     - Tinh(**matinh**, tentinh)
@@ -1392,13 +981,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
 | sv1 | An | t1 |
 | sv2 | Binh | t2 |
 | sv3 | Chi | t4 |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
-
-
-<!-- page 71 -->
-
-# Lấy dữ liệu từ nhiều bảng ...
 
 - **INNER JOIN**
 
@@ -1424,13 +1006,6 @@ ON sinhvien.matinh = tinh.matinh;
 | sv1 | An | t1 |
 | sv2 | Binh | t2 |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 72 -->
-
-# Lấy dữ liệu từ nhiều bảng ...
-
 ❖ **NATURAL JOIN**
 
 ```sql
@@ -1454,13 +1029,6 @@ ON sinhvien.matinh = tinh.matinh;
 | sv1 | An | t1 | t1 | Ha Noi |
 | sv2 | Binh | t2 | t2 | Bac Ninh |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 73 -->
-
-# Lấy dữ liệu từ nhiều bảng ...
-
 - **NATURAL JOIN**
 
 ```sql
@@ -1479,13 +1047,6 @@ from sinhvien NATURAL JOIN TINH;
 ORA-25155: column used in NATURAL join cannot have qualifier
 25155. 00000 - "column used in NATURAL join cannot have qualifier"
 ```
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 74 -->
-
-# Lấy dữ liệu từ nhiều bảng ...
 
 - **OUTER JOIN: LEFT JOIN**
 
@@ -1512,13 +1073,6 @@ on s.matinh=t.matinh;
 | Binh | t2 | Bac Ninh |
 | Chi | t4 | (null) |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 75 -->
-
-# Lấy dữ liệu từ nhiều bảng ...
-
 - **OUTER JOIN: RIGHT JOIN**
 
 ```sql
@@ -1543,13 +1097,6 @@ on s.matinh=t.matinh;
 | An | t1 | Ha Noi |
 | Binh | t2 | Bac Ninh |
 | (null) | t3 | Thanh Hoa |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 76 -->
-
-# Lấy dữ liệu từ nhiều bảng ...
 
 - **OUTER JOIN: FULL JOIN**
 
@@ -1577,13 +1124,6 @@ ON s.matinh = t.matinh;
 | (null) | (null) | Thanh Hoa |
 | sv3 | Chi | (null) |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 77 -->
-
-# Lấy dữ liệu từ nhiều bảng ...
-
 ❖ **JOIN... USING.... (INNER JOIN)**
 
 ```sql
@@ -1600,13 +1140,6 @@ from sinhvien JOIN TINH
 USING (matinh) ;
 ```
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 78 -->
-
-# Lấy dữ liệu từ nhiều bảng ...
-
 * **JOIN... USING.... (INNER JOIN)**
     * *Chú ý:*
 
@@ -1620,29 +1153,16 @@ USING (matinh) ;
 
 ORA-25154: column part of USING clause cannot have qualifier
 25154. 00000 - "column part of USING clause cannot have qualifier"
-*Cause: Columns that are used for a named-join (either a NATURAL join
-or a join with a USING clause) cannot have an explicit qualifier.
+*Cause: Columns that are used for a named-join (either a NATURAL join or a join with a USING clause) cannot have an explicit qualifier.
 *Action: Remove the qualifier.
 
 ---
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 79 -->
 
 # Truy vấn phụ - Subqueries
 
 - **Khái niệm**
 - **Ví dụ**
 - **Phân loại**
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
-
-
-<!-- page 80 -->
-
-# Truy vấn phụ - Subqueries ...
 
 ❖ Câu hỏi: Ai có lương cao hơn ‘Dinh Thuy Hien’
 
@@ -1660,13 +1180,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
 | cb11 | Vu Viet Hung | dt4 | hai duong | (null) |
 | cb12 | Pham Quang Huy | dt4 | hai duong | (null) |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 81 -->
-
-# Truy vấn phụ - Subqueries ...
-
 - A subquery is a query within a query
 - **Syntax**
 
@@ -1683,26 +1196,12 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
     - the **FROM** clause
     - the **SELECT** clause
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 82 -->
-
-# Truy vấn phụ - Subqueries ...
-
 * The subquery can be nested inside Statement:
     - A SELECT
     - A INSERT
     - A UPDATE
     - A DELETE
     - A another subquery
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 83 -->
-
-# Truy vấn phụ - Subqueries ...
 
 ### Ví dụ 1
 
@@ -1722,13 +1221,6 @@ where luong >
 | Vu Thi Hoa | 7000000 |
 | Hoang Thi Hue | 8000000 |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 84 -->
-
-# Truy vấn phụ - Subqueries ...
-
 * **Chú ý khi dùng truy vấn phụ:**
     - Câu truy vấn phụ đặt trong ngoặc đơn
     - Không bổ sung mệnh đề ORDER BY cho câu truy vấn phụ
@@ -1736,13 +1228,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
         - Toán tử: $=, >, >=, <=, <, <>$
     - Dùng toán tử đa hàng với câu truy vấn đa hàng
         - Toán tử: IN, ALL, ANY/SOME
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 85 -->
-
-# Truy vấn phụ - Subqueries ...
 
 ### Chú ý
 
@@ -1756,13 +1241,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
 | >ALL | More than the maximum |
 | <>ALL | Equivalent to the NOT IN operator |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
-
-
-<!-- page 86 -->
-
-# Truy vấn phụ - Subqueries ...
-
 ❖ **Ví dụ 2:** Hiển thị thông tin của bảng canbo, với điều kiện quê không ở Hà nội và lương nhỏ hơn bất kỳ lương của cán bộ nào quê ở Hà nội?
 
 ```sql
@@ -1775,13 +1253,6 @@ where luong < ANY (
 and quequan <> 'Ha Noi';
 ```
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 87 -->
-
-# Truy vấn phụ - Subqueries ...
-
 - **Ví dụ hiển thị mã đề tài, tên đề tài, ngày phải nộp đề tài của bảng đề tài, với các đề tài đã được phân công cho cán bộ**
 
 ```sql
@@ -1791,13 +1262,6 @@ where d.madetai IN (
     select canbo.madetai
     from canbo);
 ```
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
-
-
-<!-- page 88 -->
-
-# Truy vấn phụ - Subqueries ...
 
 - **EXISTS/ NOT EXISTS**
 
@@ -1818,13 +1282,6 @@ from canbo c
 where c.madetai = d.madetai)
 ```
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
-
-
-<!-- page 89 -->
-
-# Truy vấn phụ - Subqueries ...
-
 - **EXISTS/ NOT EXISTS**
 - Ví dụ được viết như sau:? Kết quả?
 
@@ -1835,13 +1292,6 @@ where exists
     (select
     madetai from canbo)
 ```
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 90 -->
-
-# Truy vấn phụ - Subqueries ...
 
 - Hiển thị thông tin 3 cán bộ có lương cao nhất (thấp nhất)
     - B1: sắp xếp bảng canbo có lương giảm dần
@@ -1867,11 +1317,6 @@ from
 where rownum <= 3
 ```
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
-
-
-<!-- page 91 -->
-
 # Null Values in a Subquery
 
 - Nếu có giá trị **NULL** trong tập trả về của Subquery
@@ -1886,11 +1331,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
 | 14 | Dung | 2700000 | |
 | 15 | Kien | 2300000 | |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 92 -->
-
 # Null Values in a Subquery
 
 ❖ Câu lệnh sau trả về bao nhiêu bản ghi
@@ -1901,11 +1341,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
 | where | nv1.manv NOT IN |
 | | (select nv2.ghichu |
 | | from nv nv2) |
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 93 -->
 
 # SQL TUNING
 
@@ -1920,11 +1355,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
 - Dùng EXISTS/NOT EXISTS tốt hơn IN/NOT IN
 - **Hạn chế sử dụng các phép tính toán trong mệnh đề WHERE**
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 94 -->
-
 # DML
 ## Data Manipulation Language
 
@@ -1932,11 +1362,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
     - Thêm một hàng vào bảng
     - Thay đổi một hàng đã có trong bảng
     - Xóa hàng đang tồn tại trong bảng
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 95 -->
 
 # DML – Sửa dữ liệu
 
@@ -1951,10 +1376,6 @@ SET cột1 = giá_trị1, ..., cộtn = giá_trị_n
 - Tăng lương của mỗi cán bộ thêm 500000 đồng
 
 ---
-Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
-
-
-<!-- page 96 -->
 
 # DML – Xóa dữ liệu
 
@@ -1969,10 +1390,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
 `TRUNCATE TABLE Tên_bảng;`
 
 ---
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 97 -->
 
 # Thêm mới dữ liệu
 
@@ -1988,22 +1405,12 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
 
 `INSERT INTO Tên_bảng (cột1, cột2, ...) SELECT gt1, gt2, ... FROM...WHERE...`
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 98 -->
-
 # DDL
 
 - **Tạo bảng**
 - **Hiệu chỉnh cấu trúc bảng**
 - **Xóa bảng**
 - **Đổi tên bảng**
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 99 -->
 
 # Bảng
 
@@ -2014,9 +1421,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
 - Không dùng những từ có sẵn trong Oracle (NUMBER, INDEX...)
 - Tên cột phải duy nhất trong bảng
 - Tên bảng phải duy nhất trong *namespace*
-
-
-<!-- page 100 -->
 
 # Các thao tác liên quan tới bảng
 
@@ -2053,11 +1457,6 @@ SQL> describe change_log
 | WHEN | | TIMESTAMP(6) |
 | WHAT | | VARCHAR2(200) |
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 101 -->
-
 # Các thao tác liên quan tới cấu trúc bảng
 
 > **Tạo bảng**
@@ -2084,13 +1483,6 @@ CREATE GLOBAL TEMPORARY TABLE my_session
 ,running_count NUMBER
 ) ON COMMIT PRESERVE ROWS;
 ```
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 102 -->
-
-# Các thao tác liên quan tới bảng
 
 - Tạo bảng
 - **Sửa bảng**
@@ -2124,12 +1516,6 @@ ALTER TABLE change_log DROP COLUMN how;
 ```
 
 ---
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 103 -->
-
-# Các thao tác liên quan tới bảng
 
 - Tạo bảng
 - **Sửa bảng**
@@ -2161,13 +1547,6 @@ ALTER TABLE change_log ADD
 );
 ```
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 104 -->
-
-# Các thao tác liên quan tới bảng
-
 | | |
 | :--- | :--- |
 | | Tạo bảng |
@@ -2186,20 +1565,12 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
     - **PURGE**: không cho phép flashback
     - **CASCADE CONSTRAINTS**: xóa mọi ràng buộc dữ liệu có liên quan
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 105 -->
-
 # Constraint
 
 - **Đảm bảo tính toàn vẹn của dữ liệu**
 - **Có thể tạo constraint lúc tạo bảng hoặc sau khi tạo bảng**
 
 2-105 Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng ORACLE
-
-
-<!-- page 106 -->
 
 # Các loại constraint
 
@@ -2214,11 +1585,6 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
     - Thiết lập mối quan hệ của 1 bảng với bảng khác
 - **CHECK**
     - Kiểm tra giá trị của một cột thỏa mãn điều kiện cho trước
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
-
-
-<!-- page 107 -->
 
 # Khai báo constraint - 1
 
@@ -2246,11 +1612,6 @@ CREATE TABLE employees
 );
 ```
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 108 -->
-
 # Khai báo constraint - 2
 
 - **PRIMARY KEY constraint**
@@ -2266,11 +1627,6 @@ CREATE TABLE employees
  USING INDEX TABLESPACE indx
 );
 ```
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 109 -->
 
 # Khai báo constraint - 3
 
@@ -2289,11 +1645,6 @@ dept_mgr_fk FOREIGN KEY (manager_id) REFERENCES
 employees(employee_id) ON DELETE SET NULL;
 ```
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 110 -->
-
 # Khai báo constraint - 4
 
 - **CHECK constraint**
@@ -2306,11 +1657,6 @@ ALTER TABLE employees ADD CONSTRAINT
 validate_hire_date CHECK
 (hire_date > TO_DATE('15-Apr-1999', 'DD-Mon-YYYY'));
 ```
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân hàng
-
-
-<!-- page 111 -->
 
 # Sửa constraint
 
@@ -2339,13 +1685,4 @@ ALTER TABLE employees DISABLE CONSTRAINT mgr_emp_fk;
 ALTER TABLE employees ENABLE CONSTRAINT mgr_emp_fk;
 ```
 
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 112 -->
-
 2-112
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-ORACLE

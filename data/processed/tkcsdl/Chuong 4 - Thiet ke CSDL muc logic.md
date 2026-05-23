@@ -4,11 +4,6 @@
 # CHƯƠNG 4
 # THIẾT KẾ CSDL MỨC LOGIC
 
-KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
-
-
-<!-- page 2 -->
-
 # Các giai đoạn thiết kế
 
 - **Khái niệm**
@@ -18,9 +13,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
     - Chuẩn hóa
 - **Vật lý**
     - Bảng và mối quan hệ
-
-
-<!-- page 3 -->
 
 # Thiết kế CSDL mức logic
 
@@ -37,18 +29,12 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 6. Vẽ biểu đồ
 7. Mô hình quan hệ
 
-
-<!-- page 4 -->
-
 # Biểu diễn thực thể
 
 ## Quy tắc chuyển:
 
 - **Tên thực thể** $\rightarrow$ **Tên quan hệ**, ngoài ra:
     - **Thực thể yếu** $\rightarrow$ quan hệ mới. Quan hệ mới này bao gồm các thuộc tính là thuộc tính của **thực thể yếu** cùng với thuộc tính khóa của **thực thể chủ**, **khóa của quan hệ mới** bao gồm các thuộc tính là **khóa của thực thể chủ** và **thuộc tính phân biệt** của **thực thể yếu**.
-
-
-<!-- page 5 -->
 
 # Biểu diễn thực thể
 
@@ -60,9 +46,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
         - **Thuộc tính của quan hệ mới** bao gồm **khóa của thực thể** chứa **thuộc tính đa trị** và **thuộc tính đa trị**.
 
 - **Thuộc tính định danh $\rightarrow$ Khóa quan hệ**
-
-
-<!-- page 6 -->
 
 # V d (chng 3)
 
@@ -81,18 +64,12 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 ---
 *Lu : Cc thuc tnh c ng vin nt t (ThanhTien, TongTien, TongCong) thng l cc thuc tnh dn xut.*
 
-
-<!-- page 7 -->
-
 # Biểu diễn thực thể
 
 - **HÀNG** (**MaH**, GiaH, SLTon, TenH, DVT)
 - **NHÀ CUNG CẤP** (**MaNCC**, TenNCC, DiaChi)
 - **KHÁCH HÀNG** (**MaKH**, TenKH, ChiTiet, Tinh, Huyen, Phuong)
 - **NHÂN VIÊN** (**MaNV**, TenNV, DiaChi)
-
-
-<!-- page 8 -->
 
 # Biểu diễn mối liên kết
 
@@ -105,9 +82,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
         - Thuộc tính riêng của quan hệ (nếu có) & sử dụng tính chất hay thuộc tính của liên kết để tạo ra khóa chính.
         - Các thuộc tính định danh của thực thể liên quan (khóa chính).
 
-
-<!-- page 9 -->
-
 # Biểu diễn mối liên kết
 
 Sử dụng thuộc tính riêng của liên kết làm khóa chính
@@ -117,17 +91,11 @@ Sử dụng thuộc tính riêng của liên kết làm khóa chính
 
 ### Nhận xét Khóa chính của các quan hệ trên?
 
-
-<!-- page 10 -->
-
 # Biểu diễn mối liên kết
 
 - **MaHDN** và **SoHDB** chưa đủ điều kiện làm khóa chính... vậy:
 - **NHẬP** (**MaHDN**, **MaH**, MaNCC, SoLuong, DonGia, Ngay, ThanhTien, TongTien)
 - **BÁN** (**SoHDB**, MaKH, MaNV, Ngay, **MaH**, GiaBan, SoLuong, ThanhTien, TongTien, VAT, TongCong)
-
-
-<!-- page 11 -->
 
 # Ví dụ
 
@@ -142,19 +110,11 @@ Sử dụng thuộc tính riêng của liên kết làm khóa chính
 
 ### Nhận xét về chuẩn hóa và tính khả thi của lược đồ quan hệ trên?
 
-
-<!-- page 12 -->
-
 # Chuẩn hóa
 
 - **Chỉ cần xem xét các quan hệ mới phát sinh ở bước 2 (biểu diễn mối liên kết)**
 - **Thực hiện chuẩn hóa theo quy tắc đã học bài trước**
 - **Các quan hệ nên để ở dạng chuẩn 3**
-
-
-<!-- page 13 -->
-
-# Ví dụ
 
 **Xét quan hệ mới phát sinh đã đạt dạng chuẩn 3 chưa?**
 **Vì sao?**
@@ -163,11 +123,6 @@ Sử dụng thuộc tính riêng của liên kết làm khóa chính
 - **BÁN (SoHDB, MaKH, MaNV, Ngay, MaH, GiaBan, SoLuong, ThanhTien, TongTien, VAT, TongCong)**
 
 **Nếu chưa -> Chuẩn hóa về 3NF**
-
-
-<!-- page 14 -->
-
-# Ví dụ
 
 - **Trả lời: Quan hệ NHẬP chưa đạt 2NF, vì tồn tại thuộc tính không khóa (vd: Ngay) phụ thuộc bộ phận vào khóa (vd: MaHD) -> đương nhiên chưa đạt 3NF**
 
@@ -179,11 +134,6 @@ Sử dụng thuộc tính riêng của liên kết làm khóa chính
 
 **Quan hệ trên đã ở 3NF?**
 
-
-<!-- page 15 -->
-
-# Ví dụ
-
 ## Nhận xét:
 
 - Trong CHI TIẾT NHẬP (MaHDN, MaH, SoLuong, DonGia, ThanhTien) vẫn tồn tại phụ thuộc hàm bắc cầu giữa thuộc tính không khóa là ThanhTien vào khóa chính (SoLuong, DonGia -> ThanhTien). Vậy, chưa đạt chuẩn 3NF.
@@ -193,11 +143,6 @@ Sử dụng thuộc tính riêng của liên kết làm khóa chính
 
 => *Theo phân tích (chương 3): bỏ thuộc tính ThanhTien*
 
-
-<!-- page 16 -->
-
-# Ví dụ
-
 - Sinh viên phân tích tương tự với quan hệ BÁN:
 
 $\Rightarrow$ **Tách quan hệ BÁN để được hai quan hệ mới đạt 3NF:**
@@ -205,11 +150,6 @@ $\Rightarrow$ **Tách quan hệ BÁN để được hai quan hệ mới đạt 3
 **BÁN** (**SoHDB**, **MaKH**, **MaNV**, Ngay, TongTien, VAT, TongCong)
 
 **CHI TIẾT BÁN** (**SoHDB**, **MaH**, GiaBan, SoLuong)
-
-
-<!-- page 17 -->
-
-# Ví dụ
 
 # Các quan hệ sau khi chuẩn hóa:
 
@@ -224,9 +164,6 @@ $\Rightarrow$ **Tách quan hệ BÁN để được hai quan hệ mới đạt 3
 
 > **Nhận xét xem có quan hệ dư thừa? Nhận xét về tên các quan hệ và tên các thuộc tính ?**
 
-
-<!-- page 18 -->
-
 # Hợp nhất quan hệ
 
 - **Loại đi những quan hệ thừa**
@@ -234,20 +171,10 @@ $\Rightarrow$ **Tách quan hệ BÁN để được hai quan hệ mới đạt 3
 - **Hợp nhất các quan hệ cùng khóa**
 - **KẾT QUẢ**: các quan hệ có **cấu trúc tốt**
 
-
-<!-- page 19 -->
-
-# Ví dụ
-
 ## Trả lời:
 
 - Nên đặt tên các quan hệ và các thuộc tính theo quy tắc đặt tên của Hệ quản trị CSDL lựa chọn để thực hiện; gợi nhớ & dễ quản lý.
 - Thống nhất về tên gọi cho các quan hệ & các thuộc tính: Nếu cùng tên mà khác ý nghĩa thì **NÊN** thay đổi lại tên cho khác nhau. Nếu khác tên mà cùng ý nghĩa thì **NÊN** đặt lại tên cho giống nhau.
-
-
-<!-- page 20 -->
-
-# Ví dụ
 
 ## Sau khi thay đổi, có thể là:
 
@@ -259,11 +186,6 @@ $\Rightarrow$ **Tách quan hệ BÁN để được hai quan hệ mới đạt 3
 - **CHI_TIET_HDN** (**MaHDN**, **MaH**, **SoLuongN**, DonGia)
 - **HOA_DON_BAN** (**SoHDB**, **MaKH**, **MaNV**, TongTien, VAT, TongCong)
 - **CHI_TIET_HDB** (**SoHDB**, **MaH**, GiaBan, SoLuong)
-
-
-<!-- page 21 -->
-
-# Ví dụ
 
 ## Sơ đồ quan hệ
 
@@ -285,9 +207,6 @@ $\Rightarrow$ **Tách quan hệ BÁN để được hai quan hệ mới đạt 3
 | | VAT | | Phuong |
 | | TongCong | | |
 
-
-<!-- page 22 -->
-
 # Bài tập
 
 ## Bài tập áp dụng trên lớp:
@@ -307,19 +226,11 @@ Các mối quan hệ:
 - **Tham_Gia**: Giữa NHAN_VIEN và DU_AN (có thuộc tính SoGio)
 - **Có**: Giữa NHAN_VIEN và THAN_NHAN
 
-
-<!-- page 23 -->
-
 # Bài tập
 
 - **BTVN: Thực hiện chuyển từ ERD sang mô hình dữ liệu quan hệ (chuyển từ thiết kế mức khái niệm sang logic) với:**
     - Case study đã cho ở chương 3
     - Bài tập BTC2.1 đã vẽ xong ERD
-
-23
-
-
-<!-- page 24 -->
 
 ![HỌC VIỆN NGÂN HÀNG - BANKING ACADEMY OF VIETNAM](https://upload.wikimedia.org/wikipedia/vi/thumb/e/e5/Logo_H%E1%BB%8Dc_vi%E1%BB%87n_Ng%C3%A2n_h%C3%A0ng.svg/1200px-Logo_H%E1%BB%8Dc_vi%E1%BB%87n_Ng%C3%A2n_h%C3%A0ng.svg.png)
 

@@ -2,13 +2,9 @@
 
 #### C05 LAP TRINH CO SO DU LIEU
 
-## TRANG 1
-
 = Chueng s -
 
 ## LẬP TRINH CƠ SỞDỮLIEU
-
-## TRANG 2
 
 ## Nội dung
 
@@ -20,8 +16,6 @@
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 2/46
 
-## TRANG 3
-
 1. Tổng quan về ADO.NET
 
 ❑ADO.NET và.NET framework ❑ADO.NET là gì?
@@ -29,8 +23,6 @@
 ❑Kiến trúc ADO.NET ❑Các đối tượng trong ADO.NET
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 3/46
-
-## TRANG 4
 
 ADO.NET và.NET framework
 
@@ -47,8 +39,6 @@ Base Classes
 Common Language Runtime
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 4/46
-
-## TRANG 5
 
 ADO.NET là gì?
 
@@ -80,8 +70,6 @@ SQL Managed Provider |  | OLE DB Provider
 Database
 ADO Managed Provider |
 
-## TRANG 6
-
 Kiến trúc ADO.NET
 
 1. Connection 3. DataReader 5. Dataset
@@ -90,15 +78,11 @@ Kiến trúc ADO.NET
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 6/46
 
-## TRANG 7
-
 2. Kết nối CSDL bằng ADO.NET
 
 Connection Command Data Reader Data Adaper Dataset
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 7/46
-
-## TRANG 8
 
 2.1. Connection
 
@@ -114,8 +98,6 @@ Kiến trúc ADO.NET
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 8/46
 
-## TRANG 9
-
 2.1. Connection (tiếp)
 
 Ví dụ:
@@ -130,8 +112,6 @@ Tạo Connect String chính xác và nhanh nhất?
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 9/46
 
-## TRANG 10
-
 2.2. Command Thực hiện các thao tác với CSDL ◼ DDL, DML, gọi thủt ục, ….
 
 Có 2 loại:
@@ -141,8 +121,6 @@ Tạo Connect String chính xác và nhanh nhất?
 ◼ Connection ◼ Command Text Phương thức quan trọng:
 
 ◼ Execute Non Query() (thực hiện lệnh: INSERT, UPDATE, DELETE) ◼ Execute Scalar() (thực hiện lệnh SELECT trảvề1 giá trị) ◼ Execute Reader() (thực hiện lệnh SELECT trảvềmột hay nhiều bản ghi) 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 10/46
-
-## TRANG 11
 
 2.2. Command (tiếp)
 
@@ -160,8 +138,6 @@ cmd. Execute Non Query();
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 11/46
 
-## TRANG 12
-
 2.3. Data Reader
 
 Có dạng con trỏ, dùng đểhandle dữ liệu trả về từCSDL Đặc điểm:
@@ -173,8 +149,6 @@ cmd. Execute Non Query();
 ◼ Đối với các form chỉSELECT dữ liệu, NÊN DÙNG Data Reader đểcó tốc độx ửl ý nhanh hơn
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 12/46
-
-## TRANG 13
 
 2.3. Data Reader (tiếp)
 
@@ -196,8 +170,6 @@ txt Hoten. Text= rd[1]. To String();
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 13/46
 
-## TRANG 14
-
 2.4. Data Adapter
 
 Là cầu nối giữa CSDL và Dataset
@@ -209,8 +181,6 @@ txt Hoten. Text= rd[1]. To String();
 ◼ Fill() ◼ Update() Có cơ chết ựđộng đóng Connection
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 14/46
-
-## TRANG 15
 
 2.4. Data Adapter (tiếp)
 
@@ -228,8 +198,6 @@ data Grid View Chat Lieu. Data Source = tbl Chat Lieu;
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 15/46
 
-## TRANG 16
-
 2.5. Dataset
 
 Là đối tượng lưu dữ liệu trảvềt ừCSDL
@@ -242,23 +210,17 @@ Dataset Database
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 16/46
 
-## TRANG 17
-
 3. Xây dựng ứng dụng minh hoạ
 
 Bài toán Xây dựng ứng dụng quản lý sinh viên đơn giản ◼ Cho phép đọc dữ liệu từcsdl sinh viên ◼ Thực hiện các thao tác: Thêm, sửa, xoá ◼ Cơ sở dữ liệu: gồm bảng SINHVIEN(Ma SV, Hoten, Ngaysinh, Khoa, Lop, Diachi) Các bước thực hiện ◼ Bước 1: Tạo cơ sở dữ liệu ◼ Bước 2: Thiết kếgiao diện ◼ Bước 3: Thực hiện kết nối cơ sở dữ liệu ◼ Bước 4: Xử lý các sự kiện
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 17/46
 
-## TRANG 18
-
 3. Xây dựng ứng dụng minh hoạ
 
 Bước 1: Tạo cơ sở dữ liệu ◼ Tạo ứng dụng mới ◼ Tạo cơ sở dữ liệu  Ởkhung Solution Explorer, nháy phải chuột lên tên ứng dụng, chọn Add →New Item…  Chọn Data →Service-based Database (hoặc SQL Database trong Visual Studio)  Tạo bảng tbl Sinhvien
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 18/46
-
-## TRANG 19
 
 3. Xây dựng ứng dụng minh hoạ
 
@@ -269,8 +231,6 @@ Dataset Database
 ◼ txt Ma SV ◼ txt Hoten ◼ txt Khoa ◼ txt Lop ◼ txt Diachi  Maskedtextbox ◼ txt Ngaysinh  Data Grid View ◼ Data Grid View  Buttons ◼ btn Moi, btn Sua, btn Xoa, btn Luu, btn Huy, btn Thoat
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 19/46
-
-## TRANG 20
 
 3. Xây dựng ứng dụng minh hoạ
 
@@ -283,8 +243,6 @@ Integrated Security=True;Connect Timeout=30; User Instance=True";
 con. Open(); //Mởkết nối } public void Disconnect() //Ngắt kết nối { if (con. State == Connection State. Open) //nếu đang mở { con. Close(); //đóng con. Dispose(); //huỷ } }
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 20/46
-
-## TRANG 21
 
 3. Xây dựng ứng dụng minh hoạ
 
@@ -302,8 +260,6 @@ Sql Data Adapter My Data = new Sql Data Adapter(sql,con);
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 21/46
 
-## TRANG 22
-
 3. Xây dựng ứng dụng minh hoạ
 
 Bước 4: Xử lý các sự kiện ◼ Thực hiện lệnh SQL public void Run SQL(string sql) //Thực hiện một câu lệnh SQL { Sql Command cmd = new Sql Command(); //Đối tượng để thực hiện lệnh cmd. Command Text = sql;
@@ -316,8 +272,6 @@ try { cmd. Execute Non Query(); //Thực hiện câu lệnh } catch (Exception e
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 22/46
 
-## TRANG 23
-
 3. Xây dựng ứng dụng minh hoạ
 
 Bước 4: Xử lý các sự kiện ◼ Nhấn nút Sửa private void btn Sua_Click(object sender, Event Args e) { string sql;
@@ -327,8 +281,6 @@ sql = "UPDATE tbl Sinh Vien SET Hoten=N'" + txt Hoten. Text + "',Ngaysinh='" + t
 Run SQL(sql); //thực hiện lệnh sql Load Data Grid View(); //hiển thịl ại thông tin lên Data Grid View }
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 23/46
-
-## TRANG 24
 
 3. Xây dựng ứng dụng minh hoạ
 
@@ -354,8 +306,6 @@ Load Data Grid View();
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 24/46
 
-## TRANG 25
-
 3. Xây dựng ứng dụng minh hoạ
 
 Bước 4: Xử lý các sự kiện ◼ Nhấn nút Xoá private void btn Xoa_Click(object sender, Event Args e) { string sql;
@@ -370,8 +320,6 @@ Reset Value();
 
 } } 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 25/46
 
-## TRANG 26
-
 ## Bài tập về nhà
 
 Bài toán:
@@ -382,8 +330,6 @@ Reset Value();
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 26/46
 
-## TRANG 27
-
 ## Bài tập về nhà
 
 Bước 1: Tạo cơ sở dữ liệu ◼ Tên tập tin: Quanlybanhang. mdf ◼ Các bảng  Bảng tbl Chatlieu (chất liệu)
@@ -392,43 +338,29 @@ Reset Value();
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 27/46
 
-## TRANG 28
-
 Bước 1: Tạo cơ sở dữ liệu ◼ Tên tập tin: Quanlybanhang. mdf ◼ Các bảng  Bảng tbl Hang (hàng)
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 28/46
-
-## TRANG 29
 
 Bước 1: Tạo cơ sở dữ liệu ◼ Tên tập tin: Quanlybanhang. mdf ◼ Các bảng  Bảng tbl Nhanvien (nhân viên)
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 29/46
 
-## TRANG 30
-
 Bước 1: Tạo cơ sở dữ liệu ◼ Tên tập tin: Quanlybanhang. mdf ◼ Các bảng  Bảng tbl HDBan (hoá đơn bán)
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 30/46
-
-## TRANG 31
 
 Bước 1: Tạo cơ sở dữ liệu ◼ Tên tập tin: Quanlybanhang. mdf ◼ Các bảng  Bảng tbl Chitiet HDBan (chi tiết hoá đơn bán)
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 31/46
 
-## TRANG 32
-
 Bước 1: Tạo cơ sở dữ liệu ◼ Quan hệgi ữa các bảng (Relationship)
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 32/46
 
-## TRANG 33
-
 Bước 2: Thiết kếgiao diện ◼ Form chính  Tên form: frm Main
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 33/46
-
-## TRANG 34
 
 Bước 2: Thiết kếgiao diện ◼ Form chính  Tên form: frm Main  Menu: các thuộc tính Name và Text:
 
@@ -474,13 +406,9 @@ Trợ giúp
 Trợ giúp
 Vài nét |
 
-## TRANG 35
-
 Bước 2: Thiết kếgiao diện ◼ Form Danh mục chất liệu  Tên form: frm DMChatlieu
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 35/46
-
-## TRANG 36
 
 Bước 2: Thiết kếgiao diện ◼ Form Danh mục chất liệu  Các thành phần trên form
 
@@ -502,13 +430,9 @@ Text Box txt Machatlieu txt Tenchatlieu Button btn Them Thêm btn Xoa Xoá btn S
 |  | btnDong | Đóng |
 | DataGridView | DataGridView |  |
 
-## TRANG 37
-
 Bước 2: Thiết kếgiao diện ◼ Form Danh mục nhân viên  Tên form: frm DMNhanvien
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 37/46
-
-## TRANG 38
 
 Bước 2: Thiết kếgiao diện ◼ Form Danh mục nhân viên  Các thành phần trên form
 
@@ -530,13 +454,9 @@ btnDong |  |
 |  | mskNgaysinh | Mask: Short Date |
 | DataGridView | DataGridView |  |
 
-## TRANG 39
-
 Bước 2: Thiết kếgiao diện ◼ Form Danh mục khách hàng  Tên form: frm DMKhachhang
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 39/46
-
-## TRANG 40
 
 ◼ Form Danh mục khách hàng  Các thành phần trên form
 
@@ -559,13 +479,9 @@ btnDong |  |
 | MaskedTextBox | mskDienthoai | Mask: Phone Number |
 | DataGridView | DataGridView |  |
 
-## TRANG 41
-
 ◼ Form Danh mục hàng hoá  Tên form: frm DMHang
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 41/46
-
-## TRANG 42
 
 ◼ Form Danh mục hàng hoá  Các thành phần trên form
 
@@ -593,13 +509,9 @@ txtDongianhap, txtDongiaban, txtAnh, txtGhichu |  |
 | Button | btnThem, btnXoa, btnSua, btnLuu, btnBoqua,
 btnTimkiem, btnHienthi, btnDong, btnOpen. |  |
 
-## TRANG 43
-
 ◼ Form Hoá đơn bán hàng  Tên form: frm Hoadon Ban
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 43/46
-
-## TRANG 44
 
 ◼ Form Hoá đơn bán  Các thành phần trên form
 
@@ -627,13 +539,9 @@ cboMaHDBan. |  |
 | Button | btnNgay, btnThemmoi, btnLuu, btnXoa, btnInhoadon,
 btnDong, btnTimkiem |  |
 
-## TRANG 45
-
 ◼ Form Tìm kiếm hoá đơn  Tên form: frm Tim HDBan
 
 23/05/2026 Chương 5. Lập trình cơ sở dữ liệu 45/46
-
-## TRANG 46
 
 ◼ Form Tìm kiếm hoá đơn  Các thành phần trên form
 

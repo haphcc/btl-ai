@@ -300,4 +300,3 @@ for (i = 1; i <= n; i++) {
 - `for`, `while`, `do...while` dùng để lặp.
 - `break` thoát khỏi vòng lặp hoặc `switch`; `continue` chuyển sang vòng lặp tiếp theo.
 - Cần chú ý điều kiện lặp để tránh vòng lặp vô hạn.
-

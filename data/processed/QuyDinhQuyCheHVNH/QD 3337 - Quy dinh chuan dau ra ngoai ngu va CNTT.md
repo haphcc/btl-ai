@@ -1,7 +1,6 @@
 # NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG
 
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM**
-**Độc lập - Tự do - Hạnh phúc**
+**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM** **Độc lập - Tự do - Hạnh phúc**
 
 Số: 3337/QĐ-HVNH
 

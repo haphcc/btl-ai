@@ -1,17 +1,6 @@
-ITDE
-INFORMATION TECHNOLOGY & DIGITAL ECONOMICS
-BANKING ACADEMY OF VIETNAM
-
 # QUẢN TRỊ CƠ SỞ DỮ LIỆU
 
 **Giảng viên: Ngô Thùy Linh**
-
-ORACLE
-
-Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
-
-
-<!-- page 2 -->
 
 # NỘI DUNG
 
@@ -20,23 +9,11 @@ Khoa Hệ thống thông tin quản lý – Học viện Ngân Hàng
 ## 4.3. Quản lý người dùng
 ## 4.4. Sao lưu và phục hồi
 
-
-<!-- page 3 -->
-
-ITDE
-INFORMATION TECHNOLOGY & DIGITAL ECONOMICS
-BANKING ACADEMY OF VIETNAM
-
 ## 4.1. KIẾN TRÚC CƠ SỞ DỮ LIỆU ORACLE
 
 - Kiến trúc Oracle Application
 - Kiến trúc Oracle Database
 - Cấu trúc lưu trữ Oracle Database
-
-ORACLE
-
-
-<!-- page 4 -->
 
 # Kiến trúc Oracle Application
 
@@ -45,9 +22,6 @@ Client $\rightarrow$ HTTP request $\rightarrow$ Internet $\rightarrow$ Applicati
 - Trong môi trường Oracle Database, ứng dụng cơ sở dữ liệu và cơ sở dữ liệu được tách biệt thành một kiến trúc **máy khách/chủ (Client/Server)**.
 - *Client (Máy khách)*: chạy ứng dụng CSDL, truy cập thông tin CSDL và tương tác với người dùng.
 - *Server (Máy chủ)*: chạy phần mềm CSDL Oracle và xử lý các chức năng cần thiết cho việc truy cập đồng thời và chia sẻ dữ liệu.
-
-
-<!-- page 5 -->
 
 # Kiên trúc Oracle Application
 
@@ -66,13 +40,6 @@ Client $\rightarrow$ HTTP request $\rightarrow$ Internet $\rightarrow$ Applicati
 - **Application Server n**
 - **Application**
 
-ORACLE
-
-
-<!-- page 6 -->
-
-# Kiến trúc Oracle Application
-
 - **Clients**
     - Client khởi tạo yêu cầu trên Database server.
     - Client kết nối với Database server thông qua một hoặc nhiều Application servers.
@@ -84,11 +51,6 @@ ORACLE
 - **Database Servers**
     - Cung cấp dữ liệu do Application Servers (thay mặt cho Client yêu cầu).
     - Cơ sở dữ liệu thực hiện xử lý truy vấn.
-
-
-<!-- page 7 -->
-
-# Kiến trúc Oracle Application
 
 - **Client Application** (client process)
 - **Connect Packet**
@@ -105,11 +67,6 @@ ORACLE
 **Accesses**
 
 Trong một Oracle Databse có ít nhất một Database Instance và một Database
-
-
-<!-- page 8 -->
-
-# Kiến trúc Oracle Application
 
 ## SGA
 - Database Buffer Cache
@@ -129,22 +86,10 @@ Trong một Oracle Databse có ít nhất một Database Instance và một Data
 - **Listener**
 - **NETWORK**
 
-ORACLE
-
-
-<!-- page 9 -->
-
-# Kiến trúc Oracle Application
-
 ### **Oracle Net Listener** (listener)
 
 - Là một quy trình phía server, lắng nghe các yêu cầu kết nối từ Client và quản lý lưu lượng truy cập vào cơ sở dữ liệu.
 - Khi một database instance bắt đầu và trong thời gian tồn tại của nó, instance đó sẽ liên hệ với một listener và thiết lập một đường dẫn truyền thông đến instance này.
-
-
-<!-- page 10 -->
-
-# Kiến trúc Oracle Application
 
 ## Kiến trúc listener
 
@@ -157,11 +102,6 @@ ORACLE
 2. Kết nối từ Listener đến Database
 3. Kết nối trực tiếp từ Client đến Database
 
-ORACLE
-
-
-<!-- page 11 -->
-
 # Oracle Architecture
 
 - **Database Server**
@@ -169,11 +109,6 @@ ORACLE
     - An Oracle instance consists of processes and memory on the database server
 - **Oracle Database**
     - An Oracle database consists of physical files on the disk
-
-ORACLE
-
-
-<!-- page 12 -->
 
 # Kiên trúc Oracle Database
 
@@ -183,8 +118,7 @@ ORACLE
     - **Storage structure**
 
 Trong đó,
-**Process**+**Memory**->**instance**
-**Stotage** -> **database**
+**Process**+**Memory**->**instance** **Stotage** -> **database**
 
 ---
 
@@ -201,23 +135,12 @@ Trong đó,
 - CKPT
 - LGWR
 
-
-<!-- page 13 -->
-
 # Kiến trúc Oracle Database
 
 - **INSTANCE**: là một tập hợp các **tiến trình của hệ thống** chạy background (background processes) cùng với **thành phần bộ nhớ** có cấu trúc nhất định (memory structures) để thao tác lên **1 database** nào đó
 - **DATABASE**: là 1 **tập hợp các file** (ở mức vật lý) có **chứa dữ liệu** của người dùng và các dữ liệu khác gồm data files, temporary files, redo log files và control file.
 
 **Instance + Database = 1 Oracle database system**
-
-
-<!-- page 14 -->
-
-
-
-
-<!-- page 15 -->
 
 # Instance
 
@@ -277,9 +200,6 @@ Trong đó,
 
 # Oracle Instance and Database
 
-
-<!-- page 16 -->
-
 # Oracle Database Instance
 
 **Database instance** (Instance) là tập hợp các cấu trúc bộ nhớ, quản lý các tệp cơ sở dữ liệu
@@ -305,9 +225,6 @@ Maintains
 - Server Processes -> Database
 - Background Processes -> Database
 
-
-<!-- page 17 -->
-
 # Oracle Database Instance
 
 ## Single-Instance Database
@@ -326,9 +243,6 @@ Maintains
     - **Online Redo Log**
 
 ### Cấu hình Database Instance
-
-
-<!-- page 18 -->
 
 # Oracle Database Instance
 
@@ -351,9 +265,6 @@ Maintains
 | **NOMOUNT** | Control file closed and instance started |
 | **SHUTDOWN** | Shutdown |
 
-
-<!-- page 19 -->
-
 # Kiến trúc bộ nhớ Oracle Database
 
 - Khi khởi động một instance, Oracle Database phân bổ một vùng bộ nhớ và khởi động các background processes
@@ -363,9 +274,6 @@ Maintains
     - Thông tin cần thiết trong quá trình thực thi chương trình, ví dụ: trạng thái hiện tại của truy vấn
     - Thông tin như dữ liệu khóa được chia sẻ và giao tiếp giữa các processes
     - Dữ liệu được lưu trong bộ nhớ đệm, chẳng hạn như khối dữ liệu và bản ghi redo.
-
-
-<!-- page 20 -->
 
 # Kiến trúc bộ nhớ Oracle Database
 
@@ -404,11 +312,6 @@ Maintains
 
 **Client Process**
 
-ORACLE
-
-
-<!-- page 21 -->
-
 # Kiến trúc bộ nhớ Oracle Database
 
 - Các cấu trúc bộ nhớ cơ bản của Oracle Database
@@ -418,11 +321,6 @@ ORACLE
 - **Program global area (PGA)**
 - **User global area (UGA)**
 - **Software code areas**
-
-
-<!-- page 22 -->
-
-# System global area (SGA)
 
 ### Các thành phần quan trọng của SGA
 
@@ -444,21 +342,11 @@ ORACLE
 | **Large Pool** | Response Queue, Request Queue |
 | **Các thành phần khác** | Database Buffer Cache, Redo Log Buffer, Fixed SGA, Java Pool, Streams Pool |
 
-
-<!-- page 23 -->
-
-# System global area (SGA)
-
 ## **Database Buffer Cache**:
 
 - Còn được gọi là bộ đệm, là vùng bộ nhớ lưu trữ các bản sao của khối dữ liệu được đọc từ các tệp dữ liệu.
 - Trình quản lý lưu khối dữ liệu hiện tại hoặc được sử dụng gần đây vào bộ nhớ đệm.
 - Tất cả người dùng kết nối với một database instance đồng thời được chia sẻ quyền truy cập vào buffer cache.
-
-
-<!-- page 24 -->
-
-# System global area (SGA)
 
 - Khi 1 session cần dữ liệu, Oracle sẽ kiểm tra có trong **Database buffer cache** chưa. Nếu có rồi thì đọc luôn trong buffer cache. Nếu chưa có, Oracle sẽ phải đọc từ thiết bị lưu trữ lên.
 
@@ -473,24 +361,12 @@ ORACLE
 **DBWn**
 **Data files**
 
-
-<!-- page 25 -->
-
-# System global area (SGA)
-
 **Extended Database Buffer Cache**
 
 - **In-Memory Buffer Cache**
 - **Flash Cache**
 
 **Buffer Search**
-
-ORACLE
-
-
-<!-- page 26 -->
-
-# System global area (SGA)
 
 * **Redo Log Buffer**:
     - Là phần bộ nhớ chứa những thay đổi trên database, do các câu lệnh DML, DDL hay do các hoạt động nội bộ trong database.
@@ -505,18 +381,8 @@ ORACLE
 - **LGWR**
 - **Online Redo Log**
 
-
-<!-- page 27 -->
-
-# System global area (SGA)
-
 - Khi **Redo log buffer** đầy 1/3 hoặc cứ sau mỗi 3 giây, **Log writer process** sẽ ghi vào **Redo log files**, để lấy chỗ cho những nội dung thay đổi mới.
 - Do **Redo log buffer** chứa những thay đổi trên database, nên để đảm bảo toàn vẹn dữ liệu, 1 transaction chỉ được coi là đã commit khi đã ghi những thay đổi trong **Redo log buffer** vào **Redo log files**, đảm bảo nếu có sự cố có thể khôi phục được những thay đổi gần nhất.
-
-
-<!-- page 28 -->
-
-# System global area (SGA)
 
 ## **Shared Pool**
 
@@ -536,11 +402,6 @@ ORACLE
 | **Server Result Cache** | SQL Query Result Cache<br>PL/SQL Function Result Cache |
 | **Other** | |
 | **Reserved Pool** | |
-
-
-<!-- page 29 -->
-
-# System global area (SGA)
 
 **CSDL cho mỗi câu lệnh SQL được thực hiện**: Kiểm tra Shared SQL Area xem có tồn tại câu lệnh giống (ngữ pháp & ngữ nghĩa), nếu có thì thực thi luôn, nếu không thì được cấp phát một Share SQL Area mới.
 
@@ -565,22 +426,12 @@ ORACLE
     - **Private SQL Area** (`SELECT * FROM employees`)
 - **Client Process**
 
-
-<!-- page 30 -->
-
-# System global area (SGA)
-
 ## **Large Pool**:
 - Cấp phát bộ nhớ lớn cho các tác vụ đặc biệt như:
 - UGA cho máy chủ và giao diện Oracle XA
 - Bộ đệm cho các xử lý song song
 - Bộ đệm cho I/O của Recovery Manager (RMAN)
 - Bộ đệm cho các lần insert
-
-
-<!-- page 31 -->
-
-# System global area (SGA)
 
 ## Large Pool
 
@@ -622,11 +473,6 @@ Data
 Shares Information
 Data
 
-
-<!-- page 32 -->
-
-# System global area (SGA)
-
 **Java Pool**: Là một vùng bộ nhớ lưu trữ tất cả mã và dữ liệu Java dành riêng cho Java Virtual Machine (JVM)
 
 - **Fixed SGA** gồm:
@@ -636,9 +482,6 @@ Data
 - **In-Memory Area**
     - Chứa In-Memory Column Store (IM column store): chứa bản sao của bảng, partition cụ thể hóa bằng định dạng cột.
     - IM column store bổ sung cho database buffer cache
-
-
-<!-- page 33 -->
 
 # Program global area (PGA)
 
@@ -658,9 +501,6 @@ Data
         - **Session Memory**: **Session Variables**, **OLAP Pool**
         - **Private SQL Area**: **Persistent Area**, **Runtime Area**
 - **Client Process** có **Data Area** và **Pointer** trỏ tới **cursor** (trong **Private SQL Area**).
-
-
-<!-- page 34 -->
 
 # Program global area (PGA)
 
@@ -693,9 +533,6 @@ Data
 | **SQL Work Areas** | Sort Area | Hash Area | Bitmap Merge Area |
 | **Private SQL Area** | Session Memory | Persistent Area | Runtime Area |
 
-
-<!-- page 35 -->
-
 # User Global Area (UGA)
 
 - **UGA** lưu trữ trạng thái phiên (session), cấp phát bộ nhớ cho session variables (vd: thông tin đăng nhập của một phiên CSDL)
@@ -706,18 +543,12 @@ Data
 | Session Variables |
 | OLAP Pool |
 
-
-<!-- page 36 -->
-
 # Software Code Areas
 
 - Là một phần của bộ nhớ lưu trữ mã chương trình đang chạy hoặc có thể chạy.
 - Mã Oracle Database được lưu trữ trong **software area** sẽ được bảo vệ hơn khu vực của người sử dụng.
 - Thường có kích thước không thay đổi.
 - Ở chế độ chỉ đọc, có thể được chia sẻ hoặc không.
-
-
-<!-- page 37 -->
 
 # Kiến trúc Process
 
@@ -768,19 +599,9 @@ Một database instance chứa hoặc tương tác với nhiều process.
 
 **Client Process**
 
-
-<!-- page 38 -->
-
-# Kiến trúc Process
-
 - **Client process** chạy ứng dụng hoặc mã công cụ Oracle.
 - Khi người dùng chạy một ứng dụng như chương trình Pro * C hoặc SQL * Plus, hệ điều hành sẽ tạo ra một **client process** (hay còn gọi là **user process**) để chạy ứng dụng của người dùng.
 - **Client application** liên kết với các thư viện Oracle Database, cung cấp các API cần thiết để giao tiếp với cơ sở dữ liệu.
-
-
-<!-- page 39 -->
-
-# Kiến trúc Process
 
 **Oracle process** là một đơn vị thực thi, chạy mã cơ sở dữ liệu Oracle. Bao gồm:
 
@@ -788,18 +609,10 @@ Một database instance chứa hoặc tương tác với nhiều process.
 - **Server process**: thực hiện công việc dựa trên yêu cầu của client
     - Ví dụ: các process này phân tích cú pháp của truy vấn SQL, đặt chúng vào shared pool, tạo và thực thi kế hoạch truy vấn cho mỗi truy vấn và đọc từ database buffer cache hoặc từ đĩa.
 
-
-<!-- page 40 -->
-
-# Kiến trúc Process
-
 - Kết nối cơ sở dữ liệu (**database connection**) là giao tiếp vật lý giữa một client process với một database instance.
 - Một phiên CSDL (**database session**) là một thực thể logic trong bộ nhớ database instance, biểu diễn trạng thái đăng nhập hiện tại của người sử dụng (user) vào CSDL.
 - Một kết nối có thể có 0, 1 hoặc nhiều phiên được thiết lập.
 - Các phiên là độc lập: hoạt động của phiên không ảnh hưởng đến các giao dịch trong các phiên khác.
-
-
-<!-- page 41 -->
 
 # Connection 1
 - User hr
@@ -824,19 +637,7 @@ Một database instance chứa hoặc tương tác với nhiều process.
 
 **Hai session cho mỗi kết nối**
 
-ORACLE
-
-
-<!-- page 42 -->
-
-# Kiến trúc Process
-
 - **Oracle Database** tạo ra các server processes để xử lý các yêu cầu của các client processes được kết nối với session.
-
-
-<!-- page 43 -->
-
-# Kiến trúc Process
 
 - Một **Client process** luôn giao tiếp với CSDL thông qua một **server process** riêng biệt
 - **Server processes** được tạo ra để “thay mặt” cho database application để thực hiện một số nhiệm vụ:
@@ -845,20 +646,10 @@ ORACLE
     - Đọc các khối dữ liệu từ tệp dữ liệu vào database buffer cache (background process DBW có nhiệm vụ ghi trên đĩa)
     - Trả lại kết quả
 
-
-<!-- page 44 -->
-
-# Kiến trúc Process
-
 - **Background Processes** là các quy trình được sử dụng bởi Oracle database đa quy trình, thực hiện các nhiệm vụ vận hành CSDL và tối đa hóa hiệu suất cho đa người dùng.
 - Mỗi **background processes** có một nhiệm vụ riêng biệt, nhưng hoạt động cùng với các quy trình khác.
 - Oracle Database tạo ra các **background processes** tự động khi một database instance được thiết lập.
 - Một instance có thể có nhiều **background processes**
-
-
-<!-- page 45 -->
-
-# Kiến trúc Process
 
 **Các process bắt buộc:**
 - **PMON** (Process Monitor Process)
@@ -899,9 +690,6 @@ ORACLE
 - **FBDA** (Flashback Data Archive Process)
 - **SMCO** (Space Management Coordinator Process)
 
-
-<!-- page 46 -->
-
 # Stages of SQL Processing
 
 ## Quy trình xử lý SQL
@@ -930,10 +718,6 @@ ORACLE
 ---
 
 ITDE - INFORMATION TECHNOLOGY & DIGITAL ECONOMICS - BANKING ACADEMY OF VIETNAM
-ORACLE
-
-
-<!-- page 47 -->
 
 # CẤU TRÚC LƯU TRỮ ORACLE DATABASE
 
@@ -966,9 +750,6 @@ ORACLE
 - CKPT
 - LGWR
 
-
-<!-- page 48 -->
-
 # Cấu trúc lưu trữ logic và vật lý
 
 ## Logical
@@ -981,9 +762,6 @@ ORACLE
 - Data File
 - OS block
 
-
-<!-- page 49 -->
-
 # Cấu trúc vật lý
 
 - **Cấu trúc vật lý CSDL** là các tệp lưu trữ dữ liệu
@@ -992,11 +770,6 @@ ORACLE
     - Data files và temp files
     - Control files
     - Online redo log files
-
-
-<!-- page 50 -->
-
-# Cấu trúc vật lý
 
 **Database Instance**
 
@@ -1010,11 +783,6 @@ ORACLE
 
 **Database Instance** và **Database Files**
 
-
-<!-- page 51 -->
-
-# Cấu trúc vật lý
-
 - **Cơ chế lưu trữ tệp CSDL**
     - Quản lý lưu trữ tự động Oracle (Oracle ASM)
     - Hệ thống tệp hệ điều hành:
@@ -1022,11 +790,6 @@ ORACLE
         - Tất cả các hệ điều hành đều có trình quản lý tệp và phân bổ không gian đĩa cho hệ thống tệp CSDL
         - Hệ thống tệp được thiết lập logic nhờ gói phần mềm logical volume manager (LVM)
     - Hệ thống phân cụm tệp
-
-
-<!-- page 52 -->
-
-# Cấu trúc vật lý
 
 - **Tệp dữ liệu (Data file):**
     - Cơ sở dữ liệu Oracle lưu trữ dữ liệu trong các cấu trúc được gọi là tệp dữ liệu.
@@ -1045,11 +808,6 @@ ORACLE
 
 ## Data Files và Tablespaces
 
-
-<!-- page 53 -->
-
-# Cấu trúc vật lý
-
 ## Database Data Files
 
 **Container Database (CDB)**
@@ -1065,21 +823,11 @@ ORACLE
     - Data Files: SYSTEM, SYSAUX, TEMP, USERS, UNDO
 - **Application Container**
 
-
-<!-- page 54 -->
-
-# Cấu trúc vật lý
-
 ❖ **Tệp tạm thời (temp file):**
 
 - **Tablespace tạm thời** chứa các đối tượng lược đồ chỉ trong khoảng thời gian của một phiên làm việc
 - **Tablespace tạm** gồm các tệp tạm
 - **Tệp tạm thời** cũng lưu trữ dữ liệu tập kết quả khi bộ nhớ không đủ dung lượng
-
-
-<!-- page 55 -->
-
-# Cấu trúc vật lý
 
 - **Tệp điều khiển (control file):**
     - Được liên kết với chỉ một cơ sở dữ liệu.
@@ -1089,22 +837,12 @@ ORACLE
     - Tệp điều khiển theo dõi các thay đổi cấu trúc đối với cơ sở dữ liệu.
     - Chứa siêu dữ liệu cần thiết để có thể truy cập được khi cơ sở dữ liệu không được mở.
 
-
-<!-- page 56 -->
-
-# Cấu trúc vật lý
-
 ### Online redo log:
 - Ghi lại các thay đổi đối với tệp dữ liệu.
 - Là cấu trúc quan trọng nhất để khôi phục dữ liệu.
 - Online redo log bao gồm hai hoặc nhiều tệp online redo log.
 - CSDL Oracle yêu cầu tối thiểu hai tệp, một tệp lưu quá trình ghi còn một tệp dành cho xóa và lưu trữ.
 - Mỗi database instance tương ứng sẽ có một tuyến redo. Oracle Real Application Cluster (Oracle RAC) với nhiều instance truy cập đồng thời vào một CSDL, với mỗi instance có một tuyến riêng.
-
-
-<!-- page 57 -->
-
-# Cấu trúc vật lý
 
 - **Control files**
 - **Data files**
@@ -1114,11 +852,6 @@ ORACLE
 - **Archived redo log files**
 - **Password file**
 - **Alert log and trace files**
-
-ORACLE
-
-
-<!-- page 58 -->
 
 # Cấu trúc logic
 
@@ -1142,13 +875,6 @@ ORACLE
 
 **Block**
 
-ORACLE
-
-
-<!-- page 59 -->
-
-# Tablespace
-
 - Một cơ sở dữ liệu có thể được chia thành một hoặc nhiều đơn vị logic, gọi là **tablespace**
 - Về mặt vật lý, 1 **tablespace** có thể chứa một hay nhiều **datafile**
 
@@ -1163,19 +889,9 @@ ORACLE
 
 *(Sơ đồ minh họa mối quan hệ giữa các Tablespace ở tầng Logical và các Data Files/Temp Files ở tầng Physical)*
 
-
-<!-- page 60 -->
-
-# Tablespace
-
 - Một **permanent tablespace** chứa các đối tượng lược đồ cố định
 - Mỗi người dùng cơ sở dữ liệu được gán một **permanent tablespace** mặc định
 - Một cơ sở dữ liệu nhỏ có thể chỉ cần tablespace **SYSTEM** và **SYSAUX** mặc định. Tuy nhiên, Oracle khuyến nghị nên tạo ít nhất một tablespace để lưu trữ dữ liệu người dùng và dữ liệu ứng dụng
-
-
-<!-- page 61 -->
-
-# Tablespace
 
 ❖ Dùng **tablespace** với mục đích:
 
@@ -1186,11 +902,6 @@ ORACLE
 - Nhập hoặc xuất dữ liệu sử dụng Oracle Data Pump utility
 - Tạo một **Transportable Tablespace** có thể sao chép hoặc di chuyển (giữa các CSDL hay các nền tảng khác nhau)
 
-
-<!-- page 62 -->
-
-# Tablespace
-
 - Khi tạo mới CSDL, Oracle tự động tạo ra tablespace SYSTEM và SYSAUX
 - **Tablespace SYSTEM**:
     - Oracle sử dụng SYSTEM để quản lý CSDL;
@@ -1199,11 +910,6 @@ ORACLE
     - Bổ trợ cho tablespace SYSTEM
     - Chứa một số thành phần CSDL: Oracle Enterprise Manager, Oracle Streams..
 
-
-<!-- page 63 -->
-
-# Tablespace
-
 ### Tablespaces Undo:
 
 - Dùng để quản lý hoàn tác dữ liệu (undo data)
@@ -1211,20 +917,12 @@ ORACLE
 - **Automatic Undo Retention**: là thời gian tối thiểu mà CSDL Oracle cố gắng giữ lại dữ liệu hoàn tác cũ trước khi ghi đè dữ liệu mới lên.
 - Cơ sở dữ liệu Oracle tự động cung cấp khả năng lưu giữ hoàn tác tốt nhất có thể cho tablespace hoàn tác hiện tại.
 
-
-<!-- page 64 -->
-
-# Tablespace
-
 ## Tablespace tạm (Temporary Tablespaces)
 
 - Chứa dữ liệu tạm thời chỉ tồn tại trong khoảng thời gian của một session
 - CSDL lưu trữ dữ liệu tablespace tạm trong temp files
 - Cải thiện tính đồng thời và tăng tính hiệu quả trong quản lý không gian vùng nhớ
 - Là tablespace mặc định khi tạo CSDL
-
-
-<!-- page 65 -->
 
 # Segment
 
@@ -1238,9 +936,6 @@ ORACLE
 | | CLOB | [][][][][][]<br>[][][][][][] |
 | | Index on CLOB | [][][][][][]<br>[][][][][][] |
 
-
-<!-- page 66 -->
-
 # Extent
 
 - Bao gồm các **blocks dữ liệu**
@@ -1249,9 +944,6 @@ ORACLE
     - Một Extent luôn được chứa trong một data file
     - Block dữ liệu đầu tiên của mọi segment đều chứa danh mục của extent trong segment.
     - Nếu extent ban đầu đầy và cần thêm dung lượng, thì cơ sở dữ liệu sẽ tự động phân bổ extent gia tăng (incremental extent) cho segment này.
-
-
-<!-- page 67 -->
 
 # Extent
 
@@ -1275,11 +967,6 @@ ORACLE
 - **Free (Formatted, Never Used)**
 - **Space Used by Other Segments**
 
-ORACLE
-
-
-<!-- page 68 -->
-
 # Block
 
 - CSDL Oracle quản lý không gian lưu trữ logic trong data files bằng một đơn vị gọi là **khối dữ liệu (block data)** hay còn gọi là **block** hoặc **page** Oracle.
@@ -1288,9 +975,6 @@ ORACLE
 - **Khối dữ liệu** khác khối hệ điều hành. Khi CSDL yêu cầu một **khối dữ liệu**, hệ điều hành sẽ tách **khối dữ liệu** khỏi khối hệ điều hành giúp:
     - Các ứng dụng không cần xác định địa chỉ vật lý của dữ liệu
     - CSDL có thể được sao chép trên nhiều ổ đĩa vật lý
-
-
-<!-- page 69 -->
 
 # Block
 
@@ -1308,17 +992,11 @@ ORACLE
 
 **Operating System Blocks**
 
-
-<!-- page 70 -->
-
 # Block
 
 - **Block header**: Chứa thông tin chung về khối, bao gồm địa chỉ đĩa và loại segment
 - **Table directory**: Chứa metadata về các bảng có các hàng được lưu trữ trong khối này.
 - **Row directory**: mô tả vị trí của các hàng trong phần dữ liệu của khối
-
-
-<!-- page 71 -->
 
 # DEPT Segment (Department Table)
 
@@ -1350,29 +1028,16 @@ ORACLE
 | Block 1 | Block 2 |
 | Block 3 | Block 4 |
 
-ORACLE
-
-
-<!-- page 72 -->
-
 # 4.2. QUẢN TRỊ ORACLE NET SERVICE
 
 - Giới thiệu Oracle Net Service
 - Các công cụ quản trị
-
-
-<!-- page 73 -->
 
 # ORACLE NET SERVICE
 
 - **Oracle Net Services** là một bộ các thành phần mạng cung cấp các giải pháp kết nối toàn doanh nghiệp trong các môi trường phân tán, không đồng nhất.
 - **Oracle Net Services** cho phép một phiên kết nối từ một ứng dụng đến một database instance và database instance sang một database instance khác.
 - **Oracle Net Services** giảm bớt sự phức tạp của cấu hình và quản lý mạng, tối đa hóa hiệu suất và cải thiện khả năng chẩn đoán mạng.
-
-
-<!-- page 74 -->
-
-# ORACLE NET SERVICE
 
 ❖ **Kết nối:**
 
@@ -1382,22 +1047,12 @@ ORACLE
     - Kết nối Ứng dụng Client/Server
     - Kết nối Ứng dụng Web Client
 
-
-<!-- page 75 -->
-
-# ORACLE NET SERVICE
-
 - **Quản lý:**
     - Oracle Net Services cung cấp một số tính năng quản lý cho phép bạn dễ dàng cấu hình và quản lý các thành phần mạng.
     - **Đặc điểm:**
         - ***Vị trí minh bạch***: Thông tin về dịch vụ CSDL và vị trí của nó trên mạng là minh bạch, máy khách sử dụng tên dịch vụ để truy cập.
         - ***Cấu hình và quản lý tập trung***: Cấu hình Oracle Net Services có thể được lưu trữ trong thư mục máy chủ LDAP, giúp quản trị viên dễ dàng truy cập để chỉ định và cấu hình mạng.
         - ***Cài đặt và cấu hình nhanh***: Máy khách và máy chủ sẵn sàng kết nối ngay lập tức bằng Easy Connect
-
-
-<!-- page 76 -->
-
-# ORACLE NET SERVICE
 
 ## Kiến trúc máy chủ chia sẻ;
 - Mở rộng các ứng dụng và tăng số lượng máy khách kết nối đồng thời với CSDL.
@@ -1408,11 +1063,6 @@ ORACLE
 ### Sơ đồ kiến trúc:
 - **Client** (Web Browser) -> **Dispatcher** -> **Shared Server Process** -> **Database**
 
-
-<!-- page 77 -->
-
-# ORACLE NET SERVICE
-
 ## Hiệu suất:
 - Hiệu suất hệ thống rất quan trọng đối với người dùng.
 - Cấu hình Oracle Net có thể được sửa đổi để nâng cao hiệu suất hệ thống.
@@ -1421,11 +1071,6 @@ ORACLE
     - Kích thước đơn vị dữ liệu phiên để tối ưu hóa truyền dữ liệu
     - Xóa bộ đệm liên tục cho TCP/IP
     - Giao thức trực tiếp Sockets
-
-
-<!-- page 78 -->
-
-# ORACLE NET SERVICE
 
 ### An ninh mạng
 
@@ -1437,9 +1082,6 @@ ORACLE
     - Tên dịch vụ cơ sở dữ liệu đích
     - Khách hàng sử dụng Oracle Advanced Security
 
-
-<!-- page 79 -->
-
 # CÁC CÔNG CỤ QUẢN TRỊ
 
 - Sử dụng công cụ Giao diện Người dùng
@@ -1447,31 +1089,16 @@ ORACLE
 - Sử dụng Listener Control Utility để quản lý Listener
 - Thực hiện các tác vụ mạng thông thường
 
-
-<!-- page 80 -->
-
-# CÁC CÔNG CỤ QUẢN TRỊ
-
 ### Sử dụng các công cụ giao diện người dùng:
 - Sử dụng Oracle Enterprise Manager để cấu hình Oracle Net Services
 - Sử dụng Oracle Net Manager để cấu hình Oracle Net Services
 - Sử dụng Oracle Net Configuration Assistant để cấu hình các thành phần mạng
-
-
-<!-- page 81 -->
-
-# CÁC CÔNG CỤ QUẢN TRỊ
 
 ❖ Sử dụng **Oracle Enterprise Manager** để cấu hình và quản trị:
 
 - **Listeners**: Cấu hình Listeners để nhận kết nối máy khách.
 - **Đặt tên**: Xác định các mã định danh kết nối và ánh xạ chúng tới các bộ mô tả kết nối để xác định vị trí mạng của một dịch vụ.
 - **Vị trí tệp**: Chỉ định vị trí tệp của các tệp cấu hình Oracle Net.
-
-
-<!-- page 82 -->
-
-# CÁC CÔNG CỤ QUẢN TRỊ
 
 ❖ Sử dụng **Oracle Net Manager** để cấu hình **Oracle Net Services**:
 
@@ -1480,18 +1107,8 @@ ORACLE
 - **Phương pháp đặt tên**: Cấu hình cách thức kết nối các số nhận dạng được phân giải để kết nối các bộ mô tả.
 - **Cấu hình**: Cấu hình các tùy chọn để kích hoạt và cấu hình các tính năng của **Oracle Net** trên máy khách hoặc máy chủ.
 
-
-<!-- page 83 -->
-
-# CÁC CÔNG CỤ QUẢN TRỊ
-
 - **Oracle Enterprise Manager** cung cấp khả năng quản lý cấu hình cho nhiều CSDL Oracle trên nhiều hệ thống tệp.
 - **Oracle Net Manager** chỉ cho phép quản lý cấu hình cho một CSDL Oracle trên máy chủ cục bộ.
-
-
-<!-- page 84 -->
-
-# CÁC CÔNG CỤ QUẢN TRỊ
 
 ❖ Các thành phần **Oracle Net Configuration Assistant** được cung cấp để cấu hình các thành phần mạng cơ bản trong quá trình cài đặt, bao gồm:
 
@@ -1500,36 +1117,18 @@ ORACLE
 - Tên dịch vụ mạng trong tệp tnsnames.ora
 - Sử dụng máy chủ thư mục
 
-
-<!-- page 85 -->
-
-# CÁC CÔNG CỤ QUẢN TRỊ
-
 ## Nhóm OracleNetAdmins
 
 - Để sử dụng Oracle Net Manager, bạn phải là thành viên của nhóm **OracleNetAdmins** hoặc nhóm **OracleContextAdmins**.
 - Oracle Net Configuration Assistant thiết lập các quyền truy cập cho các nhóm này trong quá trình tạo Oracle Context.
 - Các thành viên của nhóm **OracleNetAdmins** có quyền tạo, sửa đổi và đọc các đối tượng và thuộc tính của Oracle Net. Họ cũng có thể thêm hoặc xóa các thành viên trong nhóm và thêm hoặc xóa các nhóm.
 
-
-<!-- page 86 -->
-
-# CÁC CÔNG CỤ QUẢN TRỊ
-
 ## Sử dụng Listener Control Utility để quản lý Listener
 
 - Oracle Net Services cung cấp các công cụ khởi động, dừng, cấu hình và kiểm soát từng thành phần mạng.
 - Listener Control Utility cho phép bạn quản lý Listener. Được sử dụng khi người dùng cài đặt Oracle hoặc thành viên của nhóm trên cùng một máy mà Listener đang chạy.
 
-
-<!-- page 87 -->
-
-# CÁC CÔNG CỤ QUẢN TRỊ
-
 - Thực hiện các tác vụ mạng thông thường
-
-
-<!-- page 88 -->
 
 # 4.3. QUẢN LÝ NGƯỜI DÙNG
 
@@ -1537,30 +1136,15 @@ ORACLE
 - Cấp quyền/nhóm quyền (Grant)
 - Quản lý người dùng bằng Enterprise Manager (EM)
 
-
-<!-- page 89 -->
-
 # Tài khoản người dùng
 
 UserAccounts
-
-89
-
-
-<!-- page 90 -->
-
-# Tài khoản người dùng
 
 - Trong môi trường nhiều đối tượng, người dùng CSDL Oracle gồm:
 - **Người dùng chung Oracle** có quyền truy cập vào các vùng tương ứng của nó
     - **Người dùng chung CDB** (Container Database common user):
     - **Người dùng chung ứng dụng** (Application common user)
 - **Người dùng cục bộ (Local Users)** là người dùng CSDL chỉ tồn tại trong một PDB (Pluggable Database) duy nhất.
-
-
-<!-- page 91 -->
-
-# Tài khoản người dùng
 
 - **Người dùng chung CDB**
     - Có định danh và mật khẩu duy nhất trong root CDB
@@ -1570,29 +1154,14 @@ UserAccounts
     - Chỉ dùng trong vùng chứa ứng dụng, không có quyền truy cập vào toàn bộ môi trường CDB
     - Chịu trách nhiệm về các hoạt động như tạo (bao gồm cả gắn), mở, đóng, rút và xóa các PDB của ứng dụng
 
-
-<!-- page 92 -->
-
-# Tài khoản người dùng
-
 - **Cả hai** đều có thể cấp quyền cho người dùng chung hoặc các nhóm quyền (role).
 - **Khác nhau**: chỉ người dùng chung CDB mới có thể chạy câu lệnh ALTER DATABASE chỉ định các điều khoản khôi phục áp dụng cho toàn bộ CDB.
 
 ![Sơ đồ cấu trúc CDB, PDBs và Application Root](https://i.imgur.com/y1y1y1y.png)
 
-
-<!-- page 93 -->
-
-# Tài khoản người dùng
-
 - **Người dùng chung CDB** được xác định trong gốc CDB và có thể truy cập vào tất cả các PDB bên trong CDB, bao gồm gốc ứng dụng và các PDB ứng dụng của nó.
 - **Người dùng chung ứng dụng** được xác định trong gốc của ứng dụng và có quyền truy cập vào các PDB thuộc vùng chứa ứng dụng.
 - **Người dùng cục bộ** trong các PDB của CDB hoặc các PDB ứng dụng chỉ có quyền truy cập vào các PDB được xác định.
-
-
-<!-- page 94 -->
-
-# Tài khoản người dùng
 
 ## **Người dùng cục bộ** (Local Users)
 
@@ -1601,19 +1170,9 @@ UserAccounts
 - Là duy nhất trong PDB đó.
 - Có thể truy cập các đối tượng trong lược đồ của người dùng chung (với quyền thích hợp).
 
-
-<!-- page 95 -->
-
-# Tài khoản người dùng
-
 ### Ai có thể tạo tài khoản người dùng?
 - Người dùng đã được cấp quyền hệ thống **CREATE USER** có thể tạo tài khoản người dùng
 - Nếu muốn tạo người dùng mà người dùng đó cũng có quyền tạo người dùng thì sử dụng **WITH ADMIN OPTION** trong câu lệnh gán quyền **GRANT**
-
-
-<!-- page 96 -->
-
-# Tài khoản người dùng
 
 ❖ **Mỗi tài khoản có đặc điểm:**
 
@@ -1623,9 +1182,6 @@ UserAccounts
 - Có một tablespace tạm
 - Có danh sách các tài nguyên mà user được sử dụng (profile)
 - Có trạng thái
-
-
-<!-- page 97 -->
 
 # Tạo tài khoản người dùng
 
@@ -1644,9 +1200,6 @@ IDENTIFIED BY password
 - **Tên người dùng**: Nếu đặt trong dấu “ ” thì phân biệt chữ hoa & thường
 - **Người dùng cần xác thực (identified)** để đăng nhập vào CSDL (có thể là bằng password, external hoặc global)
 
-
-<!-- page 98 -->
-
 # Tạo tài khoản người dùng
 
 - Gán **tablespace** mặc định cho người dùng (nếu bỏ qua thì các đối tượng của người dùng sẽ được lưu vào database default (USERS, SYSTEM)
@@ -1654,9 +1207,6 @@ IDENTIFIED BY password
 - Chỉ định **Profile** (tập các giới hạn) cho người dùng (nếu bỏ qua thì Oracle sẽ gán **Default Profile**).
 - Sử dụng **PASSWORD EXPIRE** nếu muốn người dùng phải thay đổi mật khẩu ngay sau khi đăng nhập vào CSDL lần đầu tiên.
 - Sử dụng **ACCOUNT LOCK/UNLOCK** nếu muốn mở/ vô hiệu hóa quyền truy cập của người dùng.
-
-
-<!-- page 99 -->
 
 # CREATE USER
 
@@ -1695,9 +1245,6 @@ graph LR
 
 ;
 
-
-<!-- page 100 -->
-
 # Tạo tài khoản người dùng
 
 - Ví dụ:
@@ -1715,9 +1262,6 @@ PROFILE clerk;
 
 `GRANT CREATE SESSION TO user_name;`
 
-
-<!-- page 101 -->
-
 # Các xác thực (Identified)
 
 - **IDENTIFIED**
@@ -1726,22 +1270,12 @@ PROFILE clerk;
     - **GLOBALLY:** Người dùng phải được cấp phép bởi một dịch vụ của doanh nghiệp.
 - **NO AUTHENTICATION:** Để tạo một lược đồ không có mật khẩu và không thể đăng nhập
 
-
-<!-- page 102 -->
-
-# Tablespace
-
 ## Tablespace mặc định (Default tablespace):
 
 - Được gán trong câu lệnh **CREATE USER** hoặc **ALTER USER**
 - Mặc định cài đặt của default tablespace của tất cả người dùng là tablespace **SYSTEM**
 - Nên chỉ định tablespace cụ thể (nếu có thể) để lưu trữ dữ liệu người dùng, không nên lưu trong tablespace **SYSTEM** (để giảm sự tranh chấp)
 - Sử dụng câu lệnh SQL: **CREATE TABLESPACE** để tạo một table mặc định.
-
-
-<!-- page 103 -->
-
-# Tablespace
 
 ## Tablespace tạm (Temporary Tablespaces):
 
@@ -1750,28 +1284,17 @@ PROFILE clerk;
 - Để tạo một tablespace tạm, sử dụng câu lệnh SQL: **CREATE TEMPORARY TABLESPACE**.
 - Nếu không chỉ định tablespace tạm thì mặc định là tablespace SYSTEM hoặc một tablespace cố định do người quản trị hệ thống thiết lập.
 
-
-<!-- page 104 -->
-
 # Hạn mức (Quota)
 
 - Có thể gán hạn mức cho bất kỳ một tablespace nào, ngoại trừ temporary tablespace
 - Mặc định, người dùng không có quota trên bất kỳ tablespace nào, để người dùng đó có quyền tạo đối tượng lược đồ thì phải gán quota cho họ.
 - Dung lượng tối đa có thể gán cho một tablespace là 2T. Nếu cần thêm dung lượng, sử dụng UNLIMITED
 
-
-<!-- page 105 -->
-
 # Profile
 
 - **Profile** là tập hợp các giới hạn về tài nguyên cơ sở dữ liệu áp dụng cho người dùng.
 - Nếu bạn chỉ định hồ sơ cho một người dùng, thì người dùng đó không thể vượt quá các giới hạn này.
 - Tạo **Profile** sử dụng **CREATE PROFILE**; Muốn gán **Profile** cho người dùng thì sử dụng trong **CREATE USER** hoặc **ALTER USER**
-
-
-<!-- page 106 -->
-
-# Profile
 
 ## Cú pháp lệnh CREATE PROFILE
 
@@ -1825,11 +1348,6 @@ Các tham số trên có thể được gán giá trị là:
     - expr
     - DEFAULT
 
-
-<!-- page 107 -->
-
-# Profile
-
 ## Resource_parameters
 
 - **SESSIONS_PER_USER**: Chỉ định số lượng phiên đồng thời.
@@ -1842,11 +1360,6 @@ Các tham số trên có thể được gán giá trị là:
 - **PRIVATE_SGA**: Lượng private space của một session
 - **COMPOSITE_LIMIT**: Tổng chi phí tài nguyên cho một session
 
-
-<!-- page 108 -->
-
-# Profile
-
 ## Password_parameters
 
 - **FAILED_LOGIN_ATTEMPTS**: Số lần đăng nhập không thành công liên tiếp trước khi tài khoản bị khóa (mặc định là 10 lần)
@@ -1855,11 +1368,6 @@ Các tham số trên có thể được gán giá trị là:
 - **PASSWORD_LOCK_TIME**: Số ngày tài khoản sẽ bị khóa sau số lần đăng nhập thất bại liên tiếp được chỉ định (mặc định 1 ngày)
 - **PASSWORD_GRACE_TIME**: Số ngày sau khi thời gian ra hạn bắt đầu trong khi cảnh báo & được phép đăng nhập (mặc định 7 ngày)
 
-
-<!-- page 109 -->
-
-# Profile
-
 ## *Password_parameters*
 
 - **INACTIVE_ACCOUNT_TIME**: Số ngày liên tiếp không đăng nhập vào tài khoản người dùng, sau đó tài khoản sẽ bị khóa (tối thiểu là 15 ngày, mặc định là UNLIMITED)
@@ -1867,18 +1375,8 @@ Các tham số trên có thể được gán giá trị là:
     - Hạn chế: Nếu người dùng được gán profile với External hoặc Global thì tham số mật khẩu không có hiệu lực
 - **PASSWORD_ROLLOVER_TIME**: Thời gian chuyển đổi dần mật khẩu, thời gian trong ngày, cụ thể giờ + phút + giây
 
-
-<!-- page 110 -->
-
-# Profile
-
 - **Quản trị viên database** gán các profile cho từng user, Oracle server sẽ phân bổ tài nguyên cho user theo thông tin có trong profile
 - **Oracle server** tự động tạo **default profile** (profile mặc định) mỗi khi tạo database. Ban đầu, các thông tin trong **default profile** được đặt không hạn chế. **Quản trị viên database** có thể điều chỉnh lại các tham số này đối với từng user.
-
-
-<!-- page 111 -->
-
-# Profile
 
 ❖ **Ví dụ: Tạo Profile với các giới hạn về tài nguyên**
 
@@ -1894,11 +1392,6 @@ CREATE PROFILE app_user LIMIT
     COMPOSITE_LIMIT 5000000;
 ```
 
-
-<!-- page 112 -->
-
-# Profile
-
 ❖ **Ví dụ: Tạo Profile với các giới hạn mật khẩu**
 
 ```sql
@@ -1913,11 +1406,6 @@ CREATE PROFILE app_user2 LIMIT
     INACTIVE_ACCOUNT_TIME 30;
 ```
 
-
-<!-- page 113 -->
-
-# Profile
-
 - **Sửa Profile:**
 - Ví dụ: User nào được gán profile `app_user` chỉ định sẽ khóa tài khoản trong một ngày sau 5 lần đăng nhập sai liên tiếp
 
@@ -1929,9 +1417,6 @@ PASSWORD_LOCK_TIME 1;
 
 - **Xóa Profile:** `DROP PROFILE app_user CASCADE;`
 - CASCADE để hủy profile đó của mọi người dùng đã được gán (các user đó sẽ tự động gán DEFAULT).
-
-
-<!-- page 114 -->
 
 # Sửa tài khoản người dùng
 
@@ -1960,9 +1445,6 @@ ALTER USER user
   | proxy_clause ]
 ```
 
-
-<!-- page 115 -->
-
 # Sửa tài khoản người dùng
 
 - Ví dụ:
@@ -1986,9 +1468,6 @@ ALTER USER app_user1 GRANT CONNECT THROUGH sh
 WITH ROLE warehouse_user;
 ```
 
-
-<!-- page 116 -->
-
 # Xóa tài khoản người dùng
 
 ```
@@ -2004,9 +1483,6 @@ DROP USER sidney;
 DROP USER sidney CASCADE;
 ```
 
-
-<!-- page 117 -->
-
 # Các tài khoản có sẵn
 
 **Các tài khoản có sẵn:** Là các tài khoản được tạo tự động khi thiết lập một CSDL Oracle.
@@ -2015,11 +1491,6 @@ DROP USER sidney CASCADE;
 - Xem các tài khoản có sẵn:
   `SELECT * FROM DBA_USERS;`
 - Nếu trên cột ORACLE_MAINTAINED là Y thì không được sửa đổi tài khoản đó.
-
-
-<!-- page 118 -->
-
-# Các tài khoản có sẵn
 
 ## Một số tài khoản quản trị
 
@@ -2033,21 +1504,11 @@ DROP USER sidney CASCADE;
 | ORDPLUGINS | Người dung Oracle Multimedia. Các plugin do Oracle và bên thứ ba cung cấp, các plugin được cài đặt trong lược đồ này. |
 | SYSBACKUP | Tài khoản được sử dụng để thực hiện các hoạt động sao lưu và khôi phục Oracle Recovery Manager. |
 
-
-<!-- page 119 -->
-
-# Các tài khoản có sẵn
-
 - Tài khoản người dùng quản trị **SYS** và **SYSTEM** sử dụng mật khẩu cài đặt Oracle & được tự động cấp nhóm quyền **DBA**
 - **SYS**: có thể thực hiện tất cả các chức năng quản trị
 - **SYSTEM**: có thể thực hiện tất cả các chức năng quản trị ngoại trừ các chức năng sau:
     - Sao lưu và phục hồi
     - Nâng cấp cơ sở dữ liệu
-
-
-<!-- page 120 -->
-
-# Các tài khoản có sẵn
 
 ## Tài khoản người dùng không phải tài khoản quản trị
 
@@ -2058,21 +1519,11 @@ DROP USER sidney CASCADE;
 | ORACLE_OCM | Tài khoản được sử dụng với Oracle Configuration Manager. Tính năng này cho phép kết hợp thông tin cấu hình Instance Database với My Oracle Support |
 | XS$NULL | Thay thế cho người dùng CSDL (là người dùng ứng dụng) trong một session. XS$NULL không có quyền và không sở hữu bất kỳ đối tượng CSDL nào. |
 
-
-<!-- page 121 -->
-
-# Các tài khoản có sẵn
-
 ### Tài khoản người dùng mẫu
 
 - Cơ sở dữ liệu Oracle tạo một tập hợp các tài khoản người dùng mẫu.
 - Là các tài khoản không phải là tài khoản quản trị, tablespace của chúng là USER.
 - Để tránh các truy cập trái phép, các tài khoản này sẽ bị khóa ngay sau khi cài đặt. Với tư cách là quản trị viên CSDL, bạn cần mở khóa và thiết lập cho các tài khoản này.
-
-
-<!-- page 122 -->
-
-# Các tài khoản có sẵn
 
 ### Tài khoản người dùng mẫu
 
@@ -2084,29 +1535,12 @@ DROP USER sidney CASCADE;
 | IX | Quản lý lược đồ IX (Information Exchange). Lược đồ này quản lý việc vận chuyển thông qua ứng dụng business-to-business (B2B) |
 | SH | Quản lý lược đồ SH (Sales). Lược đồ này lưu trữ số liệu thống kê kinh doanh để hỗ trợ cho các quyết định kinh doanh. |
 
-
-<!-- page 123 -->
-
-# Cấp quyền/ nhóm quyền
-
-123
-
-ORACLE
-
-
-<!-- page 124 -->
-
 # Cấp quyền/ nhóm quyền
 
 - **Quyền (privilege)**: là quyền chạy một câu lệnh SQL, một khối lệnh PL/SQL hoặc quyền truy cập một đối tượng thuộc về người dùng khác.. Các loại quyền được xác định bởi Oracle Database.
 - **System privileges**: Các quyền quản trị trên CSDL
 - **Object privileges**: Các quyền cho các loại đối tượng trong CSDL (như Table, View, Procedure)
 - **Nhóm quyền (Role)**: là một nhóm các quyền hay nhóm các nhóm quyền
-
-
-<!-- page 125 -->
-
-# Cấp quyền/ nhóm quyền
 
 - **Mục đích:**
     - Cấp quyền hệ thống (System privileges) cho người dùng và các nhóm quyền.
@@ -2116,11 +1550,6 @@ ORACLE
 ![Sơ đồ cú pháp lệnh GRANT](https://i.imgur.com/5y1y1y1.png)
 
 *Lưu ý: Hình ảnh sơ đồ cú pháp hiển thị các tùy chọn cho lệnh GRANT bao gồm grant_system_privileges, grant_object_privileges, và grant_roles_to_programs, cùng với các tùy chọn CONTAINER (CURRENT hoặc ALL).*
-
-
-<!-- page 126 -->
-
-# Cấp quyền/ nhóm quyền
 
 - Để cấp quyền hệ thống:
     - Phải được cấp quyền hệ thống **GRANT ANY PRIVILEGE**
@@ -2144,11 +1573,6 @@ TO { grantee_clause | grantee_identified_by }
 user IDENTIFIED BY password
 ```
 
-
-<!-- page 127 -->
-
-# Cấp quyền/ nhóm quyền
-
 ❖ **Để cấp quyền đối tượng:**
 - Phải là người sở hữu đối tượng hoặc
 - Chủ sở hữu đối tượng cấp quyền với WITH GRANT OPTION hoặc
@@ -2164,11 +1588,6 @@ user IDENTIFIED BY password
 - WITH HIERARCHY OPTION
 - WITH GRANT OPTION
 
-
-<!-- page 128 -->
-
-# Cấp quyền/ nhóm quyền
-
 - **Nhóm quyền**:
 
 ![Sơ đồ cú pháp role TO program_unit](https://i.imgur.com/12345.png) *(Lưu ý: Hình ảnh minh họa cú pháp)*
@@ -2176,11 +1595,6 @@ user IDENTIFIED BY password
 **program_unit::=**
 
 ![Sơ đồ cú pháp chi tiết cho FUNCTION, PROCEDURE, PACKAGE](https://i.imgur.com/67890.png) *(Lưu ý: Hình ảnh minh họa cú pháp)*
-
-
-<!-- page 129 -->
-
-# Cấp quyền/ nhóm quyền
 
 ## Một số quyền hệ thống
 
@@ -2198,9 +1612,6 @@ user IDENTIFIED BY password
 | | ALTER RESOURCE COST | | AUDIT SYSTEM |
 | | ALTER SESSION | | |
 | | RESTRICTED SESSION | | |
-
-
-<!-- page 130 -->
 
 | LOẠI | QUYỀN | LOẠI | QUYỀN |
 | :--- | :--- | :--- | :--- |
@@ -2221,11 +1632,6 @@ user IDENTIFIED BY password
 | | ALTER USER | | SYSBACKUP |
 | | DROP USER | | SYSDBA ..... |
 
-
-<!-- page 131 -->
-
-# Cấp quyền/ nhóm quyền
-
 - **Cấp quyền hệ thống**
 - Ví dụ: Cấp quyền CREATE SESSION cho user `hr`, sau đó `hr` lại có thể cấp quyền này cho user khác
 
@@ -2235,11 +1641,6 @@ user IDENTIFIED BY password
 
 `GRANT CREATE SESSION`
 `TO hr, newuser IDENTIFIED BY password1, password2;`
-
-
-<!-- page 132 -->
-
-# Cấp quyền/ nhóm quyền
 
 ## Một số quyền đối tượng
 
@@ -2256,11 +1657,6 @@ user IDENTIFIED BY password
 | Read | X | | | |
 | Execute | | | | X |
 
-
-<!-- page 133 -->
-
-# Cấp quyền/ nhóm quyền
-
 - **Cấp quyền đối tượng:**
 - Ví dụ: Cấp nhóm quyền `warehouse_user` cho nhóm quyền `dw_manager`
 
@@ -2270,11 +1666,6 @@ user IDENTIFIED BY password
 
 `GRANT ALL ON bonuses TO hr WITH GRANT OPTION;`
 
-
-<!-- page 134 -->
-
-# Cấp quyền/ nhóm quyền
-
 - Ví dụ: Cấp quyền tạo tham chiếu trên cột **employee_id**, quyền cập nhật trên các cột **employee_id**, **salary**, **commission_pct** của bảng **employees** cho **oe**
 
 ```sql
@@ -2283,11 +1674,6 @@ REFERENCES (employee_id),
 UPDATE (employee_id, salary, commission_pct)
 ON hr.employees TO oe;
 ```
-
-
-<!-- page 135 -->
-
-# Cấp quyền/ nhóm quyền
 
 ### Tạo nhóm quyền (Role)
 
@@ -2316,11 +1702,6 @@ graph LR
     D --> V[;]
 ```
 
-135
-
-
-<!-- page 136 -->
-
 ![ITDE](https://i.imgur.com/4y5yY5G.png)
 
 # Users
@@ -2346,13 +1727,6 @@ graph LR
 
 `CREATE ROLE warehouse_user IDENTIFIED EXTERNALLY;`
 
-ORACLE
-
-
-<!-- page 137 -->
-
-# Cấp quyền/ nhóm quyền
-
 - **Cấp quyền cho role:**
 `GRANT {system_privileges | object_privileges} TO role_name;`
 
@@ -2365,11 +1739,6 @@ ORACLE
 `GRANT dw_manager TO sh WITH ADMIN OPTION;`
 
 `GRANT warehouse_user TO dw_manager;`
-
-
-<!-- page 138 -->
-
-# Cấp quyền/ nhóm quyền
 
 - **Hủy quyền**: Hủy quyền hệ thống trên user/role; hủy role trên user/role; hủy quyền đối tượng trên user/role
 
@@ -2384,9 +1753,6 @@ ORACLE
 `REVOKE DELETE ON orders FROM hr;`
 
 `REVOKE ALL ON employees FROM dw_manager;`
-
-
-<!-- page 139 -->
 
 # Cơ chế gỡ quyền
 
@@ -2410,14 +1776,6 @@ marry.clients
 
 **Quyền hệ thống**
 
-ORACLE
-139
-
-
-<!-- page 140 -->
-
-# Cấp quyền/ nhóm quyền
-
 - Sử dụng **SET ROLE** để bật/tắt các role
 - Sử dụng **Drop** để xóa
 
@@ -2429,9 +1787,6 @@ ORACLE
 `SET ROLE ALL;`
 `SET ROLE ALL EXCEPT dw_manager;`
 `SET ROLE NONE;`
-
-
-<!-- page 141 -->
 
 # Một số role được định nghĩa sẵn trong Oracle
 
@@ -2445,18 +1800,12 @@ ORACLE
 | **HS_ADMIN_EXECUTE_ROLE** | Cung cấp đặc quyền EXECUTE cho người dùng muốn sử dụng gói PL / SQL của Heterogeneous Services (HS) |
 | **OLAP_DBA** | Cung cấp đặc quyền quản trị để tạo các đối tượng trong các lược đồ khác nhau cho Oracle OLAP. |
 
-
-<!-- page 142 -->
-
 # Quản lý người dùng bằng Enterprise Manager (EM)
 
 - **EM Oracle 11g:**
     - https://localhost:1158/em
 - **EM Oracle 19c:**
     - https://localhost:5500/em
-
-
-<!-- page 143 -->
 
 # Enterprise Manager
 
@@ -2479,11 +1828,6 @@ Unauthorized access is strictly prohibited.
 
 Quyền System DB Admin
 (Là quyền hạn lớn nhất)
-
-143
-
-
-<!-- page 144 -->
 
 # Enterprise Manager
 
@@ -2533,9 +1877,6 @@ Page Refreshed Oct 3, 2014 9:12:40 AM ICT [Refresh] View Data Automatically (60 
 - Oracle Restart: n/a
 - Instance Recovery Time (sec): 26
 
-
-<!-- page 145 -->
-
 # Oracle Cloud Database Express
 
 - **Status**
@@ -2566,19 +1907,9 @@ Page Refreshed Oct 3, 2014 9:12:40 AM ICT [Refresh] View Data Automatically (60 
 - **Memory**: total_sga, total_pga, target_pga, shared pool, large pool, buffer cache, Shared IO Pool
 - **Data Storage**: USER, UNDO, TEMPORARY, SYSTEM, SYSAUX, LOGS
 
-ORACLE
-
-
-<!-- page 146 -->
-
 # 4.4. SAO LƯU VÀ PHỤC HỒI
 
 ![Hình ảnh một người đàn ông đang khóc với dòng chữ: Our tape restore failed! All of our data was lost! Our business is DOOMED!]
-
-ORACLE
-
-
-<!-- page 147 -->
 
 # Purpose of Backup and Recovery ???
 
@@ -2588,20 +1919,12 @@ ORACLE
 - Recovery
 - Database
 
-ORACLE
-
-
-<!-- page 148 -->
-
 # 1. SAO LƯU – BACKUP
 
 - Các khái niệm cơ bản
 - Các phương án backup
 - Tự động backup
 - Quản lý backup
-
-
-<!-- page 149 -->
 
 # Các khái niệm cơ bản
 
@@ -2615,20 +1938,12 @@ ORACLE
     - Cold/Consistent (nguội): tiến hành khi database đóng
     - Hot/Inconsistent (nóng): tiến hành khi database mở
 
-
-<!-- page 150 -->
-
 # Hai loại Backup
 
 ![Sơ đồ phân loại Oracle Database thành Logical backup và Physical backup](https://files.oaiusercontent.com/file-oai-image-placeholder)
 
 - **Logical backup**
 - **Physical backup**
-
-151
-
-
-<!-- page 151 -->
 
 # Phân loại Backup
 
@@ -2641,11 +1956,6 @@ ORACLE
 ## PHYSICAL
 - COLD (Offline) (Consistent)
 - HOT (Online) Inconsistent
-
-ORACLE
-
-
-<!-- page 152 -->
 
 # Các khái niệm cơ bản...
 
@@ -2671,16 +1981,10 @@ Các bản backup có thể lưu ở dạng:
 
 *Image copies*
 
-
-<!-- page 153 -->
-
 # Phương án backup
 
 - Kịch bản backup do người quản trị CSDL tự định nghĩa
 - Recovery Manager (RMAN)
-
-
-<!-- page 154 -->
 
 # Kịch bản backup do DBA tự định nghĩa
 
@@ -2693,9 +1997,6 @@ Các bản backup có thể lưu ở dạng:
     - Dùng lệnh của hệ điều hành để copy file sang ổ backup
     - Chuyển tablespace và các đối tượng khác về chế độ hoạt động bình thường
 
-
-<!-- page 155 -->
-
 # Recovery Manager (RMAN)
 
 - Là một thành phần của Oracle dùng để thực hiện backup và recovery
@@ -2705,9 +2006,6 @@ Các bản backup có thể lưu ở dạng:
     - Có thể backup được: data file, control file, archived log, parameter file
     - Có thể backup dữ liệu ra đĩa hoặc băng từ
 - Có thể sử dụng RMAN thông qua EM
-
-
-<!-- page 156 -->
 
 # RMAN: thiết bị backup
 
@@ -2730,9 +2028,6 @@ To save the backup settings, supply operating system login credentials to access
 - * **Username**: [ ]
 - * **Password**: [ ]
 - [ ] Save as Preferred Credential
-
-
-<!-- page 157 -->
 
 # RMAN: chính sách
 
@@ -2768,9 +2063,6 @@ Populate this table with the tablespaces you want to exclude from a whole databa
   - Backups [1]
   - Redundancy
 
-
-<!-- page 158 -->
-
 # RMAN: Chiến lược backup
 
 ## Schedule Customized Backup: Options
@@ -2787,9 +2079,6 @@ Populate this table with the tablespaces you want to exclude from a whole databa
 - ( ) **Incremental Backup (Level 1)**
     Level 1 incremental backup includes all the changed blocks since the most recent level 0 backup (cumulative).
     - [ ] Refresh the latest datafile copy on disk to the current time using the incremental backup
-
-
-<!-- page 159 -->
 
 # RMAN: đặt lịch backup
 
@@ -2809,9 +2098,6 @@ Populate this table with the tablespaces you want to exclude from a whole databa
     - Specified Date
         - **Date**: [ ] (example: Oct 14, 2013)
         - **Time**: [ ] : [ ] **AM** PM
-
-
-<!-- page 160 -->
 
 # RMAN: quản lý backup
 
@@ -2846,19 +2132,11 @@ This backup data was retrieved from the database control file.
 
 Select All | Select None
 
-ORACLE
-
-
-<!-- page 161 -->
-
 # 2. PHỤC HỒI - RECOVERY
 
 - Các bước khởi động database
 - Nguyên nhân gây lỗi database
 - Cách khắc phục
-
-
-<!-- page 162 -->
 
 # Khởi động database
 
@@ -2872,9 +2150,6 @@ ORACLE
 - **NOMOUNT**: Instance started
 - **MOUNT**: Control file opened for this instance
 - **OPEN**: All files opened as described by the control file for this instance
-
-
-<!-- page 163 -->
 
 # Khởi động database...
 
@@ -2894,9 +2169,6 @@ ORACLE
     - Mount the database
     - Open the database
 
-
-<!-- page 164 -->
-
 # Nguyên nhân gây lỗi Database
 
 Có thể có những lỗi sau:
@@ -2907,18 +2179,12 @@ Có thể có những lỗi sau:
 - Instance failure
 - Media failure
 
-
-<!-- page 165 -->
-
 # Nguyên nhân gây lỗi database
 
 - Database (đang mở) bị lỗi khi mất:
     - Control file bất kì
     - Data file thuộc tablespace system hoặc undo
     - Một nhóm redo log
-
-
-<!-- page 166 -->
 
 # Cách khắc phục: mất control file
 
@@ -2927,9 +2193,6 @@ Có thể có những lỗi sau:
 - Khởi động lại database
 
 Control files
-
-
-<!-- page 167 -->
 
 # Cách khắc phục: mất redo log
 
@@ -2946,9 +2209,6 @@ Control files
 
 Edit View Delete Actions Clear logfile Go
 
-
-<!-- page 168 -->
-
 # Cách khắc phục: mất data file (bất kì)
 
 - Nếu database ở chế độ `NOARCHIVELOG`, khi mất data file thực hiện các bước sau:
@@ -2957,9 +2217,6 @@ Edit View Delete Actions Clear logfile Go
     - Mở database
 
 User User User User User
-
-
-<!-- page 169 -->
 
 # Cách khắc phục: mất data file
 *(không thuộc tablespace system & undo)*
@@ -2975,9 +2232,6 @@ User User User User User
 
 Users
 
-
-<!-- page 170 -->
-
 # Cách khắc phục: mất data file
 ## (thuộc tablespace system & undo)
 
@@ -2989,15 +2243,9 @@ Users
 
 Users
 
-
-<!-- page 171 -->
-
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/1200px-Oracle_logo.svg.png)
 
 # ITDE
-**INFORMATION TECHNOLOGY & DIGITAL ECONOMICS**
-**BANKING ACADEMY OF VIETNAM**
+**INFORMATION TECHNOLOGY & DIGITAL ECONOMICS** **BANKING ACADEMY OF VIETNAM**
 
 ?
-
-ORACLE

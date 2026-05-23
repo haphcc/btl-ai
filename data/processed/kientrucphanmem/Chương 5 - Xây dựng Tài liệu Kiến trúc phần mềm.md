@@ -2,8 +2,6 @@
 
 #### CHƯƠNG 5 XÂY DỰNG TÀI LIỆU KIẾN TRÚC PHẦN MỀM
 
-## TRANG 1
-
 ## HỌC VIỆN NGÂN HÀNG
 
 ## KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
@@ -12,8 +10,6 @@
 
 Hà Nội - 2024
 
-## TRANG 2
-
 ## Nội dung trình bày
 
 - Tại sao cần xây dựng Tài liệu Kiến trúc phần mềm?
@@ -21,8 +17,6 @@ Hà Nội - 2024
 - Một số bước để xây dựng Tài liệu Kiến trúc phần mềm - Ví dụ về xây dựng Tài liệu Kiến trúc phần mềm
 
 4/29/24 Chương 1: Tổng quan Kiến trúc phần mềm 2
-
-## TRANG 3
 
 Tại sao cần xây dựng Tài liệu Kiến trúc phần mềm?
 
@@ -38,8 +32,6 @@ dàng phát triển và bảo trì mã nguồn.
 
 4/29/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 3
 
-## TRANG 4
-
 Tại sao cần xây dựng Tài liệu Kiến trúc phần mềm?
 
 - Xây dựng Tài liệu Kiến trúc phần mềm là một phần quan trọng trong quá trình phát triển phần mềm - ìnómang lại nhiều lợi ích quan trọng như:
@@ -52,8 +44,6 @@ Tại sao cần xây dựng Tài liệu Kiến trúc phần mềm?
 
 4/29/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 4
 
-## TRANG 5
-
 Tại sao cần xây dựng Tài liệu Kiến trúc phần mềm?
 
 - Xây dựng Tài liệu Kiến trúc phần mềm là một phần quan trọng trong quá trình phát triển phần mềm - ìnómang lại nhiều lợi ích quan trọng như:
@@ -62,8 +52,6 @@ Tại sao cần xây dựng Tài liệu Kiến trúc phần mềm?
 
 4/29/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 5
 
-## TRANG 6
-
 Tại sao cần xây dựng Tài liệu Kiến trúc phần mềm?
 
 - Xây dựng tài liệu kiến trúc phần mềm không chỉ là một phần quan trọng của quy trình phát triển phần mềm mà còn là một công cụ hữu ích để tăng cường hiểu biết, hợp tác và quản lý chất lượng của dự án.
@@ -71,8 +59,6 @@ Tại sao cần xây dựng Tài liệu Kiến trúc phần mềm?
 - Tài liệu kiến trúc phần mềm là một tài liệu linh hoạt và có thể phải điều chỉnh và bổ sung theo thời gian khi hệ thống phát triển và thay đổi.
 
 4/29/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 6
-
-## TRANG 7
 
 Xây dựng Tài liệu Kiến trúc phần mềm
 
@@ -98,8 +84,6 @@ Xây dựng Tài liệu Kiến trúc phần mềm
 
 4/29/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 7
 
-## TRANG 8
-
 Xây dựng Tài liệu Kiến trúc phần mềm
 
 - Một số bước để xây dựng tài liệu Kiến trúc phần mềm:
@@ -120,8 +104,6 @@ Xây dựng Tài liệu Kiến trúc phần mềm
 
 4/29/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 8
 
-## TRANG 9
-
 Xây dựng Tài liệu Kiến trúc phần mềm
 
 - Một số bước để xây dựng tài liệu Kiến trúc phần mềm:
@@ -139,8 +121,6 @@ Xây dựng Tài liệu Kiến trúc phần mềm
 - Mô tảcác yếu tố ảnh hưởng đến hiệu suất của hệ thống và các biện pháp được thực hiện để tối ưu hóa hiệu suất.
 
 4/29/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 9
-
-## TRANG 10
 
 Xây dựng Tài liệu Kiến trúc phần mềm
 
@@ -160,8 +140,6 @@ Xây dựng Tài liệu Kiến trúc phần mềm
 
 4/29/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 10
 
-## TRANG 11
-
 Ví dụ 1
 
 - Ví dụ về xây dựng tài liệu Kiến trúc Phần mềm cho Ư]ng dụng Quản lýCông việc - 1. Mục tiêu và Phạm vi • Mục tiêu: Phát triển mộtứng dụng web đơn giản để quản lý công việc cánhân hoặc nhóm.
@@ -179,8 +157,6 @@ Ví dụ 1
 • Cơ sở dữ liệu: Mongo DB.
 
 29/4/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 11
-
-## TRANG 12
 
 Ví dụ 1
 
@@ -200,8 +176,6 @@ Ví dụ 1
 
 29/4/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 12
 
-## TRANG 13
-
 Ví dụ 1
 
 - Ví dụ về xây dựng tài liệu Kiến trúc Phần mềm cho Ư]ng dụng Quản lýCông việc - 4. Công nghệ và Cơ sở hạ tầng • Frontend: HTML, CSS, JavaScript, Bootstrap.
@@ -215,8 +189,6 @@ Ví dụ 1
 - 6. Thiết kếgiao diện • Giao diện đơn giản với danh sách công việc và các chứ c năng thêm mới, chỉnh sửa, xóa.
 
 29/4/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 13
-
-## TRANG 14
 
 Ví dụ 1
 
@@ -234,8 +206,6 @@ Ví dụ 1
 
 29/4/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 14
 
-## TRANG 15
-
 Ví dụ 1
 
 - Ví dụ về xây dựng tài liệu Kiến trúc Phần mềm cho Ư]ng dụng Quản lýCông việc - 10. Quản lý Phiên bản và Triển khai • Sử dụng Git để quản lý phiên bản mã nguồn.
@@ -250,15 +220,11 @@ Ví dụ 1
 
 29/4/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 15
 
-## TRANG 16
-
 Ví dụ 1
 
 - Ví dụ về xây dựng tài liệu Kiến trúc Phần mềm cho Ư]ng dụng Quản lýCông việc - 12. Tài liệu Tham khảo • Mongo DB Documentation: https: //do cs. mongodb. com/ • Node.js Documentation: https: //nodejs. org/en/do cs/ • Express.js Documentation: https: //expressjs. com/ • Bootstrap Documentation: https: //getbootstrap. com/do cs/
 
 29/4/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 16
-
-## TRANG 17
 
 Ví dụ 2
 
@@ -267,8 +233,6 @@ Ví dụ 2
 • Phạm vi: Ứng dụng RPA cho các quy trình như xử lý hóa đơn, nhập liệu từ bảng tính Excel vào hệ thống, kiểm tra và cập nhật dữ liệu, v.v.
 
 29/4/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 17
-
-## TRANG 18
 
 Ví dụ 2
 
@@ -281,8 +245,6 @@ Ví dụ 2
 • Orchestrator: Quản lývà theo dõi hoạt động của các bot, ca, p phát tác vụvàlập lịch thực hiện.
 
 29/4/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 18
-
-## TRANG 19
 
 Ví dụ 2
 
@@ -300,8 +262,6 @@ Ví dụ 2
 
 29/4/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 19
 
-## TRANG 20
-
 Ví dụ 2
 
 - Ví dụ về xây dựng tài liệu Kiến trúc Phần mềm Tự động hoá quy trình bằng Robot (RPA) - 4. Công nghệ và Cơ sở hạ tầng • Sử dụng giải pháp RPA như Ui Path, Automation Anywhere hoặc Blue Prism.
@@ -315,8 +275,6 @@ Ví dụ 2
 • Tuy nhiên, Orchestrator có thể cung cấp giao diện cho người quản lý để theo dõi và quản lý các tác vụ.
 
 29/4/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 20
-
-## TRANG 21
 
 Ví dụ 2
 
@@ -332,8 +290,6 @@ Ví dụ 2
 
 29/4/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 21
 
-## TRANG 22
-
 Ví dụ 2
 
 - Ví dụ về xây dựng tài liệu Kiến trúc Phần mềm Tự động hoá quy trình bằng Robot (RPA) - 10. Quản lý Phiên bản và Triển khai • Quản lýphiên bản mã nguồn bot thông qua hệ thống quản lý phiên bản như Git.
@@ -346,8 +302,6 @@ Ví dụ 2
 
 29/4/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 22
 
-## TRANG 23
-
 Ví dụ 2
 
 - Ví dụ về xây dựng tài liệu Kiến trúc Phần mềm Tự động hoá quy trình bằng Robot (RPA) - 12. Tài liệu Tham khảo • Ui Path Documentation: https: //do cs. uipath. com/ • Automation Anywhere Documentation:
@@ -356,8 +310,6 @@ https: //do cs. automationanywhere. com/ • Blue Prism Documentation: https: //
 
 29/4/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 23
 
-## TRANG 24
-
 Tổng kết ví dụ
 
 • Bản mô tả trên cung cấp một cái nhìn tổng quan về:
@@ -365,8 +317,6 @@ Tổng kết ví dụ
 • Kiến trúc và cấu trúc của ứng dụng quản lý công việc/giải pháp RPA • Cung cấp thông tin chi tiết về các thành phần chính và công nghệ được sử dụng, cũng như hướng dẫn cài đặt vàsử dụng.
 
 29/4/24 Chương 5: Xây dựng Tài liệu Kiến trúc phần mềm 24
-
-## TRANG 25
 
 ## HỎI/ĐÁP
 

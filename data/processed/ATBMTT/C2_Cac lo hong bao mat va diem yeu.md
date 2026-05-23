@@ -1,17 +1,5 @@
-# C2_Cac lo hong bao mat va diem yeu
-
-
-
-<!-- page 1 -->
-
-HỌC VIỆN NGÂN HÀNG
-KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
-
 # CHƯƠNG II
 ## CÁC LỖ HỔNG BẢO MẬT & ĐIỂM YẾU HỆ THỐNG
-
-
-<!-- page 2 -->
 
 # Nội dung
 
@@ -19,9 +7,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 ## 2.2 Các dạng lỗ hổng trong HDH và ƯD
 ## 2.3 Quản lý, khắc phục và tăng cường
 ## 2.4 Một số công cụ rà quét
-
-
-<!-- page 3 -->
 
 ## 2.1. Tổng quan về lỗ hổng và điểm yếu
 
@@ -31,9 +16,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 - **Tấn công:**
 
 $$Tấn công = Mối đe dọa + Lỗ hổng$$
-
-
-<!-- page 4 -->
 
 # 2.2. Các dạng lỗ hổng trong HDH và UD
 
@@ -48,11 +30,6 @@ $$Tấn công = Mối đe dọa + Lỗ hổng$$
 - **Gián điệp công nghệ:**
 - **Khủng bố phá hoại**
 
-
-<!-- page 5 -->
-
-# 2.2. Các dạng lỗ hổng trong HDH và UD
-
 ### 2.2.2 Các loại tấn công
 
 - **Theo mục đích thực hiện**
@@ -61,22 +38,12 @@ $$Tấn công = Mối đe dọa + Lỗ hổng$$
 - **Ngắt quãng**: làm chậm kênh đường truyền hoặc quá tải hệ thống nhằm ngăn cản việc truy cập dịch vụ
 - **Sửa đổi**: Sửa đổi thông tin trên đường truyền hoặc sửa đổi dữ liệu file
 
-
-<!-- page 6 -->
-
-# 2.2. Các dạng lỗ hổng trong HDH và UD
-
 ## 2.2.2 Các loại tấn công
 
 ### Theo hình thức thực hiện
 
 - Tấn công chủ động:
 - Tấn công thụ động:
-
-
-<!-- page 7 -->
-
-# 2.2. Các dạng lỗ hổng trong HDH và UD
 
 ### 2.2.3 Các dạng lỗ hổng
 - Trong hệ điều hành
@@ -85,22 +52,12 @@ $$Tấn công = Mối đe dọa + Lỗ hổng$$
     - Lỗ hổng kernel, driver và hệ thống lõi
     - Lỗ hổng quản lý bộ nhớ
 
-
-<!-- page 8 -->
-
-# 2.2. Các dạng lỗ hổng trong HDH và UD
-
 ### 2.2.3 Các dạng lỗ hổng
 - **Trong hệ điều hành**
     - Lỗ hổng dịch vụ hệ thống & network stack
     - Lỗ hổng cấu hình HDH
     - Lỗ hổng cập nhật, vá lỗi
     - Lỗ hổng ghi log và giám sát
-
-
-<!-- page 9 -->
-
-# 2.2. Các dạng lỗ hổng trong HDH và UD
 
 ### 2.2.3 Các dạng lỗ hổng
 
@@ -114,11 +71,6 @@ $$Tấn công = Mối đe dọa + Lỗ hổng$$
 - Lỗ hổng cấu hình ứng dụng
 - Lỗ hổng thư viện và bên thứ ba
 
-
-<!-- page 10 -->
-
-# 2.3. Quản lý, khắc phục và tăng cường
-
 ## 2.3.1 Nguyên tắc tổng thể
 
 - **Quản lý theo vòng đời rủi ro**
@@ -127,11 +79,6 @@ $$Tấn công = Mối đe dọa + Lỗ hổng$$
 - **Phòng thủ nhiều lớp**
     - Con người – Quy trình – Công nghệ
     - Không phụ thuộc một biện pháp đơn lẻ
-
-
-<!-- page 11 -->
-
-# 2.3. Quản lý, khắc phục và tăng cường
 
 ## 2.3.2 Quản lý khắc phục tăng cường theo nhóm lỗ hổng
 
@@ -143,37 +90,16 @@ $$Tấn công = Mối đe dọa + Lỗ hổng$$
 - Chính sách mật khẩu mạnh
 - Vô hiệu hóa tài khoản không sử dụng, loại bỏ tài khoản mặc định
 
-
-<!-- page 12 -->
-
-# 2.3. Quản lý, khắc phục và tăng cường
-
-## 2.3.2 Quản lý khắc phục tăng cường theo nhóm lỗ hổng
-
 ### Phân quyền & kiểm soát truy cập:
 
 - Rà soát quyền định kỳ, loại bỏ quyền dư thừa
 - Không chạy dịch vụ với quyền Root/Admin
 - Kiểm soát truy cập ở cả frontend và backend
 
-
-<!-- page 13 -->
-
-# 2.3. Quản lý, khắc phục và tăng cường
-
-## 2.3.2 Quản lý khắc phục tăng cường theo nhóm lỗ hổng
-
 - **Lỗ hổng Kernel, bộ nhớ, thực thi mã:**
     - Kiểm soát driver, kernel module
     - Vá lỗi kịp thời
     - Chặn unsigned driver
-
-
-<!-- page 14 -->
-
-# 2.3. Quản lý, khắc phục và tăng cường
-
-## 2.3.2 Quản lý khắc phục tăng cường theo nhóm lỗ hổng
 
 ### Cấu hình hệ điều hành & dịch vụ:
 
@@ -182,26 +108,10 @@ $$Tấn công = Mối đe dọa + Lỗ hổng$$
 - Vô hiệu giao thức yếu (Telnet)
 - Cấu hình firewall nội bộ
 
-
-<!-- page 15 -->
-
-# 2.3. Quản lý, khắc phục và tăng cường
-
-## 2.3.2 Quản lý khắc phục tăng cường theo nhóm lỗ hổng
-
 ### Quản lý vá lỗi & cập nhật:
 
 - **Phân loại dữ liệu theo mức độ quan trọng**
 - **Kiểm tra tương thích trước khi vá**
-
-15
-
-
-<!-- page 16 -->
-
-# 2.3. Quản lý, khắc phục và tăng cường
-
-## 2.3.2 Quản lý khắc phục tăng cường theo nhóm lỗ hổng
 
 - **Mã hóa & bảo vệ dữ liệu:**
 
@@ -209,37 +119,16 @@ $$Tấn công = Mối đe dọa + Lỗ hổng$$
 - Mã hóa dữ liệu nhạy cảm
 - Loại bỏ các thông tin bí mật (hardcoded secrets)
 
-
-<!-- page 17 -->
-
-# 2.3. Quản lý, khắc phục và tăng cường
-
-## 2.3.2 Quản lý khắc phục tăng cường theo nhóm lỗ hổng
-
 - **Logging, giám sát:**
     - **Chuẩn hóa log**
     - **Ghi log đầy đủ:** danh tính, quyền được phép làm, hoạt động quản trị, các giao dịch thực hiện
     - **Bảo vệ log khỏi chỉnh sửa**
-
-
-<!-- page 18 -->
-
-# 2.3. Quản lý, khắc phục và tăng cường
-
-## 2.3.2 Quản lý khắc phục tăng cường theo nhóm lỗ hổng
 
 ### Bên thứ ba & chuỗi cung ứng:
 
 - **Đánh giá mức độ an toàn của nhà cung cấp**
 - **Vá thư viện lỗi thời**
 - **Kiểm soát quyền truy cập của đối tác**
-
-18
-
-
-<!-- page 19 -->
-
-# 2.4. Một số công cụ rà quét
 
 ## 2.4.1 Công cụ rà quét lỗ hổng, điểm yếu hệ thống
 
@@ -266,13 +155,6 @@ Items marked with [!] are confirmed missing.
 | [!] | 890830 | Windows Malicious Software Removal Tool - February 2009 (KB890830) | [Download Icon] |
 | [!] | 951847 | Microsoft .NET Framework 3.5 Service Pack 1 and .NET Framework 3.5 Family Update (KB951847) x86 | [Download Icon] |
 | [!] | 960715 | Update Rollup for ActiveX Killbits for Windows XP (KB960715) | [Download Icon] |
-
-19
-
-
-<!-- page 20 -->
-
-# 2.4. Một số công cụ rà quét
 
 ## 2.4.1 Công cụ rà quét lỗ hổng, điểm yếu hệ thống
 ### Công cụ rà quét lỗ hổng ứng dụng Web: Acunetix Web Vulnerability Scanner
@@ -315,11 +197,6 @@ Items marked with [!] are confirmed missing.
 
 **Report** | **Start URL:** http://www.rcm.
 
-
-<!-- page 21 -->
-
-# 2.4. Một số công cụ rà quét
-
 ## 2.4.2 Công cụ quét cổng dịch vụ
 
 - **Cổng 80/443 mở: Dịch vụ web đang hoạt động**
@@ -352,13 +229,6 @@ PORT STATE SERVICE VERSION
 | _http-title: Welcome to nginx!
 MAC Address: 00:0C:29:BA:90:DC (VMware)
 
-21
-
-
-<!-- page 22 -->
-
-# 2.4. Một số công cụ rà quét
-
 ## 2.4.3 Công cụ nghe trộm
 
 *Local Area Connection [Wireshark 1.10.8 (v1.10.8-2-g52a5244 from master-1.10)]
@@ -386,18 +256,13 @@ Connection: keep-alive\r\n
 [HTTP request 2/2]
 [Prev request in frame: 100]
 
-0140 65 0d 0a 43 6f 6e 65 65 65 65 65 65 65 65 65 65 e..Conne ction: k
-0150 65 65 70 2d 61 6c 6c 6c 65 0d 0a 41 75 74 68 6f eep-aliv e..Autho
-0160 72 69 7a 61 74 69 6f 6e 20 3a 20 42 61 73 69 63 rization : Basic
+0140 65 0d 0a 43 6f 6e 65 65 65 65 65 65 65 65 65 65 e..Conne ction: k 0150 65 65 70 2d 61 6c 6c 6c 65 0d 0a 41 75 74 68 6f eep-aliv e..Autho 0160 72 69 7a 61 74 69 6f 6e 20 3a 20 42 61 73 69 63 rization : Basic
 0170 61 6d 39 6c 6f 6d 4a 73 62 32 64 6e 63 77 3d 3d am9lomJs b2dncw==
 0180 0d 0a 0d 0a ..
 
 HTTP Authorization header (http.authorizati... Packets: 542 · Displayed: 13 (2.4%) · Droppe... Profile: Default
 
 ## Công cụ Wireshark
-
-
-<!-- page 23 -->
 
 ## 2.4. Một số công cụ rà quét
 
@@ -406,8 +271,5 @@ HTTP Authorization header (http.authorizati... Packets: 542 · Displayed: 13 (2.
 **Modul Keylogger**
 
 KeyGrabber
-
-
-<!-- page 24 -->
 
 # Thank You !

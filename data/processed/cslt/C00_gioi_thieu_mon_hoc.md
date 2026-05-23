@@ -80,4 +80,3 @@ Chương này học cách làm việc với tệp trong C: khai báo biến tệ
 - Môn học đặt nền tảng cho tư duy thuật toán và lập trình bằng C.
 - Sinh viên cần kết hợp học lý thuyết với thực hành thường xuyên.
 - Nội dung học đi từ khái niệm cơ bản đến các kiểu dữ liệu và kỹ thuật xử lý phức tạp hơn.
-

@@ -216,4 +216,3 @@ So với `struct`, các trường của `union` không tồn tại độc lập 
 - Truy cập trường bằng toán tử `.` hoặc `->` nếu dùng con trỏ.
 - Có thể truyền cấu trúc vào hàm, trả về cấu trúc từ hàm và xây dựng mảng cấu trúc.
 - `union` khác `struct` ở chỗ các trường dùng chung vùng nhớ.
-

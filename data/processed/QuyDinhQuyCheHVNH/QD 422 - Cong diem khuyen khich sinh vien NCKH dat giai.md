@@ -45,8 +45,6 @@ Xét đề nghị của Viện trưởng Viện NCKH Ngân hàng, Trưởng Phò
 
 **Đỗ Thị Kim Hảo**
 
-## TRANG 2
-
 ## PHỤ LỤC
 
 ## MỨC ĐIỂM KHUYẾN KHÍCH CHO SINH VIÊN ĐẠT GIẢI THƯỞNG NCKH
@@ -76,8 +74,6 @@ Xét đề nghị của Viện trưởng Viện NCKH Ngân hàng, Trưởng Phò
 - Mọi thành viên tham gia đề tài nghiên cứu đều có quyền lợi như nhau.
 - Một đề tài đạt nhiều giải thưởng thì tính một lần cho giải thưởng cao nhất.
 - Sinh viên có nhiều đề tài đạt giải sẽ được cộng điểm vào nhiều môn học tương ứng.
-
-## TRANG 3
 
 ## QUY TRÌNH CỘNG ĐIỂM CHO SINH VIÊN NCKH
 

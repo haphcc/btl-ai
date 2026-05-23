@@ -33,7 +33,6 @@ $$
 n_1 n_2 \cdots n_k
 $$
 
-### Ví dụ
 Nếu đi từ $A$ đến $B$ có 3 đường và từ $B$ đến $C$ có 4 đường, thì đi từ $A$ đến $C$ qua $B$ có:
 
 $$
@@ -55,7 +54,6 @@ $$
 
 đối tượng.
 
-### Ví dụ
 **Ví dụ:** Trong 367 người, luôn có ít nhất 2 người sinh cùng ngày tháng.
 
 **Giải:** Có nhiều nhất 366 ngày sinh khác nhau nếu tính cả ngày 29/2. Vì $367>366$, theo nguyên lý chuồng bồ câu, tồn tại ít nhất 2 người cùng ngày sinh.
@@ -97,7 +95,6 @@ $$
 + |A \cap B \cap C|
 $$
 
-### Ví dụ
 Trong bài toán lớp học tiếng Anh và tiếng Pháp, nếu biết số học sinh học từng môn và số học sinh học cả hai môn, dùng công thức bù trừ để tính số học sinh học ít nhất một trong hai môn.
 
 ## Hoán vị
@@ -113,7 +110,6 @@ $$
 
 ## Chỉnh hợp
 
-### Khái niệm
 Chỉnh hợp chập $k$ của $n$ phần tử là cách chọn $k$ phần tử từ $n$ phần tử và sắp thứ tự chúng.
 
 ### Công thức
@@ -124,7 +120,6 @@ $$
 
 ## Tổ hợp
 
-### Khái niệm
 Tổ hợp chập $k$ của $n$ phần tử là cách chọn $k$ phần tử từ $n$ phần tử mà không xét thứ tự.
 
 ### Công thức
@@ -164,7 +159,6 @@ $$
 
 ## Hệ thức đệ quy
 
-### Khái niệm
 Hệ thức đệ quy mô tả một dãy số bằng cách xác định số hạng hiện tại thông qua các số hạng trước đó.
 
 ### Ví dụ cầu thang

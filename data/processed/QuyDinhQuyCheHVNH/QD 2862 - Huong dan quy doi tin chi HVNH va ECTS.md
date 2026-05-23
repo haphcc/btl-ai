@@ -43,8 +43,6 @@ Nơi nhận:
 
 Phạm Thị Hoàng Anh
 
-## TRANG 2
-
 ## HƯỚNG DẪN QUY ĐỔI TƯƠNG ĐƯƠNG TÍN CHỈ HỌC TẬP CỦA HỌC VIỆN NGÂN HÀNG SANG HỆ THỐNG CHUYỂN ĐỔI VÀ TÍCH LŨY TÍN CHỈ CHÂU ÂU (ECTS) TẠI MỘT SỐ QUỐC GIA CHÂU ÂU
 
 (Ban hành kèm theo Quyết định số 2862/QĐ-HVNH ngày 01 tháng 7 năm 2024 của Giám đốc Học viện Ngân hàng)
@@ -78,8 +76,6 @@ Tín chỉ quy đổi tương đương giữa Học viện Ngân hàng và các 
 | Phần Lan | 1 ECTS = 27 giờ | 1 tín chỉ = 1, 85 ECTS |
 | Hà Lan, Bồ Đào Nha | 1 ECTS = 28 giờ | 1 tín chỉ = 1, 79 ECTS |
 | CHLB Đức, Hungary | 1 ECTS = 30 giờ | 1 tín chỉ = 1, 67 ECTS |
-
-## TRANG 3
 
 ## GUIDELINES FOR CONVERTING STUDY CREDITS BETWEEN BANKING ACADEMY OF VIỆT NAM AND EUROPEAN CREDIT TRANSFER AND ACCUMULATION SYSTEM (ECTS) IN SOME EUROPEAN COUNTRIES
 

@@ -1,17 +1,5 @@
-# C1_TQ ve ATBMTT
-
-
-
-<!-- page 1 -->
-
-HỌC VIỆN NGÂN HÀNG
-KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
-
 # CHƯƠNG I
 ## TỔNG QUAN VỀ AN TOÀN BẢO MẬT THÔNG TIN
-
-
-<!-- page 2 -->
 
 # Nội dung
 
@@ -20,9 +8,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 ## 1.3 Các thành phần của ATTT
 ## 1.4 Các bài toán ATTT
 ## 1.5 Chính sách, pháp luật về ATBMTT
-
-
-<!-- page 3 -->
 
 # 1.1. Khái quát về ATBMTT
 ## 1.1.1 Khái niệm về ATTT
@@ -33,18 +18,12 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 - LOOT
 - Dữ liệu không bị hỏng hóc, không mất thông tin
 
-
-<!-- page 4 -->
-
 ## 1.1. Khái quát về ATBMTT
 
 ### An toàn thông tin là gì
 
 - Là việc bảo vệ chống truy nhập, sử dụng, tiết lộ, sửa đổi, hoặc phá hủy thông tin một cách trái phép
 - Là việc bảo vệ các thuộc tính bí mật (confidentiality), tính toàn vẹn (integrity) và tính sẵn dùng (availability) của các tài sản thông tin trong quá trình chúng được lưu trữ, xử lý, hoặc truyền tải
-
-
-<!-- page 5 -->
 
 # 1.1. Khái quát về ATBMTT
 
@@ -53,9 +32,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 - **An toàn công nghệ thông tin (IT security)**
 - **Đảm bảo thông tin**
 
-
-<!-- page 6 -->
-
 # 1.1. Khái quát về ATBMTT
 
 ### 1.1.3. Tại sao cần bảo đảm an toàn thông tin
@@ -63,9 +39,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 - **Tầm quan trọng của thông tin**
 - **Sự xuất hiện của Internet và Thương mại điện tử**
 - **Uy tín của các quốc gia, các tổ chức và các cá nhân**
-
-
-<!-- page 7 -->
 
 # Phải đảm bảo an toàn cho những dữ liệu gì
 
@@ -84,18 +57,12 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 
 **Tất cả các dữ liệu cần phải được bảo đảm an toàn**
 
-
-<!-- page 8 -->
-
 ## 1.2. Các yêu cầu đảm bảo ATTT
 
 - **Bảo đảm bí mật (Bảo mật) - C**
 - **Bảo đảm toàn vẹn (Bảo toàn) - I**
 - **Bảo đảm xác thực (Chứng thực)**
 - **Bảo đảm sẵn dùng - A**
-
-
-<!-- page 9 -->
 
 # 1.2. Các yêu cầu đảm bảo ATTT
 
@@ -108,9 +75,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 - Tin được ẩn dấu
 - Dữ liệu không mã hóa $\rightarrow$ &#$*% O#4s5! $\rightarrow$ Dữ liệu không mã hóa
 
-
-<!-- page 10 -->
-
 # 1.2. Các yêu cầu đảm bảo ATTT
 
 ## 1.2.2 Toàn vẹn
@@ -118,9 +82,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 - **Không bị thay đổi**
 - **Chính xác**
 - **Hợp lệ**
-
-
-<!-- page 11 -->
 
 # 1.2. Các yêu cầu đảm bảo ATTT
 
@@ -133,9 +94,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 - Thời gian trung bình ngừng để sửa chữa
 - Thời gian khôi phục sau sự cố
 
-
-<!-- page 12 -->
-
 ## 1.2. Các yêu cầu đảm bảo ATTT
 
 ### 1.2.3 Sẵn dùng
@@ -143,17 +101,11 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 (a)
 (b)
 
-
-<!-- page 13 -->
-
 ## 1.3. Các thành phần của ATTT
 
 - **An toàn máy tính và dữ liệu**
 - **An ninh mạng**
 - **Quản lý an toàn thông tin**
-
-
-<!-- page 14 -->
 
 # 1.3. Các thành phần của ATTT
 
@@ -164,9 +116,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 - **Vấn đề mã hóa và bảo mật dữ liệu**
 - **Vấn đề phòng chống phần mềm độc hại**
 - **Việc sao lưu tạo dự phòng dữ liệu**
-
-
-<!-- page 15 -->
 
 # 1.3. Các thành phần của ATTT
 
@@ -180,9 +129,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 
 - **Vấn đề giám sát mạng**
 
-
-<!-- page 16 -->
-
 # 1.3. Các thành phần của ATTT
 
 ## 1.3.3 Quản lý an toàn thông tin
@@ -191,11 +137,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 - **Chuẩn an toàn thông tin**
 - **Chính sách an toàn thông tin**
 - **Đào tạo, nâng cao ý thức an toàn thông tin của người dùng**
-
-
-<!-- page 17 -->
-
-# 1.4. Các bài toán ATTT
 
 ## 1.4.1 Công cụ đảm bảo ATBMTT
 
@@ -207,19 +148,11 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
     - Giấu tin
     - Thủy ký
 
-
-<!-- page 18 -->
-
 # Ví dụ:
 
 - **Ví dụ 1:** Giấu một thông tin sở hữu của người chủ vào trong tác phẩm (tài liệu số) của họ
 
 - **Ví dụ 2:** Khi giấu một thông tin vào trong một tác phẩm (tài liệu số), với thông tin giấu nhằm kiểm xem tác phẩm có bị thay đổi nội dung hay không
-
-
-<!-- page 19 -->
-
-# 1.4. Các bài toán ATTT
 
 ## 1.4.1 Công cụ đảm bảo ATBMTT
 
@@ -231,9 +164,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 - **Tường lửa:**
 
 - **Mạng riêng ảo**
-
-
-<!-- page 20 -->
 
 1.4. Các bài toán ATTT
 
@@ -247,13 +177,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 
 ☐ Mã hóa Huffman
 
-20
-
-
-<!-- page 21 -->
-
-# 1.4. Các bài toán ATTT
-
 ## 1.4.2 Các bài toán trong lý thuyết
 
 ❖ **Bài toán bảo toàn thông tin:**
@@ -266,11 +189,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 
 - **Bảo toàn thông tin** bằng các kỹ thuật: **Thủy ký (WaterMarking)**
 
-
-<!-- page 22 -->
-
-# 1.4. Các bài toán ATTT
-
 ## 1.4.2 Các bài toán trong lý thuyết
 
 ❖ **Bài toán xác thực :**
@@ -281,11 +199,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 ❖ **Bài toán cấp quyền , phân quyền :**
 - **Cấp quyền cho người dùng hợp pháp, không cấp quyền cho người dùng bất hợp pháp**
 - **Phân quyền cho đối tượng khác nhau**
-
-
-<!-- page 23 -->
-
-# 1.4. Các bài toán ATTT
 
 ## 1.4.2 Các bài toán trong lý thuyết
 ❖ **Bài toán liên quan:**
@@ -299,11 +212,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 
 ❖ **Bài toán công cụ tính toán:** Tính toán “Mềm”, Tính toán song song, Tính toán “hiệu năng cao”, Tính toán “lưới”, ...
 
-
-<!-- page 24 -->
-
-# 1.4. Các bài toán ATTT
-
 ## 1.4.3 Các bài toán trong Ứng dụng
 
 - **Bài toán xây dựng cơ sở hạ tầng An toàn thông tin:**
@@ -312,11 +220,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
     - Hệ thống cấp chứng chỉ số (CA)
     - Cơ sở hạ tầng mật mã Khóa công khai (PKI)
     - Cơ sở hạ tầng ATTT phục vụ cho hệ thống tính toán và di động
-
-
-<!-- page 25 -->
-
-# 1.4. Các bài toán ATTT
 
 ## 1.4.3 Các bài toán trong Ứng dụng
 
@@ -331,9 +234,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
     - Đấu thầu từ xa
     - Giao dịch chứng khoán từ xa
 
-
-<!-- page 26 -->
-
 # 1.5. Chính sách, pháp luật về ATTT
 
 ## 1.5.1 Chính sách, pháp luật ATBMTT
@@ -346,11 +246,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 
 - **Đạo đức**
 
-
-<!-- page 27 -->
-
-# 1.5. Chính sách, pháp luật về ATTT
-
 ## 1.5.1 Chính sách, pháp luật ATBMTT
 
 **Các yêu cầu đảm bảo chính sách có thể được áp dụng hiệu quả:**
@@ -360,11 +255,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 - Rõ ràng, dễ hiểu
 - Cần biện pháp để nhân viên cam kết thực hiện
 - Cần được thực hiện đồng đều, bình đẳng, nhất quán
-
-
-<!-- page 28 -->
-
-# 1.5. Chính sách, pháp luật về ATTT
 
 ## 1.5.2 Luật quốc tế về ATTT
 
@@ -376,11 +266,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 - USA PATRIOT Act, 2001
 - USA PATRIOT Improvement and Reauthorization Act
 
-
-<!-- page 29 -->
-
-# 1.5. Chính sách, pháp luật về ATTT
-
 ## 1.5.2 Luật quốc tế về ATTT
 
 - **Luật riêng tư bảo vệ quyền riêng tư người dùng:**
@@ -390,11 +275,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 - Health Insurance Portability and Accountability Act, 1996 (HIPAA)
 - Financial Services Modernization Act or Gramm-Leach-Bliley Act, 1999
 
-
-<!-- page 30 -->
-
-# 1.5. Chính sách, pháp luật về ATTT
-
 ## 1.5.2 Luật quốc tế về ATTT
 
 - **Luật xuất khẩu và chống gián điệp:**
@@ -402,9 +282,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
     - Economic Espionage Act, 1996
 
     - Security and Freedom through Encryption Act, 1999
-
-
-<!-- page 31 -->
 
 # 1.5. Chnh sch, php lut v ATTT
 
@@ -417,11 +294,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 - Hip c bo v quyn s hu tr tu (Agreement on Trade-Related Aspects of Intellectual Property Rights (TRIPS))
 - Digital Millennium Copyright Act (DMCA)
 
-
-<!-- page 32 -->
-
-# 1.5. Chính sách, pháp luật về ATTT
-
 ## 1.5.3 Luật Việt Nam về ATTT
 
 - **Luật ATTT mạng**
@@ -431,11 +303,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 - Nghị định số 90/2008/NĐ-CP
 - Quyết định số 59/2008/QĐ-BTTTT
 - Quyết định 63/QĐ-TTg của Thủ tướng CP
-
-
-<!-- page 33 -->
-
-# 1.5. Chính sách, pháp luật về ATTT
 
 ## 1.5.3 Luật Việt Nam về ATTT
 
@@ -447,11 +314,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 - Nghị định số 77/2012/NĐ-CP của Chính phủ
 - Nghị định 72/2013/NĐ-CP
 
-
-<!-- page 34 -->
-
-# 1.5. Chính sách, pháp luật về ATTT
-
 ## 1.5.4 Vấn đề đạo đức ATTT
 
 - **Sự cần thiết:**
@@ -459,11 +321,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
     - Trong lĩnh vực CNTT và ATTT chưa có bộ quy tắc ứng xử bắt buộc
     - ACM (Association for Computing Machinery) và ISSA (Information Systems Security Association) hợp tác để ra các quy tắc ứng xử trong an toàn thông tin
     - Hiệp hội an toàn thông tin Việt Nam đã công bố Bộ Quy tắc ứng xử an toàn thông tin vào đầu năm 2015
-
-
-<!-- page 35 -->
-
-# 1.5. Chính sách, pháp luật về ATTT
 
 ## 1.5.4 Vấn đề đạo đức ATTT
 
@@ -480,19 +337,11 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 9. Nên suy nghĩ về các hậu quả xã hội của chương trình mình đang xây dựng hoặc hệ thống đang thiết kế;
 10. Nên sử dụng máy tính một cách có trách nhiệm, đảm bảo sự quan tâm và tôn trọng đến đồng bào của mình.
 
-
-<!-- page 36 -->
-
-# 1.5. Chính sách, pháp luật về ATTT
-
 ## 1.5.4 Vấn đề đạo đức ATTT
 
 - Một số vấn đề khác
     - Sự khác biệt về vấn đề đạo đức giữa các nền văn hóa
     - Vi phạm bản quyền phần mềm
     - Lạm dụng các tài nguyên của cơ quan tổ chức
-
-
-<!-- page 37 -->
 
 # Thank You !

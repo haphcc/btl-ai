@@ -1,17 +1,5 @@
-# C3_Cac dang tan cong va phan mem doc hai
-
-
-
-<!-- page 1 -->
-
-HỌC VIỆN NGÂN HÀNG
-KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
-
 # CHƯƠNG III
 # CÁC DẠNG TẤN CÔNG & PHẦN MỀM ĐỘC HẠI
-
-
-<!-- page 2 -->
 
 # Nội dung
 
@@ -19,9 +7,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 ## 3.2 Các công cụ hỗ trợ tấn công
 ## 3.3 Các dạng tấn công thường gặp
 ## 3.4 Những xu hướng tấn công mới gây mất an toàn và bảo mật thông tin
-
-
-<!-- page 3 -->
 
 ### 3.1. Khái quát về mối đe dọa và tấn công
 
@@ -32,9 +17,6 @@ KHOA CÔNG NGHỆ THÔNG TIN & KINH TẾ SỐ
 
 $$\text{Tấn công} = \text{Mối đe dọa} + \text{Lỗ hổng}$$
 
-
-<!-- page 4 -->
-
 ## 3.2. Các công cụ hỗ trợ tấn công
 
 - **Công cụ rà quét lỗ hổng, điểm yếu hệ thống**
@@ -42,20 +24,12 @@ $$\text{Tấn công} = \text{Mối đe dọa} + \text{Lỗ hổng}$$
 - **Công cụ nghe trộm**
 - **Công cụ ghi phím gõ:**
 
-
-<!-- page 5 -->
-
-# 3.3. Các dạng tấn công thường gặp
-
 ## 3.3.1 Tấn công vào mật khẩu
 
 - **Định nghĩa**: Là dạng tấn công nhằm đánh cắp mật khẩu và thông tin tài khoản người dùng
 - **Các dạng**:
     - Tấn công dựa trên từ điển
     - Tấn công vét cạn
-
-
-<!-- page 6 -->
 
 ### 3.3. Các dạng tấn công thường gặp
 
@@ -66,11 +40,6 @@ $$\text{Tấn công} = \text{Mối đe dọa} + \text{Lỗ hổng}$$
 - Mật khẩu không lưu ở dạng rõ, nên lưu dạng mã hóa
 - Hạn chế trao đổi tên người dùng và mật khẩu trên kênh truyền không được mã hóa
 
-
-<!-- page 7 -->
-
-# 3.3. Các dạng tấn công thường gặp
-
 ## 3.3.2 Tấn công bằng mã độc
 
 - **Định nghĩa:** Là dạng tấn công sử dụng các mã độc làm công cụ để tấn công hệ thống nạn nhân
@@ -78,11 +47,6 @@ $$\text{Tấn công} = \text{Mối đe dọa} + \text{Lỗ hổng}$$
 - **Các dạng:**
     - Khai thác các lỗ hổng về lập trình, cấu hình hệ thống để chèn và thực hiện mã độc: Khai thác lỗi tràn bộ đệm; khai thác lỗi không kiểm tra đầu vào, tấn công chèn mã SQL và tấn công sử dụng mã script, kiểu XSS, CSRF.
     - Lừa người sử dụng tải, cài đặt và thực hiện các phần mềm độc hại
-
-
-<!-- page 8 -->
-
-# 3.3. Các dạng tấn công thường gặp
 
 ## 3.3.2.1 Tấn công khai thác lỗi tràn bộ đệm
 
@@ -92,20 +56,10 @@ $$\text{Tấn công} = \text{Mối đe dọa} + \text{Lỗ hổng}$$
 
 ### Nguyên nhân việc tràn bộ nhớ đệm: do người lập trình không kiểm tra hoặc kiểm tra không đầy đủ các dữ liệu đầu vào
 
-
-<!-- page 9 -->
-
-## 3.3. Các dạng tấn công thường gặp
-
 ### Khai thác lỗi tràn bộ đệm:
 
 - Tin tặc gửi mã độc dưới dạng dữ liệu đến ứng dụng nhằm ghi đè, thay thế địa chỉ trở về với mục đích tái định hướng chương trình đến thực hiện đoạn mã độc.
 - Tin tặc thường phải thực hiện việc gỡ rối (debug) chương trình và nắm chắc cơ chế gây lỗi và phương pháp quản lý, cấp phát vùng nhớ ngăn xếp của ứng dụng.
-
-
-<!-- page 10 -->
-
-# 3.3. Các dạng tấn công thường gặp
 
 | | | |
 | :--- | :--- | :--- |
@@ -129,11 +83,6 @@ $$\text{Tấn công} = \text{Mối đe dọa} + \text{Lỗ hổng}$$
 
 **Shellcode viết bằng hợp ngữ và chuyển thành chuỗi tấn công**
 
-
-<!-- page 11 -->
-
-# 3.3. Các dạng tấn công thường gặp
-
 ## Chèn và thực hiện shellcode khai thác lỗi tràn bộ đệm
 
 - Hình ảnh minh họa cấu trúc bộ nhớ với các thành phần: `buffer`, `sfp`, `ret`.
@@ -144,23 +93,11 @@ $$\text{Tấn công} = \text{Mối đe dọa} + \text{Lỗ hổng}$$
 - Hình ảnh minh họa việc chèn thêm các lệnh NOP (ký tự 'N') vào trước shellcode (ký tự 'S') trong vùng `buffer`.
 - Có một chú thích trỏ vào vùng đệm: "2.2. Các dạng lỗ hổng trong H..."
 
-11
-
-
-<!-- page 12 -->
-
 # Ví dụ: Sâu SQL Slammer
 
 ![Bản đồ thế giới với các điểm màu xanh thể hiện sự lây nhiễm của sâu SQL Slammer](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Slammer.gif/800px-Slammer.gif)
 
 Bản đồ lây nhiễm sâu Slammer (màu xanh) theo trang www.caida.org vào ngày 25/1/2003 lúc 6h00 (giờ UTC) với 74.855 máy chủ bị nhiễm
-
-12
-
-
-<!-- page 13 -->
-
-# 3.3. Các dạng tấn công thường gặp
 
 ### Phòng chống
 
@@ -169,11 +106,6 @@ Bản đồ lây nhiễm sâu Slammer (màu xanh) theo trang www.caida.org vào 
 - Ngẫu nhiên hóa sơ đồ địa chỉ cấp phát các ô nhớ trong ngăn xếp khi thực hiện chương trình
 - Sử dụng các cơ chế bảo vệ ngăn xếp
 - Sử dụng các ngôn ngữ, thư viện và công cụ lập trình an toàn
-
-
-<!-- page 14 -->
-
-# 3.3. Các dạng tấn công thường gặp
 
 ## 3.3.2.2 Tấn công khai thác lỗi không kiểm tra đầu vào
 
@@ -187,29 +119,14 @@ Bản đồ lây nhiễm sâu Slammer (màu xanh) theo trang www.caida.org vào 
 - Các đối số đầu vào trong dòng lệnh
 - Các dữ liệu từ mạng hoặc từ các nguồn không tin cậy
 
-
-<!-- page 15 -->
-
-## 3.3. Các dạng tấn công thường gặp
-
 ### Tấn công khai thác:
 
 - **Dạng 1:** Cung cấp dữ liệu quá lớn hoặc sai định dạng để gây lỗi cho ứng dụng
 - **Dạng 2:** Chèn mã khai thác vào dữ liệu đầu vào để thực hiện trên hệ thống của nạn nhân
 
-
-<!-- page 16 -->
-
-# 3.3. Các dạng tấn công thường gặp
-
 [Hình ảnh minh họa URL với tham số bị thay đổi từ "58" thành "5811111111" dẫn đến lỗi "500 - Internal server error"]
 
 **Dạng 1:**
-
-
-<!-- page 17 -->
-
-# 3.3. Các dạng tấn công thường gặp
 
 "SELECT * FROM tbl_products WHERE product_name like '%' + keyword + '%'"
 
@@ -219,21 +136,11 @@ Bản đồ lây nhiễm sâu Slammer (màu xanh) theo trang www.caida.org vào 
 
 ## Dạng 2:
 
-
-<!-- page 18 -->
-
-## 3.3. Các dạng tấn công thường gặp
-
 - **Phòng chống: Biện pháp chủ yếu là lọc dữ liệu đầu vào**
 
 - Kiểm tra kích thước và định dạng dữ liệu đầu vào
 - Kiểm tra sự hợp lý của nội dung dữ liệu
 - Tạo các bộ lọc để lọc bỏ các ký hiệu đặc biệt và các từ khóa mà kẻ tấn công có thể sử dụng như: *, =, --, SELECT, INSERT,...
-
-
-<!-- page 19 -->
-
-# 3.3. Các dạng tấn công thường gặp
 
 ## 3.3.3 Tấn công từ chối dịch vụ và từ chối dịch vụ phân tán
 
@@ -244,11 +151,6 @@ Bản đồ lây nhiễm sâu Slammer (màu xanh) theo trang www.caida.org vào 
     - **Tấn công logic:** là dạng tấn công khai thác các lỗi phần mềm làm dịch vụ ngừng hoạt động hoặc giảm hiệu năng
     - **Tấn công gây ngập lụt:** Kẻ tấn công gửi một lượng lớn yêu cầu gây cạn kiệt tài nguyên
 
-
-<!-- page 20 -->
-
-# 3.3. Các dạng tấn công thường gặp
-
 - **Các kỹ thuật tấn công:**
     - **Tấn công SYN flood: Khai thác điểm yếu trong bắt tay 3 bước:**
 
@@ -258,19 +160,9 @@ Bản đồ lây nhiễm sâu Slammer (màu xanh) theo trang www.caida.org vào 
 | | SYN-ACK $\rightarrow$ [Người dùng] |
 | ![Người dùng](https://i.imgur.com/5y1yY5S.png) | ACK $\rightarrow$ [Máy chủ] ✅ |
 
-
-<!-- page 21 -->
-
-# 3.3. Các dạng tấn công thường gặp
-
 - SYN
 - SYN-ACK
 - SYN
-
-
-<!-- page 22 -->
-
-## 3.3. Các dạng tấn công thường gặp
 
 **Phòng chống: Chưa có giải pháp nào ngăn chặn triệt để, cần kết hợp các biện pháp sau:**
 
@@ -279,13 +171,6 @@ Bản đồ lây nhiễm sâu Slammer (màu xanh) theo trang www.caida.org vào 
 - Giảm thời gian chờ
 - SYN cache
 - Sử dụng tường lửa và Proxy
-
-22
-
-
-<!-- page 23 -->
-
-## 3.3. Các dạng tấn công thường gặp
 
 - **Tấn công Smurf**: Sử dụng giao thức điều khiển truyền ICMP và kiểu phát quảng bá có định hướng để gây ngập lụt
 
@@ -298,23 +183,11 @@ Bản đồ lây nhiễm sâu Slammer (màu xanh) theo trang www.caida.org vào 
 | **Device** | Gửi phản hồi ICMP đến **Victim** (To: 9.9.9.9, From: 1.1.1.x) |
 | **Victim** | Bị ngập lụt bởi các gói tin phản hồi từ các **Device** |
 
-23
-
-
-<!-- page 24 -->
-
-## 3.3. Các dạng tấn công thường gặp
-
 **Phòng chống:**
 
 - Cấu hình các máy trong mạng và router không trả lời các yêu cầu ICMP hoặc các yêu cầu phát quảng bá
 - Cấu hình các router không chuyển tiếp các yêu cầu ICMP gửi đến các địa chỉ quảng bá
 - Sử dụng tường lửa để lọc các gói tin với địa chỉ giả mạo địa chỉ trong mạng
-
-
-<!-- page 25 -->
-
-# 3.3. Các dạng tấn công thường gặp
 
 ## 3.3.2. Tấn công từ chối dịch vụ phân tán (DDoS)
 
@@ -323,22 +196,12 @@ Bản đồ lây nhiễm sâu Slammer (màu xanh) theo trang www.caida.org vào 
     - Tấn công DDoS trực tiếp: Các yêu cầu tấn công được các máy tấn công gửi trực tiếp đến máy nạn nhân
     - Tấn công DDoS gián tiếp: Các yêu cầu tấn công được gửi đến các máy phản xạ và sau đó gián tiếp chuyển đến máy nạn nhân
 
-
-<!-- page 26 -->
-
-## 3.3. Các dạng tấn công thường gặp
-
 **Phòng chống:**
 
 - Sử dụng các phần mềm rà quét virus và các phần mềm độc hại
 - Sử dụng các hệ thống lọc đặt trên các router, tường lửa của các nhà cung cấp dịch vụ Internet
 - Sử dụng các hệ thống giám sát, phát hiện bất thường nhằm phát hiện sớm các dấu hiệu
 - Sử dụng tường lửa để chặn tạm thời các cổng dịch vụ bị tấn công
-
-
-<!-- page 27 -->
-
-# 3.3. Các dạng tấn công thường gặp
 
 ## 3.3.4 Tấn công giả mạo địa chỉ
 
@@ -353,17 +216,7 @@ Bản đồ lây nhiễm sâu Slammer (màu xanh) theo trang www.caida.org vào 
 - Firewall allows packet in, mistaking it for legitimate traffic
 - Spoofed packet slips into intranet to wreak havoc
 
-
-<!-- page 28 -->
-
-## 3.3. Các dạng tấn công thường gặp
-
 **Phòng chống:** Biện pháp phòng chống tấn công giả mạo địa chỉ IP hiệu quả nhất là sử dụng kỹ thuật lọc trên tường lửa, hoặc các router với nguyên tắc lọc: các gói tin từ mạng ngoài đi vào mạng LAN mà có địa chỉ nguồn là địa chỉ nội bộ của mạng LAN đó thì chúng là các gói tin giả mạo và phải bị chặn.
-
-
-<!-- page 29 -->
-
-# 3.3. Các dạng tấn công thường gặp
 
 ## 3.3.5 Tấn công nghe lén
 
@@ -374,21 +227,11 @@ Bản đồ lây nhiễm sâu Slammer (màu xanh) theo trang www.caida.org vào 
 - **Web Server**
 - **Database Server**
 
-
-<!-- page 30 -->
-
-## 3.3. Các dạng tấn công thường gặp
-
 **Phòng chống:**
 
 - Có cơ chế bảo vệ các thiết bị mạng và hệ thống truyền dẫn ở mức vật lý
 - Sử dụng các biện pháp, cơ chế xác thực người dùng đủ mạnh
 - Sử dụng các biện pháp bảo mật thông tin truyền dựa trên các kỹ thuật mã hóa
-
-
-<!-- page 31 -->
-
-# 3.3. Các dạng tấn công thường gặp
 
 ## 3.3.6 Tấn công kiểu người đứng giữa
 
@@ -398,17 +241,7 @@ FTP transmits in plaintext
 
 [Server] --- [Document icon] --- [man-in-the-middle attacker] --- [Client]
 
-
-<!-- page 32 -->
-
-## 3.3. Các dạng tấn công thường gặp
-
 **Phòng chống:** Một trong các biện pháp hiệu quả để phòng chống tấn công kiểu người đứng giữa là hai bên tham gia truyền thông phải có cơ chế xác thực thông tin nhận dạng của nhau và xác thực tính toàn vẹn của các thông điệp trao đổi.
-
-
-<!-- page 33 -->
-
-# 3.3. Các dạng tấn công thường gặp
 
 ## 3.3.7 Tấn công bằng bom thư và thư rác
 
@@ -418,14 +251,8 @@ FTP transmits in plaintext
     - Khai thác lỗi trong hệ thống gửi nhận email SMTP
     - Lợi dụng các máy chủ email không được cấu hình tốt để gửi email (relay) cho chúng
 
-
-<!-- page 34 -->
-
 ## 3.4. Những xu hướng tấn công mới gây mất an toàn thông tin
 
 **ĐÂY LÀ MỘT TRONG CÁC CHỦ ĐỀ BÀI TẬP LỚN**
-
-
-<!-- page 35 -->
 
 # Thank You !

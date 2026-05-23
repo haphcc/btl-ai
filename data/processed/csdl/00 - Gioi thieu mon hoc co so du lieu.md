@@ -1,5 +1,4 @@
 # HỌC VIỆN NGÂN HÀNG
-BANKING ACADEMY OF VIETNAM
 
 ## GIỚI THIỆU MÔN HỌC
 ## CƠ SỞ DỮ LIỆU
@@ -7,11 +6,7 @@ BANKING ACADEMY OF VIETNAM
 **KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ**
 
 **GV: Nguyễn Thị Thu Trang**
-**Email: Trangntt.httt@hvnh.edu.vn**
-**SĐT: 0988735717**
-
-
-<!-- page 2 -->
+**Email: Trangntt.httt@hvnh.edu.vn** **SĐT: 0988735717**
 
 # MỤC TIÊU MÔN HỌC
 
@@ -19,9 +14,6 @@ BANKING ACADEMY OF VIETNAM
 - **SỬ DỤNG THÀNH THẠO** ngôn ngữ SQL
 
 Cơ sở dữ liệu
-
-
-<!-- page 3 -->
 
 # NỘI DUNG MÔN HỌC
 
@@ -40,9 +32,6 @@ Cơ sở dữ liệu
 
 Cơ sở dữ liệu
 
-
-<!-- page 4 -->
-
 # TIẾN TRÌNH HỌC TẬP
 
 | Tuần | Nội dung | Tuần | Nội dung |
@@ -58,9 +47,6 @@ Cơ sở dữ liệu
 
 Cơ sở dữ liệu
 
-
-<!-- page 5 -->
-
 # ĐÁNH GIÁ
 
 - **Chuyên cần: 10%**
@@ -72,9 +58,6 @@ Cơ sở dữ liệu
 
 Cơ sở dữ liệu
 
-
-<!-- page 6 -->
-
 # TÀI LIỆU HỌC TẬP
 
 - [1] Slide bài giảng
@@ -83,14 +66,8 @@ Cơ sở dữ liệu
 
 Cơ sở dữ liệu
 
-
-<!-- page 7 -->
-
 # YÊU CẦU NGƯỜI HỌC
 
 Cơ sở dữ liệu
-
-
-<!-- page 8 -->
 
 Cơ sở dữ liệu

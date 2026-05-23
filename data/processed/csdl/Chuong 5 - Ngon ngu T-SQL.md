@@ -5,9 +5,6 @@
 
 # KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 
-
-<!-- page 2 -->
-
 # NỘI DUNG CHÍNH
 
 - Giới thiệu về T-SQL
@@ -16,30 +13,15 @@
 - Thủ tục
 - Tạo bẫy dữ liệu – Trigger
 
-8/18/2025 T-SQL 2
-
-
-<!-- page 3 -->
-
 # 1. Giới thiệu về T-SQL
 
 - **T-SQL (Transact-SQL)** là một tập hợp các tiện ích lập trình mở rộng của Sybase và Microsoft bổ sung một số tính năng từ SQL, bao gồm kiểm soát giao dịch, xử lý ngoại lệ và lỗi, xử lý hàng và các biến được khai báo.
 - **T-SQL** chứa lập trình thủ tục và biến cục bộ, trong khi SQL thì không.
 
-
-<!-- page 4 -->
-
-# 1. Giới thiệu về T-SQL
-
 **Một giao dịch (transaction) là một đơn vị công việc:**
 
 - Nếu giao dịch thành công, tất cả các thao tác dữ liệu trong quá trình giao dịch sẽ được thực hiện và được lưu vào cơ sở dữ liệu.
 - Nếu một giao dịch gặp lỗi và phải hủy thì tất cả các sửa đổi dữ liệu sẽ bị xóa.
-
-
-<!-- page 5 -->
-
-# 1. Giới thiệu về T-SQL
 
 **SQL Server hoạt động ở các chế độ giao dịch sau:**
 
@@ -47,22 +29,12 @@
 - **Explicit**: Mỗi giao dịch được bắt đầu tường minh bằng câu lệnh BEGIN TRANSACTION và kết thúc tường minh bằng câu lệnh COMMIT hoặc ROLLBACK.
 - **Implicit**: Một giao dịch mới được ngầm bắt đầu khi giao dịch trước đó hoàn thành.
 
-8/18/2025 T-SQL 5
-
-
-<!-- page 6 -->
-
-# 1. Giới thiệu về T-SQL
-
 - **TRANSACTION**: Tất cả các câu lệnh trong một giao dịch phải được xử lý như một đơn vị công việc.
 - **ROLL BACK**: Khi một tiến trình bị bẻ gãy ở giữa một giao dịch, như kết quả của việc reboot, hệ thống bị vỡ, thì DBMS phải đưa database về trạng thái tồn tại trước khi giao dịch được bắt đầu.
 - **COMMIT**: Nếu tất cả các câu lệnh trong một giao dịch đã được thực hiện thành công.
 - **RAISERROR** (thông báo lỗi, mức độ nghiêm trọng (0-25), trạng thái (1-127))
 
 T-SQL 6
-
-
-<!-- page 7 -->
 
 # 2. Một số câu lệnh điều khiển
 
@@ -78,11 +50,6 @@ T-SQL 6
 
 T-SQL 7
 
-
-<!-- page 8 -->
-
-# 2. Một số câu lệnh điều khiển
-
 ## **Biến: Hai loại biến**
 
 - **Biến vô hướng**
@@ -91,11 +58,6 @@ T-SQL 7
     - Lưu trữ: **Tập kết quả (Dữ liệu bảng)**
 
 T-SQL 8
-
-
-<!-- page 9 -->
-
-# 2. Một số câu lệnh điều khiển
 
 **Biến vô hướng:**
 
@@ -108,22 +70,12 @@ T-SQL 8
   - Gián tiếp (gán giá trị cho >= 1 biến)
     `SELECT @<tên biến> = <biểu thức cột> From`
 
-
-<!-- page 10 -->
-
-# 2. Một số câu lệnh điều khiển
-
 **Các phép toán:**
 
 - **Số học:** +, -, *, /, % (mod)
 - **So sánh:** =, <>, >, <, <=, >=
 - **Logic:** AND, OR, NOT, ALL, SOME, ANY, BETWEEN, EXISTS, IN, LIKE
 - **Ghép chuỗi (+):** Dùng để ghép hai chuỗi với nhau thành một chuỗi (dùng với các kiểu dữ liệu chuỗi)
-
-
-<!-- page 11 -->
-
-# 2. Một số câu lệnh điều khiển
 
 **Biến bảng:**
 
@@ -138,11 +90,6 @@ T-SQL 8
   - Có thể sử dụng lệnh INSERT, UPDATE, DELETE, SELECT
   - Ngoại lệ: **không thể sử dụng lệnh SELECT INTO**
 
-
-<!-- page 12 -->
-
-# 2. Một số câu lệnh điều khiển
-
 ## Hiển thị giá trị:
 
 - Cú pháp: **PRINT** @tên biến
@@ -152,11 +99,6 @@ T-SQL 8
 **PRINT** ‘thông báo’ [+ **CAST**(@biến AS char(n))/ **CONVERT**(char(n), @biến]
 
 T-SQL 12
-
-
-<!-- page 13 -->
-
-# 2. Một số câu lệnh điều khiển
 
 - **Ví dụ:** Cho biết ngày sinh của sinh viên trẻ nhất
 
@@ -173,11 +115,6 @@ ngay sinh cua sinh vien tre nhat la:1993-10-12
 
 T-SQL 13
 
-
-<!-- page 14 -->
-
-# 2. Một số câu lệnh điều khiển
-
 ## Lệnh điều khiển – rẽ nhánh:
 
 **Cú pháp:**
@@ -191,13 +128,6 @@ BEGIN
 END]
 
 - Nếu thực thi 2 hoặc nhiều câu lệnh trong mệnh đề IF hoặc ELSE cần bao các lệnh trong khối **BEGIN...END**
-
-8/18/2025 T-SQL 14
-
-
-<!-- page 15 -->
-
-# 2. Một số câu lệnh điều khiển
 
 **Ví dụ:**
 
@@ -215,11 +145,6 @@ END]
 
 T-SQL 15
 
-
-<!-- page 16 -->
-
-# 2. Một số câu lệnh điều khiển
-
 - **Cấu trúc CASE**: Được dùng để đánh giá một biểu thức và trả về một hoặc một số các kết quả dựa vào giá trị của biểu thức.
     - *Simple CASE*: Một biểu thức sẽ được dùng để so sánh với một tập các giá trị để xác định kết quả:
 
@@ -228,13 +153,6 @@ CASE *case_expression*
     [...*n*
     [ELSE *else_result*]
 END
-
-8/18/2025 | T-SQL | 16
-
-
-<!-- page 17 -->
-
-# 2. Một số câu lệnh điều khiển
 
 - **Searched CASE**: Đánh giá tập các biểu thức Boolean để xác định kết quả
 
@@ -247,11 +165,6 @@ END
 ```
 
 T-SQL 17
-
-
-<!-- page 18 -->
-
-# 2. Một số câu lệnh điều khiển
 
 - **Ví dụ**
 
@@ -279,11 +192,6 @@ From Ket_Qua
 
 T-SQL 18
 
-
-<!-- page 19 -->
-
-# 2. Một số câu lệnh điều khiển
-
 ## Lệnh điều khiển lặp:
 
 ### Cú pháp
@@ -297,11 +205,6 @@ T-SQL 18
 
 ---
 T-SQL | 19
-
-
-<!-- page 20 -->
-
-# 2. Một số câu lệnh điều khiển
 
 ```sql
 declare @xh int
@@ -326,20 +229,12 @@ End
 
 T-SQL
 
-
-<!-- page 21 -->
-
 # 3. Hàm
 
 - Một **hàm** (Function) trong SQL Server là một chương trình con viết trên T-SQL, đảm trách một xử lý nào đó với đặc tính là sẽ nhận các tham số đầu vào và trả về một giá trị kết quả dựa trên các tham số đầu vào đã nhận.
 - Có 2 loại hàm:
     - Hàm của hệ thống SQL Server (thuộc thư viện hàm)
     - Hàm do người dùng tạo ra
-
-
-<!-- page 22 -->
-
-# 3. Hàm
 
 ## Hàm vô hướng
 
@@ -355,11 +250,6 @@ T-SQL
 
 T-SQL 22
 
-
-<!-- page 23 -->
-
-# 3. Hàm
-
 ## Thực thi hàm
 
 SELECT dbo.Tên hàm([giá trị cho biến])
@@ -367,13 +257,6 @@ SELECT dbo.Tên hàm([giá trị cho biến])
 ## Hoặc:
 
 Print ‘Thông báo’ + [convert/cast]dbo.Tên hàm([giá trị cho biến])
-
-8/18/2025 T-SQL 23
-
-
-<!-- page 24 -->
-
-# 3. Hàm
 
 - **Ví dụ 1:** Hàm tính tổng số sinh viên
 
@@ -390,22 +273,12 @@ End
 
 T-SQL 24
 
-
-<!-- page 25 -->
-
-# 3. Hàm
-
 - **Thực thi hàm:**
   `Select dbo.fnc_tongsv() as Tong_SV`
 - **Hoặc:**
   `Print 'Tong so sinh vien la: ' + convert(char(5), dbo.fnc_tongsv())`
 
 T-SQL 25
-
-
-<!-- page 26 -->
-
-# 3. Hàm
 
 - **Ví dụ 2:** Trả về thứ trong tuần của dữ liệu kiểu ngày
 
@@ -419,13 +292,6 @@ Begin
     return(@thu)
 End
 ```
-
-8/18/2025 | T-SQL | 26
-
-
-<!-- page 27 -->
-
-# 3. Hàm
 
 - **Thực thi hàm:**
 
@@ -447,11 +313,6 @@ End
 
 T-SQL 27
 
-
-<!-- page 28 -->
-
-# 3. Hàm
-
 - **Ví dụ 3:** Viết hàm cho biết điểm trung bình theo mỗi môn
 
 ```sql
@@ -469,11 +330,6 @@ End
 `Print 'Diem trung binh mon CSDL1 la:' + Cast (dbo.fnc_DTB('CSDL1') as char(5))`
 
 T-SQL 28
-
-
-<!-- page 29 -->
-
-# 3. Hàm
 
 - **Hàm trả về bảng đơn giản:**
 
@@ -493,11 +349,6 @@ FROM <dbo.Tên hàm(giá trị cho biến)>
 
 T-SQL 29
 
-
-<!-- page 30 -->
-
-# 3. Hàm
-
 - **Ví dụ 4:** Trả về danh sách sinh viên theo mã lớp
 ```sql
 Create Function fnc_DSSV (@ml char(10))
@@ -515,16 +366,10 @@ Select * From fnc_DSSV('CNTTAK14')
 
 T-SQL 30
 
-
-<!-- page 31 -->
-
-# 3. Hàm
-
 ## Hàm trả về bảng đa lệnh:
 
 **CREATE FUNCTION** <tên hàm>(@tên tham số kiểu dl [= default] [,...n] )
-**RETURNS** @<tên_biến_trả_về> **TABLE**
-(<tên_cột_1> <kiểu_dữ_liệu>,
+**RETURNS** @<tên_biến_trả_về> **TABLE** (<tên_cột_1> <kiểu_dữ_liệu>,
 ...
 <tên_cột_n> <kiểu_dữ_liệu>)
 [**AS**]
@@ -534,11 +379,6 @@ T-SQL 30
 **END**]
 
 T-SQL
-
-
-<!-- page 32 -->
-
-# 3. Hàm
 
 - **Ví dụ 5:** *Tạo hàm trả về là Bảng danh sách sinh viên gồm: MASV, HoTenSV, TENMH, DIEM theo MaSV*
 
@@ -558,11 +398,6 @@ End
 
 T-SQL 32
 
-
-<!-- page 33 -->
-
-# 3. Hàm
-
 - **Thực thi hàm:**
 
 `Select * From fnc_DSDiem(2)`
@@ -579,11 +414,6 @@ T-SQL 32
 
 T-SQL
 
-
-<!-- page 34 -->
-
-# 3. Hàm
-
 ## **Sửa hàm**
 
 **ALTER FUNCTION** [tên người sở hữu.]tên hàm
@@ -592,27 +422,14 @@ T-SQL
 [**AS**] [**BEGIN** < thân hàm> **END**]
 [**RETURN** [(lệnh **SELECT**)]]
 
-
-<!-- page 35 -->
-
-# 3. Hàm
-
 **Alter Function** fnc_DSSV (@ml **char**(10))
 **Returns table**
 **As**
 
 **Return**
-**Select** masv, hdem+' '+ten **as** 'Ho ten',
-Gtinh, TenL **From** sinh_vien **join** Lop **on**
+**Select** masv, hdem+' '+ten **as** 'Ho ten', Gtinh, TenL **From** sinh_vien **join** Lop **on**
 Sinh_Vien.MaL=Lop.MaL
 **Where** sinh_vien.MaL = @ml
-
-8/18/2025 T-SQL 35
-
-
-<!-- page 36 -->
-
-# 3. Hàm
 
 - **Xóa hàm**
 
@@ -623,9 +440,6 @@ Sinh_Vien.MaL=Lop.MaL
 `Drop function fnc_DSSV`
 
 T-SQL 36
-
-
-<!-- page 37 -->
 
 # Bài tập
 
@@ -639,9 +453,6 @@ T-SQL 36
 
 T-SQL
 
-
-<!-- page 38 -->
-
 # 4. Thủ tục
 
 - **Thủ tục (Store Procedure) là một tập các phát biểu T-SQL mà SQL Server biên dịch thành một chương trình thực thi**
@@ -650,11 +461,6 @@ T-SQL
     - Thủ tục có tham số
 
 T-SQL 38
-
-
-<!-- page 39 -->
-
-# 4. Thủ tục
 
 ## Cú pháp
 
@@ -670,21 +476,11 @@ T-SQL 38
 
 T-SQL 39
 
-
-<!-- page 40 -->
-
-# 4. Thủ tục
-
 ## Thực thi
 
 **EXEC | EXECUTE** <tên thủ tục >
 @tênbiến = giá trị | @biến chứa tham số [**OUTPUT**] | [ **DEFAULT** ] [ ,...n ]
 [**Print** <thông báo> [+ < tên biến kiểu dl của biến>]]
-
-
-<!-- page 41 -->
-
-# 4. Thủ tục
 
 - **Ví dụ 1:** Tạo thủ tục có tên: **Pro_DSSV** với các thông tin: **MaSV**, **HoTen**, **MaL**
 
@@ -713,11 +509,6 @@ From Sinh_Vien
 
 8/18/2025 T-SQL
 
-
-<!-- page 42 -->
-
-# 4. Thủ tục
-
 - **Ví dụ 2:** Lập danh sách sinh viên theo mã lớp
 ```sql
 Create PROC Pro_DS @Ml char(10)
@@ -737,11 +528,6 @@ End
 
 T-SQL 42
 
-
-<!-- page 43 -->
-
-# 4. Thủ tục
-
 - **Ví dụ 3:** Tạo thủ tục trả về tổng số sinh viên có trong bảng sinh viên.
 
 ```sql
@@ -749,13 +535,6 @@ Create Proc Pro_SlgSV @sl int output
 AS
     Select @sl = COUNT(Masv)From Sinh_Vien
 ```
-
-43
-
-
-<!-- page 44 -->
-
-# 4. Thủ tục
 
 - **Thực thi thủ tục (truyền theo tên)**
 `Declare @tong int`
@@ -766,11 +545,6 @@ AS
 `Declare @tong int`
 `EXEC Pro_slgsv @tong output`
 `Print 'So luong SV hien co la: ' + Cast(@tong as char(10))`
-
-
-<!-- page 45 -->
-
-# 4. Thủ tục
 
 - **Ví dụ 4:** Viết thủ tục bổ sung thêm bản ghi cho bảng môn học
 
@@ -784,11 +558,6 @@ Values (@mmh, @tmh, @stc, @mk)
 
 T-SQL 45
 
-
-<!-- page 46 -->
-
-# 4. Thủ tục
-
 - **Gọi thực thi thủ tục:**
 EXEC Pro_nhapMH 'EBK', 'E-Banking', 3, 'CNTT'
 
@@ -797,22 +566,12 @@ EXEC Pro_nhapMH @mmh='EBK', @tmh='E-Banking', @stc=3, @mk='CNTT'
 
 T-SQL 46
 
-
-<!-- page 47 -->
-
-# 4. Thủ tục
-
 ## Thay đổi thủ tục
 
 - **Cú pháp:**
 
 ALTER PROC | PROCEDURE < tên thủ tục> [{@tên tham số [kiểu dl của tham số.] kiểu tham số }] [tùy chọn cho cursor][= default ][[ OUT | OUTPUT ][,...n ] [WITH <procedure_option> [,...n ]]
 AS [BEGIN] < câu lệnh> [END]
-
-
-<!-- page 48 -->
-
-# 4. Thủ tục
 
 - **Ví dụ:**
 
@@ -827,21 +586,11 @@ End
 
 T-SQL 48
 
-
-<!-- page 49 -->
-
-# 4. Thủ tục
-
 - **Xóa thủ tục**
 - **Cú pháp:**
   **DROP PROC | PROCEDURE [tên người sở hữu.] tên_thủ_tục**
 - **Ví dụ:**
   **Drop PROC Pro_DS**
-
-8/18/2025 T-SQL 49
-
-
-<!-- page 50 -->
 
 # Bài tập
 
@@ -852,11 +601,6 @@ T-SQL 48
 5. Viết/thực thi thủ tục cho biết danh sách các sinh viên đã qua (điểm >=5) môn học nào đó khi đưa vào tên môn học
 6. Viết/thực thi thủ tục trả về tổng số môn đã học theo mã sinh viên nhập vào.
 
-8/18/2025 T-SQL 50
-
-
-<!-- page 51 -->
-
 # 5. Tạo bẫy dữ liệu - Trigger
 
 - **Trigger** là một kiểu **Stored Procedure** đặc biệt (không có tham số, không có giá trị trả về) được thực thi một cách tự động khi xảy ra một sự kiện trên **Database server** (chèn, cập nhật hoặc xóa trong một bảng).
@@ -865,22 +609,10 @@ T-SQL 48
 
 T-SQL 51
 
-
-<!-- page 52 -->
-
-# 5. Tạo bẫy dữ liệu - Trigger
-
 - Một Trigger được định nghĩa trên một bảng nhưng các xử lý trong Trigger có thể sử dụng nhiều bảng khác
 - Trigger được chia ra làm 2 nhóm:
     - **DDL (Data Definition Language) triggers** được thực thi đáp ứng các sự kiện định nghĩa lược đồ dữ liệu như: **CREATE, ALTER, DROP**.
     - **DML (Data Modification Language) triggers** thực thi khi một người sử dụng sửa đổi dữ liệu thông qua **INSERT, UPDATE, DELETE** trên Bảng hoặc View
-
-8/18/2025 | T-SQL | 52
-
-
-<!-- page 53 -->
-
-# 5. Tạo bẫy dữ liệu - Trigger
 
 - **Trigger** sẽ tự động thực hiện khi có bản ghi được Insert/Update/delete ở bảng gắn với nó. Khi đó, SQL server tạo ra hai bảng tạm Inserted và Deleted (*magic tables*)
 
@@ -890,11 +622,6 @@ T-SQL 51
 | :--- | :--- | :--- |
 
 T-SQL 53
-
-
-<!-- page 54 -->
-
-# 5. Tạo bẫy dữ liệu - Trigger
 
 - **Chú ý**: đối với UPDATE trigger thì SQL Server sẽ tạo cả hai bảng: **INSERTED** và **DELETED**
 - **UPDATE = DELETE** dòng cũ + **INSERT** dòng mới
@@ -916,11 +643,6 @@ T-SQL 53
 
 T-SQL
 
-
-<!-- page 55 -->
-
-# 5. Tạo bẫy dữ liệu - Trigger
-
 ## Tạo Trigger
 
 **CREATE TRIGGER** <tên triger>
@@ -933,13 +655,6 @@ T-SQL
 
 <câu lệnh T- SQL>
 
-8/18/2025 T-SQL 55
-
-
-<!-- page 56 -->
-
-# 5. Tạo bẫy dữ liệu - Trigger
-
 - **WITH ENCRYPTION**: ngăn chặn người dùng khác xem văn bản của trigger.
 - **FOR/ AFTER**: trigger được thực thi sau khi tất cả các câu lệnh SQL gây ra.
 - **INSTEAD OF**: trigger được thực thi thay cho các câu lệnh SQL gây ra trigger (thường dùng cho view).
@@ -947,11 +662,6 @@ T-SQL
 - **IF UPDATE** (column list): dùng để kiểm tra hành động Insert, Update (không dùng cho Delete) các giá trị trên các cột.
 
 T-SQL 56
-
-
-<!-- page 57 -->
-
-# 5. Tạo bẫy dữ liệu - Trigger
 
 ```sql
 Create Trigger trgInsSV
@@ -980,11 +690,6 @@ Khong hop le, nhap lai
 Msg 3609, Level 16, State 1, Line 1
 The transaction ended in the trigger. The batch has been aborted.
 
-
-<!-- page 58 -->
-
-# 5. Tạo bẫy dữ liệu - Trigger
-
 ```sql
 Create trigger trgDelSv
 on sinh_vien
@@ -1004,11 +709,6 @@ Delete successful
 (1 row(s) affected)
 
 T-SQL 58
-
-
-<!-- page 59 -->
-
-# 5. Tạo bẫy dữ liệu - Trigger
 
 ```sql
 Create trigger trgDelMh
@@ -1032,11 +732,6 @@ Msg 3609, Level 16, State 1, Line 1
 The transaction ended in the trigger. The batch has been aborted.
 
 T-SQL 59
-
-
-<!-- page 60 -->
-
-# 5. Tạo bẫy dữ liệu - Trigger
 
 ```sql
 Create trigger trgUpTl
@@ -1066,11 +761,6 @@ The transaction ended in the trigger. The batch has been aborted.
 
 T-SQL 60
 
-
-<!-- page 61 -->
-
-# 5. Tạo bẫy dữ liệu - Trigger
-
 - **Tạo trigger Delete xóa bản ghi trong bảng sinh viên thì cũng xóa các bản ghi tương ứng trong bảng kết quả**
 
 ```sql
@@ -1087,11 +777,6 @@ As
 ```
 
 T-SQL 61
-
-
-<!-- page 62 -->
-
-# 5. Tạo bẫy dữ liệu - Trigger
 
 ```sql
 Select * from Sinh_Vien
@@ -1131,13 +816,6 @@ Select * from ket_qua
 | 13 | TDC | 6 | 0 | 2 |
 | 14 | TDN... | 2 | 6 | 4 |
 
-8/18/2025 | T-SQL | 62
-
-
-<!-- page 63 -->
-
-# 5. Tạo bẫy dữ liệu - Trigger
-
 **Delete From sinh_vien**
 **Where Masv=3**
 
@@ -1170,11 +848,6 @@ Select * from ket_qua
 | TDC | 6 | 0 | 2 |
 | TDNH1 | 2 | 6 | 4 |
 
-8/18/2025 | T-SQL | 63
-
-
-<!-- page 64 -->
-
 # Bài tập
 
 1. Tạo trigger đảm bảo khi nhập bản ghi cho bảng Khoa thì thuộc tính tên khoa không được rỗng
@@ -1183,24 +856,12 @@ Select * from ket_qua
 4. Tạo trigger thêm bản ghi cho bảng Kết quả với Kỳ thi phù hợp (với 1 môn thi của 1 sinh viên thì kỳ thi sau phải lớn hơn kỳ thi trước)
 5. Tạo trigger đảm bảo mỗi lần thêm một sinh viên của lớp nào thì sĩ số lớp đó tăng thêm 1
 
-
-<!-- page 65 -->
-
-# 5. Tạo bẫy dữ liệu - Trigger
-
 ## **Sửa trigger**
 
 **ALTER TRIGGER** <tên trigger>
 **ON** table | view
 **FOR** | **AFTER** [ **INSERT** | **UPDATE** | **DELETE** ]
 **AS** <câu lệnh T- SQL>
-
-8/18/2025 T-SQL 65
-
-
-<!-- page 66 -->
-
-# 5. Tạo bẫy dữ liệu - Trigger
 
 - **Ví dụ:**
 
@@ -1219,11 +880,6 @@ End
 ```
 
 T-SQL 66
-
-
-<!-- page 67 -->
-
-# 5. Tạo bẫy dữ liệu - Trigger
 
 - **Chèn thêm một bản ghi mới cho bảng M_Hoc có tên môn học là null:**
 
@@ -1244,11 +900,6 @@ The transaction ended in the trigger. The batch has been aborted.
 
 T-SQL 67
 
-
-<!-- page 68 -->
-
-# 5. Tạo bẫy dữ liệu - Trigger
-
 ## **Xóa trigger**
 
 `DROP TRIGGER <tên trigger > [ ,....n ]`
@@ -1257,13 +908,6 @@ T-SQL 67
 
 `Drop trigger trgDelSv`
 
-8/18/2025 | T-SQL | 68
-
-
-<!-- page 69 -->
-
 ![HỌC VIỆN NGÂN HÀNG](https://upload.wikimedia.org/wikipedia/vi/thumb/e/e5/Logo_Hoc_vien_Ngan_hang.png/120px-Logo_Hoc_vien_Ngan_hang.png)
 
 # T-SQL
-
-69

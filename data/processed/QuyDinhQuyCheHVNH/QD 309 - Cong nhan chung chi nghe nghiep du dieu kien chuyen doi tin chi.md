@@ -1,5 +1,4 @@
 NGÂN HÀNG NHÀ NƯỚC VIỆT NAM
-HỌC VIỆN NGÂN HÀNG
 
 Số: 309/QĐ-HVNH
 
@@ -45,9 +44,6 @@ PHÓ GIÁM ĐỐC
 (đã ký)
 Mai Thanh Quế
 
-
-<!-- page 2 -->
-
 # Phụ lục 01: Danh sách các chứng chỉ nghề nghiệp đủ điều kiện chuyển đổi kết quả học tập, chuyển đổi tín chỉ đối với chương trình đào tạo trình độ đại học tại Học viện Ngân hàng
 *(Ban hành kèm theo Quyết định số 309/QĐ-HVNH ngày 10/01/2024 của Giám đốc HVNH)*
 
@@ -87,9 +83,6 @@ Mai Thanh Quế
 | | Pass | FIN35A | Quản trị rủi ro tín dụng | 3 | 10 |
 | FRM Part 2 | Pass | FIN103H | Ngân hàng tư nhân | 3 | 10 |
 | | Pass | FIN103A | Dịch vụ ngân hàng tư nhân | 3 | 10 |
-
-
-<!-- page 4 -->
 
 | Tên chứng chỉ nghề nghiệp | Mã học phần | Tên học phần | Số tín chỉ học phần | Điểm học phần được quy đổi sang hệ 10 |
 | :--- | :--- | :--- | :---: | :--- |
@@ -133,9 +126,6 @@ Mai Thanh Quế
 | **Principles of tax** | FIN31H | Thuế | 3 | Điểm CC x 1,5 |
 | | ACT15A | Kế toán thuế | 3 | Điểm CC x 1,5 |
 
-
-<!-- page 5 -->
-
 | Tên chứng chỉ nghề nghiệp | Điểm/Cấp độ chứng chỉ | Mã học phần | Tên học phần | Số tín chỉ học phần | Điểm học phần được quy đổi sang hệ 10 |
 | :--- | :--- | :--- | :--- | :---: | :---: |
 | Oracle Certified Foundations Associate, Database | 60% | MIS07A | Hệ quản trị Cơ sở dữ liệu | 3 | 7 |
@@ -148,9 +138,6 @@ Mai Thanh Quế
 | | Hoàn thành toàn bộ 5 khóa học và nhận chứng chỉ | IS19A | Thiết kế Web | 3 | 10 |
 | Meta Android Developer Professional Certificate (https://www.coursera.org/professional-certificates/meta-android-developer) | Đạt (pass) | IS26A | Lập trình di động | 3 | 10 |
 | Meta iOS Developer Professional Certificate (https://www.coursera.org/professional-certificates/meta-ios-developer) | Đạt (pass) | IS26A | Lập trình di động | 3 | 10 |
-
-
-<!-- page 6 -->
 
 | Tên chứng chỉ nghề nghiệp | Điểm/Cấp độ chứng chỉ | Mã học phần | Tên học phần | Số tín chỉ học phần | Điểm học phần được quy đổi sang hệ 10 |
 | :--- | :--- | :--- | :--- | :---: | :---: |

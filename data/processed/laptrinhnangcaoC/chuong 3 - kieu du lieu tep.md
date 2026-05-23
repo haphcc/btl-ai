@@ -1,12 +1,3 @@
-# chuong 3 - kieu du lieu tep
-
-
-
-<!-- page 1 -->
-
-HỌC VIỆN NGÂN HÀNG
-KHOA HỆ THỐNG THÔNG TIN QUẢN LÝ
-
 # CHƯƠNG III  KIỂU DỮ LIỆU TỆP
 
 LẬP TRÌNH NÂNG CAO
@@ -15,31 +6,19 @@ LẬP TRÌNH NÂNG CAO
  0906238311
  hunglv@hvnh.edu.vn
 
-
-<!-- page 2 -->
-
 # 1. Khái niệm
 
 - Nếu máy tính của các bạn có ổ cứng, hoặc các bạn có USB hoặc bất kỳ thiết bị lưu trữ nào thì chắc chắn các bạn đã từng làm việc với File. Khi các bạn chơi một game offline, thông tin nhân vật, điểm số, ... sẽ được lưu trữ trong File để khi chương trình game bị tắt đi thì các bạn không phải chơi lại từ đầu. Khi các bạn cài đặt cấu hình cho một phần mềm và tắt đi, cấu hình đó được lưu vào File để lần làm việc tiếp theo sẽ sử dụng.
 - **File trong C là một loại dữ liệu trong chương trình**, và một file khi nhập vào chương trình cũng sẽ được **lưu giữ** tại một vùng nào đó trên bộ nhớ máy tính.
 
-
-<!-- page 3 -->
-
 # 1. Khái niệm
 
 - **Khác với các loại dữ liệu khác** có thể gán vào một biến để xử lý, thì để **thao tác với file**, chúng ta cần tạo ra một thực thể của kiểu cấu trúc FILE để chứa thông tin của file cần thao tác, sau đó sử dụng tới một **con trỏ để chỉ đến vị trí của thực thể FILE chứa thông tin file đó trên bộ nhớ**, qua đó thực hiện các thao tác với file thông qua các hàm có sẵn, với các chức năng cụ thể như đóng, mở, ghi hay lưu file.
-
-
-<!-- page 4 -->
 
 # 2. Các kiểu dữ liệu tệp
 
 - **File văn bản – text files**
 - **File nhị phân – binary file**
-
-
-<!-- page 5 -->
 
 # File văn bản – text files
 
@@ -47,17 +26,11 @@ LẬP TRÌNH NÂNG CAO
 - Khi chúng ta mở các file này bằng các text editer nói trên, chúng ta sẽ thấy được văn bản ngay và có thể dễ dàng thao tác sửa, xóa, thêm nội dung của file này.
 - Kiểu file này thuận tiện cho chúng ta trong việc sử dụng hàng ngày, nhưng nó sẽ kém bảo mật và cần nhiều bộ nhớ để lưu trữ hơn.
 
-
-<!-- page 6 -->
-
 # File nhị phân – binary file
 
 - File nhị phân thường có đuôi mở rộng là **.bin**
 - Thay vì lưu trữ dưới dạng văn bản thuần thúy, các file này được lưu dưới dạng nhị phân, chỉ bao gồm các số 0 và 1. Bạn cũng sẽ thấy các con số này nếu cố mở nó bằng 1 text editer kể trên.
 - Loại file này giúp lưu trữ được dữ liệu với kích thước lớn hơn, không thể đọc bằng các text editer thông thường và thông tin lưu trữ ở loại file được bảo mật hơn so với file văn bản.
-
-
-<!-- page 7 -->
 
 # QUY TRÌNH XỬ LÝ FILE
 
@@ -68,9 +41,6 @@ LẬP TRÌNH NÂNG CAO
 - Đọc dữ liệu từ file
 - Ghi file
 - Đóng file
-
-
-<!-- page 8 -->
 
 # 2.1. File nhị phân – Binary files
 
@@ -87,9 +57,6 @@ LẬP TRÌNH NÂNG CAO
 | **rb+** | mở file đã có để cập nhật (đọc/ghi) |
 | **wb+** | tạo file mới cho phép đọc/ghi |
 | **ab+** | mở để nối thêm về cuối file, cho phép đọc/ghi |
-
-
-<!-- page 9 -->
 
 # 2.1. File nhị phân – Binary files
 
@@ -109,9 +76,6 @@ fread(&i,sizeof(int),1,f);
 fread(&l,sizeof(long),1,f);
 ```
 
-
-<!-- page 10 -->
-
 # 2.1. File nhị phân – Binary files
 
 ### **Ghi vào tệp nhị phân** `size_t fwrite(const void *ptr, size_t size, size_t n, FILE *f)`
@@ -124,15 +88,9 @@ fwrite(&i,sizeof(int),1,f);
 fwrite(&l,sizeof(long),1,f);
 ```
 
-
-<!-- page 11 -->
-
 # Ví dụ 1
 
 - **Viết chương trình ghi lên tập tin number.txt 3 giá trị số (thực, nguyên, nguyên dài). Sau đó đọc các số từ tập tin vừa ghi và hiển thị lên màn hình.**
-
-
-<!-- page 12 -->
 
 # Ví dụ 1
 
@@ -169,15 +127,9 @@ int main()
 }
 ```
 
-
-<!-- page 13 -->
-
 # Ví dụ 2
 
 - **Viết chương trình ghi lên tập tin danh sách học viên (mỗi học viên bao gồm họ tên, tuổi) vào file (tên file do người dùng nhập)**
-
-
-<!-- page 14 -->
 
 # Ví dụ 2
 
@@ -215,9 +167,6 @@ return 0;
 }
 ```
 
-
-<!-- page 15 -->
-
 # Ví dụ 3
 
 ## Viết chương trình đọc file ở ví dụ 2
@@ -253,9 +202,6 @@ return 1;
 }
 ```
 
-
-<!-- page 16 -->
-
 # TỆP VĂN BẢN
 
 - **Khai báo:** `FILE *fptr`
@@ -270,9 +216,6 @@ return 1;
 | w+ | Mở một file văn bản cho chế độ đọc và ghi. Nó làm trắng file đã tồn tại nếu file này có và tạo mới nếu file này chưa có. |
 | a+ | Mở file đã tồn tại với mục đích đọc và ghi. Nó tạo file mới nếu không tồn tại. Việc đọc file sẽ bắt đầu đọc từ đầu nhưng ghi file sẽ chỉ ghi vào cuối file. |
 
-
-<!-- page 17 -->
-
 # TỆP VĂN BẢN
 
 - **Đóng file:** `int fclose( FILE *fp );`
@@ -281,9 +224,6 @@ return 1;
         $ch = getc (fptr)$
     - Ghi ký tự lên tập tin
         $putc (ch, fptr)$
-
-
-<!-- page 18 -->
 
 # TỆP VĂN BẢN
 
@@ -294,9 +234,6 @@ Hàm **fgets** đọc 1 chuỗi ký tự từ trong file fptr và vào biến <c
 
 - Hàm **fputs** (chuỗi, fptr): ghi 1 chuỗi ký tự trong <chuỗi> vào file fptr.
 Hàm này không tự động thêm vào mã kết thúc để chuyển dòng mới, do đó ta phải ghi thêm mã này vào tập tin bằng lệnh **fputs ("\n", fptr);**
-
-
-<!-- page 19 -->
 
 # Ví dụ 3
 
@@ -325,9 +262,6 @@ int main(void)
 }
 ```
 
-
-<!-- page 20 -->
-
 # Ví dụ 4
 
 **Viết chương trình đọc từng dòng trong file văn bản vidu4.txt**
@@ -353,9 +287,6 @@ int main(void)
 }
 ```
 
-
-<!-- page 21 -->
-
 # Ví dụ 5
 
 ### Viết chương trình xóa file chỉ định
@@ -376,32 +307,11 @@ return 0;
 }
 ```
 
-
-<!-- page 22 -->
-
 # Ví dụ 6
 
 - **Viết chương trình nhập thông tin sinh viên, lưu vào file. Sau đó, đọc file và in ra màn hình thông tin những sinh viên đã nhập**
 
-
-<!-- page 23 -->
-
-# Ví dụ 6
-
 - **Viết chương trình nhập thông tin sinh viên, lưu vào file. Sau đó, đọc file và in ra màn hình thông tin những sinh viên đã nhập**
-
-
-<!-- page 24 -->
-
-# Ví dụ 6
-
-
-<!-- page 25 -->
-
-# Ví dụ 6
-
-
-<!-- page 26 -->
 
 # Bài tập chương 3
 

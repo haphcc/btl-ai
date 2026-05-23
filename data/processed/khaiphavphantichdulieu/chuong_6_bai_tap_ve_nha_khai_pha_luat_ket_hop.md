@@ -2,15 +2,11 @@
 
 #### CHUONG 6 BAI TAP VE NHA KHAI PHA LUAT KET HOP
 
-## TRANG 1
-
 ## Bài tập 1
 
 ❖ Cho cơ sở dữ liệu giao dịch bán hàng gồm 5 giao dịch:
 
 Áp dụng thuật toán brute force và apriori tìm tập mục phổ biến với minsup = 40% Áp dụng thuật toán Apriori tìm các luật kết hợp trong giao dịch bán hàng trên với min_supp = 40%; min_conf = 80%.
-
-## TRANG 2
 
 ## Bài tập 2
 
@@ -38,8 +34,6 @@ Có |
 | Kh02 | Kỹ sư | Du lịch |  |  |
 | Kh04 | Kỹ sư | Ca nhạc | 20 triệu | Có |
 | Kh05 | KD | Phim | 5 triệu | Không |
-
-## TRANG 3
 
 ## Bài tập 3
 

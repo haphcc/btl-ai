@@ -198,4 +198,3 @@ Với ma trận vuông cấp `n`, các bài toán thường gặp gồm:
 - Mảng lưu nhiều phần tử cùng kiểu dưới một tên chung.
 - Mảng một chiều biểu diễn dãy, mảng hai chiều biểu diễn bảng hoặc ma trận.
 - Khi truyền mảng vào hàm, nội dung mảng có thể bị thay đổi.
-

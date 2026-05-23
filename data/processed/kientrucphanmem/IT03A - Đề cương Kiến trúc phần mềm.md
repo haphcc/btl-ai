@@ -1,9 +1,3 @@
-# IT03A - Đề cương Kiến trúc phần mềm
-
-
-
-<!-- page 3 -->
-
 | | |
 | :--- | :--- |
 | | - Phương pháp trò chơi: tạo môi trường thân thiện giúp sinh viên làm quen với môi trường học tập mới và làm quen với nhau.<br>- Thuyết trình: Giới thiệu giải thích các nội dung của chương<br>- Hỏi đáp: đánh giá trình độ chung và khả năng tiếp thu của sinh viên<br>- Phương pháp chiếu clip: nêu ra các vấn đề, dẫn dắt sinh viên hiểu khái niệm Kiến trúc phần mềm và các khái niệm liên quan.<br>- **Hoạt động học tập:**<br>  - Trả lời câu hỏi: Trả lời lời câu hỏi của giảng viên liên quan đến các nội dung được đề cập.<br>  - Đặt câu hỏi: Đặt câu hỏi cho giảng viên về các vấn đề còn khúc mắc.<br>  - Tham gia các hoạt động khác theo yêu cầu, hướng dẫn của giảng viên.<br>  - Nghe giảng, ghi chép. |
@@ -17,8 +11,6 @@
 | **Nội dung** | - Chương 2: Kiểu kiến trúc phần mềm |
 | **Tài liệu học tập** | - Chương 3, 4: Sách “Software Architecture: Foundations, Theory, and Practice” |
 | **Hoạt động dạy và học** | - **Hoạt động giảng dạy:** |
-
-<!-- page 10 -->
 
 ### 14. Yêu cầu đối với người học:
 Sinh viên thực hiện các nhiệm vụ sau đây:

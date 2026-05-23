@@ -271,4 +271,3 @@ Trong học tập và công việc, sáng tạo nội dung số giúp cá nhân 
 7. Kể tên một số công cụ lập kế hoạch và nghiên cứu nội dung.
 8. Audacity và Alitu hỗ trợ loại nội dung nào?
 9. Khi tạo nội dung số cần lưu ý điều gì về khán giả và kênh phân phối?
-

@@ -1,9 +1,3 @@
-# Chương 0 - Giới thiệu môn học MIS
-
-
-
-<!-- page 1 -->
-
 # HỌC VIỆN NGÂN HÀNG
 ## KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 
@@ -16,9 +10,6 @@
 - Điện thoại: ....
 - Email: ...
 
-
-<!-- page 2 -->
-
 # Giới thiệu môn học
 
 *   Số tín chỉ: 3
@@ -29,9 +20,6 @@
 
 Giới thiệu môn học
 
-
-<!-- page 3 -->
-
 # Giới thiệu môn học
 
 ## Mục tiêu của học phần
@@ -39,9 +27,6 @@ Giới thiệu môn học
 - Học phần Hệ thống thông tin quản lý là học phần bắt buộc, thuộc khối kiến thức cơ sở ngành, đây là môn học trong tuyến các môn học liên quan đến Năng lực số nhằm đảm bảo cho sinh viên đạt được Năng lực số cần thiết trong bối cảnh thời đại số hiện nay.
 - Học phần này cung cấp cho sinh viên những kiến thức: tổng quan về hệ thống thông tin quản lý, hệ thống thông tin với chiến lược của tổ chức, hệ thống kinh doanh thông minh, hệ thống thông tin cộng tác, quy trình và phát triển hệ thống thông tin trong các tổ chức, doanh nghiệp.
 - Sau khi học xong học phần này, sinh viên có các kỹ năng về năng lực số trong hoạt động chuyên môn và học tập suốt đời. Ngoài ra, sinh viên còn được rèn luyện kỹ năng về khởi nghiệp và đổi mới sáng tạo.
-
-
-<!-- page 4 -->
 
 # Giới thiệu môn học (tt)
 
@@ -55,17 +40,11 @@ Giới thiệu môn học
 
 Giới thiệu môn học
 
-
-<!-- page 5 -->
-
 # Giới thiệu môn học
 
 - **Tài liệu tham khảo**
     - Slide bài giảng – slide gốc của Pearson
     - ***Using MIS***, 10th edition, David Kroenke & Randall J. Boyle, Pearson
-
-
-<!-- page 6 -->
 
 # Yêu cầu đối với học viên
 
@@ -83,9 +62,6 @@ Giới thiệu môn học
 
 Giới thiệu môn học
 
-
-<!-- page 7 -->
-
 # Nội dung
 
 - Chương 1. Sự cần thiết và vai trò của Hệ thống thông tin quản lý
@@ -96,9 +72,6 @@ Giới thiệu môn học
 - Chương 12. Phát triển Hệ thống thông tin
 
 Giới thiệu môn học 7
-
-
-<!-- page 8 -->
 
 | Buổi | Nội dung | Buổi | Nội dung |
 | :--- | :--- | :--- | :--- |
@@ -111,9 +84,6 @@ Giới thiệu môn học 7
 | 7 | Hướng dẫn, chữa bài kiểm tra 1 | 15 | Kiểm tra 2 – Trắc nghiệm Itest |
 | 8 | Chương 7: Quy trình, Tổ chức và Hệ thống thông tin | 16 | Ôn tập + Hướng dẫn làm Bài tập lớn |
 
-
-<!-- page 9 -->
-
 # Đánh giá môn học
 
 | Thành phần đánh giá | Hoạt động đánh giá | Phương pháp đánh giá | Trọng số | Thời điểm đào tạo | CĐR |
@@ -122,9 +92,6 @@ Giới thiệu môn học 7
 | | A12 – KT1 | Tự luận | 15% | Tuần 8 | CLO2 |
 | | A13 – KT2 | Trắc nghiệm | 15% | Tuần 15 | CLO1 |
 | **Đánh giá tổng kết (60%)** | A21 – Thi cuối kỳ hết môn | Bài tập lớn theo nhóm sinh viên | 60% | Theo kế hoạch của trường | CLO1<br>CLO2<br>CLO3 |
-
-
-<!-- page 10 -->
 
 # HỎI/ĐÁP
 

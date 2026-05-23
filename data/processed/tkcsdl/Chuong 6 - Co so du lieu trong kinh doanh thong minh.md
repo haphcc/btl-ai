@@ -3,11 +3,6 @@
 # CHƯƠNG 6
 # CƠ SỞ DỮ LIỆU TRONG KINH DOANH THÔNG MINH
 
-KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
-
-
-<!-- page 2 -->
-
 # NỘI DUNG CHÍNH
 
 - **Vai trò của phân tích dữ liệu**
@@ -16,17 +11,9 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 - **Dữ liệu lớn**
 - **Cơ sở dữ liệu NoSQL**
 
-2
-
-
-<!-- page 3 -->
-
 # Tài liệu tham khảo
 
 - Chương 13, chương 14, 16 [1]
-
-
-<!-- page 4 -->
 
 # Phân tích dữ liệu
 
@@ -53,11 +40,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 - Trục tung: Marketing Spending (£ 000)
 - Trục hoành: Sales growth (%)
 
-4
-
-
-<!-- page 5 -->
-
 # Phân tích dữ liệu
 
 | Điểm | 0 | 0.2 | 0.4 | 0.6 | 0.8 | 1 | 1.2 | 1.4 | 1.6 | 1.8 | 2 | 2.2 | 2.4 | 2.6 | 2.8 | 3 | 3.2 |
@@ -71,9 +53,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 ### MÔN TIẾNG ANH - NĂM 2019
 
 (Biểu đồ cột thể hiện phân phối số lượng thí sinh theo từng mức điểm từ 0 đến 10)
-
-
-<!-- page 6 -->
 
 # Phn tch d liu
 
@@ -145,15 +124,9 @@ CHI TIU 55,400,161 VN (2%)
 ### CHU K KHCH QUAY TR LI
 (Biu  ct th hin s lng khch hng theo s ngy quay tr li t 1 ngy n 342 ngy)
 
-
-<!-- page 7 -->
-
 # Phân tích dữ liệu
 
 **Phân tích dữ liệu** là một quy trình thu thập, làm sạch, biến đổi, mô hình hóa dữ liệu với mục tiêu tìm kiếm những thông tin hữu ích, đề xuất những kết luận và hỗ trợ ra quyết định.
-
-
-<!-- page 8 -->
 
 # Phân tích dữ liệu với các ngành khác
 
@@ -161,9 +134,6 @@ CHI TIU 55,400,161 VN (2%)
 | :--- | :--- |
 | • **Quản lý tài chính** <br> – Xu hướng tài chính <br> – ..... | • **Nghiên cứu marketing** <br> – Hành vi khách hàng <br> – ..... |
 | • **Quản lý marketing** <br> – Giá <br> – .... | • **Quản lý kinh doanh** <br> – Kiểm kê, phân tích <br> – ............... |
-
-
-<!-- page 9 -->
 
 # Kiến trúc tổng thể khai thác dữ liệu
 
@@ -202,11 +172,6 @@ CHI TIU 55,400,161 VN (2%)
 - **Data mining**
 - **Data Visualization**
 
-9
-
-
-<!-- page 10 -->
-
 # Các loại phân tích dữ liệu
 
 ## Ok, what should we do?
@@ -231,11 +196,6 @@ CHI TIU 55,400,161 VN (2%)
 | **Predictive** | What’s going to happend |
 | **Descriptive** | What’s going on |
 
-10
-
-
-<!-- page 11 -->
-
 # Nội dung chính
 
 - **Vai trò của phân tích dữ liệu**
@@ -244,17 +204,9 @@ CHI TIU 55,400,161 VN (2%)
 - **Dữ liệu lớn**
 - **Cơ sở dữ liệu NoSQL**
 
-11
-
-
-<!-- page 12 -->
-
 # Kinh doanh thông minh
 
 - **Kinh doanh thông minh** (BI – **Business intelligence**) là một thuật ngữ để mô tả một tập hợp toàn diện, liền mạch và tích hợp của các công cụ và quy trình được sử dụng để thu thập, tổng hợp, lưu trữ và phân tích dữ liệu với mục đích tạo và biểu diễn thông tin nhằm hỗ trợ quá trình ra quyết định. [1]
-
-
-<!-- page 13 -->
 
 # Một số định nghĩa khác về BI
 
@@ -263,9 +215,6 @@ CHI TIU 55,400,161 VN (2%)
 - **BI** là các ứng dụng và công nghệ để chuyển dữ liệu doanh nghiệp thành hành động
 - **BI** là công nghệ mới giúp doanh nghiệp hiểu biết về quá khứ và dự đoán tương lai
 
-
-<!-- page 14 -->
-
 # Kinh doanh thông minh
 
 - **Tóm lại: BI là qui trình và công nghệ mà các doanh nghiệp dùng để :**
@@ -273,9 +222,6 @@ CHI TIU 55,400,161 VN (2%)
     - khai phá tri thức giúp cho các doanh nghiệp có thể đưa các các quyết định hiệu quả hơn trong hoạt động kinh doanh của mình.
     - cung cấp một cách nhìn toàn cảnh hoạt động của doanh nghiệp từ quá khứ, hiện tại và các dự đoán tương lai.
     - Mục đích của BI là hỗ trợ cho doanh nghiệp ra quyết định tốt hơn.
-
-
-<!-- page 15 -->
 
 # Kinh doanh thông minh
 
@@ -287,11 +233,6 @@ CHI TIU 55,400,161 VN (2%)
 4. Trình bày thông tin đó cho người dùng cuối để hỗ trợ các quyết định kinh doanh
 5. Đưa ra các quyết định kinh doanh, từ đó tạo ra nhiều dữ liệu hơn được thu thập, lưu trữ, v.v (khởi động lại quy trình)
 6. Theo dõi các kết quả đánh giá các quyết định đã triển khai
-
-15
-
-
-<!-- page 16 -->
 
 # Kiến trúc kinh doanh thông minh
 
@@ -314,11 +255,6 @@ CHI TIU 55,400,161 VN (2%)
 - **Data warehouse**
 - **Data mart**
 
-16
-
-
-<!-- page 17 -->
-
 # Kiên trúc kinh doanh thông minh
 
 ## Ví dụ 2: Các thành phần trong kiến trúc
@@ -339,11 +275,6 @@ CHI TIU 55,400,161 VN (2%)
 | | 17,000 | 11,000 | 6,000 |
 | | 21,000 | 14,000 | 7,000 |
 
-17
-
-
-<!-- page 18 -->
-
 # Nội dung chính
 
 - **Vai trò của phân tích dữ liệu**
@@ -352,20 +283,10 @@ CHI TIU 55,400,161 VN (2%)
 - **Dữ liệu lớn**
 - **Cơ sở dữ liệu NoSQL**
 
-18
-
-
-<!-- page 19 -->
-
 # Kho dữ liệu
 
 - **Kho dữ liệu (data warehouse)** là một hệ thống lưu trữ dữ liệu từ nhiều nguồn, nhiều môi trường khác nhau như: phần mềm bán hàng, kế toán, nhân sự hay hệ thống lõi ngân hàng,... giúp tăng cường hiệu suất của các truy vấn cho báo cáo và phân tích.
 - **Data Warehouse** hoạt động như một kho lưu trữ trung tâm. Dữ liệu đi vào kho dữ liệu từ hệ thống giao dịch và các cơ sở dữ liệu liên quan khác. Sau đó, dữ liệu được xử lý, chuyển đổi để người dùng có thể truy cập những dữ liệu này thông qua công cụ Business Intelligence, SQL client hay bảng tính.
-
-19
-
-
-<!-- page 20 -->
 
 # Những đặc điểm của Data warehouse
 
@@ -373,35 +294,19 @@ CHI TIU 55,400,161 VN (2%)
 
 Tích hợp dữ liệu ngụ ý rằng tất cả các hoạt động kinh doanh, các thực thể, phần tử dữ liệu, đặc điểm dữ liệu và chỉ số kinh doanh được mô tả theo cùng một cách xuyên suốt doanh nghiệp. Mặc dù yêu cầu này nghe có vẻ hợp lý, nhưng bạn sẽ ngạc nhiên khi khám phá ra có bao nhiêu phép đo “hiệu suất bán hàng” có thể tồn tại trong một tổ chức; kịch bản tương tự đúng với bất kỳ yếu tố kinh doanh khác.
 
-
-<!-- page 21 -->
-
 # Những đặc điểm của kho dữ liệu...
 
 - **Hướng chủ đề (subject-oriented)** tức thông tin trong Data Warehouse sẽ được tổ chức và sắp xếp theo một chủ đề nhất định.
 
 Dữ liệu kho dữ liệu được tổ chức và tóm tắt theo chủ đề, như bán hàng, tiếp thị, tài chính, phân phối và vận chuyển. Đối với mỗi chủ đề, kho dữ liệu chứa các chủ đề như *sản phẩm được quan tâm, khách hàng, phòng ban, khu vực, khuyến mãi*, v.v. Hình thức tổ chức dữ liệu này hoàn toàn khác với tổ chức theo định hướng quy trình hoặc chức năng hơn của các hệ thống giao dịch điển hình.
 
-21
-
-
-<!-- page 22 -->
-
 # Những đặc điểm của kho dữ liệu...
 
 - **Có gán nhãn thời gian (time variant):** Trái ngược với dữ liệu hoạt động, tập trung vào các giao dịch hiện tại, Data warehouse thể hiện luồng dữ liệu theo thời gian. Vì dữ liệu thay đổi liên tục nên chúng sẽ được gán 1 nhãn thời gian tương ứng tại thời điểm nhập liệu. Việc gắn thời gian này giúp ta dễ dàng so sánh dữ liệu với nhau để biết được các thay đổi đang đi theo chiều hướng tích cực hay tiêu cực.
 
-22
-
-
-<!-- page 23 -->
-
 # Những đặc điểm của kho dữ liệu...
 
 - **Bất biến (non-volatile):** Dữ liệu trong Kho dữ liệu có chức năng báo cáo lại các chỉ số về hoạt động kinh doanh thực tế đã xảy ra do đó không thể cập nhật, thay đổi vì nó sẽ không phản ánh đúng thực tế. Vì vậy, với kho dữ liệu chỉ có 2 thao tác chính là chèn (insert) dữ liệu vào kho và truy cập (query) dữ liệu từ kho.
-
-
-<!-- page 24 -->
 
 # Sự khác biệt giữa dữ liệu của Operational database và data warehouse
 
@@ -414,9 +319,6 @@ Dữ liệu kho dữ liệu được tổ chức và tóm tắt theo chủ đề
 | **Time-variant** | Data are recorded as current transactions. For example, the sales data may be the sale of a product on a given date, such as $342.78 on 12-MAY-2010. | Data are recorded with a historical perspective in mind. Therefore, a time dimension is added to facilitate data analysis and various time comparisons. |
 | **Nonvolatile** | Data updates are frequent and common. For example, an inventory amount changes with each sale. Therefore, the data environment is fluid. | Data cannot be changed. Data are added only periodically from historical systems. Once the data are properly stored, no changes are allowed. Therefore, the data environment is relatively static. |
 
-
-<!-- page 25 -->
-
 # Dữ liệu lớn
 
 - **Vai trò của phân tích dữ liệu**
@@ -424,11 +326,6 @@ Dữ liệu kho dữ liệu được tổ chức và tóm tắt theo chủ đề
 - **Kho dữ liệu**
 - **Dữ liệu lớn**
 - **Cơ sở dữ liệu NoSQL**
-
-25
-
-
-<!-- page 26 -->
 
 # Dữ liệu lớn
 
@@ -441,9 +338,6 @@ Dữ liệu kho dữ liệu được tổ chức và tóm tắt theo chủ đề
 - **Value**
 - **Veracity**
 - **Volume**
-
-
-<!-- page 27 -->
 
 # Đặc điểm của dữ liệu lớn
 
@@ -464,20 +358,11 @@ Dữ liệu kho dữ liệu được tổ chức và tóm tắt theo chủ đề
 
 Lượng dữ liệu cần lưu trữ gia tăng về mặt khối lượng, không chỉ yêu cầu việc tăng cấu hình của máy tính lưu trữ (scaling up), mà phương thức truy cập lưu trữ cũng cần phải được thay đổi để đảm bảo các yếu tố tốc độ, chi phí đầu tư, khi đó cơ chế lưu trữ dữ liệu phân cụm (clustering) là điều cần nghĩ tới.
 
-
-<!-- page 28 -->
-
 # Đặc điểm của dữ liệu lớn
 
 - **Velocity**: đề cập đến tốc độ dữ liệu mới vào hệ thống cũng như tốc độ xử lý dữ liệu.
     - **Stream processing**: tập trung vào xử lý đầu vào và nó yêu cầu phân tích luồng dữ liệu khi nó đi vào hệ thống.
     - **Feedback look processing**: đề cập đến việc phân tích dữ liệu để tạo ra kết quả khả thi. Trong khi quá trình xử lý luồng có thể được coi là tập trung vào đầu vào, thì quá trình xử lý vòng phản hồi có thể được coi là tập trung vào đầu ra.
-
-
-<!-- page 29 -->
-
-HỌC VIỆN NGÂN HÀNG
-BANKING ACADEMY OF VIETNAM
 
 # FIGURE 16.2 Feedback loop processing
 
@@ -486,14 +371,6 @@ BANKING ACADEMY OF VIETNAM
 - **Data is analysed to determine other books and products the user may like**
 - **Data is captured about the user and about the book requested**
 - **User clicks on a link for a book**
-
-29
-
-
-<!-- page 30 -->
-
-HỌC VIỆN NGÂN HÀNG
-BANKING ACADEMY OF VIETNAM
 
 # Ví dụ lưu trữ dữ liệu lớn
 
@@ -513,18 +390,11 @@ File2: Blocks 2,5,6: r3
 | Block 4 | Block 5 | Block 5 | Block 4 | Block 5 | Block 4 | Block 3 | Block 6 |
 | Block 6 | Block 6 | | | |
 
-30
-
-
-<!-- page 31 -->
-
 # Ví dụ lưu trữ dữ liệu lớn
 
 ## Data block
 
-{_id: inv_num(1001), cus_code: "10014", cus_lname: "Orlando", cus_fname: "Myron", cus_areacode: "615", cus_phone: "222-1672", lines: [{line_num: "1", p_code: "13-Q2/P2", line_units: "1", line_price: "14.99"}, {line_num: "2", p_code: "23109-HB", line_units: "1", line_price: "9.95"}]},
-{_id: inv_num(1002), cus_code: "10011", cus_lname: "Dunne", cus_fname: "Leona", cus_initial: "K", cus_areacode: "713", cus_phone: "894-1238", lines: [{line_num: "1", p_code: "54778-2T", line_units: "2", line_price: "4.99"}]},
-{_id: inv_num(1003), cus_code: "10012", cus_lname: "Smith", cus_fname: "Kathy", cus_initial: "W", cus_areacode: "615", cus_phone: "894-2285", lines: [{line_num: "1", p_code: "2238/QPD", line_units: "1", line_price: "38.95"}, {line_num: "2", p_code: "1546-QQ2", line_units: "1", line_price: "39.95"}, {line_num: "3", p_code: "13-Q2/P2", line_units: "5", line_price: "14.99"}]},
+{_id: inv_num(1001), cus_code: "10014", cus_lname: "Orlando", cus_fname: "Myron", cus_areacode: "615", cus_phone: "222-1672", lines: [{line_num: "1", p_code: "13-Q2/P2", line_units: "1", line_price: "14.99"}, {line_num: "2", p_code: "23109-HB", line_units: "1", line_price: "9.95"}]}, {_id: inv_num(1002), cus_code: "10011", cus_lname: "Dunne", cus_fname: "Leona", cus_initial: "K", cus_areacode: "713", cus_phone: "894-1238", lines: [{line_num: "1", p_code: "54778-2T", line_units: "2", line_price: "4.99"}]}, {_id: inv_num(1003), cus_code: "10012", cus_lname: "Smith", cus_fname: "Kathy", cus_initial: "W", cus_areacode: "615", cus_phone: "894-2285", lines: [{line_num: "1", p_code: "2238/QPD", line_units: "1", line_price: "38.95"}, {line_num: "2", p_code: "1546-QQ2", line_units: "1", line_price: "39.95"}, {line_num: "3", p_code: "13-Q2/P2", line_units: "5", line_price: "14.99"}]},
 {_id: inv_num(1004), cus_code: "10011", cus_lname: "Dunne", cus_fname: "Leona", cus_initial: "K", cus_areacode: "713", cus_phone: "894-1238", lines: [{line_num: "1", p_code: "54778-2T", line_units: "3", line_price: "4.99"}, {line_num: "2", p_code: "23109-HB", line_units: "2", line_price: "9.95"}]}
 
 - map -> 13-Q2/P2: 1, 23109-HB: 1
@@ -534,9 +404,6 @@ File2: Blocks 2,5,6: r3
 
 - reduce -> 13-Q2/P2: 6, 23109-HB: 3, 54778-2T: 5, 2238/QPD: 1, 1546-QQ2: 1
 
-
-<!-- page 32 -->
-
 # Dữ liệu lớn
 
 - **Vai trò của phân tích dữ liệu**
@@ -545,30 +412,14 @@ File2: Blocks 2,5,6: r3
 - **Dữ liệu lớn**
 - **Cơ sở dữ liệu NoSQL**
 
-32
-
-
-<!-- page 33 -->
-
 # Cơ sở dữ liệu NoSQL
 
 - **NoSQL** là tên được đặt cho các công nghệ lưu trữ dữ liệu phi quan hệ (**None Relationship**)
 - Điều này không có nghĩa rằng tất cả các công nghệ này không hỗ trợ SQL
 
-
-<!-- page 34 -->
-
-
-
-
-<!-- page 35 -->
-
 # Key-Value Databases
 
 - **Cơ sở dữ liệu KV** là cơ sở dữ liệu NoSQL lưu trữ dữ liệu dưới dạng tập hợp các cặp khóa-giá trị. Khóa hoạt động như một mã định danh cho giá trị. Giá trị có thể là bất kỳ thứ gì như văn bản, tài liệu XML hoặc hình ảnh. Cơ sở dữ liệu không cố gắng hiểu nội dung của thành phần giá trị hoặc ý nghĩa của nó, cơ sở dữ liệu chỉ lưu trữ bất kỳ giá trị nào được cung cấp cho khóa.
-
-
-<!-- page 36 -->
 
 # Key-Value Databases
 
@@ -584,17 +435,9 @@ File2: Blocks 2,5,6: r3
 | 10011 | “LName Dunne FName Leona Initial K Areacode 0181 Phone 894-1238 Balance 0” |
 | 10014 | “LName Orlando FName Myron Areacode 0161 Phone 222-1672 Balance 0” |
 
-36
-
-
-<!-- page 37 -->
-
 # Document Database
 
 - **Một Document Database** là cơ sở dữ liệu NoSQL lưu trữ dữ liệu trong các document. Dữ liệu trong đó được gắn các thẻ ở dạng Key - Value. Không giống như cơ sở dữ liệu KV nơi thành phần giá trị có thể chứa bất kỳ loại dữ liệu nào, document database luôn lưu trữ tài liệu trong thành phần giá trị. Document có thể ở bất kỳ định dạng được mã hóa nào, chẳng hạn như XML, JSON.
-
-
-<!-- page 38 -->
 
 # Document Database
 
@@ -606,17 +449,9 @@ File2: Blocks 2,5,6: r3
 | 10011 | {LName: “Dunne”, FName: “Leona”, Initial: “K”, Areacode: “0181”, Phone: “894-1238”, Balance: “0”} |
 | 10014 | {LName: “Orlando”, FName: “Myron”, Areacode: “0161”, Phone: “222-1672”, Balance: “0”} |
 
-
-<!-- page 39 -->
-
 # Column-Oriented Databases
 
 - Theo một nghĩa nào đó, **Column-Oriented Databases** có thể đề cập đến các công nghệ cơ sở dữ liệu quan hệ sử dụng lưu trữ tập trung vào cột (**column-centric storage**) thay vì lưu trữ tập trung vào hàng (**row-centric storage**)
-
-39
-
-
-<!-- page 40 -->
 
 # Comparison of row-centric and column-centric storage
 
@@ -653,17 +488,8 @@ File2: Blocks 2,5,6: r3
 - **Block 4**: Manchester,Durban,Paris,Manchester,NULL,Durban,NULL,Utrecht,Cape Town,Manchester
 - **Block 5**: UK,SA,FR,UK,NULL,SA,NULL,NL,NL,UK
 
-
-<!-- page 41 -->
-
 # Column-Oriented Databases
 
 - Một **Column-Oriented Databases** tổ chức dữ liệu trong các cặp key – value với các khóa được ánh xạ tới một tập hợp các cột. Cở sở dữ liệu **Column-Oriented Databases** sử dụng rất nhiều thuật ngữ giống csdl quan hệ, nhưng không có nghĩa là chúng giống nhau giữa hai loại csdl này
 
-
-<!-- page 42 -->
-
 # HỌC VIỆN NGÂN HÀNG
-BANKING ACADEMY OF VIETNAM
-
-42

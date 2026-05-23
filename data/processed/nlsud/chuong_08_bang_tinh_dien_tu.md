@@ -298,4 +298,3 @@ Hàm giúp xử lý dữ liệu nhanh hơn thao tác thủ công, đặc biệt 
 6. Fill Handle dùng để làm gì?
 7. Phân biệt địa chỉ tương đối, tuyệt đối và hỗn hợp.
 8. Vì sao kỹ năng bảng tính quan trọng trong nghề nghiệp?
-

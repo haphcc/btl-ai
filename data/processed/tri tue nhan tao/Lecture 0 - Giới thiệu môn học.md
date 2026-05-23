@@ -1,26 +1,13 @@
-# Lecture 0 - Giới thiệu môn học
-
-
-
-<!-- page 1 -->
-
 # HỌC VIỆN NGÂN HÀNG
-BANKING ACADEMY OF VIETNAM
 
 # Trí tuệ nhân tạo – IS54A
 (Artificial Intelligence)
-
-
-<!-- page 2 -->
 
 # Bài 0: Giới thiệu khóa học
 
 **Giảng viên:** TS. Vũ Trọng Sinh
 sinhvt@hvnh.edu.vn
 0975674039
-
-
-<!-- page 3 -->
 
 # Giới thiệu môn học
 
@@ -34,18 +21,12 @@ sinhvt@hvnh.edu.vn
 - Nhận diện các khái niệm cơ bản trong AI.
 - Triển khai một mô hình AI bằng ngôn ngữ lập trình Python.
 
-
-<!-- page 4 -->
-
 # Learning outcomes
 
 | CLO1 | Sử dụng thành thạo ngôn ngữ lập trình Python để xây dựng một mô hình trí tuệ nhân tạo theo yêu cầu | Vận dụng (Apply) | Vận dụng (Manipulation) | Hồi đáp (Responding) |
 | :--- | :--- | :--- | :--- | :--- |
 | CLO2 | Nhìn nhận vấn đề đa chiều đưa ra các ý tưởng mới và cơ hội khởi nghiệp thông qua các công cụ trí tuệ nhân tạo | Vận dụng (Apply) | Vận dụng (Manipulation) | |
 | CLO3 | Thu thập và tổ chức dữ liệu phù hợp để phục vụ dự án trí tuệ nhân tạo cho doanh nghiệp trong thực tế | Phân tích (Analyze) | Chính xác (Precision) | Hồi đáp (Responding) |
-
-
-<!-- page 5 -->
 
 # Quy định lớp học
 
@@ -56,9 +37,6 @@ sinhvt@hvnh.edu.vn
 
 - **Quiz/Kiểm tra trong hoặc sau giờ học:** Không nộp bài = tính là 1 buổi vắng.
 - **Điểm cộng:** Dành cho tinh thần xung phong trong lớp hoặc có câu hỏi/câu trả lời hay trên hệ thống LMS.
-
-
-<!-- page 6 -->
 
 # Chính sách điểm số
 
@@ -71,17 +49,11 @@ sinhvt@hvnh.edu.vn
 - **Câu hỏi/Trả lời hay trên LMS:** Cộng 0.4 điểm.
 - **Điểm cộng thêm:** Cho một số bài tập về nhà.
 
-
-<!-- page 7 -->
-
 # Chính sách điểm số
 
 - **Giữa kỳ 1:** Trắc nghiệm + Thực hành.
 - **Giữa kỳ 2:** Trắc nghiệm + Thực hành.
 - **Thi cuối kỳ:** Dự án nhóm (4 thành viên).
-
-
-<!-- page 8 -->
 
 # Nội dung môn học
 
@@ -92,9 +64,6 @@ sinhvt@hvnh.edu.vn
 - **Chương 5:** Xử lý ngôn ngữ tự nhiên
 - **Chương 6:** Thị giác máy tính
 - **Chương 7:** AI và các vấn đề đạo đức, pháp luật
-
-
-<!-- page 9 -->
 
 # Timeline
 
@@ -114,9 +83,6 @@ sinhvt@hvnh.edu.vn
 - **Buổi 14:** AI trong xã hội
 - **Buổi 15:** **Kiểm tra giữa kỳ 2**
 - **Buổi 16:** Tổng kết
-
-
-<!-- page 10 -->
 
 # Books & References
 

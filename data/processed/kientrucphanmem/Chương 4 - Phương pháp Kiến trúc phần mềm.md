@@ -1,9 +1,3 @@
-# Chương 4 - Phương pháp Kiến trúc phần mềm
-
-
-
-<!-- page 3 -->
-
 # Phương pháp Kiến trúc phần mềm
 
 - Phương pháp kiến trúc phần mềm (**Software Architecture Methodology**) là một cách tiếp cận hệ thống hóa và tổ chức các thành phần của một hệ thống phần mềm. Nó không chỉ tập trung vào việc thiết kế các thành phần cụ thể, mà còn quan tâm đến cách các thành phần này tương tác với nhau, cách chúng được triển khai và mở rộng trong thời gian.
@@ -14,9 +8,6 @@
 - **A**
 
 Chương 4: Phương pháp Kiến trúc phần mềm
-
-
-<!-- page 16 -->
 
 # Kiến trúc phân lớp từ những năm 2000 - nay
 
@@ -31,9 +22,6 @@ Chương 4: Phương pháp Kiến trúc phần mềm
 - Application
 - Domain
 - Infrastructure
-
-
-<!-- page 18 -->
 
 # Kiến trúc phân lớp từ những năm 2000 - nay
 
@@ -54,17 +42,11 @@ Chương 4: Phương pháp Kiến trúc phần mềm
 ---
 Chương 4: Phương pháp Kiến trúc phần mềm
 
-
-<!-- page 20 -->
-
 # ANTI-PATTERN: LASAGNA ARCHITECTURE
 
 - Việc tổ chức, đóng gói layer theo chức năng kỹ thuật (functional) của nó, ví dụ như UI, Domain, DB,.. mà không chia theo chức năng nghiệp vụ (component) như Product, Payment, Checkout, làm mất đi khả năng module hóa và đóng gói (encapsulation) theo domain concept.
 
 Chương 4: Phương pháp Kiến trúc phần mềm
-
-
-<!-- page 21 -->
 
 # Ưu điểm của Phân lớp
 
@@ -72,17 +54,11 @@ Chương 4: Phương pháp Kiến trúc phần mềm
 - Mỗi lớp có thể được thay thế bởi một thể hiện tương đương (equivalent implementation), không ảnh hưởng đến các lớp khác;
 - Một lớp có thể được sử dụng bởi một số lớp cấp cao khác nhau
 
-
-<!-- page 23 -->
-
 # Kết luận
 
 - Layered Architecture là một cách chia để trị mối quan tâm, đóng gói và tách riêng, bằng cách nhóm các đơn vị mã bằng vai trò chức năng của chúng trong ứng dụng.
 - Tuy nhiên, như hầu hết mọi thứ trong cuộc sống, quá nhiều sẽ phản tác dụng! Vì vậy, quy tắc của ngón tay cái (rule-of-thumb) là: Chỉ sử dụng các lớp chúng ta cần, các lớp chúng ta cần, và không có gì nhiều hơn nữa! Chúng ta không được đuổi theo đuổi một chén thánh kiến trúc, cái không hề tồn tại. Những gì tồn tại là một nhu cầu, và sự phù hợp tốt nhất có thể cho nhu cầu đó. Đó là một phần của Lean, tiện thể.
 - Hơn nữa, điều quan trọng cần lưu ý là phương pháp tiếp cận top/down này đã lỗi thời. Không còn là những gì chúng ta nên làm trong phát triển phần mềm hiện đại.
-
-
-<!-- page 25 -->
 
 # Thực trạng
 
@@ -91,16 +67,10 @@ Chương 4: Phương pháp Kiến trúc phần mềm
   - sự xuất hiện của nhiều công nghệ mới tạo nên môi trường không đồng nhất, trong khi nhu cầu về trao đổi, chia sẻ, tương tác giữa các hệ thống không thể đáp ứng được trong một môi trường như vậy
   - vấn đề lập trình dư thừa và không thể tái sử dụng
 
-
-<!-- page 26 -->
-
 # Giải pháp
 
 - Có một cách tiếp cận giải quyết khá toàn diện mọi khó khăn nêu trên và nó đã được triển khai trong thực tế.
 - Cách tiếp cận đó gọi là “Kiến trúc hướng dịch vụ” - Service-oriented Architecture (SOA).
-
-
-<!-- page 28 -->
 
 # Kiến trúc hướng dịch vụ là gì?
 
@@ -115,9 +85,6 @@ Chương 4: Phương pháp Kiến trúc phần mềm
 - **People**: Empower Decision Makers
 
 Chương 4: Phương pháp Kiến trúc phần mềm
-
-
-<!-- page 29 -->
 
 # Kiến trúc hướng dịch vụ là gì?
 
@@ -137,17 +104,11 @@ Chương 4: Phương pháp Kiến trúc phần mềm
 
 ## Chương 4: Phương pháp Kiến trúc phần mềm
 
-
-<!-- page 30 -->
-
 # Các thành phần Kiến trúc hướng dịch vụ (1)
 
 - **Dịch vụ (Service):** Là thành phần cơ bản của SOA, một dịch vụ là một phần của ứng dụng thực hiện một chức năng cụ thể và có khả năng tái sử dụng. Dịch vụ thường được truy cập thông qua các giao diện tiêu chuẩn như HTTP, SOAP hoặc REST.
 - **Giao diện Dịch vụ (Service Interface):** Là cách mà các dịch vụ được truy cập và tương tác bên ngoài. Giao diện này định nghĩa các phương thức và tham số cần thiết để gọi và sử dụng dịch vụ.
 - **Hợp đồng Dịch vụ (Service Contract):** Là một tài liệu hoặc một bản khai báo mà xác định các yêu cầu và cam kết giữa người sử dụng dịch vụ và nhà cung cấp dịch vụ. Hợp đồng này bao gồm các quy định về cách giao tiếp, định dạng dữ liệu và các điều kiện kỹ thuật khác.
-
-
-<!-- page 33 -->
 
 # SOA là hướng tiếp cận tiến bộ
 
@@ -168,9 +129,6 @@ Chương 4: Phương pháp Kiến trúc phần mềm
 ---
 Chương 4: Phương pháp Kiến trúc phần mềm
 
-
-<!-- page 37 -->
-
 # Nguyên tắc xây dựng kiến trúc hướng dịch vụ
 
 **Sự phân định ranh giới rạch ròi giữa các dịch vụ:**
@@ -178,9 +136,6 @@ Chương 4: Phương pháp Kiến trúc phần mềm
 - Các dịch vụ thực hiện quá trình tương tác chủ yếu thông qua thành phần giao tiếp.
 - Thành phần giao tiếp qui định về những định dạng thông điệp sử dụng trong quá trình trao đổi - cách duy nhất để các đối tượng bên ngoài có thể truy cập thông tin và chức năng của dịch vụ.
 - Ta chỉ cần gửi các thông điệp theo các định dạng đã được định nghĩa trước mà không cần phải quan tâm đến cách xử lý của dịch vụ như thế nào
-
-
-<!-- page 41 -->
 
 # Ưu điểm của SOA
 
@@ -190,9 +145,6 @@ Chương 4: Phương pháp Kiến trúc phần mềm
 - Thích ứng với những thay đổi trong tương lai (giảm rủi ro do có thay đổi hoặc lỗi trong thiết kế hệ thống)
 - Hỗ trợ đa thiết bị và đa nền tảng
 - Tăng khả năng mở rộng và khả năng sẵn sàng cung cấp
-
-
-<!-- page 60 -->
 
 # HỎI/ĐÁP
 

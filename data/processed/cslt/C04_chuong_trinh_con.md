@@ -266,4 +266,3 @@ void CHUYEN(int N, char A, char B, char C) {
 - Hàm giúp chương trình dễ tổ chức, tái sử dụng và kiểm thử.
 - Cần xác định rõ tên hàm, đầu vào, đầu ra và công việc của hàm.
 - Đệ quy là kỹ thuật hàm tự gọi chính nó và phải có điều kiện dừng.
-

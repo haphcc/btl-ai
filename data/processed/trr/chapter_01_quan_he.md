@@ -90,8 +90,7 @@ Cho $A=\{a_1,a_2,\ldots,a_m\}$ và $B=\{b_1,b_2,\ldots,b_n\}$. Ma trận biểu 
 $$
 m_{ij} =
 \begin{cases}
-1, & \text{nếu } (a_i,b_j) \in R \\
-0, & \text{nếu } (a_i,b_j) \notin R
+1, & \text{nếu } (a_i,b_j) \in R \\ 0, & \text{nếu } (a_i,b_j) \notin R
 \end{cases}
 $$
 

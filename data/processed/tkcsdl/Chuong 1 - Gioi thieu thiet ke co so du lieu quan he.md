@@ -1,13 +1,5 @@
-HỌC VIỆN NGÂN HÀNG
-BANKING ACADEMY OF VIETNAM
-
 # CHƯƠNG 1
 # GIỚI THIỆU THIẾT KẾ CƠ SỞ DỮ LIỆU QUAN HỆ
-
-KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
-
-
-<!-- page 2 -->
 
 # NỘI DUNG CHÍNH
 
@@ -17,11 +9,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 - 1.4 Chiến lược thiết kế cơ sở dữ liệu
 - 1.5 Hệ quản trị cơ sở dữ liệu
 - 1.6 Hướng dẫn sinh viên thực hiện bài tập lớn
-
-2
-
-
-<!-- page 3 -->
 
 # 1.1. Hệ thống thông tin
 
@@ -33,11 +20,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 
 IS
 
-
-<!-- page 4 -->
-
-# 1.1. Hệ thống thông tin
-
 ## Gồm 5 thành phần cơ bản
 
 - **Phần cứng** – Những thiết bị vật lý của hệ thống như máy tính, máy chủ, máy in, thiết bị mạng và các thiết bị khác
@@ -46,29 +28,16 @@ IS
 - **Quy trình** - Các phương pháp và bước để nhập, xử lý, lưu trữ và truy xuất dữ liệu trong hệ thống.
 - **Con người** - Các cá nhân sử dụng, quản lý và bảo trì hệ thống thông tin, bao gồm người dùng, quản trị viên và nhân viên IT
 
-
-<!-- page 5 -->
-
-# 1.1. Hệ thống thông tin
-
 ![Sơ đồ quy trình: Data -> Application code -> Information -> Decisions](https://i.imgur.com/5y1yY1O.png)
 
 - Tất cả các ứng dụng (Application) gồm hai thành phần: **dữ liệu** và **mã lệnh**.
 - **Dữ liệu** và **mã lệnh** được kết hợp cùng nhau để biểu diễn các chức năng và hoạt động của tổ chức, tạo ra **thông tin** hỗ trợ quá trình ra **quyết định**.
-
-
-<!-- page 6 -->
-
-# 1.1. Hệ thống thông tin
 
 **Hiệu quả của một hệ thống thông tin phụ thuộc vào ba yếu tố**
 
 - Thiết kế và triển khai cơ sở dữ liệu
 - Thiết kế và triển khai ứng dụng
 - Quy trình quản lý
-
-
-<!-- page 7 -->
 
 # 1.2. Chu trình phát triển HTTT
 
@@ -91,11 +60,6 @@ IS
 
 - **Bảo trì và vận hành**
 
-
-<!-- page 8 -->
-
-# 1.2. Chu trình phát triển HTTT
-
 **LẬP KẾ HOẠCH:**
 
 - **Cần trả lời các câu hỏi**
@@ -105,19 +69,11 @@ IS
     - Chi phí xây dựng hệ thống?
     - Chi phí vận hành hệ thống?
 
-
-<!-- page 9 -->
-
 Ví dụ
 
 # Hãy đề xuất các câu hỏi để xác định kế hoạch xây dựng hệ thống thông tin cho trường hợp sau:
 
 Chị A đang có một cửa hàng, chị đang dùng một phần mềm quản lý bán hàng: giúp chị quản lý hàng tồn, doanh thu, nhập/xuất của cửa hàng. Chị A đang muốn thành lập một chuỗi cửa hàng vào năm tới, hãy xây dựng một hệ thống giúp chị A kiểm tra tình trạng kinh doanh của tất cả các cơ sở trong chuỗi cửa hàng tại bất kỳ thời điểm.
-
-
-<!-- page 10 -->
-
-# 1.2. Chu trình phát triển HTTT
 
 ## PHÂN TÍCH:
 - **Cần trả lời các câu hỏi**
@@ -131,17 +87,7 @@ Chị A đang có một cửa hàng, chị đang dùng một phần mềm quản
         - Xác định dữ liệu cần lưu trữ
         - Xác định được mô hình dữ liệu mức khái niệm: thực thể, mối quan hệ giữa các thực thể
 
-
-<!-- page 11 -->
-
-# 1.2. Chu trình phát triển HTTT
-
 - **THIẾT KẾ CHI TIẾT**: Thiết kế CSDL, thiết kế giao diện, menu, báo cáo, các thiết bị có thể được sử dụng để hệ thống được khai thác hiệu quả (vd: máy in, máy scan, loa,...)
-
-
-<!-- page 12 -->
-
-# 1.2. Chu trình phát triển HTTT
 
 **CÀI ĐẶT:**
 
@@ -150,11 +96,6 @@ Chị A đang có một cửa hàng, chị đang dùng một phần mềm quản
     - Lập trình viên: xây dựng tính năng
     - Tester: Kiểm thử tính đúng (giao diện, dữ liệu, quy trình), kiểm thử hiệu năng
 
-
-<!-- page 13 -->
-
-# 1.2. Chu trình phát triển HTTT
-
 ## BẢO TRÌ VÀ VẬN HÀNH
 
 Khi hệ thống hoạt động, người dùng sẽ bắt đầu đưa ra những yêu cầu. Những yêu cầu này tạo ra hoạt động bảo trì hệ thống, chúng có thể được phân loại thành ba loại:
@@ -162,9 +103,6 @@ Khi hệ thống hoạt động, người dùng sẽ bắt đầu đưa ra nhữ
 - Bảo trì sửa chữa để giải quyết lỗi hệ thống.
 - Bảo trì tự động theo sự thay đổi của môi trường nghiệp vụ triển khai.
 - Bảo trì hoàn thiện để tăng cường khả năng của hệ thống.
-
-
-<!-- page 14 -->
 
 # 1.3. Vòng đời phát triển CSDL
 
@@ -196,11 +134,6 @@ Khi hệ thống hoạt động, người dùng sẽ bắt đầu đưa ra nhữ
     - Thực hiện các thay đổi
     - Nâng cấp CSDL
 
-
-<!-- page 15 -->
-
-# 1.3. Vòng đời phát triển CSDL
-
 ## KHỞI TẠO
 
 - **Tìm hiểu công ty**: Cơ cấu tổ chức, nhiệm vụ mỗi thành viên, mong muốn của tổ chức
@@ -208,24 +141,10 @@ Khi hệ thống hoạt động, người dùng sẽ bắt đầu đưa ra nhữ
 - **Xác định mục tiêu**: Mục tiêu của hệ thống là gì, thông tin cần lưu trữ là gì, dữ liệu của hệ thống có được chia sẻ cho các hệ thống hay người dùng bên ngoài hay không
 - **Xác định phạm vi**: Phạm vi công việc, thời gian, chi phí
 
-15
-
-
-<!-- page 16 -->
-
-# 1.3. Vòng đời phát triển CSDL
-
 ## THIẾT KẾ:
 
 - **Thiết kế mức khái niệm**: Xác định các thực thể, mối quan hệ giữa các thực thể trong hệ thống (ERM)
 - **Lựa chọn hệ quản trị CSDL**
-
-16
-
-
-<!-- page 17 -->
-
-# 1.3. Vòng đời phát triển CSDL
 
 - **Thiết kế logic:**
     - Ánh xạ thiết kế mức khái niệm sang logic (bảng, ràng buộc).
@@ -238,21 +157,11 @@ Khi hệ thống hoạt động, người dùng sẽ bắt đầu đưa ra nhữ
     - Định nghĩa các biện pháp bảo mật: người dùng, nhóm người dùng, quyền truy cập.
     - Định nghĩa các biện pháp đo lường hiệu năng.
 
-
-<!-- page 18 -->
-
-# 1.3. Vòng đời phát triển CSDL
-
 **THỰC THI:**
 
 - **Cài đặt hệ quản trị CSDL**
 - **Tạo CSDL**
 - **Chuyển đổi/tạo dữ liệu**: Tạo dữ liệu cho hệ thống: Danh mục địa bàn hành chính, danh mục sản phẩm, danh mục người dùng,...
-
-
-<!-- page 19 -->
-
-# 1.3. Vòng đời phát triển CSDL
 
 - **KIỂM THỬ, ĐÁNH GIÁ:**
     - Quyền truy cập
@@ -262,22 +171,12 @@ Khi hệ thống hoạt động, người dùng sẽ bắt đầu đưa ra nhữ
     - Thiết kế phương án backup cơ sở dữ liệu, thực hiện test sao lưu, phục hồi
     - Transaction log backup
 
-19
-
-
-<!-- page 20 -->
-
 # 1.4. Chiến lược thiết kế CSDL
 
 [Sơ đồ: Mô hình khái niệm -> Thực thể -> Thuộc tính]
 
 - **Top-down** bắt đầu bằng cách xác định các tập dữ liệu và sau đó xác định các thành phần dữ liệu cho từng tập hợp đó. Quá trình này liên quan đến việc xác định các loại thực thể khác nhau và định nghĩa các thuộc tính của từng thực thể.
 - **Bottom-up** trước tiên xác định các thành phần dữ liệu và sau đó nhóm chúng lại với nhau trong tập dữ liệu. Trong nói cách khác, trước tiên nó xác định các thuộc tính, sau đó nhóm chúng lại để tạo thành các thực thể.
-
-20
-
-
-<!-- page 21 -->
 
 # Bài tập: Lựa chọn chiến lược thiết kế
 
@@ -292,9 +191,6 @@ Khi hệ thống hoạt động, người dùng sẽ bắt đầu đưa ra nhữ
 | 2 | 24A4002 | Nguyễn Thị B | 8 |
 | .. | ... | ... | ... |
 
-
-<!-- page 22 -->
-
 # 1.5. Hệ quản trị CSDL
 
 - **Hệ quản trị CSDL (database management system – DBMS) là tập hợp các phần mềm giúp tạo CSDL và cung cấp cơ chế lưu trữ, truy cập theo các mô hình CSDL.**
@@ -304,22 +200,12 @@ Khi hệ thống hoạt động, người dùng sẽ bắt đầu đưa ra nhữ
     - IDMS là hệ quản trị CSDL cho mô hình mạng
     - ...
 
-
-<!-- page 23 -->
-
-# 1.5. Hệ quản trị CSDL
-
 **Lợi ích mà DBMS mang lại:**
 
 - Quản trị CSDL
 - Cung cấp giao diện làm việc để che dấu các đặc tính phức tạp về mặt cấu trúc tổ chức dữ liệu vật lý
 - Hỗ trợ ngôn ngữ giao tiếp CSDL
 - Có cơ chế bảo mật an toàn
-
-
-<!-- page 24 -->
-
-# 1.5. Hệ quản trị CSDL
 
 ## Tại sao DBMS lại phổ biến?
 
@@ -329,11 +215,6 @@ Khi hệ thống hoạt động, người dùng sẽ bắt đầu đưa ra nhữ
 - Nhiều nhà cung cấp phần mềm
 - Dễ dàng chuyển đổi giữa nhà cung cấp và nhà triển khai
 - Là sản phẩm trưởng thành và ổn định
-
-
-<!-- page 25 -->
-
-# 1.5. Hệ quản trị CSDL
 
 **Các chức năng chính của một DBMS:**
 
@@ -347,11 +228,6 @@ Khi hệ thống hoạt động, người dùng sẽ bắt đầu đưa ra nhữ
 - Database access languages and application programming interfaces
 - Database communication interfaces.
 
-
-<!-- page 26 -->
-
-# 1.5. Hệ quản trị CSDL
-
 **Lựa chọn DBMS trong quá trình thiết kế:**
 
 - **Phụ thuộc vào mục tiêu của hệ thống**
@@ -361,9 +237,6 @@ Khi hệ thống hoạt động, người dùng sẽ bắt đầu đưa ra nhữ
 - **Phụ thuộc yêu cầu tốc độ của hệ thống**
 - **Lựa chọn DBMS theo mô hình dữ liệu nào cần phải thiết kế cơ sở dữ liệu theo mô hình đó**
 - **Môn học này hướng dẫn thiết kế theo mô hình CSDL quan hệ**
-
-
-<!-- page 27 -->
 
 # 1.6. Hướng dẫn thực hiện BTL
 
@@ -380,9 +253,6 @@ Khi hệ thống hoạt động, người dùng sẽ bắt đầu đưa ra nhữ
 9. Hệ thống quản lý tổ chức: Nhân sự, lương, kế toán, sinh viên, thư viện, cửa hàng, siêu thị
 10. ...
 
-
-<!-- page 28 -->
-
 # 1.6. Hướng dẫn thực hiện BTL
 
 - **Tạo nhóm 4 - 5 thành viên**
@@ -391,11 +261,3 @@ Khi hệ thống hoạt động, người dùng sẽ bắt đầu đưa ra nhữ
     - Hệ thống lựa chọn để thiết kế cơ sở dữ liệu được tạo ra nhằm mục đích gì?
     - Hệ thống này được sử dụng bởi ai, họ phụ trách làm công việc gì?
     - Hệ thống quản lý những dữ liệu nào?
-
-
-<!-- page 29 -->
-
-HỌC VIỆN NGÂN HÀNG
-BANKING ACADEMY OF VIETNAM
-
-29

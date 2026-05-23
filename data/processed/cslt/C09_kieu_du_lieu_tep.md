@@ -379,4 +379,3 @@ int main(int argc, char *argv[]) {
 - Tệp văn bản dùng các hàm như `fgetc`, `fputs`, `fprintf`, `fscanf`.
 - Tệp nhị phân dùng `fread`, `fwrite`.
 - `fseek` cho phép truy cập trực tiếp vị trí dữ liệu trong tệp.
-

@@ -1,20 +1,13 @@
 # HỌC VIỆN NGÂN HÀNG
-BANKING ACADEMY OF VIETNAM
 
 # CHƯƠNG 2
 # CÁC KHÁI NIỆM TRONG CSDL QUAN HỆ
-
-
-<!-- page 2 -->
 
 # NỘI DUNG CHÍNH
 
 - **Mô hình cơ sở dữ liệu quan hệ**
 - **Các ràng buộc toàn vẹn trên quan hệ**
 - **Các phép toán đại số trong CSDL quan hệ**
-
-
-<!-- page 3 -->
 
 # 1. Mô hình CSDL quan hệ
 
@@ -34,9 +27,6 @@ BANKING ACADEMY OF VIETNAM
 - **Lực lượng**: Tổng số dòng (5)
 - **Ngôi**: Tổng số cột (5)
 
-
-<!-- page 4 -->
-
 # 1. Mô hình CSDL quan hệ
 
 ## Một số khái niệm được dùng tương đương:
@@ -46,9 +36,6 @@ BANKING ACADEMY OF VIETNAM
 | Hàng (row) | Bộ (tuple) | Bản ghi (record) |
 | Cột (column) | Thuộc tính (attribute) | Trường (field) |
 | Bảng (table) | Quan hệ (Relation) | Bảng |
-
-
-<!-- page 5 -->
 
 # 1. Mô hình CSDL quan hệ
 
@@ -60,9 +47,6 @@ BANKING ACADEMY OF VIETNAM
 - Thứ tự các dòng là không quan trọng
 - Thứ tự các cột là không quan trọng
 
-
-<!-- page 6 -->
-
 # 2. Các ràng buộc toàn vẹn trên quan hệ
 
 - **Ràng buộc khóa**
@@ -72,17 +56,7 @@ BANKING ACADEMY OF VIETNAM
 - **Ràng buộc toàn vẹn tham chiếu**
 - **Ràng buộc check**
 
-
-<!-- page 7 -->
-
-# 2. Các ràng buộc toàn vẹn trên quan hệ
-
 - **Ràng buộc (constrains)** là một quy tắc được đặt vào một đối tượng cơ sở dữ liệu (thường là một bảng hoặc một cột) để giới hạn giá trị dữ liệu trên các đối tượng đó.
-
-
-<!-- page 8 -->
-
-# 2. Các ràng buộc toàn vẹn trên quan hệ
 
 ## Ràng buộc khóa:
 
@@ -98,21 +72,11 @@ BANKING ACADEMY OF VIETNAM
 - {MaNV, Tên NV} $\rightarrow$ Ngày sinh
 - MaNV $\rightarrow$ Tên NV, Ngày Sinh, Quê
 
-
-<!-- page 9 -->
-
-# 2. Các ràng buộc toàn vẹn trên quan hệ
-
 ## Phân loại khóa:
 
 - **Siêu khóa** (supper key): Là một khóa bất kỳ, nhận giá trị khác biệt giữa các dòng
 - **Khóa dự tuyển** (candidate key): Là một siêu khóa có số lượng thuộc tính tối thiểu
 - **Khóa chính** (primary key) là một khóa dự tuyển được chỉ định và không chứa null
-
-
-<!-- page 10 -->
-
-# 2. Các ràng buộc toàn vẹn trên quan hệ
 
 ## Khóa chính và khóa ngoại:
 
@@ -135,18 +99,10 @@ Bảng NHACC
 | 378 | Vinamilk | Trần Hải Yên | 0834554389 |
 | 457 | Abort Hoa kỳ | Vũ Hạnh Như | 0599903349 |
 
-
-<!-- page 11 -->
-
-# 2. Các ràng buộc toàn vẹn trên quan hệ
-
 - **Ràng buộc tham chiếu**
     - Ràng buộc tham chiếu được xác định trên 2 bảng: bảng tham chiếu (referencing relation) và bảng được tham chiếu (referenced relation)
 - **Ràng buộc NOT NULL**
 - **Ràng buộc CHECK**
-
-
-<!-- page 12 -->
 
 # 3. Các phép toán đại số trên CSDL quan hệ
 
@@ -157,11 +113,6 @@ Bảng NHACC
 - **Phép hợp**
 - **Phép giao**
 - **Phép trừ**
-
-
-<!-- page 13 -->
-
-# 3. Các phép toán đại số trên CSDL quan hệ
 
 ## Các phép toán đại số quan hệ
 
@@ -199,11 +150,6 @@ $$\Pi_{name}(EMP)$$
 | Huy |
 | Thiện |
 
-
-<!-- page 14 -->
-
-# 3. Các phép toán đại số trên CSDL quan hệ
-
 - **Tích Đề Các**
 
 | SSN | Name | DNo |
@@ -227,11 +173,6 @@ X
 | 002 | Thiện | P002 | P001 | Tổ chức |
 | 002 | Thiện | P002 | P002 | Kinh doanh |
 | 002 | Thiện | P002 | P003 | Nhân sự |
-
-
-<!-- page 15 -->
-
-# 3. Các phép toán đại số trên CSDL quan hệ
 
 - **Nối**
 
@@ -258,11 +199,6 @@ $$\text{(EMP.DNo = DEP.Dno)}$$
 | 002 | Thiện | P002 | P002 | Kinh doanh |
 | 003 | Huy | P001 | P001 | Tổ chức |
 | 004 | Thiện | P003 | P003 | Nhân sự |
-
-
-<!-- page 16 -->
-
-# 3. Các phép toán đại số trên CSDL quan hệ
 
 ## Chia
 
@@ -293,11 +229,6 @@ $\downarrow$
 | n1 |
 | n3 |
 
-
-<!-- page 17 -->
-
-# 3. Các phép toán đại số trên CSDL quan hệ
-
 - **Hợp**: gộp các bộ của 2 quan hệ và bỏ đi những bộ trùng
 
 | SSN | Name | DNo |
@@ -324,11 +255,6 @@ $\downarrow$
 
 $\rightarrow$ **Chỉ thực hiện được phép hợp nếu 2 quan hệ khả hợp.**
 
-
-<!-- page 18 -->
-
-# 3. Các phép toán đại số trên CSDL quan hệ
-
 - **Giao**: lấy ra các bộ cùng có mặt ở 2 quan hệ
 
 | SSN | Name | DNo |
@@ -351,11 +277,6 @@ $\downarrow$
 | 002 | Thiện | P002 |
 
 $\rightarrow$ **Chỉ thực hiện được phép giao nếu 2 quan hệ khả hợp.**
-
-
-<!-- page 19 -->
-
-# 3. Các phép toán đại số trên CSDL quan hệ
 
 - **Trừ**: của 2 quan hệ A và B lấy ra các bộ có trong A mà không có trong B
 
@@ -380,11 +301,6 @@ $\downarrow$
 
 $\rightarrow$ Chỉ thực hiện được phép trừ nếu 2 quan hệ **khả hợp**.
 
-
-<!-- page 20 -->
-
-# 3. Các phép toán đại số trên CSDL quan hệ
-
 - **Cho các quan hệ sau:**
     - $S(S\#, SNAME, STATUS, CITY)$: Các hãng cung cấp
     - $P(P\#, PNAME, COLOR, WEIGHT, CITY)$: Mặt hàng
@@ -395,9 +311,6 @@ $\rightarrow$ Chỉ thực hiện được phép trừ nếu 2 quan hệ **khả
     2. Tìm số hiệu của những hãng đã cung ứng ít nhất một mặt hàng màu đỏ
     3. Cho biết thông tin các mặt hàng do công ty S1 và S2 đã cung cấp.
     4. Cho biết thông tin của những hãng mà chưa từng cung cấp sản phẩm.
-
-
-<!-- page 21 -->
 
 # Làm quen với bài toán Quản lý sinh viên (theo lớp niên chế)
 
@@ -448,20 +361,11 @@ $\rightarrow$ Chỉ thực hiện được phép trừ nếu 2 quan hệ **khả
 | MaKH | char(10) | ☑ |
 | | | □ |
 
-
-<!-- page 22 -->
-
 # HỌC VIỆN NGÂN HÀNG
-BANKING ACADEMY OF VIETNAM
-
-
-<!-- page 23 -->
 
 # THANK YOU FOR WATCHING
 
 **Học viện Ngân hàng**
 12 P. Chùa Bộc, P. Kim Liên, TP. Hà Nội
 
-**T:** 1900 561 595 **F:** 1900 561 595
-**E:** truyenthong@hvnh.edu.vn
-**W:** www.hvnh.edu.vn
+**T:** 1900 561 595 **F:** 1900 561 595 **E:** truyenthong@hvnh.edu.vn **W:** www.hvnh.edu.vn

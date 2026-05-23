@@ -1,17 +1,6 @@
-ITDE
-INFORMATION TECHNOLOGY & DIGITAL ECONOMICS
-BANKING ACADEMY OF VIETNAM
-
 # GIỚI THIỆU HỆ QUẢN TRỊ CƠ SỞ DỮ LIỆU ORACLE
 
 ORACLE DATABASE
-
-
-<!-- page 2 -->
-
-ITDE
-INFORMATION TECHNOLOGY & DIGITAL ECONOMICS
-BANKING ACADEMY OF VIETNAM
 
 # Nội dung chính
 
@@ -24,11 +13,6 @@ BANKING ACADEMY OF VIETNAM
     - Tạo mới cơ sở dữ liệu
     - Xóa cơ sở dữ liệu
 
-ORACLE
-
-
-<!-- page 3 -->
-
 # CSDL quan hệ (Relational Databases)
 
 ## Dữ liệu?
@@ -40,24 +24,12 @@ ORACLE
 - Là CSDL lưu trữ dữ liệu trong các quan hệ (bảng)
 - Một quan hệ (bảng) là một tập hợp các bộ giá trị (hàng). Bộ giá trị là một tập hợp các giá trị thuộc tính (cột) không quan trọng thứ tự.
 
-
-<!-- page 4 -->
-
-ITDE
-INFORMATION TECHNOLOGY & DIGITAL ECONOMICS
-BANKING ACADEMY OF VIETNAM
-
 # DBMS
 
 - Hệ quản trị cơ sở dữ liệu (DBMS)
 - Chức năng chính của DBMS
 - Nhóm người dùng chính trong một DBMS
 - Hệ quản trị CSDL quan hệ (RDBMS)
-
-ORACLE
-
-
-<!-- page 5 -->
 
 # DBMS..
 
@@ -73,13 +45,6 @@ Hệ quản trị CSDL (database management system – DBMS) là phần mềm gi
 - Người lập trình ứng dụng (Application Programmer);
 - Người dùng cuối (End user)
 
-
-<!-- page 6 -->
-
-ITDE
-INFORMATION TECHNOLOGY & DIGITAL ECONOMICS
-BANKING ACADEMY OF VIETNAM
-
 # DBMS..
 
 ## Các DBMS phổ biến
@@ -92,11 +57,6 @@ BANKING ACADEMY OF VIETNAM
 - MySQL
 - InterSystems CACHE
 
-ORACLE
-
-
-<!-- page 7 -->
-
 # DBMS..
 
 Mô hình quan hệ là cơ sở cho hệ quản trị cơ sở dữ liệu quan hệ (relational database management system – RDBMS)
@@ -107,15 +67,6 @@ Oracle đảm bảo được các đặc tính chính của một CSDL quan hệ
 - **Hoạt động**: xác định hoặc thao tác dữ liệu từ các cấu trúc bảng những câu lệnh như CREATE, SELECT..
 - **Toàn vẹn**: các quy tắc bảo vệ dữ liệu và cấu trúc của CSDL như khóa chính, khóa ngoại..
 
-ORACLE
-
-
-<!-- page 8 -->
-
-ITDE
-INFORMATION TECHNOLOGY & DIGITAL ECONOMICS
-BANKING ACADEMY OF VIETNAM
-
 # DBMS...
 
 ## A desktop DBMS
@@ -123,11 +74,6 @@ BANKING ACADEMY OF VIETNAM
 
 ## A server DBMS
 - Apache Derby, Microsoft SQL Server, Oracle, IBM DB2, Sybase ASE, Informix, MySQL, and ProgreSQL.
-
-ORACLE
-
-
-<!-- page 9 -->
 
 # Hệ thống xử lý theo mô hình Clien/Server
 
@@ -139,11 +85,6 @@ ORACLE
 
 Display Control $\leftrightarrow$ Application Process $\leftrightarrow$ Data Access $\leftrightarrow$ Data Base
 
-ORACLE
-
-
-<!-- page 10 -->
-
 # Hệ thống xử lý theo mô hình Client/Server
 
 Oracle server có thể chạy trên một hay nhiều máy tính với các mô hình khác nhau:
@@ -152,21 +93,11 @@ Oracle server có thể chạy trên một hay nhiều máy tính với các mô
 - **Client – Server**: thông qua hệ thống mạng, người dùng từ Client truy xuất dữ liệu trên Server – mô hình 2 lớp
 - **Host – Base**: người dung truy xuất dữ liệu ngay tại máy tính dùng làm Server lưu trữ CSDL
 
-
-<!-- page 11 -->
-
 # Giới thiệu về Oracle
 
 - Được thành lập năm 1977, do Larry Ellison
 - Giai đoạn đầu thành lập, sản phẩm chủ yếu của Oracle là về hệ quản trị CSDL
 - Từ năm 1989 bắt đầu phát triển các ứng dụng lớn dùng trong doanh nghiệp
-
-
-<!-- page 12 -->
-
-ITDE
-INFORMATION TECHNOLOGY & DIGITAL ECONOMICS
-BANKING ACADEMY OF VIETNAM
 
 # Các sản phẩm và dịch vụ của Oracle
 
@@ -179,13 +110,6 @@ BANKING ACADEMY OF VIETNAM
 - Server và storage systems
 - Ảo hóa
 
-ORACLE
-
-
-<!-- page 13 -->
-
-# Oracle database
-
 - Phiên bản hệ quản trị CSDL quan hệ đầu tiên ra mắt vào năm 1979
 - Thực sự mạnh từ Oracle 7.0 (1992)
 - 1999: ra mắt Oracle 8i, có hỗ trợ Internet
@@ -197,40 +121,20 @@ ORACLE
 - **2019: ra mắt phiên bản Oracle 19c**
 - Cuối năm 2020: ra mắt phiên bản Oracle 21c
 
-
-<!-- page 14 -->
-
-# Oracle database
-
 - Phiên bản “i” là viết tắt của “internet”
 - Đưa ra Oracle RAC, viết tắt của Oracle Real Application Clusters: cung cấp phần mềm để phân cụm và có tính sẵn sàng cao trong môi trường CSDL Oracle.
 - Phân cụm: cho phép nhiều máy tính chạy Oracle RDBMS đồng thời khi truy cập vào một CSDL.
 - Thuật toán phân tích dữ liệu và khai thác dữ liệu trong bản phát hành 9.2.0.8 vào năm 2007.
-
-
-<!-- page 15 -->
-
-# Oracle database
 
 - Phiên bản “g” viết tắt của “grid”
 - Điện toán lưới cung cấp cơ sở hạ tầng phần mềm sử dụng lưu trữ theo modul và máy chủ, rủi ro thấp.
 - Giúp cân bằng khối lượng công việc tổng thể và cung cấp nguồn lực theo yêu cầu.
 - **Các tính năng mới như**: hệ thống quản lý cơ sở dữ liệu tự động, cơ sở hạ tầng lưới, Oracle ASM (Automatic Storage Management), bảo vệ dữ liệu hoạt động, **Oracle Database Appliance**.
 
-
-<!-- page 16 -->
-
-# Oracle database
-
 - **Các phiên bản có hậu tố là “c” viết tắt của “cloud”**
 - **Giúp doanh nghiệp đưa CSDL Oracle có sẵn của họ lên cloud.**
 - **Tự động hóa cơ chế tối ưu hóa dữ liệu để quản lý hệ thống thiết bị lưu trữ**
     - Dữ liệu ít khi truy cập được chuyển vào lưu trữ trên thiết bị có chi phí rẻ hơn, dữ liệu thường xuyên truy cập được lưu trữ trên thiết bị lưu trữ có tốc độ cao và chi phí đắt hơn
-
-
-<!-- page 17 -->
-
-# Oracle database
 
 Có thể hợp nhất các CSDL thành phần vào một CSDL cha (root container)
 
@@ -238,9 +142,6 @@ Có thể hợp nhất các CSDL thành phần vào một CSDL cha (root contain
 - Có tính năng biên tập (Redaction)
     - Có tác dụng che giấu dữ liệu nhạy cảm khi cung cấp dữ liệu cho người sử dụng cuối.
 - Giúp doanh nghiệp tìm thêm cơ hội kinh doanh từ dữ liệu lớn (Big Data) gồm cả dữ liệu phi cấu trúc (dữ liệu từ mạng xã hội) và các dữ liệu có cấu trúc thông thường.
-
-
-<!-- page 18 -->
 
 # Oracle 19c...
 
@@ -250,17 +151,11 @@ Có thể hợp nhất các CSDL thành phần vào một CSDL cha (root contain
 - *Hỗ trợ JSON* (JSON Support): Đơn giản cú pháp cho các hàm JSON, cung cấp API SODA cho Node.js, C, Python và Java.
     - JSON (JavaScript Object Notation), định dạng dữ liệu tuân theo một quy luật nhất định mà hầu hết các ngôn ngữ lập trình hiện nay đều có thể đọc được
 
-
-<!-- page 19 -->
-
 # Oracle 19c...
 
 - **Lập chỉ mục tự động** (Automatic Indexing): Chỉ mục được tự động điều chỉnh trong thời gian ngắn, giúp nâng cao hiệu suất & tiết kiệm chi phí nhờ học máy (machine learning).
 - **Bảng phân vùng kết hợp** (Hybrid Partitioned Tables): người quản trị CSDL quản lý các bảng cả bên trong và bên ngoài CSDL một cách dễ dàng.
 - **Bảo vệ dữ liệu hoạt động** (Active Data Guard): ngăn chặn thời gian chết và mất dữ liệu trong quá trình sửa chữa và nâng cấp cơ sở dữ liệu.
-
-
-<!-- page 20 -->
 
 # Những lưu ý khi cài đặt
 
@@ -274,9 +169,6 @@ Nếu quá trình cài bị lỗi:
 Trong quá trình dùng bị lỗi:
 - **Tìm mọi cách để sửa** (không thể sửa được thì mới cài lại)
 
-
-<!-- page 21 -->
-
 # Cài đặt
 
 Yêu cầu hệ thống
@@ -288,20 +180,12 @@ Yêu cầu hệ thống
     - Data file: 4.4GB
     - ...
 
-ORACLE
-
-
-<!-- page 22 -->
-
 # Cài đặt
 
 - Download Oracle Database 19c
 - Giải nén file .zip vừa tải về & tạo đường dẫn như sau rồi copy các file vừa giải nén vào
 
 > This PC > D (:) > app > oracle > product > 19c > db_home1
-
-
-<!-- page 23 -->
 
 # Cài đặt
 
@@ -338,9 +222,6 @@ Nhấp chuột phải vào **setup.exe** (1) > **Run as administrator** (2)
 | setup.bat | | Windows Batch File | 2 KB |
 | setup.exe | 14/11/2018 10:42 PM | Application | 282 KB |
 
-
-<!-- page 24 -->
-
 # Oracle Database 19c Installer - Step 1 of 16
 
 ## Select Configuration Option
@@ -359,9 +240,6 @@ Back
 Next > (2)
 Install
 Cancel
-
-
-<!-- page 25 -->
 
 # Oracle Database 19c Installer - Step 2 of 15
 
@@ -392,9 +270,6 @@ Cancel
 (2)
 Help | < Back | **Next >** | Install | Cancel
 
-
-<!-- page 26 -->
-
 # Oracle Database 19c Installer - Step 3 of 16
 
 ## Select Install Type
@@ -415,9 +290,6 @@ Help | < Back | **Next >** | Install | Cancel
 - Install
 - Cancel
 
-
-<!-- page 27 -->
-
 # Oracle Database 19c Installer - Step 4 of 17
 
 ## Select Database Edition
@@ -431,8 +303,6 @@ Which database edition do you want to install?
 
 - Standard Edition 2
   Oracle Database 19c Standard Edition 2 is a full-featured data management solution ideally suited to the needs of medium-sized businesses.
-
----
 
 ### Navigation Menu
 
@@ -454,14 +324,9 @@ Which database edition do you want to install?
 - Install Product
 - Finish
 
----
-
 (2)
 
 [Help] [< Back] [Next >] [Install] [Cancel]
-
-
-<!-- page 28 -->
 
 # Oracle Database 19c Installer - Step 5 of 17
 
@@ -479,8 +344,6 @@ For enhanced security, you may choose to run Windows Services from this Oracle h
     - Confirm Password:
     - The newly created user is denied Windows logon privileges.
 - Use Windows Built-in Account
-
----
 
 ### Navigation Menu
 
@@ -502,12 +365,7 @@ For enhanced security, you may choose to run Windows Services from this Oracle h
 - Install Product
 - Finish
 
----
-
 Help | < Back | (2) Next > | Install | Cancel
-
-
-<!-- page 29 -->
 
 # Oracle Database 19c Installer - Step 6 of 17
 
@@ -519,8 +377,6 @@ Specify a path to place all Oracle software and configuration-related files inst
 
 This software directory is the Oracle Database home directory.
 Software location: D:\app\oracle\product\19c\db_home1
-
----
 
 - Configuration Option
 - System Class
@@ -540,12 +396,7 @@ Software location: D:\app\oracle\product\19c\db_home1
 - Install Product
 - Finish
 
----
-
 Help | < Back | Next > (2) | Install | Cancel
-
-
-<!-- page 30 -->
 
 # Oracle Database 19c Installer - Step 7 of 17
 
@@ -564,9 +415,6 @@ Select the type of database that you want to create.
 
 Help | < Back | Next > | Install | Cancel
 
-
-<!-- page 31 -->
-
 # Oracle Database 19c Installer - Step 8 of 17
 
 ## Specify Database Identifiers
@@ -579,8 +427,6 @@ Provide the identifier information required to access the database uniquely. An 
 [ ] **Create as Container database**
 Creates a database container for consolidating multiple databases into a single database and enables database virtualization.
 - Pluggable database name: [ orclpdb ]
-
----
 
 ### Navigation Menu
 - Configuration Option
@@ -601,12 +447,7 @@ Creates a database container for consolidating multiple databases into a single 
 - Install Product
 - Finish
 
----
-
 [ Help ] [ < Back ] [ Next > ] (2) [ Install ] [ Cancel ]
-
-
-<!-- page 32 -->
 
 # Oracle Database 19c Installer - Step 9 of 17
 
@@ -626,8 +467,6 @@ SGA target: 1500 MB
 PGA aggregate target: 500 MB
 Target database memory: 2000 MB
 
----
-
 - Configuration Option
 - System Class
 - Install Type
@@ -645,17 +484,10 @@ Target database memory: 2000 MB
 - Summary
 - Install Product
 - Finish
-
----
 
 [ Help ] [ < Back ] [ Next > ] [ Install ] [ Cancel ]
 
-
-<!-- page 33 -->
-
 # Oracle Database 19c Installer - Step 9 of 17
-
-## Specify Configuration Options
 
 - Configuration Option
 - System Class
@@ -674,8 +506,6 @@ Target database memory: 2000 MB
 - Summary
 - Install Product
 - Finish
-
----
 
 ### (1) Character sets
 
@@ -691,16 +521,9 @@ The database character set determines how character data is stored in the databa
   Select Database character set:
   AL32UTF8 - Unicode UTF-8 Universal character set
 
----
-
 Help | < Back | Next > | Install | Cancel
 
-
-<!-- page 34 -->
-
 # Oracle Database 19c Installer - Step 9 of 17
-
-## Specify Configuration Options
 
 - Configuration Option
 - System Class
@@ -720,8 +543,6 @@ Help | < Back | Next > | Install | Cancel
 - Install Product
 - Finish
 
----
-
 ### (1) Sample schemas
 
 Memory | Character sets | **Sample schemas**
@@ -730,12 +551,7 @@ You can choose to install sample schema in the starter database. If you choose t
 
 (2) [x] **Install sample schemas in the database**
 
----
-
 Help | < Back | (3) **Next >** | Install | Cancel
-
-
-<!-- page 35 -->
 
 # Oracle Database 19c Installer - Step 10 of 17
 
@@ -771,9 +587,6 @@ Oracle Automatic Storage Management (Oracle ASM) simplifies database administrat
 
 [Help]
 
-
-<!-- page 36 -->
-
 # Oracle Database 19c Installer - Step 11 of 17
 
 ## Specify Management Options
@@ -786,8 +599,6 @@ Oracle Database 12c is managed by Oracle Database Express by default. You can us
 - **OMS Port:**
 - **EM Admin User Name:**
 - **EM Admin Password:**
-
----
 
 ### Các bước cài đặt:
 - Configuration Option
@@ -808,12 +619,7 @@ Oracle Database 12c is managed by Oracle Database Express by default. You can us
 - Install Product
 - Finish
 
----
-
 [Help] [< Back] [Next >] [Install] [Cancel]
-
-
-<!-- page 37 -->
 
 # Oracle Database 19c Installer - Step 12 of 17
 
@@ -829,9 +635,6 @@ Enable or disable recovery for your database. If you choose to enable recovery, 
 **(4)** [ Next > ]
 
 [ Help ] [ < Back ] [ Next > ] [ Install ] [ Cancel ]
-
-
-<!-- page 38 -->
 
 # Oracle Database 19c Installer - Step 13 of 17
 
@@ -872,9 +675,6 @@ O Use different passwords for these accounts
 
 Help
 
-
-<!-- page 39 -->
-
 # Oracle Database 19c Installer - Step 14 of 17
 
 ## Perform Prerequisite Checks
@@ -905,9 +705,6 @@ Checking Swap Size ...
 
 Help | < Back | Next > | Install | Cancel
 
-
-<!-- page 40 -->
-
 # Oracle Database 19c Installer - Step 15 of 17
 
 ## Summary
@@ -934,8 +731,6 @@ Help | < Back | Next > | Install | Cancel
         - Recovery Storage Type: File system [Edit]
         - Database Recovery file location: D:\app\oracle\oradata [Edit]
 
----
-
 ### Các bước thực hiện:
 - Configuration Option
 - System Class
@@ -955,12 +750,7 @@ Help | < Back | Next > | Install | Cancel
 - Install Product
 - Finish
 
----
-
 [Save Response File...] [Help] [< Back] [Next >] [Install] [Cancel]
-
-
-<!-- page 41 -->
 
 # Oracle Database 19c Installer - Step 16 of 17
 
@@ -984,9 +774,6 @@ Details | Revert All | Revert | Retry | Skip
 19c ORACLE Database
 
 Help | < Back | Next > | Install | Cancel
-
-
-<!-- page 42 -->
 
 # Hoàn thành
 
@@ -1018,9 +805,6 @@ Help | < Back | Next > | Install | Cancel
 Oracle Enterprise Manager Database Express URL: https://COM:5500/em
 
 Help | < Back | Next > | Install | Close
-
-
-<!-- page 43 -->
 
 # Chắc chắn rằng **OracleOraDB19Home1TNSListener** và **OracleServiceORCL** đang **Running** (Start > Run > Services.msc > Enter) trước khi thực hiện các bước tiếp theo
 
@@ -1061,9 +845,6 @@ Help | < Back | Next > | Install | Close
 | Remote Desktop Services | Allows users... | | Manual | Network Se... |
 | Remote Desktop Services UserMode Port R... | Allows the re... | | Manual | Local System |
 
-
-<!-- page 44 -->
-
 # Tạo mới cơ sở dữ liệu
 
 **Tạo CSDL sử dụng DBCA**
@@ -1080,9 +861,6 @@ Help | < Back | Next > | Install | Close
     - Oracle Provider for OLE DB for OLA...
     - Oracle Provider for OLE DB Readme
     - SQL Plus
-
-
-<!-- page 45 -->
 
 # Database Configuration Assistant - Application - Step 1 of 14
 
@@ -1112,9 +890,6 @@ Help | < Back | Next > | Install | Close
 
 Help | < Back | Next > | Finish | Cancel
 
-
-<!-- page 46 -->
-
 # Database Configuration Assistant - Create a database - Step 2 of 14
 
 **Select Database Creation Mode**
@@ -1132,8 +907,6 @@ Help | < Back | Next > | Finish | Cancel
 
 - (o) **Advanced configuration**
 
----
-
 - Database Operation
 - **Creation Mode**
 - Deployment Type
@@ -1149,12 +922,7 @@ Help | < Back | Next > | Finish | Cancel
 - Progress Page
 - Finish
 
----
-
 [Help] [< Back] [Next >] [Finish] [Cancel]
-
-
-<!-- page 47 -->
 
 # Database Configuration Assistant - Create a database - Step 3 of 14
 
@@ -1176,8 +944,6 @@ Templates that include datafiles contain pre-created databases. They allow you t
 
 **Template location:** D:\App\oracle\product\19c\db_home1\assistants\dbca\templates [Change...]
 
----
-
 - Database Operation
 - **Creation Mode**
 - **Deployment Type**
@@ -1194,9 +960,6 @@ Templates that include datafiles contain pre-created databases. They allow you t
 - Finish
 
 [Help] [< Back] [Next >] [Finish] [Cancel]
-
-
-<!-- page 48 -->
 
 # Database Configuration Assistant - Create a database - Step 4 of 14
 
@@ -1224,9 +987,6 @@ A Container database can be used for consolidating multiple databases into a sin
 - PDB name: pdb
 
 Help | < Back | **Next >** | Finish | Cancel
-
-
-<!-- page 49 -->
 
 # Database Configuration Assistant - Create 'Manager' database - Step 5 of 14
 
@@ -1264,9 +1024,6 @@ Help | < Back | **Next >** | Finish | Cancel
 
 [ Help ] [ < Back ] [ **Next >** ] [ Finish ] [ Cancel ]
 
-
-<!-- page 50 -->
-
 # Database Configuration Assistant - Create 'Manager' database - Step 6 of 14
 
 ## Select Fast Recovery Option
@@ -1280,9 +1037,6 @@ Choose the recovery options for the database.
 - [x] **E**nable archiving [Edit **a**rchive mode parameters...]
 
 [Help] [< Back] [Next >] [Finish] [Cancel]
-
-
-<!-- page 51 -->
 
 # Database Configuration Assistant - Create 'Manager' database - Step 7 of 14
 
@@ -1316,9 +1070,6 @@ Oracle home: D:\App\oracle\product\19c\db_home1
 
 Help | < Back | Next > | Finish | Cancel
 
-
-<!-- page 52 -->
-
 # Database Configuration Assistant - Create 'Manager' database - Step 8 of 15
 
 ## Select Oracle Data Vault Config Option
@@ -1339,8 +1090,6 @@ Help | < Back | Next > | Finish | Cancel
 - Progress Page
 - Finish
 
----
-
 - [ ] Configure Oracle Database **V**ault
     - Database Vault owner: __________________________________________________
     - Password: ______________________________ Confirm password: ______________________________
@@ -1351,16 +1100,9 @@ Help | < Back | Next > | Finish | Cancel
 - [ ] Configure Oracle **L**abel Security
     - [ ] Configure Oracle Label Security with O**I**D
 
----
-
 < Help | < Back | Next > | Finish | Cancel >
 
-
-<!-- page 53 -->
-
 # Database Configuration Assistant - Create 'Manager' database - Step 9 of 15
-
-## Specify Configuration Options
 
 | Memory | Sizing | Character sets | Connection mode | Sample schemas |
 | :--- | :--- | :--- | :--- | :--- |
@@ -1378,8 +1120,6 @@ Help | < Back | Next > | Finish | Cancel
 - **Use Automatic Memory Management**
     - Memory target: 502 MB
 
----
-
 - Database Operation
 - Creation Mode
 - Deployment Type
@@ -1396,12 +1136,7 @@ Help | < Back | Next > | Finish | Cancel
 - Progress Page
 - Finish
 
----
-
 Help | < Back | Next > | Finish | Cancel
-
-
-<!-- page 54 -->
 
 # Database Configuration Assistant - Create 'Manager' database - Step 9 of 15
 
@@ -1419,9 +1154,6 @@ Installing sample schema configures the Human Resources schema. The contents are
 
 Help | < Back | Next > | Finish | Cancel
 
-
-<!-- page 55 -->
-
 # Database Configuration Assistant - Create 'Manager' database - Step 10 of 15
 
 ## Specify Management Options
@@ -1437,13 +1169,8 @@ Specify the management options for the database.
     - **EM admin username:**
     - **EM admin password:**
 
----
-
 | Help | < Back | Next > | Finish | Cancel |
 | :--- | :--- | :--- | :--- | :--- |
-
-
-<!-- page 56 -->
 
 # Database Configuration Assistant - Create 'Manager' database - Step 11 of 15
 
@@ -1464,8 +1191,6 @@ You must specify passwords for the following user accounts in the new database f
 
 **Password**: ●●●●●●●● **Confirm password**: ●●●●●●●●
 
----
-
 ### Danh sách các bước:
 - Database Operation
 - Creation Mode
@@ -1483,12 +1208,7 @@ You must specify passwords for the following user accounts in the new database f
 - Progress Page
 - Finish
 
----
-
 Help | < Back | Next > | Finish | Cancel
-
-
-<!-- page 57 -->
 
 # Database Configuration Assistant - Create 'Manager' database - Step 12 of 15
 
@@ -1529,9 +1249,6 @@ Following advanced configuration options can be used to configure initialization
 [All Initialization Parameters...] [Customize Storage Locations...]
 
 [Help] [< Back] [Next >] [Finish] [Cancel]
-
-
-<!-- page 58 -->
 
 # Database Configuration Assistant - Create 'Manager' database - Step 13 of 15
 
@@ -1584,9 +1301,6 @@ Following advanced configuration options can be used to configure initialization
 
 [Help] [< Back] [Next >] [Finish] [Cancel]
 
-
-<!-- page 59 -->
-
 # Database Configuration Assistant - Create 'Manager' database - Step 14 of 15
 
 ## Progress Page
@@ -1611,9 +1325,6 @@ DBCA Log Location:
 D:\App\oracle\cfgtoollogs\dbca\Manager\trace.log_2021-08-14_07-56-51PM
 
 [Help] [< Back] [Next >] [Finish] [Cancel]
-
-
-<!-- page 60 -->
 
 # Database Configuration Assistant - Create 'Manager' database - Step 15 of 15
 
@@ -1650,9 +1361,6 @@ Note: All database accounts except SYS and SYSTEM are locked. Select the Passwor
 
 Help | < Back | Next > | Finish | Close
 
-
-<!-- page 61 -->
-
 # Xóa CSDL
 
 **Database Configuration Assistant - Application - Step 1 of 14**
@@ -1668,9 +1376,6 @@ Help | < Back | Next > | Finish | Close
 - Oracle RAC database Instance management
 
 Help | < Back | Next > | Finish | Cancel
-
-
-<!-- page 62 -->
 
 # Thực hiện lần lượt các bước cho đến khi hoàn tất
 
@@ -1698,20 +1403,12 @@ Specify the SYSDBA user credentials.
 
 Help | < Back | Next > | Finish | Cancel
 
-
-<!-- page 63 -->
-
 ![ITDE](https://i.imgur.com/4y5y15S.png)
 
 # Demo
 
 ![ORACLE](https://i.imgur.com/4y5y15S.png)
 
-
-<!-- page 64 -->
-
 ![ITDE - INFORMATION TECHNOLOGY & DIGITAL ECONOMICS - BANKING ACADEMY OF VIETNAM](https://i.imgur.com/4y11111.png)
 
 (Hình ảnh minh họa: Hai nhân vật màu xanh lá cây đang tương tác với một dấu chấm hỏi lớn màu đỏ)
-
-ORACLE

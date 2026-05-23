@@ -2,15 +2,11 @@
 
 #### CHƯƠNG 0 GIỚI THIỆU MÔN HỌC
 
-## TRANG 1
-
 ## CLICK TO EDIT MASTER
 
 ## TITLE STYLECHƯƠNG 0: GIỚI THIỆU MÔN HỌC
 
 THS. Lê Thị Hồng Nhung T: 0987867486 Khoa Công nghệ thông tin & kinh E: nhunglth@hvnh. edu. vn tế số W: itde. hvnh. edu. vn
-
-## TRANG 2
 
 ## Nội dung môn học
 
@@ -25,8 +21,6 @@ THS. Lê Thị Hồng Nhung T: 0987867486 Khoa Công nghệ thông tin & kinh E:
 ## Chương 5. Phân cụm dữ liệu
 
 ## Chương 6. Phát hiện luật kết hợp
-
-## TRANG 3
 
 Buổi Nội dung Buổi Nội dung
 
@@ -58,8 +52,6 @@ phá dữ liệu | 9 | Kiểm tra 1 |
 | 7 | C4: Phân lớp dữ liệu | 15 | Kiểm tra 2 |
 | 8 | Thực hành phân lớp dữ liệu | 16 | Ôn tập |
 
-## TRANG 4
-
 Tài liệu tham khảo
 
 [1] J. Han and M. Kamber, “Data Mining-Concepts and Techniques”, Morgan Kaufmann, 3rd Edition, 2011.
@@ -74,19 +66,13 @@ Tài liệu tham khảo
 
 [6] Hà Quang Thụy, “Giáo trình Khai phá dữ liệu”, NXB Đại học Quốc Gia, 2013.
 
-## TRANG 5
-
 Kỹ năng đạt được
 
-Hiểu các bước trong quá trình phân tích và khai phá tri thức từ dữ liệu Mô tảđược các khái niệm cơ bản, công nghệ, và ứng dụng của khai phá dữ liệu Giải thích được các tác vụ khai phá dữ liệu phổbi ến như hồi qui, phân loại, gom cụm, và khai phá luật kết hợp Nhận dạng được các vấn đềvề dữ liệu trong giai đoạn tiền xử lý cho các tác vụ khai phá dữ liệu Hiểu cách sử dụng khai phá dữ liệu đểcó được các quyết định tốt hơn Sử dụng được các giải thuật và công cụkhai phá dữ liệu đểph át triển ứng dụng khai phá dữ liệu Được chuẩn bịvềki ến thức đểcó thểnghi ên cứu trong lĩnh vực khai phá dữ liệu
-
-## TRANG 6
+Hiểu các bước trong quá trình phân tích và khai phá tri thức từ dữ liệu Mô tảđược các khái niệm cơ bản, công nghệ, và ứng dụng của khai phá dữ liệu Giải thích được các tác vụ khai phá dữ liệu phổ biến như hồi qui, phân loại, gom cụm, và khai phá luật kết hợp Nhận dạng được các vấn đềvề dữ liệu trong giai đoạn tiền xử lý cho các tác vụ khai phá dữ liệu Hiểu cách sử dụng khai phá dữ liệu đểcó được các quyết định tốt hơn Sử dụng được các giải thuật và công cụkhai phá dữ liệu đểph át triển ứng dụng khai phá dữ liệu Được chuẩn bịvềki ến thức đểcó thểnghi ên cứu trong lĩnh vực khai phá dữ liệu
 
 Đánh giá
 
 Kiểm tra 1- Bài tập thực hành: 15% Kiểm tra 2- Bài tập thực hành: 15% Chuyên cần: 10% Thi cuối kỳ: báo cáo bài tập lớn (3 - 5 SV): 60%
-
-## TRANG 7
 
 Yêu cầu đối với sinh viên
 
@@ -99,8 +85,6 @@ Có mặt tại lớp hơn 75%.
 Làm các bài tập của mỗi chương.
 
 Tham khảo thêm các tài liệu học tập khác, đặc biệt từngu ồn Internet.
-
-## TRANG 8
 
 Thực hành
 

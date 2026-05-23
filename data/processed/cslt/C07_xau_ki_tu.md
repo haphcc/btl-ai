@@ -278,4 +278,3 @@ for (i = 0; i < n; i++)
 - Xâu kí tự trong C là mảng kí tự kết thúc bằng `'\0'`.
 - Các thao tác xâu thường dùng hàm trong `string.h`.
 - Khi sao chép hoặc ghép xâu cần chú ý kích thước vùng nhớ.
-

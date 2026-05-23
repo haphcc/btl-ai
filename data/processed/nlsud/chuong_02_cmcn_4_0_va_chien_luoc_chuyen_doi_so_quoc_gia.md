@@ -226,4 +226,3 @@ Chuyển đổi số quốc gia cần hạ tầng số, dữ liệu số, nhân 
 7. Điện toán đám mây khác điện toán biên ở điểm nào?
 8. Vì sao hạ tầng 5G quan trọng với xã hội số?
 9. Chuyển đổi số quốc gia cần những điều kiện nào?
-

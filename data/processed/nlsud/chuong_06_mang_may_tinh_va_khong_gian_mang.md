@@ -234,4 +234,3 @@ Khi mạng kết nối nhiều thiết bị và người dùng, nguy cơ tấn c
 7. Nêu ưu, nhược điểm của mô hình mạng hình sao.
 8. Không gian mạng là gì?
 9. Vì sao cần an ninh không gian mạng?
-

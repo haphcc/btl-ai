@@ -2,21 +2,13 @@
 
 #### BÀI GIẢNG 13: WEB DEPLOYMENT TOOLS
 
-## TRANG 1
-
 Thiết kế Web - Bài giảng 13: Web Development Tools
 
 Giảng viên: Vũ Trọng Sinh
 
-
-## TRANG 2
-
 Nội dung
 
 8.1. Tổng quan về web deployment. 8.2. Git & GitHub. 8.3. Domain & Hosting. 8.4. Deployment & Testing.
-
-
-## TRANG 3
 
 8.1. Tổng quan về web deployment
 
@@ -26,9 +18,6 @@ Mục tiêu:
 
 - Đảm bảo website hoạt động ổn định.
 - Giúp website dễ update và maintain.
-
-
-## TRANG 4
 
 Các bước chung để deploy website
 
@@ -44,15 +33,9 @@ Upload hoặc sync source code lên server -> dùng Git, FTP hoặc deployment t
 
 Test website sau khi deploy -> test trên nhiều thiết bị và sửa các vấn đề phát hiện được.
 
-
-## TRANG 5
-
 8.2. Git & GitHub
 
 Git intro. Git concept. GitHub. GitHub basics. GitHub Pages.
-
-
-## TRANG 6
 
 Git intro
 
@@ -64,9 +47,6 @@ Git được dùng để cộng tác khi viết code.
 
 Git và GitHub là hai thứ khác nhau.
 
-
-## TRANG 7
-
 Git làm gì?
 
 - Quản lý project bằng repository
@@ -76,9 +56,6 @@ Git làm gì?
 - Pull phiên bản mới nhất của project về local copy
 - Push update local lên project chính
 
-
-## TRANG 8
-
 Vì sao dùng Git?
 
 - Hơn 70% developer dùng Git.
@@ -87,9 +64,6 @@ Vì sao dùng Git?
 - Developer có thể revert về phiên bản trước của project.
 
 https://www.youtube.com/watch?v=e9lnsKot_SQ
-
-
-## TRANG 9
 
 Cài đặt Git
 
@@ -105,17 +79,11 @@ Cấu hình Git:
 - git config --global user.name "w3schools-test"
 - git config --global user.email "test@w3schools.com"
 
-
-## TRANG 10
-
 Thực hành
 
 Cài Git for Windows trên máy của bạn. Đăng ký tài khoản GitHub (nếu cần). Cấu hình Git global username & email.
 
 - Thời lượng: 10 phút
-
-
-## TRANG 11
 
 Git concept
 
@@ -130,15 +98,9 @@ Video tutorial:
 
 https://www.youtube.com/watch?v=MFtsLRphqDM&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR&index=2
 
-
-## TRANG 12
-
 Git quiz
 
 https://www.w3schools.com/git/git_quiz.asp?remote=github
-
-
-## TRANG 13
 
 GitHub là gì?
 
@@ -146,15 +108,9 @@ GitHub là gì?
 - GitHub tạo ra các tool sử dụng Git.
 - GitHub là nơi hosting source code lớn nhất thế giới và thuộc sở hữu của Microsoft từ năm 2018.
 
-
-## TRANG 14
-
 Thực hành GitHub
 
 Đăng ký tài khoản GitHub. Tạo một directory cho group project. Push local repository lên GitHub.
-
-
-## TRANG 15
 
 GitHub basics
 
@@ -166,17 +122,11 @@ Pulling để cập nhật thay đổi:
 
 https://www.w3schools.com/git/git_pull_from_remote.asp?remote=github
 
-
-## TRANG 16
-
 GitHub basics
 
 Push change lên GitHub:
 
 https://www.w3schools.com/git/git_push_to_remote.asp?remote=github
-
-
-## TRANG 17
 
 GitHub basics
 
@@ -192,9 +142,6 @@ Push a branch to GitHub:
 
 https://www.w3schools.com/git/git_branch_push_to_remote.asp?remote=github
 
-
-## TRANG 18
-
 GitHub Pages
 
 Với GitHub Pages, GitHub cho phép bạn host một webpage từ repository của bạn.
@@ -208,9 +155,6 @@ https://www.w3schools.com/git/git_remote_pages.asp?remote=github
 https://www.w3schools.com/git/git_exercises.asp?remote=github
 
 https://docs.github.com/en/pages/quickstart
-
-
-## TRANG 19
 
 Git exercise
 
@@ -226,20 +170,11 @@ Push local project của bạn lên một GitHub repo, sau đó tạo GitHub Pag
 - Show repo của nhóm trên GitHub, các lần commit, mỗi thành viên đã commit những gì
 - Show trang web đã upload lên GitHub Pages
 
-
-## TRANG 20
-
 8.3. Domain & Hosting
 
 DNS hoạt động như thế nào. Domain name best practice. Chọn hosting.
 
-
-## TRANG 21
-
 DNS hoạt động như thế nào
-
-
-## TRANG 22
 
 DNS hoạt động như thế nào
 
@@ -250,9 +185,6 @@ DNS hoạt động như thế nào
 5. Ba loại server phối hợp và tiếp tục redirect cho đến khi lấy được DNS record chứa IP address được query. Thông tin này được gửi tới recursive DNS server và webpage user cần sẽ load.
 6. Recursive server lưu hoặc cache A record cho domain name, record này chứa IP address. Lần sau khi nhận request cho domain name đó, nó có thể trả lời trực tiếp thay vì query server khác.
 7. Nếu query tới authoritative server nhưng không tìm thấy thông tin, server trả về error message.
-
-
-## TRANG 23
 
 Domain name best practice
 
@@ -269,26 +201,17 @@ Domain name best practice
 
 https://www.dreamhost.com/blog/how-to-choose-the-right-domain-name/
 
-
-## TRANG 24
-
 Domain name cho site của bạn?
 
 Chủ đề website final project của bạn là gì?
 
 Nghĩ ra 3-5 domain name có thể dùng. Kiểm tra availability của các domain name đó.
 
-
-## TRANG 25
-
 Chọn hosting
 
 https://www.hostinger.com/tutorials/how-to-choose-a-web-hosting-provider
 
 Hiện tại chưa quá quan trọng, nhưng sẽ cần cho môn Web Programming. Có lựa chọn thay thế nào không? Liệt kê một số lựa chọn để lấy contribution point.
-
-
-## TRANG 26
 
 8.4. Deployment & Testing
 
@@ -297,9 +220,6 @@ Deploy site lên Vercel. Deploy lên hosting khác. FileZilla. WinSCP. Test visu
 https://www.google.com/webmasters/tools
 
 https://www.bing.com/webmasters/about
-
-
-## TRANG 27
 
 Deploy static website lên Vercel
 

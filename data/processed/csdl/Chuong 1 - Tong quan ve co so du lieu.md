@@ -8,9 +8,6 @@
 
 ## KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 
-
-<!-- page 2 -->
-
 # NỘI DUNG CHÍNH
 
 - Sự khác biệt giữa **dữ liệu** và **thông tin**
@@ -22,17 +19,11 @@
 
 Tổng quan về cơ sở dữ liệu 2
 
-
-<!-- page 3 -->
-
 # TÀI LIỆU THAM KHẢO
 
 - Chapter 1,2 - Carlos M. Coronel - **Database Systems_ Design, Implementation, & Management- Cengage Learning (2022)**
 
 Tổng quan về cơ sở dữ liệu 3
-
-
-<!-- page 4 -->
 
 # ĐẶT VẤN ĐỀ
 
@@ -49,9 +40,6 @@ Tổng quan về cơ sở dữ liệu 3
 
 Tổng quan về cơ sở dữ liệu
 
-
-<!-- page 5 -->
-
 # 1. Sự khác biệt giữa dữ liệu và thông tin
 
 - **Dữ liệu là những ghi chép về sự vật, sự việc, hiện tượng tượng được lưu trữ trong máy tính chưa thông qua quá trình xử lý (data are raw facts)**
@@ -63,11 +51,6 @@ b) Raw Data
 
 Tổng quan về cơ sở dữ liệu 5
 
-
-<!-- page 6 -->
-
-# 1. Sự khác biệt giữa dữ liệu và thông tin
-
 - **Thông tin là kết quả ở dạng có ý nghĩa thu được sau khi xử lý dữ liệu.**
 
 - **Ví dụ:**
@@ -76,11 +59,6 @@ Tổng quan về cơ sở dữ liệu 5
     - Khách hàng thấy không hài lòng vì lý do gì nhiều nhất?
 
 Tổng quan về cơ sở dữ liệu 6
-
-
-<!-- page 7 -->
-
-# 1. Sự khác biệt giữa dữ liệu và thông tin
 
 **FIGURE 1.2 TRANSFORMING RAW DATA INTO INFORMATION**
 
@@ -111,11 +89,6 @@ Middle Tennessee State University
 
 Tổng quan về cơ sở dữ liệu
 
-
-<!-- page 8 -->
-
-# 1. Sự khác biệt giữa dữ liệu và thông tin
-
 - **Dữ liệu cần phải được định dạng cho quá trình lưu trữ, xử lý và trình bày.**
 - **Dữ liệu về một đối tượng có thể khác nhau, tùy thuộc vào ngữ cảnh.**
     - Ví dụ: dữ liệu về sinh viên có thể khác nhau tùy thuộc vào mục đích quản lý
@@ -123,11 +96,6 @@ Tổng quan về cơ sở dữ liệu
         - Quản lý nhân thân: tên, địa chỉ, ngày sinh, quê quán,...
 
 Tổng quan về cơ sở dữ liệu 8
-
-
-<!-- page 9 -->
-
-# 1. Sự khác biệt giữa dữ liệu và thông tin
 
 **Hãy lấy ví dụ về dữ liệu, thông tin trong các hệ thống nghiệp vụ sau:**
 
@@ -140,9 +108,6 @@ Tổng quan về cơ sở dữ liệu 8
 
 Tổng quan về cơ sở dữ liệu 9
 
-
-<!-- page 10 -->
-
 # 2. Cơ sở dữ liệu (CSDL)
 
 - **CSDL (database)** = Tập hợp dữ liệu được tổ chức **có cấu trúc liên quan với nhau** và được lưu trữ trong máy tính.
@@ -153,11 +118,6 @@ Tổng quan về cơ sở dữ liệu 9
 
 Tổng quan về cơ sở dữ liệu 10
 
-
-<!-- page 11 -->
-
-# 2. Cơ sở dữ liệu (CSDL)
-
 - **CSDL được tổ chức có cấu trúc:**
     - Dữ liệu được lưu trữ thành các bản ghi (record), các trường (field)
     - Dữ liệu có mối quan hệ với nhau
@@ -167,11 +127,6 @@ Tổng quan về cơ sở dữ liệu 10
 ➔ **Cần phải quản trị CSDL**
 
 Tổng quan về cơ sở dữ liệu 11
-
-
-<!-- page 12 -->
-
-# 2. Cơ sở dữ liệu (CSDL)
 
 - Dữ liệu là những cuốn sách
 
@@ -187,13 +142,6 @@ Tổng quan về cơ sở dữ liệu 11
 - Truy cập CSDL để tìm các cuốn sách theo tên, theo nhà xuất bản, ...
 
 **Tổng quan về cơ sở dữ liệu**
-
-12
-
-
-<!-- page 13 -->
-
-# 2. Cơ sở dữ liệu (CSDL)
 
 ## Phân loại CSDL
 - Số lượng người dùng
@@ -217,11 +165,6 @@ Tổng quan về cơ sở dữ liệu 11
 
 Tổng quan về cơ sở dữ liệu 13
 
-
-<!-- page 14 -->
-
-# 2. Cơ sở dữ liệu (CSDL)
-
 - **Đặc tính của CSDL: Cung cấp khả năng trừu tượng hóa thông qua các lớp: vật lý, logic, bên ngoài.**
 
 ## Sơ đồ các lớp CSDL
@@ -232,22 +175,12 @@ Tổng quan về cơ sở dữ liệu 13
 
 Tổng quan về cơ sở dữ liệu 14
 
-
-<!-- page 15 -->
-
-# 2. Cơ sở dữ liệu (CSDL)
-
 ## **Lớp vật lý**
 
 - Chứa toàn bộ các file dữ liệu
 - Người dùng CSDL không nhất thiết phải nắm được cấu trúc tổ chức của các file vật lý khi sử dụng một CSDL.
 
 Tổng quan về cơ sở dữ liệu 15
-
-
-<!-- page 16 -->
-
-# 2. Cơ sở dữ liệu (CSDL)
 
 ## **Lớp logic (Schema)**
 
@@ -256,22 +189,12 @@ Tổng quan về cơ sở dữ liệu 15
 
 Tổng quan về cơ sở dữ liệu 16
 
-
-<!-- page 17 -->
-
-# 2. Cơ sở dữ liệu (CSDL)
-
 ## **Lớp bên ngoài:**
 
 - Bao gồm khung nhìn
 - Cho phép người dùng quan sát dữ liệu theo nhiều cách khác nhau trong khi dữ liệu lưu ở tầng vật lý là duy nhất
 
 Tổng quan về cơ sở dữ liệu 17
-
-
-<!-- page 18 -->
-
-# 2. Cơ sở dữ liệu (CSDL)
 
 - **Sự phân biệt giữa các lớp tạo nên 2 tầng độc lập: độc lập dữ liệu vật lý và độc lập dữ liệu logic**
 
@@ -287,11 +210,6 @@ Tổng quan về cơ sở dữ liệu 17
 
 Tổng quan về cơ sở dữ liệu 18
 
-
-<!-- page 19 -->
-
-# 2. Cơ sở dữ liệu (CSDL)
-
 ## **Độc lập dữ liệu vật lý**
 
 - Khả năng làm thay đổi cấu trúc file vật lý của một CSDL mà không làm gián đoạn người dùng đang truy cập vào các quá trình đang diễn ra
@@ -299,20 +217,12 @@ Tổng quan về cơ sở dữ liệu 18
 
 Tổng quan về cơ sở dữ liệu 19
 
-
-<!-- page 20 -->
-
-# 2. Cơ sở dữ liệu (CSDL)
-
 ## Độc lập dữ liệu logic
 
 - Khả năng tạo ra các thay đổi tới lớp logic mà không làm gián đoạn người dùng hiện tại và các quá trình đang diễn ra
 - Việc phân biệt giữa lớp logic và lớp bên ngoài gọi là độc lập dữ liệu logic
 
 Tổng quan về cơ sở dữ liệu 20
-
-
-<!-- page 21 -->
 
 # 3. Các phương pháp quản lý CSDL
 
@@ -322,9 +232,6 @@ Tổng quan về cơ sở dữ liệu 20
     - Hệ thống quản lý bằng cơ sở dữ liệu
 
 Tổng quan về cơ sở dữ liệu 21
-
-
-<!-- page 22 -->
 
 # 3. Các phương pháp quản lý CSDL
 
@@ -337,9 +244,6 @@ Tổng quan về cơ sở dữ liệu 21
     - **Có vấn đề về an toàn và bảo mật**
 
 Tổng quan về cơ sở dữ liệu 22
-
-
-<!-- page 23 -->
 
 # 3. Các phương pháp quản lý CSDL
 
@@ -368,9 +272,6 @@ Tổng quan về cơ sở dữ liệu 22
 
 Tổng quan về cơ sở dữ liệu 23
 
-
-<!-- page 24 -->
-
 # 4. Hệ quản trị CSDL
 
 **Hệ quản trị CSDL (DataBase Management System – DBMS) là phần mềm giúp tạo CSDL và cung cấp cơ chế lưu trữ, truy cập theo các mô hình CSDL.**
@@ -392,11 +293,6 @@ Define, record, query, update, manage data
 
 Tổng quan về cơ sở dữ liệu 24
 
-
-<!-- page 25 -->
-
-# 4. Hệ quản trị CSDL
-
 **Ví dụ:**
 
 - SQL Server, MS Access, Oracle là hệ quản trị CSDL điển hình cho mô hình quan hệ.
@@ -406,11 +302,6 @@ Tổng quan về cơ sở dữ liệu 24
 
 Tổng quan về cơ sở dữ liệu 25
 
-
-<!-- page 26 -->
-
-# 4. Hệ quản trị CSDL
-
 **Chức năng chính:**
 
 - Quản lý cơ sở dữ liệu
@@ -418,11 +309,6 @@ Tổng quan về cơ sở dữ liệu 25
 - Quản lý ổ đĩa
 
 Tổng quan về cơ sở dữ liệu 26
-
-
-<!-- page 27 -->
-
-# 4. Hệ quản trị CSDL
 
 ## **Lợi ích mà DBMS mang lại:**
 
@@ -432,11 +318,6 @@ Tổng quan về cơ sở dữ liệu 26
 - Có cơ chế bảo mật an toàn
 
 Tổng quan về cơ sở dữ liệu 27
-
-
-<!-- page 28 -->
-
-# 4. Hệ quản trị CSDL
 
 ## Tại sao DBMS lại phổ biến?
 
@@ -448,11 +329,6 @@ Tổng quan về cơ sở dữ liệu 27
 - **Là sản phẩm trưởng thành và ổn định**
 
 Tổng quan về cơ sở dữ liệu 28
-
-
-<!-- page 29 -->
-
-# 4. Hệ quản trị CSDL
 
 ## Các chức năng chính của DBMS:
 
@@ -468,11 +344,6 @@ Tổng quan về cơ sở dữ liệu 28
 
 Tổng quan về cơ sở dữ liệu 29
 
-
-<!-- page 30 -->
-
-# 4. Hệ quản trị CSDL
-
 **Có 3 loại người dùng chính:**
 
 - Người quản trị CSDL (Database Administrator)
@@ -480,11 +351,6 @@ Tổng quan về cơ sở dữ liệu 29
 - Người dùng cuối (End user)
 
 Tổng quan về cơ sở dữ liệu 30
-
-
-<!-- page 31 -->
-
-# 4. Hệ quản trị CSDL
 
 ## FIGURE 1.11 THE DATABASE SYSTEM ENVIRONMENT
 
@@ -503,21 +369,11 @@ Tổng quan về cơ sở dữ liệu 30
 
 Tổng quan về cơ sở dữ liệu
 
-
-<!-- page 32 -->
-
-# 4. Hệ quản trị CSDL
-
 - **Hệ quản trị CSDL quan hệ (Relational Database Management System – RDBMS):**
 - Là một dạng của DBMS được sử dụng rộng rãi nhất, trong đó tất cả dữ liệu được tổ chức chặt chẽ dưới dạng các **bảng** dữ liệu.
 - Tất cả các thao tác trên CSDL đều diễn ra trên bảng.
 
 Tổng quan về cơ sở dữ liệu 32
-
-
-<!-- page 33 -->
-
-# 4. Hệ quản trị CSDL
 
 **CSDL** $\longrightarrow$
 
@@ -530,14 +386,6 @@ Tổng quan về cơ sở dữ liệu 32
 
 Tổng quan về cơ sở dữ liệu 33
 
-
-<!-- page 34 -->
-
-
-
-
-<!-- page 35 -->
-
 # 6. Các mô hình CSDL
 
 - Các CSDL có thể khác nhau về chức năng và mô hình dữ liệu (data model)
@@ -545,9 +393,6 @@ Tổng quan về cơ sở dữ liệu 33
 - Tùy từng ngữ cảnh, mô hình phức hợp được áp dụng để việc lưu trữ và truy xuất được hiệu quả nhất
 
 Tổng quan về cơ sở dữ liệu 35
-
-
-<!-- page 36 -->
 
 Tổng quan về cơ sở dữ liệu
 
@@ -568,11 +413,6 @@ Tổng quan về cơ sở dữ liệu
 
 SOURCE: Course Technology/Cengage Learning
 
-
-<!-- page 37 -->
-
-# 6. Các mô hình CSDL
-
 - Mô hình dữ liệu phân cấp (hierarchical model)
 - Mô hình dữ liệu mạng (network model)
 - Mô hình dữ liệu quan hệ (relational model)
@@ -586,13 +426,6 @@ SOURCE: Course Technology/Cengage Learning
 | 6 | Company F | Francisco | Pérez-Olaeta | Purchasing Manager | Milwa ukee | WI |
 | 26 | Company Z | Run | Liu | Accounting Assistant | Miami | FL |
 
-37
-
-
-<!-- page 38 -->
-
-# 6. Các mô hình CSDL
-
 - **Tổ chức theo hình cây, mỗi nút biểu diễn một thực thể dữ liệu.**
 - **Liên kết dữ liệu thể hiện giữa nút cha và nút con.**
     - Mỗi nút cha có nhiều nút con
@@ -601,11 +434,6 @@ SOURCE: Course Technology/Cengage Learning
     - Một nút con không có quá 1 nút cha $\rightarrow$ không biểu diễn được các quan hệ phức tạp
 
 Tổng quan về cơ sở dữ liệu 38
-
-
-<!-- page 39 -->
-
-# 6. Các mô hình CSDL
 
 ## Mô hình phân cấp
 
@@ -644,11 +472,6 @@ Administration
 
 Tổng quan về cơ sở dữ liệu 39
 
-
-<!-- page 40 -->
-
-# 6. Các mô hình CSDL
-
 ## Mô hình mạng
 
 - Các file riêng biệt trong hệ thống file gọi là **bản ghi**. Tập hợp các bản ghi cùng kiểu gọi là một kiểu thực thể dữ liệu
@@ -656,9 +479,6 @@ Tổng quan về cơ sở dữ liệu 39
 - Biểu diễn bằng một đồ thị có hướng, các mũi tên chỉ từ kiểu thực thể cha sang kiểu thực thể con
 
 Tổng quan về cơ sở dữ liệu 40
-
-
-<!-- page 41 -->
 
 # 6. Cc m hnh CSDL
 
@@ -676,11 +496,6 @@ graph TD
 
 Tng quan v c s d liu 41
 
-
-<!-- page 42 -->
-
-# 6. Các mô hình CSDL
-
 ## Nhận xét:
 
 - Ưu điểm:
@@ -692,11 +507,6 @@ Tng quan v c s d liu 41
 
 Tổng quan về cơ sở dữ liệu 42
 
-
-<!-- page 43 -->
-
-# 6. Các mô hình CSDL
-
 ## Mô hình dữ liệu quan hệ:
 
 - **Dữ liệu được biểu diễn dưới dạng các bảng với các hàng và các cột:**
@@ -707,11 +517,6 @@ Tổng quan về cơ sở dữ liệu 42
 - **Có các toán tử để thao tác trên các hàng của bảng**
 
 Tổng quan về cơ sở dữ liệu 43
-
-
-<!-- page 44 -->
-
-# 6. Các mô hình CSDL
 
 - **Ví dụ:**
 
@@ -727,19 +532,11 @@ Tổng quan về cơ sở dữ liệu 43
 
 Tổng quan về cơ sở dữ liệu 44
 
-
-<!-- page 45 -->
-
-# 6. Các mô hình CSDL
-
 - **Mô hình thực thể liên kết (Entity Relationship Diagram)** được CHEN giới thiệu vào năm 1976 là một mô hình được sử dụng rộng rãi trong các bản thiết kế cơ sở dữ liệu ở mức khái niệm.
 - Mô hình được xây dựng dựa trên việc nhận thức thế giới thực thông qua tập các đối tượng được gọi là các *thực thể* và các *mối quan hệ* giữa các đối tượng này.
 - Mục tiêu của ERD trong quá trình thiết kế cơ sở dữ liệu đó là phân tích dữ liệu, xác định các đơn vị thông tin cơ bản cần thiết của tổ chức, mô tả cấu trúc và mối liên hệ giữa chúng.
 
 Tổng quan về cơ sở dữ liệu 45
-
-
-<!-- page 46 -->
 
 # 6. Cc m hnh CSDL
 
@@ -767,11 +564,6 @@ Cc mi quan h:
 
 Tng quan v c s d liu
 
-
-<!-- page 47 -->
-
-# 6. Các mô hình CSDL
-
 - **Mô hình dữ liệu hướng đối tượng** ra đời vào đầu năm 90, dựa trên cách tiếp cận của phương pháp lập trình hướng đối tượng.
 - **CSDL bao gồm các đối tượng:**
     - Mỗi đối tượng bao gồm thuộc tính, phương thức
@@ -780,11 +572,6 @@ Tng quan v c s d liu
 
 Tổng quan về cơ sở dữ liệu 47
 
-
-<!-- page 48 -->
-
-# 6. Các mô hình CSDL
-
 ## Nhận xét:
 
 - Mô hình phát triển chưa lâu, chưa hoàn thiện
@@ -792,9 +579,6 @@ Tổng quan về cơ sở dữ liệu 47
 - Có nhiều hệ quản trị CSDL hướng đối tượng nhưng lưu trữ vẫn sử dụng CSDL quan hệ
 
 Tổng quan về cơ sở dữ liệu 48
-
-
-<!-- page 49 -->
 
 # Câu hỏi
 
@@ -812,9 +596,6 @@ Tổng quan về cơ sở dữ liệu 48
 
 Tổng quan về cơ sở dữ liệu 49
 
-
-<!-- page 50 -->
-
 # Câu hỏi
 
 - 8. List and describe the different types of databases.
@@ -830,11 +611,6 @@ Tổng quan về cơ sở dữ liệu 49
 
 Tổng quan về cơ sở dữ liệu 50
 
-
-<!-- page 51 -->
-
 ![HỌC VIỆN NGÂN HÀNG](https://upload.wikimedia.org/wikipedia/vi/thumb/a/a5/Logo_Hoc_vien_Ngan_hang.svg/1200px-Logo_Hoc_vien_Ngan_hang.svg.png)
 
 # Tổng quan về cơ sở dữ liệu
-
-51

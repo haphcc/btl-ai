@@ -1,20 +1,9 @@
-# Chương 1 - Tổng quan Kiến trúc phần mềm
-
-
-
-<!-- page 2 -->
-
 # Nội dung trình bày
 
 - **Một số khái niệm**
 - Tại sao cần xây dựng Kiến trúc phần mềm?
 - Kiến trúc phần mềm là gì?
 - Nguyên tắc Kiến trúc phần mềm
-
-2
-
-
-<!-- page 3 -->
 
 # Kiến trúc phần mềm (1)
 
@@ -30,20 +19,12 @@
 - **Why**: Rationale
 - **A**: (Giao điểm của What, How, Why)
 
-3
-
-
-<!-- page 4 -->
-
 # Kiến trúc phần mềm (2)
 
 - SA có vai trò giúp mô tả:
     - **Chức năng hoặc mục đích** (Function or Purpose): được mô tả bởi một số trường hợp trong các kịch bản, chức năng hoặc thành phần logic
     - **Cấu trúc** (Structure): mô hình của hệ thống, vật lý hoặc các thành phần của hệ thống và mối quan hệ giữa chúng
     - **Nguyên tắc** (Principles) hoặc **Khuôn mẫu** (Patterns)
-
-
-<!-- page 5 -->
 
 ## Kiến trúc phần mềm (3)
 
@@ -54,22 +35,15 @@
     - Các quyết định cơ bản đóng góp tạo ra tiện ích, chi phí, nỗ lực xây dựng và rủi ro khi sử dụng trong môi trường cụ thể.
     - Tìm ra được điều gì khó thay đổi.
 
-
-<!-- page 6 -->
-
 ## Lịch sử Kiến trúc phần mềm (I)
 
 *   Những kiến thức cơ bản về kiến trúc phần mềm được Dijkstra giới thiệu (1968) và Parnas (1970).
     *   Vai trò then chốt của cấu trúc một hệ thống phần mềm.
     *   Việc xác định cấu trúc phù hợp cho một hệ thống nhất định khó đến mức nào?
 
-
-<!-- page 7 -->
-
 BAV HỌC VIỆN
 NGÂN HÀNG
 1961
-BANKING ACADEMY OF VIETNAM
 
 # Lịch sử Kiến trúc phần mềm (2)
 
@@ -80,9 +54,6 @@ BANKING ACADEMY OF VIETNAM
   - Làm sao để tài liệu hoá kiến trúc của một hệ thống phần mềm (các khung nhìn - views)
 - ... tuyên bố đã đưa ra định nghĩa về một ngành học.
 
-
-<!-- page 8 -->
-
 # Nội dung trình bày
 
 - Một số khái niệm
@@ -90,11 +61,7 @@ BANKING ACADEMY OF VIETNAM
 - Kiến trúc phần mềm là gì?
 - Nguyên tắc Kiến trúc phần mềm
 
-
-<!-- page 9 -->
-
 BAV HỌC VIỆN NGÂN HÀNG
-BANKING ACADEMY OF VIETNAM
 1961
 
 ## Giảm thiểu độ phức tạp (1)
@@ -105,9 +72,6 @@ BANKING ACADEMY OF VIETNAM
     *   Năm 2011 quy mô phần mềm của Airbus 380 đạt 1 tỷ LoC.
     *   Năm 2015 Google là 2 tỷ LoC
 
-
-<!-- page 10 -->
-
 ## Giảm thiểu độ phức tạp (2)
 
 *   Thiết kế quy mô lớn trở thành quy luật chung
@@ -116,9 +80,6 @@ BANKING ACADEMY OF VIETNAM
     *   ... Đến với các hệ thống lớn và phức tạp ...
     *   ... ... Đến hệ thống của hệ thống ...
     *   ... ... ... Đến ...
-
-
-<!-- page 11 -->
 
 BAV HỌC VIỆN NGÂN HÀNG BANKING ACADEMY OF VIETNAM
 # Bối cảnh phần mềm ngày một lớn
@@ -144,9 +105,6 @@ BAV HỌC VIỆN NGÂN HÀNG BANKING ACADEMY OF VIETNAM
 01/12/202
 Chương 1: Tổng quan Kiến trúc phần mềm
 
-
-<!-- page 12 -->
-
 ## Sản xuất phần mềm khó khăn (1)
 
 - Sự phức tạp bắt nguồn từ
@@ -156,9 +114,6 @@ Chương 1: Tổng quan Kiến trúc phần mềm
   - Vấn đề tổ chức
   - Thiếu chuyên gia được đào tạo về thiết kế và phát triển phần mềm
 
-
-<!-- page 13 -->
-
 # Sn xut phn mm kh khn (2)
 
 *   Nhng tht bi in hnh: qun l d n km, yu cu sai, thit k tm thng, chi ph qu cao
@@ -166,9 +121,6 @@ Chương 1: Tổng quan Kiến trúc phần mềm
 *   D n mi khi u ri ro cao, t c phn tch
 
 **NHNG QUYT NH SAI LM TRONG VIC XY DNG KIN TRC PHN MM CA H THNG L NGUYN NHN CHNH KHIN D N B HY B**
-
-
-<!-- page 15 -->
 
 ## Mức độ tái sử dụng phần mềm
 
@@ -185,9 +137,6 @@ Chương 1: Tổng quan Kiến trúc phần mềm
 - Kiến trúc phần mềm
   - Tái sử dụng các phần tử, mối quan hệ của chúng và các quyết định liên quan
 
-
-<!-- page 17 -->
-
 # Kiến trúc phần mềm (1)
 
 - Quá trình sáng tạo & ra quyết định chứ không phải là một hoạt động.
@@ -195,17 +144,11 @@ Chương 1: Tổng quan Kiến trúc phần mềm
   - Dựa trên tác động lên các thuộc tính chất lượng và sự cân bằng giữa các thuộc tính chất lượng cạnh tranh
   - Ảnh hưởng sâu sắc đến phần mềm và quá trình phát triển
 
-
-<!-- page 18 -->
-
 # Kiến trúc phần mềm (2)
 
 - Kiến trúc phần mềm là kết quả của quá trình quyết định này:
     - Kiến trúc phần mềm là tập hợp các quyết định thiết kế mà nếu thực hiện không đúng có thể khiến dự án của bạn bị hủy bỏ (Eoin Woods)
     - Kiến trúc phần mềm đại diện cho “các quyết định quan trọng”, trong đó tầm quan trọng được đo bằng chi phí thay đổi (cost of change) (Grady Booch)
-
-
-<!-- page 19 -->
 
 # Kiến trúc phần mềm vs Kỹ thuật phần mềm
 
@@ -213,17 +156,11 @@ Chương 1: Tổng quan Kiến trúc phần mềm
 | :--- | :--- |
 | - Nghiên cứu các quyết định chi phối việc thiết kế hệ thống phần mềm và nghiên cứu các phương pháp tái sử dụng phần mềm<br><br>- Tập trung vào ý tưởng giảm độ phức tạp của phần mềm thông qua việc trừu tượng hóa, tách biệt các mối quan tâm và tái sử dụng<br><br>- Còn khá non nớt: khó tìm được hai kiến trúc sư phần mềm đồng ý về cách thiết kế hệ thống phần mềm đúng đắn | - Nghiên cứu các phương pháp xây dựng hệ thống và sản phẩm phần mềm, các lý thuyết làm cơ sở và các công cụ hữu ích để phát triển và đo lường chất lượng của phần mềm<br><br>- Giải quyết các nguồn lực hạn chế<br><br>- Là một môn học mang tính thực nghiệm mạnh mẽ, dựa trên kinh nghiệm và các dự án trong quá khứ |
 
-
-<!-- page 20 -->
-
 # Kiến trúc phần mềm vs Thiết kế phần mềm, Yêu cầu phần mềm (1)
 
 | **Kiến trúc phần mềm**<br>(Software architecture) | **Thiết kế phần mềm**<br>(Software design) | **Yêu cầu phần mềm**<br>(Software requirements) |
 | :--- | :--- | :--- |
 | - Cái gì, ở đâu và tại sao (what, where, why) chứ không phải như thế nào (how)<br>- Góc nhìn tổng thể cho thấy hệ thống đáp ứng yêu cầu như thế nào, ghi lại các thành phần phần mềm chính và cách chúng tương tác với nhau<br>- Rất trừu tượng, cố tình che giấu chi tiết | - Là cách thức (how) của một quá trình phát triển phần mềm | - Nêu 'cái gì' (what) phần mềm nên làm chứ không phải 'làm thế nào' (how)<br>- Có thể có chức năng và không có chức năng |
-
-
-<!-- page 21 -->
 
 # Nội dung trình bày
 
@@ -231,9 +168,6 @@ Chương 1: Tổng quan Kiến trúc phần mềm
 - Tại sao cần xây dựng Kiến trúc phần mềm?
 - Kiến trúc phần mềm là gì?
 - **Nguyên tắc Kiến trúc phần mềm**
-
-
-<!-- page 22 -->
 
 # Kiến trúc phần mềm vs Thiết kế phần mềm, Yêu cầu phần mềm (2)
 
@@ -248,9 +182,6 @@ Chương 1: Tổng quan Kiến trúc phần mềm
 
 ---
 Chương 1: Tổng quan Kiến trúc phần mềm
-
-
-<!-- page 23 -->
 
 # Những gì cần xem xét?
 
@@ -269,9 +200,6 @@ Chương 1: Tổng quan Kiến trúc phần mềm
 
 * Bạn nghĩ sẽ có những yêu cầu gì? bị ảnh hưởng tiêu cực bởi “thiết kế” này?
 
-
-<!-- page 24 -->
-
 # Yêu cầu & Thiết kế kiến trúc
 
 * Những yêu cầu nào là quan trọng nhất đối với thiết kế kiến trúc?
@@ -284,17 +212,11 @@ $$\rightarrow \text{Architectural Design} \rightarrow \text{Software Architectur
 
 * Điều gì quyết định liệu những yêu cầu này có được đáp ứng hay không?
 
-
-<!-- page 25 -->
-
 # Những ảnh hưởng khác đến Kiến trúc
 
 * **Requirements** $\rightarrow$ **Architectural Design**
 * **Technical**, **Business**, **Social** (influences) $\rightarrow$ **Architectural Design**
 * **Architectural Design** $\rightarrow$ **Software Architecture**
-
-
-<!-- page 26 -->
 
 # Ví dụ về những ảnh hưởng khác đến Kiến trúc
 
@@ -308,9 +230,6 @@ $$\rightarrow \text{Architectural Design} \rightarrow \text{Software Architectur
   - Kinh nghiệm kiến trúc và tổ chức
   - Giáo dục và đào tạo
 
-
-<!-- page 27 -->
-
 # Kiến trúc là nguồn ảnh hưởng
 
 - Hiểu được chu kỳ ảnh hưởng giúp lập kế hoạch và quản lý sự thay đổi trong suốt vòng đời của hệ thống
@@ -321,9 +240,6 @@ $$\rightarrow \text{Architectural Design} \rightarrow \text{Software Architectur
 - **Technical, Business, Social** $\xrightarrow{\text{influences}}$ **Architectural Design**
 - **Architectural Design** $\rightarrow$ **Software Architecture**
 - **Software Architecture** $\xrightarrow{\text{influences}}$ **Technical, Business, Social**
-
-
-<!-- page 28 -->
 
 # Kiến trúc & Bối cảnh thiết kế kiến trúc
 
@@ -384,9 +300,6 @@ https://www.iasaglobal.org/on-making-architectural-decisions/
 *   **Requirements** $\rightarrow$ *are based on* $\rightarrow$ **Business problem, need**
 *   **Business solution** $\rightarrow$ *solves* $\rightarrow$ **Business problem, need**
 
-
-<!-- page 29 -->
-
 # Nguyên tắc Kiến trúc phần mềm (1)
 
 - Thiết kế kiến trúc không có quy tắc dừng:
@@ -396,18 +309,10 @@ https://www.iasaglobal.org/on-making-architectural-decisions/
 - Thiết kế kiến trúc liên quan đến sự cân bằng, chẳng hạn như sự cân bằng giữa tốc độ và độ bền:
   - Kết quả là có một số giải pháp có thể chấp nhận được, thay vì một giải pháp tốt nhất
 
-
-<!-- page 30 -->
-
 # Nguyễn tắc Kiến trúc phần mềm (2)
 
 - Các vấn đề về thiết kế kiến trúc không có một tập hợp các giải pháp tiềm năng được xác định rõ ràng?
 - ➔ Kiến trúc sư phần mềm không thể khai thác một tập hợp các giải pháp làm sẵn mà phải áp dụng kiến thức, thực tiễn và tính sáng tạo để đi đến giải pháp thỏa đáng.
-
-
-<!-- page 31 -->
-
-HỌC VIỆN NGÂN HÀNG
 
 # HỎI/ĐÁP
 

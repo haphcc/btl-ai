@@ -314,4 +314,3 @@ Khi các thành viên không thể gặp trực tiếp, công cụ số giúp nh
 7. Nêu các lưu ý khi viết email.
 8. Tin nhắn tức thời phù hợp với tình huống nào?
 9. Khi làm bài tập nhóm trực tuyến cần thống nhất những điều gì?
-

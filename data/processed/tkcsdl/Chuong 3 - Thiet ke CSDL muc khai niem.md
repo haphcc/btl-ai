@@ -1,13 +1,5 @@
-HỌC VIỆN NGÂN HÀNG
-BANKING ACADEMY OF VIETNAM
-
 # CHƯƠNG 3
 # THIẾT KẾ CSDL MỨC KHÁI NIỆM
-
-KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
-
-
-<!-- page 2 -->
 
 # Vòng đời phát triển CSDL
 
@@ -20,9 +12,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 | **Vận hành** | - Chạy CSDL thật |
 | **Bảo trì** | - Thực hiện các thay đổi<br>- Nâng cấp CSDL |
 
-
-<!-- page 3 -->
-
 # Các giai đoạn thiết kế
 
 - **Khái niệm**
@@ -34,11 +23,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 
 - **Vật lý**
     - Bảng và mối quan hệ
-
-3
-
-
-<!-- page 4 -->
 
 # Thiết kế CSDL mức khái niệm
 
@@ -56,19 +40,11 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 
 *(Ghi chú: Mũi tên hướng xuống biểu thị **Top-down**, mũi tên hướng lên biểu thị **Bottom-up**)*
 
-
-<!-- page 5 -->
-
 # Thiết kế CSDL mức khái niệm
 
 - Tìm hiểu yêu cầu nghiệp vụ
 - Xác định hồ sơ dữ liệu liên quan
 - ERD
-
-5
-
-
-<!-- page 6 -->
 
 # 1. Xác định yêu cầu nghiệp vụ
 
@@ -83,18 +59,12 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 7. Hệ thống được đánh giá mức độ hoàn thành nhiệm vụ như thế nào?
 8. Người dùng cần hỗ trợ và đào tạo như thế nào để sử dụng hệ thống?
 
-
-<!-- page 7 -->
-
 # 1. Xác định yêu cầu nghiệp vụ
 
 ## **Đầu ra**
 
 - Sơ đồ tổ chức
 - Biểu đồ ngữ cảnh tương tác dữ liệu giữa các thành phần trong và ngoài tổ chức
-
-
-<!-- page 8 -->
 
 # 2. Xác định hồ sơ biểu mẫu
 
@@ -103,9 +73,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 - Tập hợp các biểu mẫu của tất cả các nghiệp vụ trong hệ thống (Mẫu báo cáo, chứng từ, đơn đề nghị,...)
 - Màn hình chụp thông tin yêu cầu nhập liệu của hệ thống hiện tại,
 - Danh sách những thông tin/biểu mẫu muốn bổ sung
-
-
-<!-- page 9 -->
 
 # 3. Xây dựng ERD
 
@@ -121,11 +88,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 - Chuẩn hóa, thu gọn
 - ERM
 
-
-<!-- page 10 -->
-
-# 3. Xây dựng ERD
-
 - **Bước 1**: **Chọn lọc thông tin** $\rightarrow$ **Từ điển dữ liệu**
     - Quy tắc:
         - **Chính xác hóa**
@@ -139,11 +101,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
         - **Xác định mối quan hệ tương tác**
         - **Xác định mối quan hệ ràng buộc**
 
-
-<!-- page 11 -->
-
-# 3. Xây dựng ERD
-
 - **Bước 4: Vẽ sơ đồ**
     - Vẽ thực thể
     - Vẽ mối quan hệ
@@ -156,26 +113,11 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
     - Rút gọn mô hình, nếu có thể
     - Xác định lại bản số
 
-
-<!-- page 12 -->
-
-# 3. Xây dựng ERD
-
 **DEMO**
-
-12
-
-
-<!-- page 13 -->
 
 # Ví dụ
 
 Một cửa hàng kinh doanh thực phẩm. Để có hàng bán cho khách, cửa hàng nhập hàng từ các nhà cung cấp và sau đó nhân viên sẽ bán hàng cho khách tại cửa hàng. Yêu cầu thiết kế một cơ sở dữ liệu giúp cửa hàng quản lý được thông tin hàng hóa nhập và xuất. Thông tin về hàng hóa được dựa trên hai hóa đơn nhập và xuất như sau:
-
-13
-
-
-<!-- page 14 -->
 
 # PHIẾU NHẬP HÀNG
 Số: xxxxxx
@@ -208,9 +150,6 @@ Số: xxxxxx
 **Thuế VAT** ....................
 **Tổng cộng** ....................
 
-
-<!-- page 15 -->
-
 # Xác định yêu cầu nghiệp vụ
 
 - **Sơ đồ chức**
@@ -228,11 +167,6 @@ Số: xxxxxx
 | Phiếu nhập |
 | Nhà cung cấp |
 | Khách hàng |
-
-15
-
-
-<!-- page 16 -->
 
 # Xác định biểu mẫu
 
@@ -266,11 +200,6 @@ Số: xxxxxx
 | **Thuế VAT** | | | | | ...... |
 | **Tổng cộng** | | | | | ...... |
 
-16
-
-
-<!-- page 17 -->
-
 # ERD cho PHIẾU NHẬP HÀNG
 
 ## Bước 1: chọn lọc thông tin
@@ -290,9 +219,6 @@ Số: xxxxxx
 - **NHÀ CUNG CẤP**
 - **HÀNG**
 
-
-<!-- page 18 -->
-
 # ERD cho PHIẾU NHẬP HÀNG
 
 ## Bước 2: Xác định thực thể, thuộc tính
@@ -311,9 +237,6 @@ Số: xxxxxx
 | Đơn giá | **Đơn giá nhập** | **Gianhap** |
 | Số lượng | Số lượng nhập | SoLuong |
 | Thành tiền | **Thành tiền** | **ThanhTien** |
-
-
-<!-- page 19 -->
 
 # ERD cho PHIẾU NHẬP HÀNG
 
@@ -342,9 +265,6 @@ Số: xxxxxx
     - GiaNhap
     - TongTien
 
-
-<!-- page 20 -->
-
 # ERD cho HÓA ĐƠN BÁN HÀNG
 
 | Từ trong HS | Từ rõ nghĩa | Từ viết tắt |
@@ -365,11 +285,6 @@ Số: xxxxxx
 - **KHÁCH HÀNG**
 - **NHÂN VIÊN**
 - **HÀNG**
-
-20
-
-
-<!-- page 21 -->
 
 # ERD cho HÓA ĐƠN BÁN HÀNG
 
@@ -395,11 +310,6 @@ Số: xxxxxx
 | Tổng cộng | Tổng cộng | TongCong |
 | Số lượng | Số lượng | SoLuong |
 
-21
-
-
-<!-- page 22 -->
-
 # ERD cho HÓA ĐƠN BÁN HÀNG
 
 - **Bước 3: Xác định quan hệ**
@@ -412,11 +322,6 @@ Số: xxxxxx
 | **Bán** | SoHDB, GiaBan, TongCong, NgayBan, VAT, SoLuong, ThanhTien, TongTien |
 | **KHÁCH HÀNG** | MaKH, DiaChi, TenKH |
 | **NHÂN VIÊN** | MaNV, TenNV, DiaChi |
-
-22
-
-
-<!-- page 23 -->
 
 # Tch hp
 
@@ -464,9 +369,6 @@ Cc mi quan h v thuc tnh lin kt:
     - TongCong
     - VAT
 
-
-<!-- page 24 -->
-
 # Một số vấn đề cần lưu ý
 
 **Sau khi phác thảo xong ERM phải chú ý tới những thông tin mà hệ thống có thể cung cấp theo nhu cầu của người dùng**
@@ -474,9 +376,6 @@ Cc mi quan h v thuc tnh lin kt:
 - Giá hiện tại của một mặt hàng bất kỳ?
 - Số lượng hàng tồn kho
 - Thống kê khách hàng theo tỉnh/huyện
-
-
-<!-- page 25 -->
 
 # Trả lời
 
@@ -489,21 +388,11 @@ Cc mi quan h v thuc tnh lin kt:
     - Mỗi lần cần tính toán rất lâu
     → Thêm thuộc tính hàng tồn kho, tự động tăng giảm theo số lượng nhập/xuất
 
-25
-
-
-<!-- page 26 -->
-
 # Trả lời
 
 - **Thống kê khách hàng theo Tỉnh/Huyện**
 → **Địa chỉ phải là thuộc tính tổ hợp:**
 **DiaChi (Tỉnh/thành, Phường/Xã, Chi tiết)**
-
-26
-
-
-<!-- page 27 -->
 
 # S  ER khi iu chnh
 
@@ -554,15 +443,7 @@ Cc mi quan h v thuc tnh lin kt:
     - TongCong (thuc tnh dn xut)
     - VAT
 
-
-<!-- page 28 -->
-
 # REVIEW CASE STUDY
-
-29
-
-
-<!-- page 29 -->
 
 # Case study quản lý kho
 
@@ -575,9 +456,6 @@ Cc mi quan h v thuc tnh lin kt:
     - Danh sách thực thể
     - Danh sách mối quan hệ
     - ERM
-
-
-<!-- page 30 -->
 
 # Case study quản lý kho
 
@@ -596,9 +474,6 @@ Cc mi quan h v thuc tnh lin kt:
     - **Phòng cung ứng** -> Quản lý kho
     - **Phòng ...** -> Quản lý kho
 
-
-<!-- page 31 -->
-
 # 1. xác định yêu cầu nghiệp vụ
 
 - Sơ đồ ngữ cảnh trao đổi dữ liệu
@@ -613,9 +488,6 @@ Cc mi quan h v thuc tnh lin kt:
 - **Lãnh đạo**: Báo cáo
 - **Người quản lý kho** (trung tâm)
 
-
-<!-- page 32 -->
-
 # Danh mục hồ sơ dữ liệu
 
 - **Quản lý nhập kho**
@@ -627,17 +499,9 @@ Cc mi quan h v thuc tnh lin kt:
     - Báo cáo tồn kho (A)
     - Bảng cân đối kho (F)
 
-
-<!-- page 33 -->
-
 # Xây dựng ERD
 
 - **Xây dựng từ điển dữ liệu**
-
-34
-
-
-<!-- page 34 -->
 
 # Xây dựng ERD
 
@@ -653,9 +517,6 @@ Cc mi quan h v thuc tnh lin kt:
     - PhieuNhap (Số phiếu, ngày, người nhận)
     - PhieuXuat (Số phiếu, ngày, người giao)
 
-
-<!-- page 35 -->
-
 # Xác định mối quan hệ
 
 - PhieuNhap <nhập> VatTu/Hang (1:n)
@@ -669,9 +530,6 @@ Cc mi quan h v thuc tnh lin kt:
 - ThuKho <xuất cho> PhieuXuat (1:n)
 - Hang <trong> PhieuXuat (1:n)
 
-
-<!-- page 36 -->
-
 # Nhận xét
 
 - **Chúng ta thấy: nhân viên có thể làm nhiều chức vụ, thủ kho, kế toán, quản lý kho đều là trường hợp đặc biệt của nhân viên**
@@ -680,9 +538,6 @@ Cc mi quan h v thuc tnh lin kt:
     - PhongBan(Mã Phòng, tên phòng)
     - NhanVien <thuộc> Phòng (n:1)
 - **VatTu/Hang nên bổ sung thêm thuộc tính loại hàng tăng tốc độ nhập liệu, dễ phục vụ số liệu thống kê.**
-
-
-<!-- page 37 -->
 
 # ERD hoàn thiện của hệ thống nhập kho
 

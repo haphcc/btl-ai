@@ -286,6 +286,4 @@ $$
 Ngoài ra:
 
 $$
-\int_{-\infty}^{+\infty}0\,dx=0,\qquad
-\int_{-\infty}^{a}0\,dx=0,\qquad
-\int_a^{+\infty}0\,dx=0.
+\int_{-\infty}^{+\infty}0\,dx=0,\qquad \int_{-\infty}^{a}0\,dx=0,\qquad \int_a^{+\infty}0\,dx=0.

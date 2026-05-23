@@ -2,8 +2,6 @@
 
 #### C04 LAP TRINH GIAO DIEN TRONG WINDOWS PART2
 
-## TRANG 1
-
 ## HỌC VIỆN NGÂN HÀNG
 
 ## KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
@@ -13,8 +11,6 @@
 ## LẬP TRÌNH GIAO DIỆN
 
 ## TRONG WINDOWS
-
-## TRANG 2
 
 ## Nội dung
 
@@ -28,15 +24,11 @@
 
 23/05/2026 Chương 4. Lập trình giao diện trong Windows 2/26
 
-## TRANG 3
-
 3. Các hộp thoại thông dụng
 
 Nằm trong System. IO Gồm 5 hộp thoại thông dụng ◼ Open File: Mởfile ◼ Save File: Lưu file ◼ Font: Font chữ ◼ Color: Màu sắc ◼ Print: Inấn
 
 23/05/2026 Chương 4. Lập trình giao diện trong Windows 3/26
-
-## TRANG 4
 
 Hộp thoại Open File
 
@@ -68,8 +60,6 @@ bộ lọc (*. exe) |
 | Title | Xác định tiêu đề của hộp hội thoại. |
 | OpenFile | Mở nội dung File đã được chọn (ReadOnly). |
 
-## TRANG 5
-
 Type: Picture Box, name: Pic Anh
 
 Type: Button, name:btn Open
@@ -91,8 +81,6 @@ else Message Box. Show("You clicked Cancel", "Open Dialog", Message Box Buttons.
 }
 
 23/05/2026 Chương 4. Lập trình giao diện trong Windows 5/26
-
-## TRANG 6
 
 Hộp thoại Save File
 
@@ -128,8 +116,6 @@ phần mở rộng của tên tệp. |
 | DefaultExt | Phần mở rộng mặc định cho tên tệp, nếu người dùng
 không chỉ rõ phần mở rộng của tên tệp |
 
-## TRANG 7
-
 Luồng File - File Stream
 
 Luồng ghi dữ liệu - Stream Writer ◼ Mởlu ồng đểghi file Stream Writer Tenluong = new Stream Writer(Tenfile);
@@ -139,8 +125,6 @@ Luồng File - File Stream
 ◼ Ghi toàn bộn ội dùng vào file Tenluong. Write(“Noidung”);
 
 23/05/2026 Chương 4. Lập trình giao diện trong Windows 7/26
-
-## TRANG 8
 
 Luồng file - File Stream
 
@@ -161,8 +145,6 @@ Noidung = Tenluong. Read To End();
 Tenluong. Close();
 
 23/05/2026 Chương 4. Lập trình giao diện trong Windows 8/26
-
-## TRANG 9
 
 private void btn Save_Click(object sender, Event Args e) { Save File Dialog dlg Save = new Save File Dialog();
 
@@ -190,8 +172,6 @@ try { File. Write(txt Save. Text);
 
 } } 23/05/2026 Chương 4. Lập trình giao diện trong Windows 9/26
 
-## TRANG 10
-
 Hộp thoại Font
 
 Cho phép chọn font chữ
@@ -211,8 +191,6 @@ Color Màu được chọn trong hộp thoại Font.
 Color. |
 | Color | Màu được chọn trong hộp thoại Font. |
 
-## TRANG 11
-
 Hộp thoại Color
 
 Hiển thịb ảng màu
@@ -231,15 +209,11 @@ Solid Color Only Không hiển thịph ần Define Custom Colors.
 | FullOpen | Hiển thị toàn bộ hộp thoại Color. |
 | SolidColorOnly | Không hiển thị phần Define Custom Colors. |
 
-## TRANG 12
-
 4. Thực đơn và ứng dụng nhiều biểu mẫu
 
 Thực đơn (menu) ◼ Điều khiển Menu Strip ◼ Cho phép  Thiết kếthanh thực đơn  Lựa chọn kiểu thực đơn  Phím tắt
 
 23/05/2026 Chương 4. Lập trình giao diện trong Windows 12/26
-
-## TRANG 13
 
 Thực đơn - Menu
 
@@ -259,24 +233,17 @@ Visible True/False: hiển thị/không hiển thị Tool Tip Text Dòng mách n
 | ShortcutKey
 s | Phím tắt |
 | Text | Tạo tiêu đề của các mục menu. Nếu đặt ký tự & trước một
-chữ cái trong thuộc tính Text thì khi chạy chương trình
-người dùng có thể bấm tổ hợp phím Alt + Chữ cái đó để
-kích hoạt menu. Ví dụ: &File sẽ cho phép bấm Alt+F để
-kích hoạt menu File.
+chữ cái trong thuộc tính Text thì khi chạy chương trình người dùng có thể bấm tổ hợp phím Alt + Chữ cái đó để kích hoạt menu. Ví dụ: &File sẽ cho phép bấm Alt+F để kích hoạt menu File.
 Nếu Text được xác lập là một dấu trừ (-) C# sẽ hiển thị
 một đường thẳng ngăn cách giữa các khoản mục menu. |
 | Visible | True/False: hiển thị/không hiển thị |
 | ToolTipText | Dòng mách nước cho các mục menu |
-
-## TRANG 14
 
 Menu ngữ cảnh - Context Menu Strip
 
 Cho phép tạo menu ngữc ảnh ◼ Gán menu ngữc ảnh cho các điều khiển khác qua thuộc tính Context Menu Strip ◼ Tên bắt đầu bằng cmnu ◼ Thuộc tính tương tựnh ư Menu Strip
 
 23/05/2026 Chương 4. Lập trình giao diện trong Windows 14/26
-
-## TRANG 15
 
 Ứng dụng nhiều biểu mẫu
 
@@ -285,8 +252,6 @@ Menu ngữ cảnh - Context Menu Strip
  Ví dụ: Application. Run(new frm Main());
 
 23/05/2026 Chương 4. Lập trình giao diện trong Windows 15/26
-
-## TRANG 16
 
 Ứng dụng nhiều biểu mẫu
 
@@ -301,8 +266,6 @@ Frm. Show Dialog();
 Đóng biểu mẫu ◼ Phương thức: Hide, Close
 
 23/05/2026 Chương 4. Lập trình giao diện trong Windows 16/26
-
-## TRANG 17
 
 ## Bài tập về nhà
 

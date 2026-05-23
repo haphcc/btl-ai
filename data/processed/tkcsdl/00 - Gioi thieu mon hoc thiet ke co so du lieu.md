@@ -1,16 +1,11 @@
 # HỌC VIỆN NGÂN HÀNG
-BANKING ACADEMY OF VIETNAM
 
 # GIỚI THIỆU MÔN HỌC
 # THIẾT KẾ CƠ SỞ DỮ LIỆU
 
-KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 GV: Nguyễn Thị Thu Trang
 E-mail: Trangntt.httt@hvnh.edu.vn
 SĐT: 0988735717
-
-
-<!-- page 2 -->
 
 # MỤC TIÊU MÔN HỌC
 
@@ -19,9 +14,6 @@ SĐT: 0988735717
 - **ĐÁNH GIÁ** mức độ đáp ứng nghiệp vụ của cơ sở dữ liệu
 
 Thiết kế cơ sở dữ liệu 2
-
-
-<!-- page 3 -->
 
 # NỘI DUNG CHÍNH
 
@@ -33,9 +25,6 @@ Thiết kế cơ sở dữ liệu 2
 - **Chương 6: Cơ sở dữ liệu trong kinh doanh thông minh**
 
 Thiết kế cơ sở dữ liệu
-
-
-<!-- page 4 -->
 
 # TIẾN TRÌNH HỌC TẬP
 
@@ -49,9 +38,6 @@ Thiết kế cơ sở dữ liệu
 
 Thiết kế cơ sở dữ liệu
 
-
-<!-- page 5 -->
-
 # ĐÁNH GIÁ
 
 - **Chuyên cần: 10%**
@@ -63,9 +49,6 @@ Thiết kế cơ sở dữ liệu
 
 Thiết kế cơ sở dữ liệu 5
 
-
-<!-- page 6 -->
-
 # TÀI LIỆU HỌC TẬP
 
 - **Slide bài giảng**
@@ -75,14 +58,8 @@ Thiết kế cơ sở dữ liệu 5
 
 Thiết kế cơ sở dữ liệu 6
 
-
-<!-- page 7 -->
-
 # YÊU CẦU ĐỐI VỚI SINH VIÊN
 
 Thiết kế cơ sở dữ liệu
-
-
-<!-- page 8 -->
 
 # Thiết kế cơ sở dữ liệu

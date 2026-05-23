@@ -134,4 +134,3 @@ Slide giới thiệu một số môi trường lập trình như Dev-C++ và cá
 - Thuật toán là lời giải có trình tự cho bài toán.
 - Chương trình là cách cài đặt thuật toán bằng ngôn ngữ lập trình.
 - Ngôn ngữ C mạnh, linh hoạt, nhưng yêu cầu người học nắm chắc cú pháp và cách tổ chức chương trình.
-

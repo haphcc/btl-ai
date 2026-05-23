@@ -5,11 +5,6 @@ ITDE INFORMATION TECHNOLOGY & DIGITAL ECONOMICS BANKING ACADEMY OF VIETNAM
 
 ➢ Giảng viên: Ngô Thùy Linh
 
-ORACLE
-
-
-<!-- page 2 -->
-
 # Programming in Oracle with PL/SQL
 
 - PL: Procedural Language
@@ -18,10 +13,6 @@ ORACLE
 
 ITDE INFORMATION TECHNOLOGY & DIGITAL ECONOMICS BANKING ACADEMY OF VIETNAM
 PL/SQL ORACLE
-ORACLE
-
-
-<!-- page 3 -->
 
 # Nội dung chính
 
@@ -35,20 +26,8 @@ ORACLE
 - Trigger
 - Package
 
-
-<!-- page 4 -->
-
-ITDE
-INFORMATION TECHNOLOGY & DIGITAL ECONOMICS
-BANKING ACADEMY OF VIETNAM
-
 # PHẦN I
 ## GIỚI THIỆU VỀ PL/SQL
-
-ORACLE
-
-
-<!-- page 5 -->
 
 # PL/SQL là gì?
 
@@ -65,9 +44,6 @@ ORACLE
     - Khả chuyển
     - Có cơ chế xử lý ngoại lệ
 
-
-<!-- page 6 -->
-
 # Cách thực thi các lệnh PL/SQL
 
 - **PL/SQL** $\rightarrow$ **PL/SQL Engine**
@@ -76,9 +52,6 @@ ORACLE
         - SQL $\rightarrow$ **SQL Statement Executor**
 - **Oracle Database Server**
     - **SQL Statement Executor**
-
-
-<!-- page 7 -->
 
 # Giới thiệu về ngôn ngữ PL/SQL
 
@@ -90,9 +63,6 @@ ORACLE
         - Biến & hằng (Variables and constants)
         - Con trỏ (cursor)
         - Xử lý các ngoại lệ (Exceptions)
-
-
-<!-- page 8 -->
 
 # Cấu trúc khối lệnh PL/SQL
 
@@ -107,9 +77,6 @@ ORACLE
 
 Chú thích một dòng bắt đầu bởi - -
 Chú thích nhiều dòng được đặt giữa /* và */
-
-
-<!-- page 9 -->
 
 # Cấu trúc khối lệnh PL/SQL
 
@@ -128,8 +95,7 @@ BEGIN
 **Các câu lệnh thực hiện (Executable Statements)**
 
 EXCEPTION
-**Các xử lý ngoại lệ (Exception Handlers)**
-/ *làm gì nếu lỗi xuất hiện bên trong Block 2* /
+**Các xử lý ngoại lệ (Exception Handlers)** / *làm gì nếu lỗi xuất hiện bên trong Block 2* /
 
 END --- End Block 2
 
@@ -137,11 +103,6 @@ EXCEPTION
 **Các xử lý ngoại lệ (Exception Handlers)**
 
 END; --- End Block 1
-
-ORACLE
-
-
-<!-- page 10 -->
 
 # Cấu trúc khối lệnh PL/SQL
 
@@ -153,13 +114,6 @@ begin
 dbms_output.put_line('chao cac ban !!!');
 end;
 ```
-
-
-<!-- page 11 -->
-
-ITDE
-INFORMATION TECHNOLOGY & DIGITAL ECONOMICS
-BANKING ACADEMY OF VIETNAM
 
 # Các kiểu khối lệnh
 
@@ -187,17 +141,9 @@ IS
 [EXCEPTIONS]
 **END;**
 
-ORACLE
-
-
-<!-- page 12 -->
-
 # PHẦN 2
 
 # KHAI BÁO BIẾN
-
-
-<!-- page 13 -->
 
 # Làm việc với biến trong PL/SQL
 
@@ -206,9 +152,6 @@ ORACLE
 - Hai biến có thể cùng tên nếu chúng ở trong các khối lệnh khác nhau
 - Tên biến không nên trùng với tên bảng, tên cột trong cùng khối lệnh
 - Tên biến bắt đầu bởi ký tự ($\le 30$ ký tự)
-
-
-<!-- page 14 -->
 
 # Biến (variable)
 
@@ -219,9 +162,6 @@ ORACLE
 - **Cho phép sửa dữ liệu**
 - **Cho phép tái sử dụng**
 
-
-<!-- page 15 -->
-
 # Quy tắc đặt tên biến
 
 - Bắt đầu bằng chữ cái
@@ -229,9 +169,6 @@ ORACLE
 - Có thể chứa kí tự đặc biệt: dấu $, _, # (hạn chế dùng $)
 - Tối đa 30 kí tự
 - Không trùng với từ khóa mà Oracle sử dụng, ví dụ: varchar, table...
-
-
-<!-- page 16 -->
 
 # Khai báo biến
 
@@ -250,9 +187,6 @@ Declare
     valid       BOOLEAN NOT NULL := TRUE;
 ```
 
-
-<!-- page 17 -->
-
 # Các loại biến
 
 ## Biến PL/SQL
@@ -264,9 +198,6 @@ Declare
 ## Biến Non-PL/SQL
 - Bind
 - Host
-
-
-<!-- page 18 -->
 
 # Các kiểu dữ liệu trong PL/SQL
 
@@ -313,9 +244,6 @@ Declare
 - CLOB
 - NCLOB
 
-
-<!-- page 19 -->
-
 # INPUT / OUTPUT
 
 - **Output**
@@ -337,9 +265,6 @@ begin
 end;
 ```
 
-
-<!-- page 20 -->
-
 # Gán giá trị
 
 - Có thể gán giá trị theo 2 cách
@@ -356,9 +281,6 @@ end;
 
 *Chú ý:* Toán tử gán trong PL/SQL là **:=**
 Toán tử gán trong các lệnh SQL là **=**
-
-
-<!-- page 21 -->
 
 # Nhận và hiển thị giá trị biến (Kiểu số)
 
@@ -378,9 +300,6 @@ end;
 anonymous block completed
 Gia tri cua x la..123457000
 
-
-<!-- page 22 -->
-
 # Nhận và hiển thị giá trị biến (tt)
 (Kiểu số)
 
@@ -397,9 +316,6 @@ end;
 
 anonymous block completed
 Gia tri cua x la..1235
-
-
-<!-- page 23 -->
 
 # Nhận và hiển thị giá trị biến (t) (Kiểu số)
 
@@ -422,11 +338,6 @@ T: 123.456
 **anonymous block completed**
 **Gia tri cua t la..123.46**
 
-ORACLE
-
-
-<!-- page 24 -->
-
 # Nhận và hiển thị giá trị biến (tt)
 (Kiểu số)
 
@@ -447,9 +358,6 @@ END;
 anonymous block completed
 Gia tri cua x la..123456789.001
 
-
-<!-- page 25 -->
-
 # Nhận và hiển thị giá trị biến (Kiểu ký tự)
 
 ❖ Ví dụ 1:
@@ -464,9 +372,6 @@ begin
 end;
 ```
 
-
-<!-- page 26 -->
-
 # Nhận và hiển thị giá trị biến (Kiểu ký tự)...
 
 ❖ Ví dụ 2:
@@ -478,9 +383,6 @@ BEGIN
     dbms_output.put_line('Ho ten..'||'&xx');
 END;
 ```
-
-
-<!-- page 27 -->
 
 # Nhận và hiển thị giá trị biến (Kiểu ngày tháng)
 
@@ -500,9 +402,6 @@ begin
 end;
 ```
 
-
-<!-- page 28 -->
-
 # Nhận và hiển thị giá trị biến (Kiểu ngày tháng)...
 
 ❖ Ví dụ 2
@@ -517,9 +416,6 @@ begin
 end;
 ```
 
-
-<!-- page 29 -->
-
 # Ví dụ 3
 
 ```sql
@@ -530,23 +426,14 @@ BEGIN
 END;
 ```
 
-
-<!-- page 30 -->
-
 # PHẦN 3
 
 # TƯƠNG TÁC VỚI ORACLE SERVER
-
-
-<!-- page 31 -->
 
 # Tương tác với Oracle Server
 
 - Lấy ra một dòng dữ liệu từ Database với câu lệnh **SELECT**
 - Thay đổi dữ liệu trong Database với các lệnh **DML**
-
-
-<!-- page 32 -->
 
 # Lấy dữ liệu từ Database với lệnh SELECT
 
@@ -561,9 +448,6 @@ FROM tên_bảng
 
 - **Mệnh đề INTO là bắt buộc**
 - **Truy vấn chỉ được trả về 1 và chỉ 1 dòng**
-
-
-<!-- page 33 -->
 
 # Ví dụ:
 
@@ -594,9 +478,6 @@ PL/SQL procedure successfully completed.
 De tai co ma: dt1
 Co ten la: Quan Ly sinh vien
 
-
-<!-- page 34 -->
-
 # Lấy dữ liệu từ Database với lệnh SELECT (tt)
 
 - **Số cán bộ ở Hà nội?**
@@ -614,9 +495,6 @@ begin
     dbms_output.put_line('So can bo o Ha Noi la..'||socanbo);
 end;
 ```
-
-
-<!-- page 35 -->
 
 # Phạm vi của biến
 
@@ -640,18 +518,12 @@ end;
 12> END;
 ```
 
-
-<!-- page 36 -->
-
 # Phép toán
 
 - **Toán học**: +, -, *, /, ** (lũy thừa)
 - **So sánh**: =, <>, !=, ~=, <, >, <=, >=, LIKE, BETWEEN, IN, IS NULL
 - **Logic**: AND, OR, NOT
 - **Phép toán liên quan đến chuỗi**
-
-
-<!-- page 37 -->
 
 # Thuộc tính %TYPE, %ROWTYPE
 
@@ -665,9 +537,6 @@ end;
 
 ## %ROWTYPE
 - Dùng để khai báo một biến mà nó có cấu trúc như một dòng trong table
-
-
-<!-- page 38 -->
 
 # Khai báo biến với %TYPE
 
@@ -685,9 +554,6 @@ DECLARE
 
 - Accessing another variable
 
-
-<!-- page 39 -->
-
 # Khai báo biến với %ROWTYPE
 
 Declare a variable with the type of a ROW of a table.
@@ -695,9 +561,6 @@ Declare a variable with the type of a ROW of a table.
 Accessing table Reserves
 
 `reserves_record Reserves%ROWTYPE;`
-
-
-<!-- page 40 -->
 
 # Lấy dữ liệu trong PL/SQL <sử dụng %TYPE>
 
@@ -712,9 +575,6 @@ declare
     luong_thang     canbo.luong%TYPE;
     ma_cb           canbo.macb%TYPE :='cb8';
 ```
-
-
-<!-- page 41 -->
 
 # Lấy dữ liệu trong PL/SQL <sử dụng %TYPE> ...
 
@@ -732,9 +592,6 @@ begin
     ho_ten||' que quan '||que_quan||' thu nhap la '||luong_thang);
 end;
 ```
-
-
-<!-- page 42 -->
 
 # Lấy dữ liệu trong PL/SQL <sử dụng %ROWTYPE> ...
 
@@ -756,9 +613,6 @@ end;
 anonymous block completed
 cb2Luu Ngoc DucHa Nam
 
-
-<!-- page 43 -->
-
 # Thao tác dữ liệu sử dụng PL/SQL
 
 ## Thay đổi dữ liệu trong bảng bằng các lệnh DML:
@@ -766,9 +620,6 @@ cb2Luu Ngoc DucHa Nam
 - INSERT
 - UPDATE
 - DELETE
-
-
-<!-- page 44 -->
 
 # Chèn dữ liệu
 
@@ -803,9 +654,6 @@ End;
 | cb15 | Vu Thi Ngoc Huyen | Hai Phong | 3500000 |
 | cb17 | Hoang Nguyet | Thai Nguyen | 5000000 |
 
-
-<!-- page 45 -->
-
 # Cập nhật dữ liệu
 
 - **Tăng lương cho cán bộ làm đề tài có mã số là dt5**
@@ -821,9 +669,6 @@ begin
 end;
 ```
 
-
-<!-- page 46 -->
-
 # Xóa dữ liệu
 
 - **Xóa cán bộ có mã số là cb17**
@@ -837,15 +682,9 @@ begin
 end;
 ```
 
-
-<!-- page 47 -->
-
 # PHẦN 4
 
 # CÁC LỆNH ĐIỀU KHIỂN LUỒNG CHƯƠNG TRÌNH
-
-
-<!-- page 48 -->
 
 # Cấu trúc điều khiển
 
@@ -873,11 +712,6 @@ end;
 **for**
 **while**
 
-ORACLE
-
-
-<!-- page 49 -->
-
 # Rẽ nhánh
 
 | IF...THEN...ELSE | CASE...WHEN |
@@ -890,9 +724,6 @@ ORACLE
 | *statements*;] | [**ELSE** *resultN+1*] |
 | **END IF**; | **END**; |
 
-
-<!-- page 50 -->
-
 # Các lệnh điều khiển luồng chương trình
 
 ❖ **Lệnh IF**
@@ -901,9 +732,6 @@ ORACLE
 | :--- | :--- |
 | **IF** *CONDITION* **THEN**<br> *STATEMENT 1;*<br> . . .<br> *STATEMENT N;*<br> **END IF;** | **IF** *CONDITION 1* **THEN**<br> *STATEMENTS 1;*<br> **ELSIF** *CONDITION 2* **THEN**<br> *STATEMENTS 2;*<br> **ELSIF** *CONDITION 3* **THEN**<br> *STATEMENTS 3;*<br> . . .<br> **ELSE**<br> *STATEMENTS N;*<br> **END IF;** |
 | **IF** *CONDITION* **THEN**<br> *STATEMENTS 1;*<br> **ELSE**<br> *STATEMENTS 2;*<br> **END IF;** | |
-
-
-<!-- page 51 -->
 
 # Lệnh IF
 
@@ -922,15 +750,9 @@ begin
 end;
 ```
 
-
-<!-- page 52 -->
-
 # Lệnh IF (tt)
 
 - **Ví dụ 3:** Nhập một ký tự từ bàn phím, nếu đó là A thì đưa ra thông báo: Tuyet voi, là B thì: Rat tot, là C thì: Tot, là D thì: Binh thuong. Các ký tự khác thì: Chua co thong tin..
-
-
-<!-- page 53 -->
 
 DECLARE
     kt CHAR;
@@ -948,9 +770,6 @@ BEGIN
         DBMS_OUTPUT.PUT_LINE('Chua co thong tin...');
     END IF;
 END;
-
-
-<!-- page 54 -->
 
 # CASE-WHEN
 
@@ -973,9 +792,6 @@ BEGIN
     END CASE;
 END;
 ```
-
-
-<!-- page 55 -->
 
 # Các lệnh điều khiển luồng chương trình
 
@@ -1004,9 +820,6 @@ FOR counter IN val1..val2 LOOP
 END LOOP;
 ```
 
-
-<!-- page 56 -->
-
 # Ví dụ 1: Lệnh LOOP
 
 ```sql
@@ -1033,9 +846,6 @@ END;
 - Inside loop: x = 3
 - After loop: x = 4
 
-
-<!-- page 57 -->
-
 # Ví dụ 2: Lệnh LOOP
 
 ```sql
@@ -1058,9 +868,6 @@ END;
 - Inside loop: x = 2
 - Inside loop: x = 3
 - After loop: x = 4
-
-
-<!-- page 58 -->
 
 # Loops: Simple Loop
 
@@ -1097,9 +904,6 @@ END;
 | 100 | 9 |
 | 100 | 10 |
 
-
-<!-- page 59 -->
-
 # Loops: FOR Loop
 
 ```sql
@@ -1115,9 +919,6 @@ END;
 ```
 
 Notice that **v_num** is incremented automatically
-
-
-<!-- page 60 -->
 
 # Loops: WHILE Loop
 
@@ -1135,9 +936,6 @@ BEGIN
 END;
 ```
 
-
-<!-- page 61 -->
-
 # Loops: WHILE Loop..
 
 ```sql
@@ -1154,15 +952,9 @@ begin
 end;
 ```
 
-
-<!-- page 62 -->
-
 # PHẦN 5
 
 # LÀM VIỆC VỚI CURSOR
-
-
-<!-- page 63 -->
 
 # Cursor
 
@@ -1186,9 +978,6 @@ Where...
 
 **Cursor** -> **Current Row**
 
-
-<!-- page 64 -->
-
 # Cursor
 
 ## Khi nào?
@@ -1203,9 +992,6 @@ Where...
 | Implicit | **Implicit cursor** được khai báo một cách ngầm định bởi PL/SQL cho các lệnh DML và lệnh SELECT chỉ trả về 1 dòng |
 | Explicit | **Explicit cursor** dùng với các truy vấn trả về nhiều hơn một dòng. Explicit cursor được khai báo và đặt tên bởi lập trình viên và thao tác qua các lệnh nhất định trong phần thực thi của khối lệnh |
 
-
-<!-- page 65 -->
-
 # IMPLICIT CURSOR (Con trỏ không tường minh)
 
 - Là con trỏ PL/SQL tự động sinh ra khi gặp câu lệnh SELECT hoặc DML
@@ -1214,9 +1000,6 @@ Where...
     - **SQL%FOUND**: Trả về NULL/TRUE/ FALSE
     - **SQL%NOTFOUND**: Trả về NULL/TRUE/ FALSE
     - **SQL%ROWCOUNT**: Trả về NULL, số lượng bản ghi tác động bởi DML hoặc SELECT
-
-
-<!-- page 66 -->
 
 # IMPLICIT CURSOR
 
@@ -1237,9 +1020,6 @@ END;
 ---
 anonymous block completed
 Row Selected 1
-
-
-<!-- page 67 -->
 
 # IMPLICIT CURSOR..
 
@@ -1273,9 +1053,6 @@ END;
 anonymous block completed
 So dong bi xoa 10
 
-
-<!-- page 68 -->
-
 # IMPLICIT CURSOR..
 
 ❖ **Ví dụ 3:**
@@ -1297,9 +1074,6 @@ Begin
 End;
 ```
 
-
-<!-- page 69 -->
-
 # Explicit Cursor (Con trỏ tường minh)
 
 ### Explicit Cursor
@@ -1309,9 +1083,6 @@ End;
     - Xử lý lần lượt từng dòng trả về bởi câu lệnh truy vấn trả về nhiều dòng
     - Luôn trỏ tới dòng đang được xử lý
     - Cho phép lập trình viên điều khiển trong khối lệnh PL/SQL
-
-
-<!-- page 70 -->
 
 # Làm việc với Explicit Cursor
 
@@ -1336,11 +1107,6 @@ FETCH cursor_name INTO PL/SQL variables;
 CLOSE cursor_name;
 ```
 
-ORACLE
-
-
-<!-- page 71 -->
-
 # Điều khiển Explicit Cursors..
 
 1. Open the cursor.
@@ -1350,11 +1116,6 @@ ORACLE
 - **Cursor pointer**
 - **Cursor pointer**
 - **Cursor pointer**
-
-ORACLE
-
-
-<!-- page 72 -->
 
 # Example
 
@@ -1390,9 +1151,6 @@ insert into AREAS values (rad_val.radius, area);
 - **fetch**
 - **Rad_val**
 
-
-<!-- page 73 -->
-
 BEGIN
 open rad_cursor; -- mở cursor
 -- Lấy ra dòng đầu tiên
@@ -1414,9 +1172,6 @@ END;
 | 3 | 28.27 |
 | 6 | 113.1 |
 
-
-<!-- page 74 -->
-
 # Các thuộc tính của Explicit Cursor
 
 Chứa thông tin về cursor:
@@ -1427,11 +1182,6 @@ Chứa thông tin về cursor:
 | %NOTFOUND | Boolean | Là TRUE nếu lệnh lấy dữ liệu gần đây nhất không trả về dòng |
 | %FOUND | Boolean | Là TRUE nếu lệnh lấy dữ liệu gần đây nhất trả về dữ liệu |
 | %ROWCOUNT | Number | Là tổng số dòng dữ liệu đã trả về thời điểm hiện tại |
-
-
-<!-- page 75 -->
-
-# Ví dụ
 
 - **Ví dụ 1: Lấy id và num của bảng number_table và chèn vào bảng temp_list**
 
@@ -1487,11 +1237,6 @@ select * from temp_list;
 
 **RESULT**
 
-
-<!-- page 76 -->
-
-# Ví dụ
-
 * **Ví dụ 2: Lấy thông tin trong bảng number_table và in ra màn hình**
 
 ### number_table
@@ -1540,11 +1285,6 @@ ID = 100, Number = 10
 1. Open, Fetch, Close Cursor thực hiện ngầm định
 2. Biến lấy giá trị của Cursor cũng được khai báo ngầm định
 
-
-<!-- page 77 -->
-
-# Ví dụ
-
 - Ví dụ 3: cho bảng **table_num**
 - Hãy in ra các dòng có mã số từ 3 đến 7
 
@@ -1575,9 +1315,6 @@ begin
 end;
 ```
 
-
-<!-- page 78 -->
-
 # Ví dụ: Cho biết thông tin các cán bộ có đề tài theo quê quán
 
 ```sql
@@ -1606,11 +1343,6 @@ Close cs_ds;
 End;
 ```
 
-
-<!-- page 79 -->
-
-# Ví dụ
-
 ![Enter Substitution Variable](Enter Substitution Variable)
 
 - Ten can bo: Vu Thi Binh; Que quan: Ha Noi; Ma de tai: dt1
@@ -1619,15 +1351,9 @@ End;
 
 PL/SQL procedure successfully completed.
 
-
-<!-- page 80 -->
-
 # PHẦN 6
 
 # Module hóa chương trình
-
-
-<!-- page 81 -->
 
 # Mục đích
 
@@ -1636,9 +1362,6 @@ PL/SQL procedure successfully completed.
     - Các khối lệnh có thể lồng nhau
     - Chia một vấn đề phức tạp thành một tập các module nhỏ, rõ ràng, dễ quản lý và thực hiện chúng với các khối lệnh
     - Đặt các mã lệnh PL/SQL vào trong các thư viện dùng chung giữa các ứng dụng Oracle Developer hay lưu chúng trong Oracle Server
-
-
-<!-- page 82 -->
 
 # Vai trò
 
@@ -1649,9 +1372,6 @@ PL/SQL procedure successfully completed.
 - **Khả năng bảo trì**
     - Có thể chỉ thay đổi chương trình con mà không phải thay đổi những phần tử kích hoạt chúng.
 
-
-<!-- page 83 -->
-
 # Vai trò
 
 - **Khả năng đóng gói**
@@ -1661,9 +1381,6 @@ PL/SQL procedure successfully completed.
 - **Hiệu suất tốt hơn:**
     - Làm giảm lưu lượng mạng và cải thiện thời gian phản hồi.
 
-
-<!-- page 84 -->
-
 # Module trong PL/SQL
 
 - Có 4 loại module trong PL/SQL
@@ -1672,18 +1389,12 @@ PL/SQL procedure successfully completed.
     - Triggers
     - Packages
 
-
-<!-- page 85 -->
-
 # Hàm và thủ tục
 
 - Là các khối lệnh PL/SQL được đặt tên
 - Gọi chung là chương trình con
 - Có cấu trúc giống khối lệnh vô danh
 - Lưu trữ trong CSDL dưới dạng p-code
-
-
-<!-- page 86 -->
 
 # Thủ tục
 
@@ -1706,11 +1417,6 @@ END ;
 - **EXECUTE [or EXEC] procedure_name;**
 - **procedure_name;**
 
-
-<!-- page 87 -->
-
-# Thủ tục..
-
 ### 3 kiểu tham số
 
 | MODE | DESCRIPTION | USAGE |
@@ -1720,11 +1426,6 @@ END ;
 | IN OUT | Truyền giá trị vào và cũng truyền giá trị trở lại | Has to be a variable |
 
 *Chú ý: mặc định là kiểu IN*
-
-
-<!-- page 88 -->
-
-# Thủ tục..
 
 - **Ví dụ 1: Tạo thủ tục tính tổng hai số**
 
@@ -1741,11 +1442,6 @@ begin
 end;
 ```
 
-
-<!-- page 89 -->
-
-# Thủ tục..
-
 - **Thi hành thủ tục:**
 
 - **Cách 1**
@@ -1761,12 +1457,7 @@ end;
 $\searrow$ anonymous block completed
 Tong la..14
 
-
-<!-- page 90 -->
-
 # Ví dụ 2
-
-# Thủ tục..
 
 **Table: my_log**
 
@@ -1789,11 +1480,6 @@ BEGIN
 END;
 ```
 
-
-<!-- page 91 -->
-
-# Thủ tục..
-
 ```sql
 set serveroutput on
 declare
@@ -1810,9 +1496,6 @@ end;
 anonymous block completed
 John log on..4 times
 ```
-
-
-<!-- page 92 -->
 
 # Ví dụ 3: Tạo thủ tục nhập thêm một hàng vào bảng my_log
 
@@ -1837,9 +1520,6 @@ execute insert_my_log('Anna',6)
 select * from my_log
 ```
 
-
-<!-- page 93 -->
-
 # Ví dụ: Nhập vào quê quán, cho biết tên cán bộ và đề tài cán bộ đó đã thực hiện
 
 ```sql
@@ -1857,11 +1537,6 @@ Begin
 End;
 ```
 
-
-<!-- page 94 -->
-
-# Ví dụ
-
 - **Thực thi thủ tục**
 `execute ds_dt('&qq');`
 
@@ -1877,18 +1552,10 @@ Ten can bo:Hoang Thi Hue Que quan:Ha Noi Ma de tai:dt5
 
 PL/SQL procedure successfully completed.
 
-
-<!-- page 95 -->
-
-# Ví dụ
-
 1. Viết thủ tục nhập bản ghi cho các bảng trong CSDL CANBO
 2. Viết thủ tục nhập vào mã cán bộ, trả về thông tin ngoại ngữ của cán bộ đó
 3. Nhập vào mã đề tài, cho biết thời hạn thực hiện của đề tài đó.
 4. Viết thủ tục nhập vào mã cán bộ, trả về tên đề tài và thời hạn của đề tài của cán bộ đó
-
-
-<!-- page 96 -->
 
 # Hàm
 
@@ -1909,11 +1576,6 @@ RETURN (return_value);
 END ;
 ```
 
-
-<!-- page 97 -->
-
-# Hàm..
-
 - **Ví dụ 1: Tạo hàm để tính hiệu của hai số**
 
 ```sql
@@ -1929,11 +1591,6 @@ begin
     return d;
 end;
 ```
-
-
-<!-- page 98 -->
-
-# Hàm..
 
 - **Sử dụng hàm**
 - **Cách 1**
@@ -1953,10 +1610,6 @@ begin
 end;
 ```
 
-
-<!-- page 99 -->
-
-# Hàm..
 ## Ví dụ 2: Tạo hàm hiển thị ra thông báo tùy theo giá trị số được đưa vào
 
 ```sql
@@ -1977,11 +1630,6 @@ END;
 
 > NOTE THAT YOU DON'T SPECIFY THE SIZE
 
-
-<!-- page 100 -->
-
-# Hàm..
-
 Gọi hàm **rating_Message**
 
 ```sql
@@ -1996,9 +1644,6 @@ end;
 ---
 anonymous block completed
 Pretty bad
-
-
-<!-- page 101 -->
 
 # Ví dụ: Cho biết số lượng cán bộ theo địa chỉ đưa vào
 
@@ -2020,9 +1665,6 @@ Thực thi: `Select dem_qq('&qq') from dual;`
 | :--- |
 | 4 |
 
-
-<!-- page 102 -->
-
 # Hủy bỏ và sửa thủ tục/hàm
 
 - **Hủy**
@@ -2037,9 +1679,6 @@ Thực thi: `Select dem_qq('&qq') from dual;`
 
 `ALTER FUNCTION tên_hàm ...`
 
-
-<!-- page 103 -->
-
 # So sánh thủ tục và hàm
 
 | Thủ tục | Hàm |
@@ -2048,27 +1687,16 @@ Thực thi: `Select dem_qq('&qq') from dual;`
 | Không có kiểu giá trị trả về | Có chứa giá trị trả về |
 | Có thể trả về một hoặc nhiều tham số | Trả về một giá trị |
 
-
-<!-- page 104 -->
-
-# Ví dụ
-
 1. Viết hàm trả về số lượng ngoại ngữ của mỗi cán bộ dựa vào mã cán bộ nhập vào
 2. Viết hàm trả về thông báo đề tài đã đến hạn, chưa đến hạn (còn bao nhiêu ngày) hay đã quá hạn (quá bao nhiêu ngày) khi biết mã đề tài
 3. Viết hàm cho biết số đề tài thực hiện theo mã cán bộ đưa vào
 4. Viết hàm trả về số ngày thực hiện theo mã đề tài đưa vào
-
-
-<!-- page 105 -->
 
 # TRIGGER
 
 ![Logo ITDE](https://i.imgur.com/undefined.png)
 
 ![Logo Oracle](https://i.imgur.com/undefined.png)
-
-
-<!-- page 106 -->
 
 # Trigger
 
@@ -2080,9 +1708,6 @@ Thực thi: `Select dem_qq('&qq') from dual;`
 - **Khác với thủ tục lưu trữ:**
     - Có thể thay đổi trạng thái trigger (enable/disable)
     - Không thể gọi trigger một cách rõ ràng. Trigger tự động được kích hoạt khi sự kiện kích hoạt nó xảy ra
-
-
-<!-- page 107 -->
 
 # Trigger
 
@@ -2096,9 +1721,6 @@ Thực thi: `Select dem_qq('&qq') from dual;`
 - **Ngăn chặn các giao dịch không hợp lệ**
 - **Thực thi các điều kiện phức tạp hay toàn vẹn tham chiếu mà không thể xác định bằng các ràng buộc.**
 
-
-<!-- page 108 -->
-
 # Trigger vs ràng buộc
 
 - **Giống nhau**: Đều có thể giới hạn dữ liệu đầu vào
@@ -2109,9 +1731,6 @@ Thực thi: `Select dem_qq('&qq') from dual;`
 | Trigger chỉ áp dụng cho dữ liệu mới | Ràng buộc áp dụng cho cả dữ liệu mới và dữ liệu đang tồn tại |
 | Có thể thực thi những điều kiện phức tạp mà ràng buộc không làm được | Ràng buộc viết dễ hơn, ít mắc lỗi hơn |
 
-
-<!-- page 109 -->
-
 # Phân loại Trigger
 
 ❖ Các loại trigger:
@@ -2120,9 +1739,6 @@ Thực thi: `Select dem_qq('&qq') from dual;`
 - Compound trigger
 - Instead-of trigger
 - System/database trigger
-
-
-<!-- page 110 -->
 
 # Chú ý khi sử dụng trigger
 
@@ -2133,9 +1749,6 @@ Thực thi: `Select dem_qq('&qq') from dual;`
 
 ! **Chỉ sử dụng trigger khi thật cần thiết**
 
-
-<!-- page 111 -->
-
 # Trigger DML
 
 - **Trigger DML** được tạo trên bảng (table) hoặc khung nhìn (view). Sự kiện kích hoạt của nó gồm các câu lệnh: **INSERT**, **UPDATE**, **DELETE**
@@ -2144,11 +1757,6 @@ Thực thi: `Select dem_qq('&qq') from dual;`
     - **After** cấp câu lệnh (statement-level **AFTER** trigger)
     - **Before** cấp dòng (row-level **BEFORE** trigger)
     - **After** cấp dòng (row-level **AFTER** trigger)
-
-
-<!-- page 112 -->
-
-# Trigger DML
 
 | EMPNO | ENAME | DEPTNO |
 | :--- | :--- | :--- |
@@ -2165,22 +1773,12 @@ Thực thi: `Select dem_qq('&qq') from dual;`
 - **AFTER row trigger**
 - **AFTER statement trigger**
 
-
-<!-- page 113 -->
-
-# Trigger DML
-
 - **Trigger DML phức hợp**
     - **INSTEAD OF DML trigger** là trigger thường được tạo trên khung nhìn (View)
     - Cơ sở dữ liệu kích hoạt **INSTEAD OF trigger** thay vì chạy câu lệnh kích hoạt DML.
     - Có thể kích hoạt tại một số hoặc tất cả các thời điểm
     - **INSTEAD OF** luôn là trigger cấp hàng
 - **Trigger DML đơn hoặc phức hợp** kích hoạt ở cấp hàng có thể truy cập dữ liệu trong hàng mà nó đang xử lý.
-
-
-<!-- page 114 -->
-
-# Trigger DML
 
 - **Tạo Trigger**
 
@@ -2198,9 +1796,6 @@ BEGIN
 END;
 ```
 
-
-<!-- page 115 -->
-
 # Trigger..
 
 - **Thay đổi trạng thái**
@@ -2213,9 +1808,6 @@ END;
 
 `DROP TRIGGER trigger_name;`
 
-
-<!-- page 116 -->
-
 # CHÚ Ý KHI TẠO TRIGGER
 
 - Không được phép tạo trigger với USER là **SYS**
@@ -2225,11 +1817,6 @@ END;
         - CONNECT
         - CREATE ANY TABLE
         - INSERT...
-
-
-<!-- page 117 -->
-
-# TRIGGER..
 
 - **Ví dụ 1: Tạo trigger hiển thị ra thông báo mỗi khi có sự thay đổi trên bảng my_log hay thông báo khi nhập và xóa dữ liệu của bảng này**
 
@@ -2242,11 +1829,6 @@ UPDATE OF logon_num OR
 DELETE
 ON my_log
 ```
-
-
-<!-- page 118 -->
-
-# TRIGGER..
 
 ```sql
 BEGIN
@@ -2263,11 +1845,6 @@ BEGIN
 END;
 ```
 
-
-<!-- page 119 -->
-
-# TRIGGER..
-
 ### Ý nghĩa của UPDATING, DELETING, INSERTING
 
 | Function Name | Return Datatype | Description |
@@ -2275,11 +1852,6 @@ END;
 | DELETING | BOOLEAN | The DELETING function returns a Boolean true when the DML event is deleting. |
 | INSERTING | BOOLEAN | The INSERTING function returns a Boolean true when the DML is inserting |
 | UPDATING | BOOLEAN | The UPDATING function returns a Boolean true when the DML is updating |
-
-
-<!-- page 120 -->
-
-# TRIGGER..
 
 - Kiểm tra sự thực thi của trigger **T_test_my_log**.
 
@@ -2309,9 +1881,6 @@ end;
 
 **TEST**
 
-
-<!-- page 121 -->
-
 ![ITDE - Banking Academy of Vietnam](https://i.imgur.com/5y1yYyS.png)
 
 - **Kết quả khi chạy khối lệnh TEST**
@@ -2340,13 +1909,6 @@ end;
 **INSERTED**
 **UPDATED**
 
-ORACLE
-
-
-<!-- page 122 -->
-
-# TRIGGER..
-
 - Ví dụ 2: Tạo trigger để trước khi có sự thay đổi dữ liệu trên bảng **my_log** thì dữ liệu trước và sau khi thay đổi được ghi vào bảng khác là **my_log_history**
 - Bước 1: Trước khi tạo trigger, Tạo bảng **my_log_history**
 
@@ -2358,9 +1920,6 @@ create table my_log_history
  new_num_log number(2)
 )
 ```
-
-
-<!-- page 123 -->
 
 # Lưu ý: để lấy được dữ liệu cũ và mới: PHẢI tạo trigger
 ## Ở mức dòng (FOR EACH ROW)
@@ -2385,11 +1944,6 @@ END;
 
 TRIGGER BEFORE_MY_LOG_UPDATE compiled
 
-
-<!-- page 124 -->
-
-# TRIGGER..
-
 - **Bước 3: kiểm tra sự thực thi của trigger**
 - **Dữ liệu của bảng my_log trước khi thay đổi**
 - **Cập nhật lại số lần truy nhập của Trang**
@@ -2411,11 +1965,6 @@ where who='Trang'
 
 TRIGGER BEFORE_MY_LOG_UPDATE compiled
 1 rows updated.
-
-
-<!-- page 125 -->
-
-# TRIGGER..
 
 - Bước 4: Kiểm tra lại bảng my_log
 - Số lần truy nhập của **Trang** đã được thay đổi
@@ -2440,11 +1989,6 @@ from my_log_history
 | :--- | :--- | :--- | :--- |
 | Trang | 11 | Trang | 13 |
 
-
-<!-- page 126 -->
-
-# TRIGGER..
-
 ## Trigger Exception
 - Dùng để ngăn chặn các hành động không hợp lệ tác động vào database
 - Oracle engine cung cấp thủ tục **RAISE_APPLICATION_ERROR** cho phép lập trình viên đưa ra thông báo lỗi của mình
@@ -2452,11 +1996,6 @@ from my_log_history
 - **RAISE_APPLICATION_ERROR** (ErrorNumber, Message)
     - Trong đó: ErrorNumber = -20000 $\rightarrow$ -20999
     - Message: tối đa 2048 byte
-
-
-<!-- page 127 -->
-
-# TRIGGER..
 
 - Ví dụ: Bảng person có cấu trúc và dữ liệu như sau:
 
@@ -2468,13 +2007,6 @@ from my_log_history
 | Chi Mai | 31-DEC-91 |
 
 Hãy tạo trigger hiển thị thông báo "can not change date of birth" khi ai đó cố tình muốn thay đổi ngày sinh của người nào đó trong bảng dữ liệu trên.
-
-ORACLE
-
-
-<!-- page 128 -->
-
-# TRIGGER..
 
 - **Trigger Exception (tt)**
     - Tạo trigger cảnh báo không cho phép thay đổi dữ liệu trên trường birth_day của bảng person
@@ -2492,21 +2024,11 @@ RAISE_APPLICATION_ERROR(-20000,
 end;
 ```
 
-
-<!-- page 129 -->
-
-# TRIGGER..
-
 * **Thứ tự thực hiện các trigger trong chương trình**
     - **1) BEFORE statement trigger**
     - **2) BEFORE row level trigger**
     - **3) AFTER row level trigger**
     - **4) AFTER statement level trigger**
-
-
-<!-- page 130 -->
-
-# TRIGGER..
 
 - **Ví dụ 3:** Kiểm tra thứ tự thực hiện của trigger khi chương trình có nhiều trigger. Tạo 4 trigger được thực thi khi có sự kiện UPDATE xảy ra đối với bảng my_log, nhật ký hoạt động sẽ được ghi vào bảng my_log_check
 - **Trước tiên, tạo bảng my_log_check**
@@ -2516,11 +2038,6 @@ create table my_log_check
 (Message nvarchar2(60),
  Date_Done Date)
 ```
-
-
-<!-- page 131 -->
-
-# TRIGGER..
 
 - 1) **BEFORE UPDATE, Statement Level:**
 
@@ -2534,11 +2051,6 @@ INSERT INTO my_log_check
 Values('Before update, statement level',sysdate);
 END;
 ```
-
-
-<!-- page 132 -->
-
-# TRIGGER..
 
 - **2) BEFORE UPDATE, Row Level:**
 
@@ -2554,11 +2066,6 @@ Values('Before update row level',sysdate);
 END;
 ```
 
-
-<!-- page 133 -->
-
-# TRIGGER..
-
 ### 3) AFTER UPDATE, Statement Level
 
 ```sql
@@ -2571,11 +2078,6 @@ INSERT INTO my_log_check
 Values('After update, statement level', sysdate);
 End;
 ```
-
-
-<!-- page 134 -->
-
-# TRIGGER..
 
 ## 4) AFTER UPDATE, Row Level:
 
@@ -2590,11 +2092,6 @@ INSERT INTO my_log_check
 Values('After update, row level',sysdate);
 END;
 ```
-
-
-<!-- page 135 -->
-
-# TRIGGER..
 
 - **Thực hiện lệnh update trên bảng my_log**
 
@@ -2616,15 +2113,7 @@ select * from my_log_check
 | After update, row level | 30-NOV-13 |
 | After update, statement level | 30-NOV-13 |
 
-
-<!-- page 136 -->
-
-# TRIGGER..
-
 - Ví dụ 4: Tạo trigger để mỗi khi có sự thay đổi trên trường logon_num ở bảng **my_log** thì dữ liệu sau khi thay đổi sẽ được tự động ghi vào bảng **log_my_log**
-
-
-<!-- page 137 -->
 
 # Trigger
 
@@ -2637,18 +2126,10 @@ select * from my_log_check
 - $f$ Mệnh đề điều kiện thực hiện
 - $f$ Nội dung của trigger
 
-
-<!-- page 138 -->
-
 # PACKAGE
 
 - **Package** là một tập hợp các kiểu dữ liệu, biến lưu giữ giá trị và các thủ tục, hàm có cùng một mối liên hệ với nhau, được gộp chung lại.
 - **Đặc điểm nổi bật nhất** của **package** là khi một phần tử trong **package** được gọi thì toàn bộ nội dung của **package** sẽ được nạp vào trong hệ thống.
-
-
-<!-- page 139 -->
-
-# PACKAGE
 
 ## Cấu trúc của package
 
@@ -2662,13 +2143,6 @@ select * from my_log_check
 | :--- | :--- |
 | **Package specification** | (1) **Public variable** <br> (2) **Public procedure** declaration |
 | **Package body** | (4) **Global variable** <br> (3) **Private procedure** definition <br> (2) **Public procedure** definition <br> (5) **Private variable** |
-
-ORACLE
-
-
-<!-- page 140 -->
-
-# PACKAGE
 
 - **Tạo package:**
 
@@ -2688,11 +2162,6 @@ END package_name;
 - `type and item declarations`: **Phần khai báo các biến, hằng, cursor, ngoại lệ và kiểu sử dụng trong toàn bộ package**
 - `subprogram specifications`: **Khai báo các hàm, thủ tục PL/SQL**
 
-
-<!-- page 141 -->
-
-# PACKAGE
-
 ### Cú pháp khai báo phần thân package
 
 ```sql
@@ -2711,11 +2180,6 @@ Với:
 - **type and item declarations**: Phần khai báo các biến, hằng, cursor, ngoại lệ và kiểu
 - **subprogram specifications**: Khai báo các hàm, thủ tục PL/SQL
 
-
-<!-- page 142 -->
-
-# PACKAGE
-
 ### Hủy Package
 
 - Huỷ phần package specification
@@ -2723,11 +2187,6 @@ Với:
 
 - Huỷ phần package body
 `DROP PACKAGE BODY Tên package;`
-
-
-<!-- page 143 -->
-
-# PACKAGE
 
 ## Lợi ích của việc sử dụng package
 
@@ -2737,11 +2196,6 @@ Với:
 - Nâng cao hiệu suất sử dụng
 - Thực hiện quá tải (**overloading**)
 
-
-<!-- page 144 -->
-
 ![ITDE](https://i.imgur.com/45y1y5S.png)
-
-ORACLE
 
 7-145

@@ -2,13 +2,9 @@
 
 #### CHUONG 5 PHAN CUM DU LIEU
 
-## TRANG 1
-
 Giảng viên: LÊ THỊ HỒNG NHUNG Điện thoại: 0987867486 Email: nhunglth@hvnh. edu. vn
 
 ## CHƯƠNG 5: PHÂN CỤM DỮ LIỆU
-
-## TRANG 2
 
 ## Chương 5: Phân cụm dữ liệu
 
@@ -20,11 +16,7 @@ Giảng viên: LÊ THỊ HỒNG NHUNG Điện thoại: 0987867486 Email: nhunglt
 
 4. Ví dụminh họa
 
-## TRANG 3
-
 ## LANH
-
-## TRANG 4
 
 EI
 
@@ -50,15 +42,11 @@ F- #} # $ # bể`.
 
 income
 
-## TRANG 5
-
 Tình huống tổng quát
 
 • Cho trước một tập dữ liệu với các thuộc tính khác nhau.
 
 • Hãy tìm các dữ liệu có đặc điểm tương tựnhau?
-
-## TRANG 6
 
 Phát biểu bài toán phân cụm dữ liệu
 
@@ -74,55 +62,37 @@ Các phần tử trong cùng một cụm có tính chất tương tựnhau (gầ
 
 Các phần tửởcác cụm khác nhau có tính chất khác nhau (xa nhau).
 
-## TRANG 7
-
 Phát biểu bài toán phân cụm dữ liệu
 
 Minh hoạ kỹ thuật phân cụm
-
-## TRANG 8
 
 Ứng dụng của bài toán phân cụm
 
 Thương mại: phân đoạn khách hàng…
 
-## TRANG 9
-
 Ứng dụng của bài toán phân cụm
 
  Sản xuất: chia nhóm sản phẩm
-
-## TRANG 10
 
 Ứng dụng của bài toán phân cụm
 
 Sinh học: gom nhóm động thực vật qua các đặc điểm của chúng…
 
-## TRANG 11
-
 Ứng dụng của bài toán phân cụm
 
 Nông nghiệp
-
-## TRANG 12
 
 Ứng dụng của bài toán phân cụm
 
 Địa lý
 
-## TRANG 13
-
 Ứng dụng của bài toán phân cụm
 
 Y học
 
-## TRANG 14
-
 Ứng dụng của bài toán phân cụm
 
 Thiên văn học
-
-## TRANG 15
 
 Các phương pháp phân cụm dữ liệu
 
@@ -130,15 +100,11 @@ Các phương pháp phân cụm dữ liệu
 
 Tiếp cận: từd ưới lên (gộp dần), từtr ên xuống (chia dần) Độđo tương tự/ khoảng cách K-mean, k-mediod, CLARANS, …
 
-## TRANG 16
-
 Các phương pháp phân cụm dữ liệu
 
 Phân cụm phân cấp Nhằm phân một tập dữ liệu cón phần tửcho trước thành một cấu trúc có một thứt ựph ân cấp nhất định (thường có dạng hình cây) Độđo tương tự/ khoảng cách
 
 ## HAC, CHAMELEON, BIRRCH, CURE…
-
-## TRANG 17
 
 Các phương pháp phân cụm dữ liệu
 
@@ -152,8 +118,6 @@ Khắc phục được các phân tửngoại lai hoặc giá trịnhi ễu rấ
 
 ## DBSCAN, OPTICS…
 
-## TRANG 18
-
 Các phương pháp phân cụm dữ liệu
 
 Phân cụm dựa theo mô hình Giảthi ết: Tồn tại một số mô hình dữ liệu cho phân cụm.
@@ -162,21 +126,15 @@ Phương pháp phân cụm dựa trên mô hình cốg ắng khớp giữa dữ 
 
 MCLUST, Mạng Nơron
 
-## TRANG 19
-
 Các phương pháp phân cụm dữ liệu
 
 Phân cụm mờ Giảthi ết: không có phân cụm “cứng” cho dữ liệu và đối tượng có thể thuộc một số cụm.
 
 Sử dụng hàm mờt ừcác đối tượng tới các cụm FCM (Fuzzy CMEANS),…
 
-## TRANG 20
-
 Các dạng dữ liệu phân cụm
 
 Thuộc tính số(numeric) • ví dụthu nhập Thuộc tính định danh (nominal): Miền giá trịl à một tập hợp hữu hạn và đếm được các phần tử • ví dụngh ềnghiệp Thuộc tính nhịph ân (binominal): Là trường hợp đặc biệt của thuộc tính định danh • miền giá trịch ỉcó hai phần tửnh ư: Yes/No, 0/1, True/False… Thuộc tính văn bản (text)
-
-## TRANG 21
 
 Tiền xử lý dữ liệu phân cụm
 
@@ -192,8 +150,6 @@ Tiền xử lý dữ liệu phân cụm
 
 • Phát hiện và xử lý tương tự dữ liệu thiếu
 
-## TRANG 22
-
 Các độđo dữ liệu
 
 Đểph ân cụm, ta phải xác định “khoảng cách” giữa các đối tượng, tức là phép đo độtương tự(Similar) hoặc là độphi tương tự(Dissimilar) giữa các đối tượng dữ liệu.
@@ -206,8 +162,6 @@ Các độđo dữ liệu
 
 • d(x,y) > 0 nếu x ≠y • d(x, y) = 0 nếu x =y • d(x,y) = d(y,x) với mọi x,y • d(x,y) ≤d(x,z)+d(z,y)
 
-## TRANG 23
-
 Công thức tính khoảng cách - Dữ liệu số
 
 Khoảng cách Minskowski:
@@ -216,11 +170,9 @@ Công thức tính khoảng cách - Dữ liệu số
 
 Khoảng cách Manhattan: trường hợp đặc biệt của khoảng cách Minskowski trong trường hợp q=1
 
-## TRANG 24
-
 Công thức tính khoảng cách - Dữ liệu nhịph ân
 
-Xét hai đối tượng x vày có tất cảcác thuộc tính đều nhận giá trịnh ịph ân.
+Xét hai đối tượng x vày có tất cả các thuộc tính đều nhận giá trịnh ịph ân.
 
 Khoảng cách sai lệch giữa hai thuộc tính được tính bởi công thức:
 
@@ -236,11 +188,9 @@ Công thức tính khoảng cách - Dữ liệu nhịph ân
 
 • d: tổng số thu ộc tính có giá trị0 trong cảx vày
 
-## TRANG 25
-
 Thuật toán phân cụm Kmeans
 
-Là thuật toán phân cụm phẳng trong đó tâm của mỗi cụm là giá trịtrung bình của tất cảcác phần tử trong cụm.
+Là thuật toán phân cụm phẳng trong đó tâm của mỗi cụm là giá trịtrung bình của tất cả các phần tử trong cụm.
 
 Input:
 
@@ -255,8 +205,6 @@ Thuật toán phân cụm Kmeans
 Các phần tử trong cùng một cụm có tính chất tương tựnhau.
 
 Các phần tử trong các cụm khác nhau có tính chất khác nhau.
-
-## TRANG 26
 
 Thuật toán phân cụm Kmeans
 
@@ -274,8 +222,6 @@ Chọn ngẫu nhiên k phần tử trong D làm trọng tâm ci cho cụm Di (i=
 
 ## phần tử trong các cụm)
 
-## TRANG 27
-
 Thuật toán phân cụm Kmeans
 
 Kết quả cuối cùng của K-means phụ thuộc rất nhiều vào cách lựa chọn k ban đầu làm trọng tâm của k cụm.
@@ -287,8 +233,6 @@ Thuật toán phân cụm Kmeans
 • Khi số lượng vòng lặp vượt quá một ngưỡng nào đó. Tuy nhiên, điều kiện dừng này có thể làm cho quá trình phân cụm không được tốt do có thể số vòng chạy chưa đạt mức cần thiết • Khi giá trị J nhỏ hơn một ngưỡng nào đó (người lập trình thiết lập ngưỡng chấp nhận được của thuật toán) • Khi hiệu hai giá trị liên tiếp của J nhỏ hơn một ngưỡng nào đó.
 
 Trên thực tế, 3 điều kiện dừng trên có thể được dùng kết hợp với nhau.
-
-## TRANG 28
 
 Ví dụminh họa phân cụm Kmeans
 
@@ -315,8 +259,6 @@ Thuốc Đặc trưng X Đặc trưng Y
 | C | 4 | 3 |
 | D | 5 | 4 |
 
-## TRANG 29
-
 Ví dụminh họa phân cụm Kmeans
 
 Bước 1: Khởi tạo trọng tâm cho 2 cụm. Thuố X Y c
@@ -339,8 +281,6 @@ D | cụm
 5 |:
 4 |
 
-## TRANG 30
-
 Ví dụminh họa phân cụm Kmeans
 
 Bước 4: Tính lại trọng tâm cho 2 cụm. Thuố X Y c
@@ -361,8 +301,6 @@ d(A, c1) = 0 d(A, c2) = (1 −3.67)2+(1 −2.67)2 = 3.14 d(B, c1) = 1 d(B, c2) =
 | B | 2 | 1 |
 | C | 4 | 3 |
 | Dtới | c5ác | cụ4 m |
-
-## TRANG 31
 
 Ví dụminh họa phân cụm Kmeans
 
@@ -385,8 +323,6 @@ d(A, c1) = (1 −1.5)2+(1 −1)2 = 0.5 d(A, c2) = (1 −4.5)2+(1 −3.5)2 = 4.3 
 D | các
 5 | cụm
 4 |
-
-## TRANG 32
 
 Ví dụth ực hành
 
@@ -416,32 +352,22 @@ tiết kiệm |
 | E | 4 | 24 | Tư nhân | 4 | Không |
 | F | 25 | 50 | Viên chức | 12 | Có |
 
-## TRANG 33
-
 Vấn đềch ọn số cụm trong phân cụm Kmeans
 
 Số cụm ít: khoảng cách giữa các đối tượng trong cụm xa.
-
-## TRANG 34
 
 Vấn đềch ọn số cụm trong phân cụm Kmeans
 
 Số cụm lớn: khoảng cách giữa các cụm quá nhỏ, không mang tính khái quát cao.
 
-## TRANG 35
-
 Vấn đềch ọn số cụm trong phân cụm Kmeans
 
 Số cụm vừa đủ: khoảng cách giữa các đối tượng trong cụm hợp lý.
-
-## TRANG 36
 
 Vấn đềch ọn số cụm trong phân cụm Kmeans
 
 Phương pháp elbow trong lựa chọn số cụm Phương pháp Elbow là một cách giúp ta lựa chọn được số lượng các cụm phù hợp dựa vào đồ thị trực quan hoá bằng cách nhìn vào sự suy giảm của hàm biến dạng và lựa chọn ra điểm khuỷ tay (elbow point).
 
-## TRANG 37
-
 Đánh giá chất lượng phân cụm
 
 • Phụthu ộc vào kinh nghi ệm và mức độhi ểu dữ liệu của người phân tích.
@@ -452,8 +378,6 @@ Compactness - độ cô đọng súc tích: độ dính kết của từng cặp
 
 Isolation - độ cô lập: độ đo về sự tách biệt giữa một cụm với những cụm khác.
 
-## TRANG 38
-
 Đánh giá chất lượng phân cụm
 
 • Phụthu ộc vào kinh nghi ệm và mức độhi ểu dữ liệu của người phân tích.
@@ -463,16 +387,12 @@ Isolation - độ cô lập: độ đo về sự tách biệt giữa một cụm
 Compactness - độ cô đọng súc tích: độ dính kết của từng cặp đối tượng trong từng cụm riêng rẽ. Độ tương tự càng cao, độ cô đọng càng lớn.
 
 Isolation - độ cô lập: độ đo về sự tách biệt giữa một cụm với những cụm khác.
-
-## TRANG 39
 
 Đánh giá chất lượng phân cụm
 
 Đánh giá ngoài (external evaluation): chất lượng các cụm được đánh giá thông qua mức độtương đồng giữa các cụm được tạo ra với tập dữ liệu mẫu.
 
 Đánh giá trong (internal evaluation): Chất lượng các cụm được đánh giá bởi chính dữ liệu của chúng thông qua các đại lượng mô tảs ựli ên kết cụm như mật độc ụm, khoảng cách giữa các phần tửb ên trong cụm hay khoảng cách giữa các cụm với nhau...
-
-## TRANG 40
 
 Đánh giá chất lượng phân cụm
 
@@ -496,8 +416,6 @@ Trong đó:
 
 𝑖được xác định là phân sai cụm nếu 𝑠(𝑖) có giá trị càng gần -1.
 
-## TRANG 41
-
 Đánh giá chất lượng phân cụm
 
 Độ đo Davies - Bouldin 𝑘 1 𝛿𝑖+ 𝛿𝑗
@@ -515,8 +433,6 @@ Trong đó:
 𝑑𝑐𝑖, 𝑐𝑗l à khoảng cách giữa hai trọng tâm của cụm 𝑖và 𝑗.
 
 Giá trị 𝐷𝐵c àng nhỏ thì chất lượng của bài toán phân cụm càng tốt.
-
-## TRANG 42
 
 Đánh giá chất lượng phân cụm
 
@@ -538,8 +454,6 @@ Trong đó:
 
 Trong độ đo này 𝐷có giá trị càng lớn thì chất lượng của bài toán phân cụm càng tốt.
 
-## TRANG 43
-
 Hạn chếcủa thuật toán k-Means
 
 Thuật toán rất nhạy cảm với outliers: Khi xuất hiện outliers thì thường khiến cho tâm cụm bị chệch và do đó dự báo cụm không còn chuẩn xác. Chính vì thế chúng ta cần phải loại bỏ outliers trước khi huấn luyện thuật toán.
@@ -547,8 +461,6 @@ Thuật toán rất nhạy cảm với outliers: Khi xuất hiện outliers thì
 Thuật toán nhạy cảm với độ lớn đơn vị của biến: Khiáp dụng thuật toán trên các biến có sự khác biệt về mặt đơn vị thì khoảng cách chủ yếu bị ảnh hưởng bởi các biến có đơn vị lớn hơn và khiến cho kết quả phân cụm bị chệch. Chính vì thế chúng ta cần phải chuẩn hoá biến để loại bỏ sự khác biệt đơn vị trước khi đưa vào huấn luyện mô hình.
 
 Thuật toán k-Means yêu cầu phải tính khoảng cách từ một điểm tới toàn bộ các tâm cụm để tìm ra tâm cụm gần nhất. Như vậy chúng ta cần phải load toàn bộ dữ liệu lên RA M, đối với những bộ dữ liệu kích thước lớn thì sẽ vượt quá khả năng lưu trữ của RA M. Khi đó chúng ta cần phải huấn luyện thuật toán theo phương pháp online learning. Kĩ thuật này sẽ được giới thiệu ở bên dưới.
-
-## TRANG 44
 
 Xử lý dữ liệu định danh trong phân cụm Kmeans
 
@@ -575,8 +487,6 @@ _ |
 | 31..40 | high | yes | fair | yes |
 | >40 | medium | no | excellent | no |
 
-## TRANG 45
-
 Xử lý dữ liệu định danh trong phân cụm Kmeans
 
 Cách 1: Biến đổi dữ liệu định danh về dữ liệu nhịph ân - One hot.
@@ -584,8 +494,6 @@ Xử lý dữ liệu định danh trong phân cụm Kmeans
 • Xét thuộc tính A có giá trịđược biểu diễn bằng m giá trịr ời rạc p1, p2,…,pm
 
 • Biến đổi thuộc tính A thành m thuộc tính nhịph ân A1,A2,…,Am Ai nhận giá trị1 tại dòng tương ứng với giá trịpi, Nhận giá trị0 trong trường hợp ngược lại.
-
-## TRANG 46
 
 Xử lý dữ liệu định danh trong phân cụm Kmeans
 
@@ -631,8 +539,6 @@ _ | age40 |
 | 0 | 1 | 0 |
 | 0 | 0 | 1 |
 
-## TRANG 47
-
 Xử lý dữ liệu định danh trong phân cụm Kmeans
 
 buy- age31_4 student - student - Credit- Credit- no buy- age30 0 age40 income_h income_m income_l no yes fair excellent yes
@@ -667,8 +573,6 @@ yes |
 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 1 |
 | 0 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 0 | 1 | 1 | 0 |
 
-## TRANG 48
-
 Xử lý dữ liệu định danh trong phân cụm Kmeans
 
 Cách 2: Biến đổi dữ liệu định danh về dữ liệu số- Label Encoding.
@@ -682,8 +586,6 @@ Xử lý dữ liệu định danh trong phân cụm Kmeans
 p1 nhận giá trị0 p2 nhận giá trị1 ….
 
 pm nhận giá trịm-1
-
-## TRANG 49
 
 Xử lý dữ liệu định danh trong phân cụm Kmeans
 
@@ -708,8 +610,6 @@ _ |
 | 2 | 0 | 1 | 1 | 1 |
 | 1 | 2 | 0 | 0 | 0 |
 
-## TRANG 50
-
 Xử lý cơ sở dữ liệu giao dịch trong phân cụm Kmeans
 
 Xét cơ sở dữ liệu giao dịch gồm:
@@ -717,8 +617,6 @@ Xử lý cơ sở dữ liệu giao dịch trong phân cụm Kmeans
 • 4 giao dịch: 1,2,3,4
 
 • Mỗi giao dịch có một số phần tử(items)
-
-## TRANG 51
 
 Xử lý cơ sở dữ liệu giao dịch trong phân cụm Kmeans
 
@@ -732,11 +630,7 @@ Xử lý cơ sở dữ liệu giao dịch trong phân cụm Kmeans
 
 0 trong trường hợp ngược lại.
 
-## TRANG 52
-
 Xử lý cơ sở dữ liệu giao dịch trong phân cụm Kmeans
-
-## TRANG 53
 
 Xử lý dữ liệu văn bản trong phân cụm Kmeans
 
@@ -748,8 +642,6 @@ Xử lý dữ liệu văn bản trong phân cụm Kmeans
 
 • Tính khoảng cách giữa hai văn bản này?
 
-## TRANG 54
-
 Xử lý dữ liệu văn bản trong phân cụm Kmeans
 
 Cách giải quyết:
@@ -758,9 +650,7 @@ Xử lý dữ liệu văn bản trong phân cụm Kmeans
 
 • vi là số lần xuất hiện từkh óa thứi trong tập các văn bản.
 
-→Phải xác định được tất cảcác từkh óa xuất hiện trong tổng các văn bản.
-
-## TRANG 55
+→Phải xác định được tất cả các từkh óa xuất hiện trong tổng các văn bản.
 
 Xử lý dữ liệu văn bản trong phân cụm Kmeans
 
@@ -776,8 +666,6 @@ dấu chấm câu, dấu ngoặc, số, chữhoa, chữth ường…
 
 Tách nội dung mỗi văn bản thành các từđ ơn, riêng biệt (đối với tiếng Anh tách bằng dấu cách, đối với tiếng Việt tách theo từđ ơn từgh ép).
 
-## TRANG 56
-
 Xử lý dữ liệu văn bản trong phân cụm Kmeans
 
 • B3: Loại bỏt ừd ừng
@@ -787,8 +675,6 @@ Từd ừng là những từxu ất hiện nhiều trong văn bản nhưng khôn
 Nhằm giảm kích thước dữ liệu biểu diễn trong văn bản.
 
 Một số từd ừng trong tiếng Anh: mạo từ(a, the…), giới từ(in, on…), liên từ (but…), động từph ổbi ến (to, be…)….
-
-## TRANG 57
 
 Xử lý dữ liệu văn bản trong phân cụm Kmeans
 
@@ -801,8 +687,6 @@ Số chi ều của không gian: n=3 Vector T = {t1, t2,…, tn} = {life, only, 
 Vector_VB1 = (1, 1, 0)
 
 Vector_VB2 = (1, 0, 1)
-
-## TRANG 58
 
 Xử lý dữ liệu văn bản trong phân cụm Kmeans
 
@@ -818,8 +702,6 @@ Phương pháp này coi số lần xuất hiện một từtrong văn bản tỷ
 
 →Suy luận này không phải lúc nào cũng đúng, vì có nhiều từxu ất hiện nhiều trong văn bản này nhưng lại không xuất hiện hoặc xuất hiện ít trong văn bản khác.
 
-## TRANG 59
-
 Xử lý dữ liệu văn bản trong phân cụm Kmeans
 
 • B5: Biểu diễn các văn bản theo không gian vect ơ
@@ -832,19 +714,11 @@ Trong đóm là số lượng văn bản và hi là số lượng văn bản mà
 
 Phương pháp này xác định độquan trọng của từkh óa ti trong văn bản thứj. Nếu ti xuất hiện trong ít văn bản thì độhi ếm của nó so với toàn bộcơ sở dữ liệu cao. Tức là nếu nó xuất hiện trong văn bản thứj thì nó là điểm quan trọng để phân biệt văn bản thứj này so với các văn bản khác.
 
-## TRANG 60
-
 ## Bài tập về nhà 1 - Phân cụm dữ liệu với k=3
-
-## TRANG 61
 
 ## Bài tập về nhà 2 - Phân cụm dữ liệu với k=2
 
-## TRANG 62
-
 Minh họa phân cụm Kmeans trong Python
-
-## TRANG 63
 
 ## BAV |HỌC VIỆN
 

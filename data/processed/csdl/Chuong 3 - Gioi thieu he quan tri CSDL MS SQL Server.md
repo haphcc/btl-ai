@@ -1,11 +1,6 @@
 # CHƯƠNG 3
 # GIỚI THIỆU HỆ QUẢN TRỊ CƠ SỞ DỮ LIỆU MS SQL SERVER
 
-KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
-
-
-<!-- page 2 -->
-
 # NỘI DUNG CHÍNH
 
 1 Các phiên bản MS SQL Server
@@ -13,9 +8,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 3. Các kiểu dữ liệu trong SQL
 4. Làm việc với bảng dữ liệu
 5. Import, Export cơ sở dữ liệu
-
-
-<!-- page 3 -->
 
 # 1. Các phiên bản MS SQL Server
 
@@ -35,11 +27,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 - SQL Server 2019
 - SQL Server 2022 (phát hành 11/2022)
 
-
-<!-- page 4 -->
-
-# 1. Các phiên bản MS SQL Server
-
 Tùy từng phiên bản, SQL Server có các ấn bản sau:
 
 - **Enterprise** - bản cao cấp nhất với đầy đủ tính năng.
@@ -49,20 +36,10 @@ Tùy từng phiên bản, SQL Server có các ấn bản sau:
 - **Developer** - tương tự như Enterprise nhưng chỉ cấp quyền cho một người dùng duy nhất để phát triển, thử nghiệm, demo. Có thể dễ dàng nâng cấp lên bản Enterprise mà không cần cài lại.
 - **Express** - bản này chỉ dùng ở mức độ đơn giản, tối đa 1 CPU và bộ nhớ 1GB, kích thước tối đa của cơ sở dữ liệu là 10GB.
 
-
-<!-- page 5 -->
-
-# 1. Các phiên bản MS SQL Server
-
 - **Compact** - nhúng miễn phí vào các môi trường phát triển ứng dụng web. Kích thước tối đa của cơ sở dữ liệu là 4GB.
 - **Datacenter** - thay đổi lớn trên SQL Server 2008 R2 chính là bản Datacenter Edition. Không giới hạn bộ nhớ và hỗ trợ hơn 25 bản cài.
 - **Business Intelligence** - được giới thiệu trên SQL Server 2012. Phiên bản này có các tính năng của bản Standard và hỗ trợ một số tính năng nâng cao về BI như Power View và PowerPivot nhưng không hỗ trợ những tính năng nâng cao về mức độ sẵn sàng như AlwaysOn Availability Groups...
 - **Enterprise Evaluation** - SQL Server Evaluation Edition là lựa chọn tuyệt vời để dùng được mọi tính năng và được miễn phí của SQL Server để học tập và phát triển. Phiên bản này có thời gian hết hạn là 6 tháng từ ngày cài.
-
-
-<!-- page 6 -->
-
-# 1. Các phiên bản MS SQL Server
 
 | | 2005 | 2008 | 2008 R2 | 2012 | 2014 |
 | :--- | :---: | :---: | :---: | :---: | :---: |
@@ -76,9 +53,6 @@ Tùy từng phiên bản, SQL Server có các ấn bản sau:
 | Web | | Yes | Yes | Yes | |
 | Datacenter | | No | No | | |
 | Business Intelligence | | Yes | | | |
-
-
-<!-- page 7 -->
 
 # 2. Cài đặt MS SQL Server và quản lý CSDL
 
@@ -95,20 +69,10 @@ Tùy từng phiên bản, SQL Server có các ấn bản sau:
 | | ☐ Remember password |
 | | [ Connect ] [ Cancel ] [ Help ] [ Options >> ] |
 
-
-<!-- page 8 -->
-
-# 2. Cài đặt MS SQL Server và quản lý CSDL
-
 - Sau khi cài đặt xong SQL Server, người sử dụng được cung cấp một số công cụ:
 - **SQL Server configuration manager** là công cụ quản lý cài đặt và cấu hình liên quan đến các dịch vụ Microsoft SQL Server:
     - **Quản lý dịch vụ SQL Server**: kiểm tra trạng thái của các dịch vụ SQL Server (như SQL Server Database Engine, SQL Server Agent, SQL Server Reporting Services, và nhiều dịch vụ khác), khởi động, tắt, khởi động lại, hoặc thay đổi tài khoản dịch vụ.
     - **Cấu hình mạng**: cho phép cấu hình cách các dịch vụ SQL Server lắng nghe kết nối từ mạng, có thể chỉ định các cổng, giao thức (ví dụ, TCP/IP hoặc Named Pipes), và giao diện mạng để một SQL Server cụ thể sử dụng.
-
-
-<!-- page 9 -->
-
-# 2. Cài đặt MS SQL Server và quản lý CSDL
 
 - **Xác thực**: Cấu hình xác thực Windows hoặc xác thực SQL Server (mixed mode) cho SQL Server, cũng như quyết định nếu SQL Server nên sử dụng chế độ kiểm tra xác thực.
 
@@ -116,21 +80,11 @@ Tùy từng phiên bản, SQL Server có các ấn bản sau:
 
 - **Quản lý thẻ hệ thống và khung thời gian**: Có thể xác định các thẻ hệ thống cho các dịch vụ SQL Server và cấu hình các khung thời gian cho chúng, giúp quản lý tài nguyên hệ thống và đảm bảo rằng SQL Server hoạt động một cách hiệu quả.
 
-
-<!-- page 10 -->
-
-# 2. Cài đặt MS SQL Server và quản lý CSDL
-
 - **SQL Server management studio (SSMS)** là một công cụ quan trọng và mạnh mẽ được phát triển bởi Microsoft để quản lý và tương tác với các cơ sở dữ liệu SQL Server:
 
 - **Quản lý cơ sở dữ liệu**: Cho phép tạo, xóa, sao lưu, phục hồi, và thay đổi cơ sở dữ liệu SQL Server. Bạn cũng có thể cấu hình tùy chọn và thiết lập cho cơ sở dữ liệu.
 - **Thực hiện truy vấn**: Viết và thực thi các truy vấn SQL, lập trình SQL, và xem kết quả truy vấn. SSMS cung cấp môi trường tương tác để làm việc với dữ liệu trong cơ sở dữ liệu.
 - **Quản lý bảo mật**: Quản lý người dùng, vai trò, quyền truy cập, và chính sách bảo mật trong SQL Server bằng cách sử dụng SSMS.
-
-
-<!-- page 11 -->
-
-# 2. Cài đặt MS SQL Server và quản lý CSDL
 
 - **Quản lý dịch vụ SQL Server**: Cho phép kiểm tra trạng thái của các dịch vụ SQL Server, khởi động, tắt, và khởi động lại chúng.
 - **Quản lý báo cáo và tích hợp dữ liệu**: Cung cấp các công cụ để tạo và quản lý báo cáo, lên lịch cho chúng, tích hợp dữ liệu từ nhiều nguồn khác nhau vào SQL Server.
@@ -138,21 +92,11 @@ Tùy từng phiên bản, SQL Server có các ấn bản sau:
 - **Quản lý dự án và tệp script**: Cho phép lưu trữ các truy vấn SQL, biểu đồ CSDL, và tệp script khác trong các dự án và quản lý chúng.
 - **Tối ưu hóa cơ sở dữ liệu**: Bạn có thể sử dụng SSMS để tối ưu hóa CSDL, xem và phân tích kế hoạch thực thi truy vấn, và giám sát hoạt động CSDL để cải thiện hiệu suất.
 
-
-<!-- page 12 -->
-
-# 2. Cài đặt MS SQL Server và quản lý CSDL
-
 - Trong SQL Server có 3 loại tập tin, một cơ sở dữ liệu được lưu trữ theo hai hay nhiều tập tin (tối thiểu là 2 tập tin .mdf và .ldf):
 
 - **Primary data file (.mdf ):** **bắt buộc** có dùng để lưu trữ thông tin liên quan đến cấu trúc và đặc điểm của chính database đó.
 - **Secondary data file (.ndf):** dùng để lưu trữ các đối tượng dữ liệu không nằm trong tập tin dữ liệu chính. Loại tập tin này **không bắt buộc** phải có khi tạo mới CSDL.
 - **Transaction log file (.ldf):** dùng để lưu vết các giao tác, là những hành động dung cập nhật dữ liệu (thêm, sửa, xóa) vào các bảng do người tác động trên CSDL
-
-
-<!-- page 13 -->
-
-# 2. Cài đặt MS SQL Server và quản lý CSDL
 
 Mỗi tập tin trong CSDL (.MDF, .NDF, .LDF) đều có 5 thuộc tính:
 
@@ -161,11 +105,6 @@ Mỗi tập tin trong CSDL (.MDF, .NDF, .LDF) đều có 5 thuộc tính:
 - **SIZE**: Kích thước ban đầu của tập tin (KB, MB, GB, TB)
 - **MAXSIZE**: Kích thước tối đa cho phép của tập tin (KB, MB, GB, TB)
 - **FILEGROWTH**: Tốc độ gia tăng kích thước của tập tin (KB, MB, GB, TB).
-
-
-<!-- page 14 -->
-
-# 2. Cài đặt MS SQL Server và quản lý CSDL
 
 ## Tạo mới cơ sở dữ liệu
 
@@ -215,11 +154,6 @@ Connection: TRANGNTT\admin
 
 [Add] [Remove]
 [OK] [Cancel]
-
-
-<!-- page 15 -->
-
-# 2. Cài đặt MS SQL Server và quản lý CSDL
 
 ## Sửa cơ sở dữ liệu
 
@@ -279,11 +213,6 @@ Connection: TRANGNTT\admin
 - OK
 - Cancel
 
-
-<!-- page 16 -->
-
-# 2. Cài đặt MS SQL Server và quản lý CSDL
-
 ## Xóa cơ sở dữ liệu
 
 | Object Explorer | Delete Object |
@@ -319,21 +248,11 @@ Connection: TRANGNTT\admin
 - Refresh
 - Properties
 
-
-<!-- page 17 -->
-
-# 2. Cài đặt MS SQL Server và quản lý CSDL
-
 ## **Tạo file dữ liệu (Tạo script SQL):**
 
 - Sử dụng SSMS hoặc các công cụ tương tự, tạo một script SQL cho cơ sở dữ liệu hiện tại. Điều này bao gồm cấu trúc cơ sở dữ liệu, bảng, chỉ mục, quyền truy cập, và dữ liệu.
 - Chia sẻ script SQL này với người khác.
 - Người khác có thể chạy script SQL trên SQL Server của họ để tạo một bản sao chính xác của cơ sở dữ liệu.
-
-
-<!-- page 18 -->
-
-# 2. Cài đặt MS SQL Server và quản lý CSDL
 
 ## Object Explorer
 - Connect
@@ -404,11 +323,6 @@ To begin the script generation process, click Next.
 
 < Previous | Next > | Finish | Cancel
 
-
-<!-- page 19 -->
-
-# 2. Cài đặt MS SQL Server và quản lý CSDL
-
 ---
 
 ### Generate and Publish Scripts
@@ -466,11 +380,6 @@ To begin the script generation process, click Next.
 
 [< Previous] [Next >] [Finish] [Cancel]
 
-
-<!-- page 20 -->
-
-# 2. Cài đặt MS SQL Server và quản lý CSDL
-
 Quan tâm đến các thông tin sau:
 
 ## Advanced Scripting Options (Hình trái)
@@ -518,30 +427,17 @@ Quan tâm đến các thông tin sau:
 - **Types of data to script**: Schema only
 - Generates script that contains schema only or schema and data.
 
-
-<!-- page 21 -->
-
-# 2. Cài đặt MS SQL Server và quản lý CSDL
-
 ## **Biên dịch file script đã có:**
 
 - Mở file dữ liệu đã tạo (script) trên SQL Server Management Studio
 - Chỉnh sửa (nếu cần)
 - Chạy chương trình bằng nút **Execute** hoặc ấn **F5**
 
-
-<!-- page 22 -->
-
-# 2. Cài đặt MS SQL Server và quản lý CSDL
-
 ## Tạo file dữ liệu (Sao lưu và phục hồi):
 
 - Sử dụng SQL Server Management Studio (SSMS) hoặc các công cụ tương tự, sao lưu cơ sở dữ liệu hiện tại bằng cách chọn "Tasks" > "Backup" và tạo một tệp sao lưu (backup file). Chọn tùy chọn sao lưu toàn bộ cơ sở dữ liệu.
 - Chuyển tệp sao lưu đến người khác.
 - Người khác có thể phục hồi cơ sở dữ liệu từ tệp sao lưu bằng cách sử dụng SSMS hoặc lệnh RESTORE DATABASE với tên cơ sở dữ liệu mới.
-
-
-<!-- page 23 -->
 
 # 3. Các kiểu dữ liệu trong SQL (kiểu kí tự)
 
@@ -559,9 +455,6 @@ Quan tâm đến các thông tin sau:
 | varbinary | Variable width binary string | 8,000 bytes | |
 | varbinary(max) | Variable width binary string | 2GB | |
 
-
-<!-- page 24 -->
-
 # 3. Các kiểu dữ liệu trong SQL (kiểu số)
 
 | Data type | Description | Storage |
@@ -573,9 +466,6 @@ Quan tâm đến các thông tin sau:
 | bigint | Allows whole numbers between -9,223,372,036,854,775,808 and 9,223,372,036,854,775,807 | 8 bytes |
 | decimal(p,s) | Fixed precision and scale numbers. Allows numbers from $-10^{38} +1$ to $10^{38} -1$. The p parameter indicates the maximum total number of digits that can be stored (both to the left and to the right of the decimal point). p must be a value from 1 to 38. Default is 18. The s parameter indicates the maximum number of digits stored to the right of the decimal point. s must be a value from 0 to p. Default value is 0 | 5-17 bytes |
 
-
-<!-- page 25 -->
-
 # 3. Các kiểu dữ liệu trong SQL (kiểu số)
 
 | Data type | Description | Storage |
@@ -585,9 +475,6 @@ Quan tâm đến các thông tin sau:
 | **money** | Monetary data from -922,337,203,685,477.5808 to 922,337,203,685,477.5807 | 8 bytes |
 | **float(n)** | Floating precision number data from $-1.79E + 308$ to $1.79E + 308$. The n parameter indicates whether the field should hold 4 or 8 bytes. float(24) holds a 4-byte field and float(53) holds an 8-byte field. Default value of n is 53. | 4 or 8 bytes |
 | **real** | Floating precision number data from $-3.40E + 38$ to $3.40E + 38$ | 4 bytes |
-
-
-<!-- page 26 -->
 
 # 3. Các kiểu dữ liệu trong SQL (kiểu ngày)
 
@@ -601,9 +488,6 @@ Quan tâm đến các thông tin sau:
 | datetimeoffset | The same as datetime2 with the addition of a time zone offset | 8-10 bytes |
 | timestamp | Stores a unique number that gets updated every time a row gets created or modified. The timestamp value is based upon an internal clock and does not correspond to real time. Each table may have only one timestamp variable | |
 
-
-<!-- page 27 -->
-
 # 3. Các kiểu dữ liệu trong SQL (kiểu khác)
 
 | Data type | Description |
@@ -613,9 +497,6 @@ Quan tâm đến các thông tin sau:
 | xml | Stores XML formatted data. Maximum 2GB |
 | cursor | Stores a reference to a cursor used for database operations |
 | table | Stores a result-set for later processing |
-
-
-<!-- page 28 -->
 
 # 4. Làm việc với bảng dữ liệu
 
@@ -656,11 +537,6 @@ Quan tâm đến các thông tin sau:
     - Security
     - Server Objects
 
-
-<!-- page 29 -->
-
-# 4. Làm việc với bảng dữ liệu
-
 ## **Sửa, xóa bảng**
 
 | |
@@ -681,11 +557,6 @@ Quan tâm đến các thông tin sau:
 | Refresh |
 | Properties |
 
-
-<!-- page 30 -->
-
-# 4. Làm việc với bảng dữ liệu
-
 ## Thuộc tính:
 
 - **Tên cột (Name)**: Đặt tên cột
@@ -693,11 +564,6 @@ Quan tâm đến các thông tin sau:
 - **Kiểu dữ liệu (Data Type)**: Đặt kiểu dữ liệu của cột
 - **Giá trị mặc định (Default Value or Binding)**: Đặt ràng buộc mặc định cho cột. Tùy chọn này được bỏ trống nếu không có ràng buộc mặc định.
 - **Chiều dài (Length)**: Biểu thị số lượng ký tự hoặc byte tối đa cho dữ liệu của cột, chẳng hạn nvarchar (50) có chiều dài là 50
-
-
-<!-- page 31 -->
-
-# 4. Làm việc với bảng dữ liệu
 
 ## Xem thuộc tính:
 
@@ -762,11 +628,6 @@ Quan tâm đến các thông tin sau:
 **Name**
 The column's name.
 
-
-<!-- page 32 -->
-
-# 4. Làm việc với bảng dữ liệu
-
 ## Tạo các loại ràng buộc
 
 | Column Name | Data Type | Allow Nulls |
@@ -788,11 +649,6 @@ The column's name.
 
 ### Table Designer
 - (General)
-
-
-<!-- page 33 -->
-
-# 4. Làm việc với bảng dữ liệu
 
 ## **Thêm/ sửa/ xóa dữ liệu**
 
@@ -825,17 +681,11 @@ The column's name.
 | ⊞ Replication | | | | | |
 | ⊞ Management | | | | | |
 
-
-<!-- page 34 -->
-
 # 5. Import và Export dữ liệu
 
 - **Import và Export** trong **SQL Server Management Studio (SSMS)** hỗ trợ người dùng sao chép dữ liệu từ vị trí này sang vị trí khác.
 - **Export** cho phép xuất dữ liệu sang cơ sở dữ liệu khác, Excel, tệp văn bản, v.v.
 - **Import** cho phép tải dữ liệu từ cơ sở dữ liệu hoặc nguồn khác như Excel, tệp văn bản, v.v.
-
-
-<!-- page 35 -->
 
 # 5. Import và Export dữ liệu
 
@@ -846,9 +696,6 @@ The column's name.
 - Click one of the following options.
     - **Import Data**
     - **Export Data**
-
-
-<!-- page 36 -->
 
 # 5. Import và Export dữ liệu
 
@@ -897,22 +744,11 @@ The column's name.
     - Replicatio
     - Manager
 
-
-<!-- page 37 -->
-
-HỌC VIỆN NGÂN HÀNG
-BANKING ACADEMY OF VIETNAM
-
 Mô hình cơ sở dữ liệu quan hệ
-
-
-<!-- page 38 -->
 
 # THANK YOU FOR WATCHING
 
 **Học viện Ngân hàng**
 12 P. Chùa Bộc, P. Kim Liên, TP. Hà Nội
 
-**T:** 1900 561 595 **F:** 1900 561 595
-**E:** truyenthong@hvnh.edu.vn
-**W:** www.hvnh.edu.vn
+**T:** 1900 561 595 **F:** 1900 561 595 **E:** truyenthong@hvnh.edu.vn **W:** www.hvnh.edu.vn

@@ -1,9 +1,3 @@
-# Chương 1 - Sự cần thiết và vai trò của MIS
-
-
-
-<!-- page 1 -->
-
 # HỆ THỐNG THÔNG TIN QUẢN LÝ
 
 Using MIS
@@ -15,17 +9,11 @@ Pearson
 ## Chương 1
 ### Sự cần thiết và vai trò của Hệ thống thông tin quản lý
 
-
-<!-- page 2 -->
-
 # Case study
 
 **Xem video**
 
 1-2
-
-
-<!-- page 3 -->
 
 # Case study
 
@@ -35,18 +23,12 @@ Pearson
     3. Collaboration Skills (Cộng tác).
     4. Experimentation Skills (Trải nghiệm).
 
-
-<!-- page 4 -->
-
 # Các nhà tuyển dụng cần gì?
 
 - Hãy chủ động, đừng chờ đợi để hỏi “cần phải làm gì, như thế nào,...?”.
 - Làm việc nhóm
     - Đề xuất ý tưởng, trao đổi với thành viên khác.
     - Đặt các câu hỏi liên quan.
-
-
-<!-- page 5 -->
 
 # Một số thuật ngữ
 
@@ -61,17 +43,11 @@ Trao đổi và thảo luận
 
 Giải thích và lấy ví dụ
 
-
-<!-- page 6 -->
-
 # Bài tập
 
 - Sinh viên điền thông tin vào link sau và cùng nhau thảo luận:
 
 ## Bài tập 1
-
-
-<!-- page 7 -->
 
 # NỘI DUNG
 
@@ -82,9 +58,6 @@ Q1-4 Làm thế nào để sử dụng mô hình 5 thành phần?
 Q1-5 Thông tin là gì?
 Q1-6 Đặc điểm cần thiết của dữ liệu?
 Q1-7 MIS trong năm 2027?
-
-
-<!-- page 8 -->
 
 # The Digital Revolution – Cuộc cách mạng kỹ thuật số
 
@@ -100,9 +73,6 @@ Q1-7 MIS trong năm 2027?
 
 Pearson
 
-
-<!-- page 9 -->
-
 # Các định luật thúc đẩy sự phát triển của các thiết bị kỹ thuật số mới
 
 Q1-1 Tại sao môn học MIS là môn học quan trọng nhất trong khối trường kinh tế?
@@ -114,9 +84,6 @@ Q1-1 Tại sao môn học MIS là môn học quan trọng nhất trong khối tr
 - Sự phát triển kỹ thuật số sẽ ảnh hưởng đến doanh nghiệp như thế nào?
 
 Pearson 1-9
-
-
-<!-- page 10 -->
 
 # Định luật Metcalfe
 
@@ -131,9 +98,6 @@ Q1-1 Tại sao môn học MIS là môn học quan trọng nhất trong khối tr
 
 Pearson 1-10
 
-
-<!-- page 11 -->
-
 # Các yếu tố cơ bản thay đổi công nghệ
 
 Q1-1 Tại sao môn học MIS là môn học quan trọng nhất trong khối trường kinh tế?
@@ -147,9 +111,6 @@ Q1-1 Tại sao môn học MIS là môn học quan trọng nhất trong khối tr
 
 Pearson 1-11
 
-
-<!-- page 12 -->
-
 # MIS là môn học quan trọng vì MIS giúp bạn
 
 Q1-1 Tại sao môn học MIS là môn học quan trọng nhất trong khối trường kinh tế?
@@ -160,9 +121,6 @@ Q1-1 Tại sao môn học MIS là môn học quan trọng nhất trong khối tr
 - Giúp bạn đạt được những kiến thức cần thiết cho các chuyên gia kinh doanh trong tương lai.
 
 Pearson 1-12
-
-
-<!-- page 13 -->
 
 # Sự thay đổi công nghệ đang gia tăng
 
@@ -177,9 +135,6 @@ Q1-2 MIS giúp bạn rèn luyện các kỹ năng như thế nào?
 
 Pearson 1-13
 
-
-<!-- page 14 -->
-
 # Những kỹ năng nào có giá trị trong sự nghiệp của bạn?
 
 Q1-2 MIS giúp bạn rèn luyện các kỹ năng như thế nào??
@@ -190,9 +145,6 @@ Q1-2 MIS giúp bạn rèn luyện các kỹ năng như thế nào??
     - **Thông điệp: Phát triển mạnh mẽ các kỹ năng linh hoạt**
 
 Pearson 1-14
-
-
-<!-- page 15 -->
 
 # Những kỹ năng nào có giá trị trong sự nghiệp của bạn?
 
@@ -207,9 +159,6 @@ Q1-2 MIS giúp bạn rèn luyện các kỹ năng như thế nào?
 
 Pearson 1-15
 
-
-<!-- page 16 -->
-
 # MIS giúp bạn rèn luyện các kỹ năng như thế nào?
 
 Q1-2 MIS giúp bạn rèn luyện các kỹ năng như thế nào?
@@ -223,11 +172,6 @@ Q1-2 MIS giúp bạn rèn luyện các kỹ năng như thế nào?
 
 Pearson 1-16
 
-
-<!-- page 17 -->
-
-# MIS giúp bạn rèn luyện các kỹ năng như thế nào?
-
 Q1-2 MIS giúp bạn rèn luyện các kỹ năng như thế nào?
 
 - **Tư duy hệ thống**
@@ -236,11 +180,6 @@ Q1-2 MIS giúp bạn rèn luyện các kỹ năng như thế nào?
 
 Pearson 1-17
 
-
-<!-- page 18 -->
-
-# MIS giúp bạn rèn luyện các kỹ năng như thế nào?
-
 Q1-2 MIS giúp bạn rèn luyện các kỹ năng như thế nào?
 
 - **Cộng tác**
@@ -248,11 +187,6 @@ Q1-2 MIS giúp bạn rèn luyện các kỹ năng như thế nào?
     - Ch. 2 thảo luận về các kỹ năng cộng tác và minh họa một số hệ thống thông tin cộng tác.
 
 1-18
-
-
-<!-- page 19 -->
-
-# MIS giúp bạn rèn luyện các kỹ năng như thế nào?
 
 Q1-2 MIS giúp bạn rèn luyện các kỹ năng như thế nào?
 
@@ -263,9 +197,6 @@ Q1-2 MIS giúp bạn rèn luyện các kỹ năng như thế nào?
         - “Nhưng liệu nó có hiệu quả không?”
         - “Có quá kỳ lạ đối với thị trường không?”
 - **Nỗi sợ thất bại làm tê liệt nhiều ý tưởng tốt của mọi người**
-
-
-<!-- page 20 -->
 
 # Khóa học MIS
 
@@ -278,9 +209,6 @@ Q1-2 MIS giúp bạn rèn luyện các kỹ năng như thế nào?
 3. Giúp bạn biết đến những công việc liên quan đến MIS có mức lương cao, nhu cầu cao.
 
 Pearson 1-20
-
-
-<!-- page 21 -->
 
 # Sự khác biệt giữa IT, IS và MIS
 
@@ -297,11 +225,6 @@ Q1-3 MIS là gì?
 
 Pearson 1-21
 
-
-<!-- page 22 -->
-
-# Sự khác biệt giữa IT, IS và MIS
-
 Q1-3 MIS là gì?
 
 - IT = Phần cứng + Phần mềm + Dữ liệu
@@ -312,11 +235,6 @@ Q1-3 MIS là gì?
 
 Pearson 1-22
 
-
-<!-- page 23 -->
-
-# Sự khác biệt giữa IT, IS và MIS
-
 Q1-3 MIS là gì?
 
 - Bạn có thể mua CNTT: Mua hoặc thuê phần cứng, các chương trình bản quyền, cơ sở dữ liệu, thậm chí quy trình thiết kế trước.
@@ -324,20 +242,12 @@ Q1-3 MIS là gì?
 
 → Tránh một sai lầm thường gặp: Đừng cố gắng để mua HTTT, bạn không thể làm điều đó?
 
-
-<!-- page 24 -->
-
-# Sự khác biệt giữa IT, IS và MIS
-
 Q1-3 MIS là gì?
 
 - Khi hệ thống thông tin mới của doanh nghiệp đã hoạt động, nó phải được quản lý và sử dụng hiệu quả để đạt được chiến lược chung của doanh nghiệp
 → Đó chính là **MIS**
 
 Pearson 1-24
-
-
-<!-- page 25 -->
 
 # Hệ thống thông tin quản lý
 
@@ -353,9 +263,6 @@ Q1-3 MIS là gì?
 
 Pearson 1-25
 
-
-<!-- page 26 -->
-
 # Các thành phần của Hệ thống thông tin
 
 Q1-3 MIS là gì?
@@ -370,9 +277,6 @@ Q1-3 MIS là gì?
 
 Pearson 1-26
 
-
-<!-- page 27 -->
-
 # Các thành phần của Hệ thống thông tin
 
 Q1-3 MIS là gì?
@@ -386,9 +290,6 @@ Q1-3 MIS là gì?
 
 1-27
 
-
-<!-- page 28 -->
-
 # Quản lý và sử dụng hệ thống thông tin
 
 Q1-3 MIS là gì?
@@ -398,9 +299,6 @@ Q1-3 MIS là gì?
 - **Ai có thể quản lý được hệ thống thông tin**: hệ thống thông tin được xây dựng cho mọi lĩnh vực, do đó bất cứ chuyên gia trong lĩnh vực nào (không nhất thiết phải là chuyên gia IS) cũng có thể quản lý và sử dụng hệ thống thông tin và đôi khi hệ thống thông tin còn được phát triển theo chỉ đạo của bạn.
 
 Pearson 1-28
-
-
-<!-- page 29 -->
 
 # Quản lý và sử dụng hệ thống thông tin
 
@@ -414,9 +312,6 @@ Q1-3 MIS là gì?
     - Học cách sử dụng IS.
     - Thực hiện các yêu cầu bổ sung (bảo mật, sao lưu)...
 
-
-<!-- page 30 -->
-
 # Đạt được các chiến lược
 
 Q1-3 MIS là gì?
@@ -426,9 +321,6 @@ Q1-3 MIS là gì?
     - “Nó sẽ làm được gì cho chúng ta?”
     - “Chính sách của chúng tôi đối với sự đóng góp của nhân viên là gì?”
     - “Chúng ta nên làm gì với những đánh giá của khách hàng?”
-
-
-<!-- page 31 -->
 
 # Sử dụng mô hình 5 thành phần
 
@@ -451,9 +343,6 @@ Q1-4 How can you use the five-component model?
 
 Pearson 1-31
 
-
-<!-- page 32 -->
-
 # Sử dụng mô hình 5 thành phần
 
 Q1-4 Sử dụng mô hình 5 thành phần?
@@ -465,9 +354,6 @@ Q1-4 Sử dụng mô hình 5 thành phần?
 
 Pearson 1-32
 
-
-<!-- page 33 -->
-
 # Sử dụng mô hình 5 thành phần
 
 Q1-4 Sử dụng mô hình 5 thành phần?
@@ -476,9 +362,6 @@ Q1-4 Sử dụng mô hình 5 thành phần?
 - Mức độ khó khăn của sự thay đổi ngày càng tăng phụ thuộc vào lượng công việc được chuyển từ phía con người sang phía máy tính.
 
 Pearson 1-33
-
-
-<!-- page 34 -->
 
 # Đặc điểm của mô hình năm thành phần
 
@@ -491,9 +374,6 @@ Q1-4 Sử dụng mô hình 5 thành phần?
 - **Tất cả các thành phần phải làm việc cùng nhau.**
 
 1-34
-
-
-<!-- page 35 -->
 
 # Định nghĩa thông tin
 
@@ -511,9 +391,6 @@ Q1-5 Thông tin là gì?
 
 ---
 Pearson 1-35
-
-
-<!-- page 36 -->
 
 # Giá cổ phiếu và thu nhập ròng của Amazon.com
 
@@ -543,9 +420,6 @@ Figure 1-9 Amazon.com Stock Price and Net Income
 
 Pearson 1-36
 
-
-<!-- page 37 -->
-
 # Thông tin ở đâu?
 
 Q1-5 Thông tin là gì
@@ -558,9 +432,6 @@ Q1-5 Thông tin là gì
 
 Pearson 1-37
 
-
-<!-- page 38 -->
-
 # Đặc tính của dữ liệu
 
 Q1-6 Đặc điểm cần thiết của dữ liệu?
@@ -572,9 +443,6 @@ Q1-6 Đặc điểm cần thiết của dữ liệu?
     - Với chủ đề
 - **Chỉ cần đủ**
 - **Đáng giá**
-
-
-<!-- page 39 -->
 
 # MIS năm 2027
 
@@ -590,9 +458,6 @@ Q1-7 2027?
 
 Pearson 1-39
 
-
-<!-- page 40 -->
-
 # MIS năm 2027
 
 Q1-7 2027?
@@ -602,9 +467,6 @@ Q1-7 2027?
 - **Kiến thức và việc sử dụng hệ thống thông tin kinh doanh** sẽ quan trọng hơn...
 
 Pearson 1-40
-
-
-<!-- page 41 -->
 
 # Xem xét mô hình 5 thành phần
 
@@ -619,9 +481,6 @@ Career Guide
 | **Consulting** | Project management, development, pre- and postsale support | | | | |
 
 Pearson 1-41
-
-
-<!-- page 42 -->
 
 # Tổng kết: Kiến thức chương này giúp được gì cho bạn và Jennifer?
 

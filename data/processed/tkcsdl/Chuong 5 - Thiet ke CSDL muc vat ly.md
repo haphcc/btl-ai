@@ -1,13 +1,7 @@
 # HỌC VIỆN NGÂN HÀNG
-BANKING ACADEMY OF VIETNAM
 
 # CHƯƠNG 5
 # THIẾT KẾ CSDL MỨC VẬT LÝ
-
-KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
-
-
-<!-- page 2 -->
 
 # Các giai đoạn thiết kế
 
@@ -21,26 +15,17 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 - **Vật lý**
     - Bảng và mối quan hệ
 
-
-<!-- page 3 -->
-
 # Thiết kế CSDL mức vật lý
 
 - **Thiết kế vật lý** là quá trình xác định cách thức tổ chức lưu trữ dữ liệu và đặc tính truy cập dữ liệu của CSDL để đảm bảo tính toàn vẹn, bảo mật và hiệu suất.
     - Tổ chức lưu trữ trên các thiết bị phần cứng
     - Phương thức truy cập dữ liệu được hỗ trợ bởi hệ thống và DBMS
 
-
-<!-- page 4 -->
-
 # Các giai đoạn thiết kế
 
 - **Xác định tổ chức lưu trữ dữ liệu**
 - **Xác định các biện pháp toàn vẹn và bảo mật**
 - **Xác định phép đo hiệu suất**
-
-
-<!-- page 5 -->
 
 # Xác định tổ chức lưu trữ dữ liệu
 
@@ -55,11 +40,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
     - Thiết kế bản ghi
         - Một bản ghi vật lý là 1 nhóm các trường được lưu trữ ở vị trí liền kề nhau trong bộ nhớ và được gọi ra đồng thời như 1 đơn vị thống nhất
 
-
-<!-- page 6 -->
-
-# Xác định tổ chức lưu trữ dữ liệu
-
 ## Quá trình thực hiện:
 
 - Chuyển mỗi quan hệ thành một bảng, các thuộc tính thành các cột. Thông thường dữ liệu trong mỗi bảng này được chứa trong một tập tin.
@@ -68,11 +48,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 - Các ràng buộc khác: **NOT NULL**, tính duy nhất, các ràng buộc về mặt nghiệp vụ.
 - Xem xét các ràng buộc về mặt tham chiếu (xác định khóa ngoại).
 - Trong trường hợp bảng có kích thước lớn, cân nhắc xem có thể tách bảng (partitioning) làm một vài phần hay không để tận dụng khả năng xử lý song song của phần cứng.
-
-
-<!-- page 7 -->
-
-# Xác định tổ chức lưu trữ dữ liệu
 
 ## Một số kiểu dữ liệu:
 
@@ -83,21 +58,11 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 | | SMALLINT | Giống như INTEGER nhưng giới hạn tối đa sáu chữ số. Nếu giá trị số nguyên sử dụng tương đối nhỏ, hãy sử dụng SMALLINT thay vì INT. |
 | | DECIMAL(L,D) | Giống như NUMBER, nhưng độ dài là tối thiểu. VD: DECIMAL(9,2), DECIMAL(9), DECIMAL. |
 
-
-<!-- page 8 -->
-
-# Xác định tổ chức lưu trữ dữ liệu
-
 | Kiểu dữ liệu | Định dạng | Mô tả |
 | :--- | :--- | :--- |
 | **Ký tự** | CHAR(L) | Dữ liệu ký tự có độ dài cố định, cho phép tối đa 255 ký tự. Nếu lưu trữ các chuỗi không dài bằng giá trị tham số CHAR, thì các khoảng trống còn lại sẽ không được sử dụng. Do đó, nên chỉ định giới hạn phù hợp, vd: CHAR(25) |
 | | VARCHAR(L) or VARCHAR2(L) | Dữ liệu ký tự có độ dài thay đổi. Vd: Ký hiệu VARCHAR2(25) sẽ cho phép lưu trữ dài tối đa 25 ký tự. Tuy nhiên, VARCHAR sẽ không để lại những khoảng trống không sử dụng. (Trong Oracle VARCHAR đổi thành VARCHAR2). |
 | **Ngày tháng** | DATE | Định dạng kiểu ngày |
-
-
-<!-- page 9 -->
-
-# Xác định tổ chức lưu trữ dữ liệu
 
 ## Ví dụ:
 
@@ -113,11 +78,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 | 6 | VAT | Number | | |
 | 7 | TongCong | Number | | Not null |
 
-
-<!-- page 10 -->
-
-# Xác định tổ chức lưu trữ dữ liệu
-
 ## Thiết kế file
 
 - **File vật lý** là một phần nhỏ của bộ nhớ thứ cấp lưu các bản ghi vật lý một cách độc lập
@@ -126,19 +86,9 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 - Tổ chức file: Tổ chức file tuần tự; Tổ chức file chỉ số
 - Yếu tố cần quan tâm: Lấy dữ liệu nhanh; Thông lượng các giao dịch xử lý lớn; Sử dụng hiệu quả không gian nhớ; Tránh sai sót và mất dữ liệu; Tối ưu hóa nhu cầu tổ chức file; Đáp ứng được nhu cầu tăng trưởng dữ liệu; An toàn
 
-
-<!-- page 11 -->
-
-# Xác định tổ chức lưu trữ dữ liệu
-
 - **Đối với mỗi bảng, hãy xác định tất cả các giao dịch có thể xảy ra, tần suất và khối lượng của chúng.**
 - **Đối với mỗi giao dịch, hãy xác định lượng dữ liệu sẽ được thêm hoặc xóa khỏi cơ sở dữ liệu.**
 - **Ước lượng khối lượng lưu trữ**
-
-
-<!-- page 12 -->
-
-# Xác định tổ chức lưu trữ dữ liệu
 
 ## Xác định các mẫu dữ liệu sử dụng => lượng dữ liệu
 
@@ -146,11 +96,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
     - Trong một truy vấn CSDL cần xác định: file sẽ được truy cập tới, loại tác vụ (insert, update..), thuộc tính được xác định bởi điều kiện, thuộc tính được lấy hoặc thay đổi...
 - Các mẫu sử dụng là rất quan trọng, đặc biệt là trong thiết kế cơ sở dữ liệu phân tán.
     - Ví dụ: Báo cáo hàng tuần hoặc báo cáo tổng hợp hàng tháng từ nhiều chi nhánh. Dữ liệu mới thường xuyên được thêm vào hệ thống.
-
-
-<!-- page 13 -->
-
-# Xác định tổ chức lưu trữ dữ liệu
 
 - **Sử dụng không gian bảng (table space) để phân cụm các bảng**
 - **Kỹ thuật lưu trữ phân cụm các bảng lưu trữ các hàng liên quan từ hai bảng liên quan trong các khối dữ liệu liền kề trên đĩa. Điều này đảm bảo rằng dữ liệu được lưu trữ ở các vị trí liền kề tuần tự**
@@ -172,11 +117,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 | Table space |
 | Table space |
 
-
-<!-- page 14 -->
-
-# Xác định tổ chức lưu trữ dữ liệu
-
 - **Xác định chỉ mục (index) và loại chỉ mục nào sẽ được sử dụng cho mỗi bảng. Xác định phương án tốt nhất dựa trên các mẫu sử dụng dữ liệu và yêu cầu về hiệu suất.**
 
     - VD: Trong bảng Hoa_Don_Ban, những yêu cầu sau thường xuyên được đưa ra. Cần tạo những chỉ mục nào?
@@ -184,21 +124,11 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
         - Số tiền bán được trong ngày?
         - Thống kê tổng số tiền mua hàng của mỗi khách hàng?
 
-
-<!-- page 15 -->
-
-# Xác định tổ chức lưu trữ dữ liệu
-
 ## Xác định khung nhìn (view) và loại khung nhìn nào sẽ được sử dụng trên mỗi bảng
 
 - Khung nhìn được xem như bảng “ảo” trong CSDL, có nội dung được định nghĩa thông qua một câu lệnh truy vấn.
 - Sử dụng các khung nhìn được hỗ trợ bởi DBMS.
 - Đảm bảo các khung nhìn đều có thể được thực hiện và chỉ cung cấp dữ liệu cần thiết.
-
-
-<!-- page 16 -->
-
-# Xác định tổ chức lưu trữ dữ liệu
 
 - **VD: Tạo khung nhìn hỗ trợ báo cáo thống kê việc bán hàng của các nhân viên:**
 
@@ -206,17 +136,11 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 
 - **Có thể truy vấn trên view như một table, tuy nhiên view không phải là một cấu trúc lưu trữ dữ liệu tồn tại trong cơ sở dữ liệu.**
 
-
-<!-- page 17 -->
-
 # Xác định các biện pháp toàn vẹn và bảo mật
 
 - **Khi tổ chức vật lý của các bảng, chỉ mục, khung nhìn được xác định => CSDL đã sẵn sàng sử dụng bởi người dùng cuối. Tuy nhiên, để truy cập được vào CSDL thì họ phải được xác thực:**
     - **Xác định người dùng, nhóm quyền và bảo mật.**
     - **Gán quyền kiểm soát.**
-
-
-<!-- page 18 -->
 
 # Xác định các biện pháp toàn vẹn và bảo mật
 
@@ -231,9 +155,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
     - Người dùng được xác nhận và sử dụng các quyền tương ứng.
     - ...
 
-
-<!-- page 19 -->
-
 # Xác định các biện pháp toàn vẹn và bảo mật
 
 ## **Gán quyền kiểm soát:**
@@ -242,9 +163,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 - Tính năng này hữu ích trong quá trình sao lưu cơ sở dữ liệu hoặc các sự kiện bảo trì theo lịch trình.
 - VD: Gán quyền INSERT và UPDATE cho cho người dùng là Nhân viên trên bảng HOA_DON_NHAP
 
-
-<!-- page 20 -->
-
 # Xác định phép đo hiệu suất
 
 **Thực tế là các mô hình quan hệ có xu hướng che giấu sự phức tạp của các đặc điểm vật lý của máy tính, hiệu suất của CSDL quan hệ bị ảnh hưởng bởi các đặc điểm lưu trữ vật lý:**
@@ -252,14 +170,8 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 - Các đặc điểm của phương tiện lưu trữ, chẳng hạn như seek time, sector và block, kích thước bộ đệm, số lượng đĩa cứng và đầu đọc/ghi.
 - Tạo chỉ mục có ảnh hưởng đáng kể đến hiệu suất của cơ sở dữ liệu quan hệ.
 
-
-<!-- page 21 -->
-
 # Xác định phép đo hiệu suất
 
 - **Tóm lại, phép đo hiệu suất thiết kế vật lý liên quan đến việc tinh chỉnh DBMS và các truy vấn để đảm bảo rằng chúng sẽ đáp ứng các yêu cầu về hiệu suất của người dùng cuối.**
-
-
-<!-- page 22 -->
 
 ![HỌC VIỆN NGÂN HÀNG](https://upload.wikimedia.org/wikipedia/vi/thumb/a/a5/Logo_Hoc_vien_Ngan_hang.png/120px-Logo_Hoc_vien_Ngan_hang.png)

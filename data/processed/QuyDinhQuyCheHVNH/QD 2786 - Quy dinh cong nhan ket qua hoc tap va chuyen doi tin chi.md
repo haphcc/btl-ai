@@ -1,13 +1,10 @@
 # NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG
 
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM**
-**Độc lập - Tự do - Hạnh phúc**
+**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM** **Độc lập - Tự do - Hạnh phúc**
 
 Số: 2786/QĐ-HVNH
 
 *Hà Nội, ngày 22 tháng 09 năm 2023*
-
----
 
 ## QUYẾT ĐỊNH
 
@@ -42,23 +39,17 @@ Số: 2786/QĐ-HVNH
 
 **Mai Thanh Quế**
 
----
-
 ## QUY ĐỊNH
 
 ### Công nhận kết quả học tập, chuyển đổi tín chỉ đối với chương trình đào tạo trình độ đại học tại Học viện Ngân hàng
 
 *(Ban hành kèm theo Quyết định số 2786/QĐ-HVNH ngày 22/09/2023 của Giám đốc Học viện)*
 
----
-
 ### Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng
 
 1. Quy định này quy định về việc xem xét, công nhận kết quả học tập của người học đã tích lũy từ một trình độ đào tạo khác, một ngành đào tạo hoặc một chương trình đào tạo khác, một khóa học khác hoặc từ một cơ sở đào tạo khác trong nước hoặc nước ngoài chuyển đổi sang tín chỉ của những học phần trong chương trình đào tạo đang theo học tại Học viện Ngân hàng (sau đây gọi tắt là HVNH).
 
 2. Quy định này áp dụng đối với sinh viên các chương trình đào tạo trình độ đại học tại HVNH.
-
----
 
 ### Điều 2. Giải thích từ ngữ
 
@@ -79,8 +70,6 @@ Số: 2786/QĐ-HVNH
     b. Chứng chỉ tiếng Nhật được xét chuyển đổi tín chỉ bao gồm: JLPT, NAT-TEST và các chứng chỉ quốc tế khác được công nhận bởi các cơ quan có thẩm quyền.
 
     c. Chứng chỉ nghề nghiệp được xét chuyển đổi tín chỉ tại HVNH là các chứng chỉ nghề nghiệp được cấp bởi các hiệp hội hoặc các tổ chức nghề nghiệp trong nước và quốc tế hoặc các tổ chức nghề nghiệp là đối tác đào tạo của HVNH được quy định cụ thể theo từng chương trình đào tạo.
-
----
 
 ### Điều 3. Căn cứ, điều kiện công nhận kết quả học tập, chuyển đổi tín chỉ
 
@@ -105,8 +94,6 @@ Số: 2786/QĐ-HVNH
 
     c. Trường hợp đặc biệt do Giám đốc HVNH quyết định trên cơ sở đề nghị của Hội đồng chuyên môn.
 
----
-
 ### Điều 4. Quy định chung về chuyển đổi tín chỉ và công nhận kết quả học tập
 
 1. Khối lượng tối đa được công nhận, chuyển đổi không vượt quá 50% khối lượng học tập của chương trình đào tạo (không bao gồm khối lượng học tập các học phần Giáo dục quốc phòng và an ninh, Giáo dục thể chất). HVNH chỉ xét công nhận và chuyển đổi kết quả học tập cho các học phần trong chương trình đào tạo hiện hành mà sinh viên đang theo học và chưa có kết quả học tập.
@@ -129,8 +116,6 @@ Số: 2786/QĐ-HVNH
 3. Sinh viên được công nhận kết quả học tập và chuyển đổi tín chỉ học phần nào thì được miễn học, miễn thi học phần đó.
 
 4. Sinh viên được công nhận kết quả học tập và chuyển đổi tín chỉ phải nộp lệ phí chuyển đổi tín chỉ theo quy định của HVNH. Đối với các học phần đã tích lũy trong quá trình học tập tại HVNH, sinh viên không phải đóng lệ phí này.
-
----
 
 ### Điều 5. Công nhận kết quả học tập và chuyển đổi tín chỉ với chứng chỉ ngoại ngữ quốc tế
 
@@ -221,19 +206,13 @@ Sinh viên có chứng chỉ tiếng Anh quốc tế IELTS (Academic), TOEFL iBT
 | 5.5 | 16-17 | 8.0 | 5.5 | 8-12 | 8.0 | 5.5 | 7-11 | 8.0 | 5.5 | 18-20 | 8.0 |
 | 5.0 | 14-15 | 7.5 | 5.0 | 4-7 | 7.5 | 5.0 | 4-6 | 7.5 | 5.0 | 14-17 | 7.5 |
 
----
-
 ### Điều 6. Công nhận kết quả học tập và chuyển đổi tín chỉ đối với các chứng chỉ nghề nghiệp
 
 Việc chuyển đổi tín chỉ được áp dụng theo từng chứng chỉ nghề nghiệp hoặc theo từng chương trình hợp tác giữa tổ chức nghề nghiệp với HVNH. Khối lượng, giá trị chuyển đổi được căn cứ theo đề xuất của Khoa chuyên ngành, thông qua Hội đồng chuyên môn và đề xuất Giám đốc HVNH quyết định.
 
----
-
 ### Điều 7. Xét công nhận kết quả và chuyển đổi tín chỉ các học phần từ chương trình đào tạo tại Học viện Ngân hàng
 
 Đối với các học phần không còn mở lớp do thay đổi CTĐT, các Khoa/Bộ môn quản lý học phần đề xuất các học phần tương đương, Phòng Đào tạo tổng hợp, tham mưu trình Giám đốc HVNH ra quyết định công nhận danh sách học phần tương đương. Khối lượng, kết quả học tập các học phần tương đương sẽ được chuyển đổi sang học phần trong chương trình đào tạo mà sinh viên đang theo học.
-
----
 
 ### Điều 8. Xét công nhận kết quả và chuyển đổi tín chỉ các học phần đã tích lũy từ chương trình đào tạo tại các cơ sở giáo dục khác
 
@@ -268,8 +247,6 @@ Việc chuyển đổi tín chỉ được áp dụng theo từng chứng chỉ 
     g. Phòng Đào tạo trình Giám đốc HVNH ra quyết định công nhận kết quả, chuyển đổi tín chỉ trên cơ sở biên bản họp của Hội đồng.
 
     h. Phòng Đào tạo thông báo kết quả tới người học và cập nhật kết quả chuyển đổi lên Cổng thông tin sinh viên.
-
----
 
 ### Điều 9. Điều khoản thi hành
 

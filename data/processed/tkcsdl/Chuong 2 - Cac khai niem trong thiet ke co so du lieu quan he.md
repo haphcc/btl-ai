@@ -1,24 +1,13 @@
 # HỌC VIỆN NGÂN HÀNG
-BANKING ACADEMY OF VIETNAM
 
 # CHƯƠNG 2
 # CÁC KHÁI NIỆM TRONG THIẾT KẾ CƠ SỞ DỮ LIỆU QUAN HỆ
-
-KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
-
-
-<!-- page 2 -->
 
 # NỘI DUNG CHÍNH
 
 - **Sơ đồ thực thể liên kết (ERD)**
 - **Quan hệ**
 - **Chuẩn hóa**
-
-2
-
-
-<!-- page 3 -->
 
 # Các bước thiết kế CSDL quan hệ
 
@@ -32,16 +21,8 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 ## Vật lý
 - Bảng, cột, chỉ mục, view
 
-3
-
-
-<!-- page 4 -->
-
 # SƠ ĐỒ THỰC THỂ LIÊN KẾT
 ## (ENTITY- RELATIONSHIP DIAGRAM ERD)
-
-
-<!-- page 5 -->
 
 # 1. Sơ đồ thực thể liên kết (ERD)
 
@@ -51,9 +32,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
     - Thuộc tính
     - Mối quan hệ giữa các thực thể
 
-
-<!-- page 6 -->
-
 # Thực thể (Entity)
 
 **Một thực thể là một đối tượng tồn tại trong thế giới thực và riêng biệt với các đối tượng khác. Nói một cách khác, một thực thể có thể được xác định một cách duy nhất.**
@@ -61,9 +39,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 - Một người cụ thể: vd Ms Nguyễn
 - Một phòng ban cụ thể: vd Phòng Tài chính
 - Một nơi cụ thể, vd Thành phố Hà Nội.
-
-
-<!-- page 7 -->
 
 # Kiểu Thực thể (Entity Type)
 
@@ -75,9 +50,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 | TÊN KIỂU THỰC THỂ |
 | :--- |
 
-
-<!-- page 8 -->
-
 # Kiểu Thực thể (Entity Type)
 
 - **Thực thể yếu (weak entity)**: là thực thể không thể tự định danh duy nhất chỉ bằng các thuộc tính của chính nó, nó phải phụ thuộc vào một thực thể mạnh để tồn tại và để được xác định.
@@ -85,9 +57,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 
 | Tên thực thể yếu |
 | :--- |
-
-
-<!-- page 9 -->
 
 # Thuộc tính (Attribute)
 
@@ -99,9 +68,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
     - Thuộc tính đơn <-> thuộc tính phức hợp
     - Thuộc tính cơ sở <-> thuộc tính dẫn xuất
     - Thuộc tính đơn trị <-> thuộc tính đa trị
-
-
-<!-- page 10 -->
 
 # Thuộc tính (Attribute)
 
@@ -116,9 +82,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 
 *(Lưu ý: Trong bảng trên, các hình vẽ mô tả ký pháp được biểu diễn bằng các ký tự tương ứng với hình ảnh trong slide)*
 
-
-<!-- page 11 -->
-
 # Biểu diễn thực thể - thuộc tính
 
 ## Ví dụ:
@@ -131,9 +94,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 - *quêquán*
 - *trìnhđộ ngoại ngữ* (thuộc tính đa trị)
 
-
-<!-- page 12 -->
-
 # Thuộc tính (Attribute)
 
 ## Thuộc tính phức hợp (Composite Attribute)
@@ -141,11 +101,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 - Là thuộc tính có thể chia nhỏ thành nhiều thuộc tính đơn.
 
 ![Sơ đồ thuộc tính Address chia thành Street No, City, State, Pincode](https://files.oaiusercontent.com/file-12345)
-
-12
-
-
-<!-- page 13 -->
 
 # Mối quan hệ (Relationship)
 
@@ -158,11 +113,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
     - Quan hệ sở hữu/phụ thuộc
 - **Mối quan hệ cũng có thuộc tính**
 
-13
-
-
-<!-- page 14 -->
-
 # Ví dụ
 
 ## Sơ đồ thực thể - mối quan hệ (ERD)
@@ -173,11 +123,6 @@ KHOA CÔNG NGHỆ THÔNG TIN VÀ KINH TẾ SỐ
 
 Mối quan hệ giữa **Khách hàng** và **Hàng** là mối quan hệ **Mua** (n - n).
 
-
-<!-- page 15 -->
-
-# Mối quan hệ (Relationship)
-
 ## **Bậc của quan hệ:**
 - Số thực thể tham gia vào quan hệ
 - Các loại bậc
@@ -185,13 +130,6 @@ Mối quan hệ giữa **Khách hàng** và **Hàng** là mối quan hệ **Mua*
 | **Bậc 1** (*đệ quy-recursive ~*) | **Bậc 2** (*binary ~*) | **Bậc 3** (*ternary ~*) | **nhiều hơn 3** |
 | :--- | :--- | :--- | :--- |
 | **NGƯỜI** <br> ◊ <br> **KẾT HÔN** | **KHÁCH** ◊ **HÀNG** <br> **MUA** <br> **TÁCGIA** ◊ **SÁCH** <br> **CỦA** | **GVIÊN** <br> **LỚP** ◊ **MÔN** <br> **DẠY** | |
-
-15
-
-
-<!-- page 16 -->
-
-# Mối quan hệ (Relationship)
 
 ## Bản số của quan hệ:
 - Số **bản thể (thực thể)** tham gia vào quan hệ
@@ -203,11 +141,6 @@ Mối quan hệ giữa **Khách hàng** và **Hàng** là mối quan hệ **Mua*
 | 2 | bằng không (0) | bằng nhiều(⋖ ) | ⟐—0—⋖ |
 | 3 | bằng một (\|) | bằng một (\|) | ⟐—\|—\| |
 | 4 | bằng một (\|) | bằng nhiều(⋖ ) | ⟐—\|—⋖ |
-
-
-<!-- page 17 -->
-
-# Mối quan hệ (Relationship)
 
 ## Biểu diễn trong một số giáo trình khác:
 
@@ -223,19 +156,11 @@ Mối quan hệ giữa **Khách hàng** và **Hàng** là mối quan hệ **Mua*
 
 ![Sơ đồ mối quan hệ bậc ba: GIÁO VIÊN, MÔN HỌC, LỚP cùng tham gia vào mối quan hệ DẠY với thuộc tính số tiết]
 
-
-<!-- page 18 -->
-
 # Phân loại mối quan hệ
 
 - **Mối quan hệ một – nhiều** (*1:M or 1..**)
 - **Mối quan hệ nhiều – nhiều** (*M:N or *..**)
 - **Mối quan hệ một - một** (*1:1 or 1..1*)
-
-18
-
-
-<!-- page 19 -->
 
 # Chen Notation và Crow's Foot Notation
 
@@ -248,17 +173,7 @@ Mối quan hệ giữa **Khách hàng** và **Hàng** là mối quan hệ **Mua*
 | **A One-to-One (1:1) Relationship**: an EMPLOYEE manages one STORE; each STORE is managed by one EMPLOYEE. | |
 | ![Chen 1:1](https://i.imgur.com/5555555.png) | ![Crow 1:1](https://i.imgur.com/6666666.png) |
 
-19
-
-
-<!-- page 20 -->
-
 # Bài tập
-
-20
-
-
-<!-- page 21 -->
 
 # Các bước thiết kế CSDL quan hệ
 
@@ -270,17 +185,7 @@ Mối quan hệ giữa **Khách hàng** và **Hàng** là mối quan hệ **Mua*
 - **Vật lý**
     - Bảng và mối quan hệ
 
-21
-
-
-<!-- page 22 -->
-
-22
-
 # QUAN HỆ
-
-
-<!-- page 23 -->
 
 # 2. QUAN HỆ
 
@@ -300,9 +205,6 @@ Mối quan hệ giữa **Khách hàng** và **Hàng** là mối quan hệ **Mua*
 - Ngôi
 - Lực lượng
 
-
-<!-- page 24 -->
-
 # Đặc điểm của quan hệ
 
 - **Phần tử nằm chỗ giao nhau giữa dòng và cột là duy nhất**
@@ -311,18 +213,12 @@ Mối quan hệ giữa **Khách hàng** và **Hàng** là mối quan hệ **Mua*
 - **Thứ tự các dòng là không quan trọng**
 - **Thứ tự các cột là không quan trọng**
 
-
-<!-- page 25 -->
-
 # Ràng buộc
 
 - **Ràng buộc** là một quy tắc được đặt vào một đối tượng cơ sở dữ liệu (thường là một bảng hoặc một cột) để giới hạn giá trị dữ liệu cho phép đối với đối tượng cơ sở dữ liệu đó.
 - **Các loại ràng buộc**:
     - Ràng buộc khóa
     - Ràng buộc miền giá trị
-
-
-<!-- page 26 -->
 
 # Ràng buộc khóa
 
@@ -332,9 +228,6 @@ Mối quan hệ giữa **Khách hàng** và **Hàng** là mối quan hệ **Mua*
 | **Khóa dự tuyển** (Candidate key) | là một siêu khóa tối thiểu, tức không tồn tại một tập con của nó là siêu khóa |
 | **Khóa chính** (Primary key) | Là một khóa dự tuyển được chọn để xác định tất cả cá thuộc tính khác, không chứa giá trị rỗng |
 | **Khóa ngoại** | Một (hoặc một tổ hợp) thuộc tính là khóa chính của quan hệ này được mang sang làm thuộc tính của quan hệ khác. |
-
-
-<!-- page 27 -->
 
 # Ràng buộc miền giá trị
 
@@ -348,11 +241,6 @@ Mối quan hệ giữa **Khách hàng** và **Hàng** là mối quan hệ **Mua*
 | MaSV | - Thể hiện được sự khác biệt giữa các sinh viên, thể hiện được niên khoa, khoa<br>- Định dạng<br>- aaabbbxxxx (24a4040123) |
 | HoTen | - Chuỗi ký tự thể hiện được dấu, độ dài tối đa 100 |
 | NgaySinh | - Ngày tháng hợp lệ<br>- ddmmyyyy |
-
-27
-
-
-<!-- page 28 -->
 
 # Ràng buộc tham chiếu
 
@@ -377,21 +265,12 @@ Bảng NHACC
 | 378 | Vinamilk | Trần Hải Yên | 0834554389 |
 | 457 | Abort Hoa kỳ | Vũ Hạnh Như | 0599903349 |
 
-
-<!-- page 29 -->
-
 # CHUẨN HÓA
-
-
-<!-- page 30 -->
 
 # 3. Chuẩn hóa
 
 - Là quy trình biến đổi cấu trúc dữ liệu phức tạp thành những cấu trúc đơn giản và ổn định.
 - Kết quả là của quá trình chuẩn hóa là quan hệ có tính **cấu trúc cao**.
-
-
-<!-- page 31 -->
 
 # 3. Chuẩn hóa
 
@@ -407,9 +286,6 @@ Bảng NHACC
 | 002 | Nguyễn C.Phèo | 08/01/91 | K41T | C++ | 9 |
 | 004 | Trần Thị Nở | 02/04/89 | K42B | Java | 6.5 |
 | 005 | Lý A Sử | 09/01/92 | K42B | Java | 7 |
-
-
-<!-- page 32 -->
 
 # Quan hệ nào có cấu trúc cao?
 
@@ -432,9 +308,6 @@ Bảng NHACC
 | 190 | Lorenzo Davis | Finance | 38,000 |
 | 150 | Susan Martin | Marketing | 38,500 |
 
-
-<!-- page 33 -->
-
 # 3. Chuẩn hóa
 
 - **Các dạng chuẩn phổ biến:**
@@ -443,9 +316,6 @@ Bảng NHACC
     - 3NF (3rd Normal Form)
     - BCNF (Boye-Codd Normal Form)
 - **Ngoài ra còn có: 4NF, 5NF...**
-
-
-<!-- page 34 -->
 
 # Phụ thuộc hàm
 
@@ -457,9 +327,6 @@ Bảng NHACC
 | E1 | Mac | New York |
 | E2 | Sandra | CA |
 | E3 | Henry | Paris |
-
-
-<!-- page 35 -->
 
 # Thảo luận
 
@@ -477,9 +344,6 @@ Bảng NHACC
 
 **Có thể xác định phụ thuộc hàm thông qua dữ liệu mẫu?**
 
-
-<!-- page 36 -->
-
 # Khóa
 
 ## Nhận xét:
@@ -487,9 +351,6 @@ Bảng NHACC
 - Những thuộc tính xuất hiện duy nhất phía phải của các phụ thuộc hàm thì không tham gia vào khóa.
 - Những thuộc tính xuất hiện duy nhất phía trái và những thuộc tính không xuất hiện trong phụ thuộc hàm thì chắc chắn tham gia vào khóa.
 - Những thuộc tính vừa tham gia vế trái, vừa tham gia vế phải của phụ thuộc hàm có thể tham gia vào khóa hoặc không.
-
-
-<!-- page 37 -->
 
 # 1NF (1st Normal Form)
 
@@ -500,9 +361,6 @@ Bảng NHACC
 | E101 | Hệ thống | E901 | P27<br>P51<br>P20 | 90<br>101<br>60 |
 | E305 | Kinh Doanh | E906 | P27<br>P22 | 109<br>98 |
 | E508 | Quản trị | E908 | P51<br>P27 | Null<br>72 |
-
-
-<!-- page 38 -->
 
 # 1NF (1st Normal Form)
 
@@ -522,9 +380,6 @@ Bảng NHACC
 | E508 | Quản trị | E908 | P51 | Null |
 | E508 | Quản trị | E908 | P27 | 72 |
 
-
-<!-- page 39 -->
-
 # 2NF (2nd Normal Form)
 
 - **Một quan hệ ở dạng chuẩn 2 nếu:**
@@ -540,9 +395,6 @@ Bảng NHACC
 | E305 | Kinh Doanh | E906 | P22 | 98 |
 | E508 | Quản trị | E908 | P51 | Null |
 | E508 | Quản trị | E908 | P27 | 72 |
-
-
-<!-- page 40 -->
 
 # 2NF (2nd Normal Form)
 
@@ -567,9 +419,6 @@ Bảng NHACC
 | E305 | P22 | 98 |
 | E508 | P51 | Null |
 
-
-<!-- page 41 -->
-
 # 3NF (3rd Normal Form)
 
 ## Một quan hệ ở dạng chuẩn 3 nếu:
@@ -582,9 +431,6 @@ Bảng NHACC
 | E101 | Hệ thống | E901 |
 | E305 | Kinh doanh | E906 |
 | E508 | Quản trị | E908 |
-
-
-<!-- page 42 -->
 
 # 3NF (3rd Normal Form)
 
@@ -606,9 +452,6 @@ Bảng NHACC
 | Kinh doanh | E906 |
 | Quản trị | E908 |
 
-
-<!-- page 43 -->
-
 # Chuẩn BCNF (Boyce Codd Normal Form)
 
 Một quan hệ ở dạng chuẩn BCNF nếu quan hệ đó:
@@ -623,17 +466,9 @@ Một quan hệ ở dạng chuẩn BCNF nếu quan hệ đó:
 - 2NF $\rightarrow$ 3NF (Loại bỏ các phụ thuộc gián tiếp)
 - 3NF $\rightarrow$ BCNF (Chỉ còn các phụ thuộc hàm trực tiếp vào khoá)
 
-
-<!-- page 44 -->
-
 # Phi chuẩn hóa
 
 - **Nhiều trường hợp cần phải tối ưu CSDL (dung lượng lưu trữ, hiệu năng,...) người thiết kế chuyển các quan hệ về dạng chuẩn thấp hơn.**
-
-44
-
-
-<!-- page 45 -->
 
 # Thảo luận
 
@@ -669,9 +504,4 @@ Một quan hệ ở dạng chuẩn BCNF nếu quan hệ đó:
 
 Note: * indicates project leader
 
-
-<!-- page 46 -->
-
 ![HỌC VIỆN NGÂN HÀNG](https://upload.wikimedia.org/wikipedia/vi/thumb/a/a5/Logo_Hoc_vien_Ngan_hang.svg/1200px-Logo_Hoc_vien_Ngan_hang.svg.png)
-
-46
