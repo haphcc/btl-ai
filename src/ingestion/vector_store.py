@@ -50,8 +50,17 @@ class HashEmbeddingFunction:
     def __init__(self, dimensions: int = 384):
         self.dimensions = dimensions
 
+    def name(self) -> str:
+        return f"hash-{self.dimensions}"
+
     def __call__(self, input: list[str]) -> list[list[float]]:
         return [self._embed(text) for text in input]
+
+    def embed_query(self, input: list[str]) -> list[list[float]]:
+        return self(input)
+
+    def embed_documents(self, input: list[str]) -> list[list[float]]:
+        return self(input)
 
     def _embed(self, text: str) -> list[float]:
         vector = [0.0] * self.dimensions
