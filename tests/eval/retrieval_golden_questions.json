@@ -1,0 +1,165 @@
+[
+  {
+    "id": "hvnh_foreign_language_standard",
+    "question": "Sinh viên hệ chuẩn cần đạt chuẩn đầu ra ngoại ngữ bậc mấy để tốt nghiệp?",
+    "expected_paths": [
+      "data/processed/QuyDinhQuyCheHVNH/QD 3337 - Quy dinh chuan dau ra ngoai ngu va CNTT.md"
+    ],
+    "category": "regulation"
+  },
+  {
+    "id": "hvnh_toeic_requirement",
+    "question": "Điều kiện TOEIC để được công nhận chuẩn đầu ra tiếng Anh bậc 3/6 là gì?",
+    "expected_paths": [
+      "data/processed/QuyDinhQuyCheHVNH/QD 3337 - Quy dinh chuan dau ra ngoai ngu va CNTT.md"
+    ],
+    "category": "regulation"
+  },
+  {
+    "id": "credit_transfer",
+    "question": "Quy định về công nhận kết quả học tập và chuyển đổi tín chỉ nằm trong văn bản nào?",
+    "expected_paths": [
+      "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md"
+    ],
+    "category": "regulation"
+  },
+  {
+    "id": "ects_conversion",
+    "question": "Hướng dẫn quy đổi tín chỉ HVNH và ECTS được trình bày ở tài liệu nào?",
+    "expected_paths": [
+      "data/processed/QuyDinhQuyCheHVNH/QD 2862 - Huong dan quy doi tin chi HVNH va ECTS.md"
+    ],
+    "category": "regulation"
+  },
+  {
+    "id": "nckh_bonus_points",
+    "question": "Sinh viên nghiên cứu khoa học đạt giải được cộng điểm khuyến khích theo văn bản nào?",
+    "expected_paths": [
+      "data/processed/QuyDinhQuyCheHVNH/QD 422 - Cong diem khuyen khich sinh vien NCKH dat giai.md"
+    ],
+    "category": "regulation"
+  },
+  {
+    "id": "prerequisite_course",
+    "question": "Học phần tiên quyết và điều kiện đăng ký học phần được quy định ở đâu?",
+    "expected_paths": [
+      "data/processed/QuyDinhQuyCheHVNH/NQ 269 - Quy che dao tao dai hoc chinh quy cua HVNH.md"
+    ],
+    "category": "regulation"
+  },
+  {
+    "id": "admission_2025",
+    "question": "Thông tin tuyển sinh đại học chính quy năm 2025 của Học viện Ngân hàng nằm trong tài liệu nào?",
+    "expected_paths": [
+      "data/processed/QuyDinhQuyCheHVNH/Thong tin tuyen sinh dai hoc chinh quy nam 2025 - NHH.md"
+    ],
+    "category": "regulation"
+  },
+  {
+    "id": "tsql_trigger",
+    "question": "Trong môn Cơ sở dữ liệu, T-SQL định nghĩa Trigger là gì và cú pháp CREATE TRIGGER như thế nào?",
+    "expected_paths": [
+      "data/processed/csdl/Chuong 5 - Ngon ngu T-SQL.md"
+    ],
+    "category": "course_material"
+  },
+  {
+    "id": "sql_join",
+    "question": "Trong ngôn ngữ SQL, INNER JOIN, LEFT OUTER JOIN, RIGHT OUTER JOIN và FULL OUTER JOIN được giải thích như thế nào?",
+    "expected_paths": [
+      "data/processed/csdl/Chuong 4 - Ngon ngu SQL.md",
+      "data/processed/hqtcsdl/Chuong 2 - Co ban ve SQL.md"
+    ],
+    "category": "course_material"
+  },
+  {
+    "id": "database_keys",
+    "question": "Khóa chính, khóa ngoại và ràng buộc toàn vẹn trong cơ sở dữ liệu quan hệ là gì?",
+    "expected_paths": [
+      "data/processed/csdl/Chuong 2 - Cac khai niem trong CSDL quan he.md",
+      "data/processed/tkcsdl/Chuong 2 - Cac khai niem trong thiet ke co so du lieu quan he.md"
+    ],
+    "category": "course_material"
+  },
+  {
+    "id": "functional_dependency",
+    "question": "Phụ thuộc hàm A -> B, xác định khóa, chuẩn hóa 1NF 2NF 3NF trong thiết kế cơ sở dữ liệu quan hệ",
+    "expected_paths": [
+      "data/processed/tkcsdl/Chuong 2 - Cac khai niem trong thiet ke co so du lieu quan he.md",
+      "data/processed/tkcsdl/Chuong 4 - Thiet ke CSDL muc logic.md"
+    ],
+    "category": "course_material"
+  },
+  {
+    "id": "er_model",
+    "question": "Mô hình thực thể liên kết ER và các bước thiết kế CSDL mức khái niệm nằm trong tài liệu nào?",
+    "expected_paths": [
+      "data/processed/tkcsdl/Chuong 3 - Thiet ke CSDL muc khai niem.md"
+    ],
+    "category": "course_material"
+  },
+  {
+    "id": "hypothesis_testing",
+    "question": "Trong xác suất thống kê bài 8, kiểm định giả thuyết về kỳ vọng, phương sai và xác suất được trình bày như thế nào?",
+    "expected_paths": [
+      "data/processed/xstk/bai_08_kiem_dinh_gia_thuyet_thong_ke.md"
+    ],
+    "category": "course_material"
+  },
+  {
+    "id": "confidence_interval",
+    "question": "Ước lượng khoảng tin cậy cho tham số thống kê được trình bày trong bài nào?",
+    "expected_paths": [
+      "data/processed/xstk/bai_07_uoc_luong_tham_so.md"
+    ],
+    "category": "course_material"
+  },
+  {
+    "id": "backpropagation",
+    "question": "Lan truyền ngược trong mạng neural network hoạt động như thế nào?",
+    "expected_paths": [
+      "data/processed/tri tue nhan tao/Lecture 8-9 - Neural networks.md"
+    ],
+    "category": "course_material"
+  },
+  {
+    "id": "feature_extraction",
+    "question": "Các kỹ thuật trích xuất đặc trưng cho dữ liệu văn bản, hình ảnh và âm thanh là gì?",
+    "expected_paths": [
+      "data/processed/tri tue nhan tao/Lecture 5 - Feature extraction,  model building & evaluation.md"
+    ],
+    "category": "course_material"
+  },
+  {
+    "id": "software_architecture_patterns",
+    "question": "Trong Chương 3 Mẫu thiết kế Kiến trúc phần mềm, Adapter, Bridge, Composite, Decorator và Observer Pattern được mô tả như thế nào?",
+    "expected_paths": [
+      "data/processed/kientrucphanmem/Chương 3 - Mẫu thiết kế Kiến trúc phần mềm.md"
+    ],
+    "category": "course_material"
+  },
+  {
+    "id": "network_security",
+    "question": "An ninh mạng gồm những nguy cơ và biện pháp bảo vệ nào?",
+    "expected_paths": [
+      "data/processed/mang/chuong_06_an_ninh_mang.md"
+    ],
+    "category": "course_material"
+  },
+  {
+    "id": "java_jdbc",
+    "question": "Kết nối cơ sở dữ liệu JDBC trong Java được hướng dẫn ở tài liệu nào?",
+    "expected_paths": [
+      "data/processed/java/oop_05_ket_noi_co_so_du_lieu_jdbc.md"
+    ],
+    "category": "course_material"
+  },
+  {
+    "id": "web_dom",
+    "question": "JavaScript DOM dùng để thao tác với HTML như thế nào?",
+    "expected_paths": [
+      "data/processed/thietkeweb/lecture_11_javascript_html_dom.md"
+    ],
+    "category": "course_material"
+  }
+]

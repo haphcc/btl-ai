@@ -3,6 +3,7 @@ langchain
 langchain-community
 langchain-openai
 langchain-google-genai
+openai
 
 # Document Processing
 pypdf
