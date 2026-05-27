@@ -2,7 +2,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
+import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -17,7 +19,7 @@ from src.core.config import config
 from src.retrieval.search import QueryResult, RetrievedChunk, query as retrieve_query
 
 
-DEFAULT_MAX_CONTEXT_CHARS = 1400
+DEFAULT_MAX_CONTEXT_CHARS = 2600
 
 
 @dataclass
@@ -57,12 +59,60 @@ class RagAnswer:
                 print(f"\n[S{index}] {chunk.citation}\n{chunk.text_preview}")
 
 
-def _format_context(chunks: list[RetrievedChunk], max_chars_per_chunk: int = DEFAULT_MAX_CONTEXT_CHARS) -> str:
+def _strip_accents(text: str) -> str:
+    normalized = unicodedata.normalize("NFD", text)
+    return "".join(char for char in normalized if unicodedata.category(char) != "Mn")
+
+
+def _query_terms(question: str) -> list[str]:
+    normalized = _strip_accents(question.lower())
+    normalized = re.sub(r"[^\w\s]", " ", normalized, flags=re.UNICODE)
+    terms = [term for term in normalized.split() if len(term) > 1]
+    return list(dict.fromkeys(terms))
+
+
+def _trim_context_text(text: str, question: str, max_chars: int) -> str:
+    if len(text) <= max_chars:
+        return text
+
+    normalized_text = _strip_accents(text.lower())
+    terms = _query_terms(question)
+    candidate_starts = {0}
+    for term in terms:
+        start = 0
+        while True:
+            index = normalized_text.find(term, start)
+            if index == -1:
+                break
+            candidate_starts.add(max(0, index - max_chars // 3))
+            start = index + len(term)
+
+    best_start = 0
+    best_score = -1
+    for start in candidate_starts:
+        window = normalized_text[start : start + max_chars]
+        score = sum(1 for term in terms if term in window)
+        if score > best_score:
+            best_score = score
+            best_start = start
+
+    excerpt = text[best_start : best_start + max_chars].strip()
+    if best_start > 0:
+        excerpt = "..." + excerpt
+    if best_start + max_chars < len(text):
+        excerpt = excerpt.rstrip() + "..."
+    return excerpt
+
+
+def _format_context(
+    chunks: list[RetrievedChunk],
+    question: str = "",
+    max_chars_per_chunk: int = DEFAULT_MAX_CONTEXT_CHARS,
+) -> str:
     blocks: list[str] = []
     for index, chunk in enumerate(chunks, start=1):
         text = chunk.text.strip()
-        if len(text) > max_chars_per_chunk:
-            text = text[:max_chars_per_chunk].rstrip() + "..."
+        text = _trim_context_text(text, question, max_chars_per_chunk)
         blocks.append(
             "\n".join(
                 [
@@ -77,7 +127,7 @@ def _format_context(chunks: list[RetrievedChunk], max_chars_per_chunk: int = DEF
 
 
 def _build_messages(question: str, chunks: list[RetrievedChunk]) -> list[dict[str, str]]:
-    context = _format_context(chunks)
+    context = _format_context(chunks, question=question)
     system_prompt = (
         "Bạn là trợ lý RAG cho sinh viên Học viện Ngân hàng. "
         "Chỉ trả lời dựa trên CONTEXT được cung cấp. "
