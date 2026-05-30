@@ -22,3 +22,6 @@ database/
 .DS_Store
 Thumbs.db
 
+# Chat histories
+data/chat_history/
+
