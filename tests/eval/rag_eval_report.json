@@ -1,0 +1,1495 @@
+{
+  "created_at": "2026-06-06T12:49:26.417305+00:00",
+  "golden_path": "C:\\Users\\phuoc\\Downloads\\is54a-tri-tu-nhan-to-bav-itde-2026\\BTL-AI\\tests\\eval\\retrieval_golden_questions.json",
+  "summary": {
+    "case_count": 20,
+    "top_k": 5,
+    "model": "gpt-4o-mini",
+    "retrieval_only": false,
+    "use_rerank": true,
+    "use_hybrid": true,
+    "embedding_provider": "openai",
+    "metrics": {
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "mrr": 1.0,
+      "context_precision": 0.42,
+      "context_recall": 1.0,
+      "expected_path_coverage": 0.975,
+      "answer_relevance": 0.369,
+      "faithfulness": 0.4066,
+      "citation_validity": 0.95,
+      "citation_accuracy": 0.8625,
+      "confidence": 0.7305,
+      "retrieval_latency_seconds": 1.9724,
+      "generation_latency_seconds": 3.6685,
+      "total_latency_seconds": 5.6409
+    }
+  },
+  "cases": [
+    {
+      "id": "hvnh_foreign_language_standard",
+      "category": "regulation",
+      "question": "Sinh viên hệ chuẩn cần đạt chuẩn đầu ra ngoại ngữ bậc mấy để tốt nghiệp?",
+      "expected_paths": [
+        "data/processed/QuyDinhQuyCheHVNH/QD 3337 - Quy dinh chuan dau ra ngoai ngu va CNTT.md"
+      ],
+      "answer": "Sinh viên tốt nghiệp các chương trình đào tạo đại học hệ chuẩn phải đạt chuẩn đầu ra năng lực ngoại ngữ bậc 3/6 theo khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam [S1].",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.6,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.5532,
+        "faithfulness": 0.5701,
+        "citation_validity": 1.0,
+        "citation_accuracy": 1.0,
+        "citation_count": 1,
+        "confidence": 0.7655,
+        "retrieval_latency_seconds": 6.6299,
+        "generation_latency_seconds": 3.164,
+        "total_latency_seconds": 9.7939
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "fb8272cec9530bfd",
+            "score": 0.363012,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 3337 - Quy dinh chuan dau ra ngoai ngu va CNTT.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 3337 - Quy dinh chuan dau ra ngoai ngu va CNTT.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG > QUY ĐỊNH > Điều 3. Công nhận đạt chuẩn đầu ra năng lực ngoại ngữ",
+            "text_preview": "ngữ 1. Chuẩn đầu ra ngoại ngữ đối với các chương trình đào tạo là áp dụng đối với ngoại ngữ giảng dạy cho chương trình đó và được Bộ Giáo dục và Đào tạo (GDĐT) và HVNH công nhận. 2. Sinh viên tốt nghiệp các chương trình đào tạo đại học hệ chuẩn phải đạt chuẩn đầu ra năng lực ngoại ngữ bậc 3/6 theo k..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "ffd4ca561f70c30d",
+            "score": 0.052903,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 3337 - Quy dinh chuan dau ra ngoai ngu va CNTT.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 3337 - Quy dinh chuan dau ra ngoai ngu va CNTT.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG",
+            "text_preview": "# NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG\n\n**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM** **Độc lập - Tự do - Hạnh phúc**\n\nSố: 3337/QĐ-HVNH\n\n*Hà Nội, ngày 07 tháng 11 năm 2023*\n\n---\n\n## QUYẾT ĐỊNH\n\n### Về việc ban hành Quy định chuẩn đầu ra năng lực ngoại ngữ và kỹ năng sử dụng công nghệ thông tin ..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "607ec00e22e2e332",
+            "score": 0.451211,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/NQ 269 - Quy che dao tao dai hoc chinh quy cua HVNH.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/NQ 269 - Quy che dao tao dai hoc chinh quy cua HVNH.md | ĐTBHK",
+            "text_preview": "có nhận xét và xác nhận (ký và đóng dấu) của đơn vịtiếp nhận sinh viên thực tập. Sinh viên nộp kèm báo cáo thực tập tốt nghiệp khi nộp Khóa luận tốt nghiệp. 2. Khóa luận tốt nghiệp: a) Điều kiện đăng ký viết Khóa luận tốt nghiệp: Sinh viên đạt tích lũy còn thiếu không quá 12 tín chỉ của CTĐT (không ..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "d4fff29259795c05",
+            "score": 0.414766,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG > QUY ĐỊNH > Điều 4. Quy định chung về chuyển đổi tín chỉ và công nhận kết quả học tập",
+            "text_preview": "- Thuộc chương trình đào tạo trình độ cao đẳng, đại học. - Có khối lượng học tập bằng hoặc lớn hơn số tín chỉ của học phần được chuyển đổi trong chương trình đào tạo theo học của HVNH. - Có kết quả học tập đạt điểm D theo thang điểm chữ, hoặc đạt 1 điểm (một điểm) trở lên theo thang điểm 4, hoặc đạt..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "98ca2a8c6b05d385",
+            "score": 0.060318,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 3337 - Quy dinh chuan dau ra ngoai ngu va CNTT.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 3337 - Quy dinh chuan dau ra ngoai ngu va CNTT.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG > QUY ĐỊNH > Điều 4. Quy định về chuẩn đầu ra kỹ năng sử dụng công nghệ thông tin",
+            "text_preview": "tương đương bậc 4/6 trở lên do các đơn vị được Bộ GDĐT cho phép tổ chức thi và cấp chứng chỉ. 6. Quy trình xét công nhận đạt chuẩn đầu ra năng lực ngoại ngữ: - Trước các đợt xét đạt chuẩn đầu ra, sinh viên nộp chứng chỉ tới Phòng Đào tạo theo kế hoạch thông báo. Sinh viên chịu trách nhiệm về tính xá..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hvnh_toeic_requirement",
+      "category": "regulation",
+      "question": "Điều kiện TOEIC để được công nhận chuẩn đầu ra tiếng Anh bậc 3/6 là gì?",
+      "expected_paths": [
+        "data/processed/QuyDinhQuyCheHVNH/QD 3337 - Quy dinh chuan dau ra ngoai ngu va CNTT.md"
+      ],
+      "answer": "Để được công nhận chuẩn đầu ra tiếng Anh bậc 3/6 theo khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam, sinh viên cần có chứng chỉ TOEIC (4 kỹ năng nghe, nói, đọc, viết) với tổng điểm kỹ năng nghe, đọc từ 450 trở lên và tổng điểm kỹ năng nói, viết đạt từ 190 trở lên [S1].",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.4,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.3385,
+        "faithfulness": 0.6391,
+        "citation_validity": 1.0,
+        "citation_accuracy": 1.0,
+        "citation_count": 1,
+        "confidence": 0.6415,
+        "retrieval_latency_seconds": 1.7053,
+        "generation_latency_seconds": 2.8107,
+        "total_latency_seconds": 4.516
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "fb8272cec9530bfd",
+            "score": 0.520378,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 3337 - Quy dinh chuan dau ra ngoai ngu va CNTT.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 3337 - Quy dinh chuan dau ra ngoai ngu va CNTT.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG > QUY ĐỊNH > Điều 3. Công nhận đạt chuẩn đầu ra năng lực ngoại ngữ",
+            "text_preview": "ngữ 1. Chuẩn đầu ra ngoại ngữ đối với các chương trình đào tạo là áp dụng đối với ngoại ngữ giảng dạy cho chương trình đó và được Bộ Giáo dục và Đào tạo (GDĐT) và HVNH công nhận. 2. Sinh viên tốt nghiệp các chương trình đào tạo đại học hệ chuẩn phải đạt chuẩn đầu ra năng lực ngoại ngữ bậc 3/6 theo k..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "d4fff29259795c05",
+            "score": 0.459769,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG > QUY ĐỊNH > Điều 4. Quy định chung về chuyển đổi tín chỉ và công nhận kết quả học tập",
+            "text_preview": "- Thuộc chương trình đào tạo trình độ cao đẳng, đại học. - Có khối lượng học tập bằng hoặc lớn hơn số tín chỉ của học phần được chuyển đổi trong chương trình đào tạo theo học của HVNH. - Có kết quả học tập đạt điểm D theo thang điểm chữ, hoặc đạt 1 điểm (một điểm) trở lên theo thang điểm 4, hoặc đạt..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "f251cff9a4053540",
+            "score": 0.587602,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG > QUY ĐỊNH > Điều 2. Giải thích từ ngữ",
+            "text_preview": "ĐỊNH ### Công nhận kết quả học tập, chuyển đổi tín chỉ đối với chương trình đào tạo trình độ đại học tại Học viện Ngân hàng *(Ban hành kèm theo Quyết định số 2786/QĐ-HVNH ngày 22/09/2023 của Giám đốc Học viện)* ### Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng 1. Quy định này quy định về việc xem ..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "f1d09fdec9fc4ef2",
+            "score": 0.408703,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG > QUY ĐỊNH > Điều 5. Công nhận kết quả học tập và chuyển đổi tín chỉ với chứng chỉ ngoại ngữ quốc tế > Bảng 2: Bảng quy đổi điểm chứng chỉ tiếng Anh quốc tế cho ngành Ngôn ngữ Anh",
+            "text_preview": "hệ chuẩn | TOEIC (điểm nghe và đọc /990) | TOEIC (điểm nói/200) | TOEIC (điểm viết/200) | TOEFL iBT | IELTS (Academic) | Tiếng Anh 1 | Tiếng Anh 2 | Tiếng Anh 3 | |-------------------------------|----------------------|-----------------------|-----------|------------------|-------------|------------..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "ffd4ca561f70c30d",
+            "score": 0.074482,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 3337 - Quy dinh chuan dau ra ngoai ngu va CNTT.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 3337 - Quy dinh chuan dau ra ngoai ngu va CNTT.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG",
+            "text_preview": "# NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG\n\n**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM** **Độc lập - Tự do - Hạnh phúc**\n\nSố: 3337/QĐ-HVNH\n\n*Hà Nội, ngày 07 tháng 11 năm 2023*\n\n---\n\n## QUYẾT ĐỊNH\n\n### Về việc ban hành Quy định chuẩn đầu ra năng lực ngoại ngữ và kỹ năng sử dụng công nghệ thông tin ..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "credit_transfer",
+      "category": "regulation",
+      "question": "Quy định về công nhận kết quả học tập và chuyển đổi tín chỉ nằm trong văn bản nào?",
+      "expected_paths": [
+        "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md"
+      ],
+      "answer": "Quy định về công nhận kết quả học tập và chuyển đổi tín chỉ nằm trong văn bản \"Quy định công nhận kết quả học tập, chuyển đổi tín chỉ đối với chương trình đào tạo trình độ đại học tại Học viện Ngân hàng\", được ban hành kèm theo Quyết định số 2786/QĐ-HVNH ngày 22/09/2023 của Giám đốc Học viện Ngân hàng [S1].",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.8,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.3684,
+        "faithfulness": 0.7941,
+        "citation_validity": 1.0,
+        "citation_accuracy": 1.0,
+        "citation_count": 1,
+        "confidence": 0.7653,
+        "retrieval_latency_seconds": 1.68,
+        "generation_latency_seconds": 2.4818,
+        "total_latency_seconds": 4.1618
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "dfa0b909e2f2ad22",
+            "score": 0.363764,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG",
+            "text_preview": "# NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG\n\n**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM** **Độc lập - Tự do - Hạnh phúc**\n\nSố: 2786/QĐ-HVNH\n\n*Hà Nội, ngày 22 tháng 09 năm 2023*\n\n## QUYẾT ĐỊNH\n\n### Về việc ban hành Quy định công nhận kết quả học tập, chuyển đổi tín chỉ đối với chương trình đào tạo t..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "f1cfe9df14304d5a",
+            "score": 0.04255,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 309 - Cong nhan chung chi nghe nghiep du dieu kien chuyen doi tin chi.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 309 - Cong nhan chung chi nghe nghiep du dieu kien chuyen doi tin chi.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM",
+            "text_preview": "NGÂN HÀNG NHÀ NƯỚC VIỆT NAM\n\nSố: 309/QĐ-HVNH\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nHà Nội, ngày 10 tháng 01 năm 2024\n\n**QUYẾT ĐỊNH**\n**Về việc công nhận các chứng chỉ nghề nghiệp đủ điều kiện chuyển đổi kết quả học tập, chuyển đổi tín chỉ đối với chương trình đào tạo trình..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "f251cff9a4053540",
+            "score": 0.368427,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG > QUY ĐỊNH > Điều 2. Giải thích từ ngữ",
+            "text_preview": "ĐỊNH ### Công nhận kết quả học tập, chuyển đổi tín chỉ đối với chương trình đào tạo trình độ đại học tại Học viện Ngân hàng *(Ban hành kèm theo Quyết định số 2786/QĐ-HVNH ngày 22/09/2023 của Giám đốc Học viện)* ### Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng 1. Quy định này quy định về việc xem ..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "ffab69d8a27c1036",
+            "score": 0.411658,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG > QUY ĐỊNH > Điều 8. Xét công nhận kết quả và chuyển đổi tín chỉ các học phần đã tích lũy từ chương trình đào tạo tại các cơ sở giáo dục khác",
+            "text_preview": "đổi tín chỉ được áp dụng theo từng chứng chỉ nghề nghiệp hoặc theo từng chương trình hợp tác giữa tổ chức nghề nghiệp với HVNH. Khối lượng, giá trị chuyển đổi được căn cứ theo đề xuất của Khoa chuyên ngành, thông qua Hội đồng chuyên môn và đề xuất Giám đốc HVNH quyết định. ### Điều 7. Xét công nhận ..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "afea72d8cd0151a5",
+            "score": 0.371588,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG > QUY ĐỊNH > Điều 5. Công nhận kết quả học tập và chuyển đổi tín chỉ với chứng chỉ ngoại ngữ quốc tế > Bảng 3: Bảng quy đổi điểm các chứng chỉ tiếng Anh quốc tế cho các CTĐT Chất lượng cao",
+            "text_preview": "quy đổi | |----------------------------------------------|---------------------------------------|--------------| | 6.5-9.0 | 22-30 | 10 | | 6.0 | 17-21 | 9.5 | | 5.5 | 13-16 | 9.0 | | 5.0 | 9-12 | 8.5 | **Học phần Nghe Nói II** | Điểm trung bình Nghe và Nói IELTS (Academic) | Điểm trung bình Nghe v..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ects_conversion",
+      "category": "regulation",
+      "question": "Hướng dẫn quy đổi tín chỉ HVNH và ECTS được trình bày ở tài liệu nào?",
+      "expected_paths": [
+        "data/processed/QuyDinhQuyCheHVNH/QD 2862 - Huong dan quy doi tin chi HVNH va ECTS.md"
+      ],
+      "answer": "Hướng dẫn quy đổi tín chỉ của Học viện Ngân hàng (HVNH) sang hệ thống chuyển đổi và tích lũy tín chỉ Châu Âu (ECTS) được trình bày trong tài liệu \"HƯỚNG DẪN QUY ĐỔI TƯƠNG ĐƯƠNG TÍN CHỈ HỌC TẬP CỦA HỌC VIỆN NGÂN HÀNG SANG HỆ THỐNG CHUYỂN ĐỔI VÀ TÍCH LŨY TÍN CHỈ CHÂU ÂU (ECTS)\" ban hành kèm theo Quyết định số 2862/QĐ-HVNH ngày 01 tháng 7 năm 2024 của Giám đốc Học viện Ngân hàng [S1].",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.2,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.2955,
+        "faithfulness": 0.7199,
+        "citation_validity": 1.0,
+        "citation_accuracy": 1.0,
+        "citation_count": 1,
+        "confidence": 0.6579,
+        "retrieval_latency_seconds": 1.6874,
+        "generation_latency_seconds": 3.2105,
+        "total_latency_seconds": 4.8979
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "d140568c4857f503",
+            "score": 0.457473,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 2862 - Huong dan quy doi tin chi HVNH va ECTS.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 2862 - Huong dan quy doi tin chi HVNH va ECTS.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM",
+            "text_preview": "## NGÂN HÀNG NHÀ NƯỚC VIỆT NAM\n\n## HỌC VIỆN NGÂN HÀNG\n\n## CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\n\nĐộc lập - Tự do - Hạnh phúc\n\nSố: 2862/QĐ-HVNH\n\nHà Nội, ngày 01 tháng 7 năm 2024\n\n## QUYẾT ĐỊNH\n\nVề việc ban hành Hướng dẫn quy đổi tín chỉ học tập của Học viện Ngân hàng và tín chỉ học tập của Hệ thống chuy..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "f251cff9a4053540",
+            "score": 0.531586,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG > QUY ĐỊNH > Điều 2. Giải thích từ ngữ",
+            "text_preview": "ĐỊNH ### Công nhận kết quả học tập, chuyển đổi tín chỉ đối với chương trình đào tạo trình độ đại học tại Học viện Ngân hàng *(Ban hành kèm theo Quyết định số 2786/QĐ-HVNH ngày 22/09/2023 của Giám đốc Học viện)* ### Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng 1. Quy định này quy định về việc xem ..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "52c18a68717eb195",
+            "score": 0.526798,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/NQ 269 - Quy che dao tao dai hoc chinh quy cua HVNH.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/NQ 269 - Quy che dao tao dai hoc chinh quy cua HVNH.md | NHỮNG QUY ĐỊNH DO I VỚI SINH VIÊN",
+            "text_preview": "ký kết với HVNH về hợp tác trong đào tạo và được công nhận các tín chỉ học đạt tại các trường này, nếu có đủ các điều kiện quy định. 2. Danh sách các trường có ký kết hợp tác với HVNH, điều kiện sinh viên được học tại trường đại học khác, quy trình thực hiện đăng ký học tại trường đại học khác, quy ..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "d4fff29259795c05",
+            "score": 0.496379,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 2786 - Quy dinh cong nhan ket qua hoc tap va chuyen doi tin chi.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG > QUY ĐỊNH > Điều 4. Quy định chung về chuyển đổi tín chỉ và công nhận kết quả học tập",
+            "text_preview": "- Thuộc chương trình đào tạo trình độ cao đẳng, đại học. - Có khối lượng học tập bằng hoặc lớn hơn số tín chỉ của học phần được chuyển đổi trong chương trình đào tạo theo học của HVNH. - Có kết quả học tập đạt điểm D theo thang điểm chữ, hoặc đạt 1 điểm (một điểm) trở lên theo thang điểm 4, hoặc đạt..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "76626d80319b8653",
+            "score": 0.070323,
+            "source_path": "data/processed/pttkht/ch04_1_mo_hinh_nghiep_vu_huong_cau_truc.md",
+            "citation": "data/processed/pttkht/ch04_1_mo_hinh_nghiep_vu_huong_cau_truc.md | Chương 4.1: Mô hình nghiệp vụ hướng cấu trúc",
+            "text_preview": "# Chương 4.1: Mô hình nghiệp vụ hướng cấu trúc\n\n## Nội dung chính\n- Phân tích hệ thống theo phương pháp hướng cấu trúc.\n- Mục tiêu của mô hình nghiệp vụ hướng cấu trúc.\n- Biểu đồ luồng dữ liệu DFD.\n- Các thành phần cơ bản của DFD.\n- Biểu đồ ngữ cảnh, phân rã tiến trình và quy tắc xây dựng DFD.\n\n## T..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "nckh_bonus_points",
+      "category": "regulation",
+      "question": "Sinh viên nghiên cứu khoa học đạt giải được cộng điểm khuyến khích theo văn bản nào?",
+      "expected_paths": [
+        "data/processed/QuyDinhQuyCheHVNH/QD 422 - Cong diem khuyen khich sinh vien NCKH dat giai.md"
+      ],
+      "answer": "Sinh viên nghiên cứu khoa học đạt giải được cộng điểm khuyến khích theo Quyết định số 422/QĐ-HVNH của Giám đốc Học viện Ngân hàng ngày 11 tháng 03 năm 2021 [S1].",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.2,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.5833,
+        "faithfulness": 0.5884,
+        "citation_validity": 1.0,
+        "citation_accuracy": 1.0,
+        "citation_count": 1,
+        "confidence": 0.657,
+        "retrieval_latency_seconds": 1.6743,
+        "generation_latency_seconds": 3.309,
+        "total_latency_seconds": 4.9833
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "37ae91a0738e43d7",
+            "score": 0.461023,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 422 - Cong diem khuyen khich sinh vien NCKH dat giai.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 422 - Cong diem khuyen khich sinh vien NCKH dat giai.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM",
+            "text_preview": "## NGÂN HÀNG NHÀ NƯỚC VIỆT NAM\n\n## HỌC VIỆN NGÂN HÀNG\n\nSố: 422/QĐ-HVNH\n\n## CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\n\n**Độc lập - Tự do - Hạnh phúc**\n\nHà Nội, ngày 11 tháng 03 năm 2021\n\n## QUYẾT ĐỊNH\n\n**Về việc cộng điểm khuyến khích cho sinh viên**\n\n**có công trình nghiên cứu khoa học đạt giải thưởng các ..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "2a287d51bc797198",
+            "score": 0.499012,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/NQ 269 - Quy che dao tao dai hoc chinh quy cua HVNH.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/NQ 269 - Quy che dao tao dai hoc chinh quy cua HVNH.md | CTDT.",
+            "text_preview": "một hội đông chuyên môn gồm ít nhất 3 thành viên; b) Hình thức bảo vệvà đánh giá trực tuyến được sựđồng thuận của các thành viên hội đồng và người học; c) Diễn biến của buổi bảo vệtrực tuyến được ghi hình, ghiâm đầy đủ và lưu trữ. 3. Điểm học phần được tính từ tổng các điểm thành phần nhân với trọng..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "607ec00e22e2e332",
+            "score": 0.525429,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/NQ 269 - Quy che dao tao dai hoc chinh quy cua HVNH.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/NQ 269 - Quy che dao tao dai hoc chinh quy cua HVNH.md | ĐTBHK",
+            "text_preview": "có nhận xét và xác nhận (ký và đóng dấu) của đơn vịtiếp nhận sinh viên thực tập. Sinh viên nộp kèm báo cáo thực tập tốt nghiệp khi nộp Khóa luận tốt nghiệp. 2. Khóa luận tốt nghiệp: a) Điều kiện đăng ký viết Khóa luận tốt nghiệp: Sinh viên đạt tích lũy còn thiếu không quá 12 tín chỉ của CTĐT (không ..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a2cfa2e271644f74",
+            "score": 0.498439,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 25-2006 - Huong dan quy che dao tao dai hoc cao dang chinh quy.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 25-2006 - Huong dan quy che dao tao dai hoc cao dang chinh quy.md | Chương III: KIỂM TRA VÀ THI HỌC PHẦN > Điều 12. Ra đề thi, hình thức thi, chấm thi, số lần được dự thi kết thúc học phần (có bổ sung)",
+            "text_preview": "yếu là thi viết. Trường hợp thi bằng hình thức khác Khoa, Bộ môn phải báo cáo và phải được Giám đốc duyệt. Hình thức thi thông báo ngay từ đầu học kỳ cho sinh viên biết theo qui định của Điều 4. Trong học kỳ không được thay đổi hình thức thi đã thông báo. - Thời gian làm bài qui định cho đề thi viết..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "be61f882550854e3",
+            "score": 0.068414,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 36-2007 - Quy dinh dao tao VLVH tai HVNH.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 36-2007 - Quy dinh dao tao VLVH tai HVNH.md | Chương 2: TỔ CHỨC ĐÀO TẠO > Điều 8. Hình thức thi, chấm thi kết thúc học phần",
+            "text_preview": "đủ các điểm thành phần, điểm thi kết thúc học phần và điểm học phần và được truy cập ngay vào mạng của Học viện. Các Khoa, Bộ môn giữ lại bản sao. - Bài thi viết, đầu phách, đề thi và đáp án sau khi chấm thi xong các Khoa, Bộ môn chuyển cho phòng Đào tạo lưu trữ theo chế độ qui định của Bộ Giáo dục ..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "prerequisite_course",
+      "category": "regulation",
+      "question": "Học phần tiên quyết và điều kiện đăng ký học phần được quy định ở đâu?",
+      "expected_paths": [
+        "data/processed/QuyDinhQuyCheHVNH/NQ 269 - Quy che dao tao dai hoc chinh quy cua HVNH.md"
+      ],
+      "answer": "Học phần tiên quyết và điều kiện đăng ký học phần được quy định trong Quy chế đào tạo đại học chính quy của Học viện Ngân hàng. Cụ thể, học phần tiên quyết là học phần A là điều kiện bắt buộc để đăng ký học học phần B, nghĩa là sinh viên phải hoàn tất học phần A với kết quả đạt trước khi đăng ký học phần B [S1]. \n\nNgoài ra, điều kiện để sinh viên được đăng ký học phần cũng được nêu rõ trong các quy định về tổ chức đào tạo, bao gồm việc tham dự đủ số tiết lên lớp và hoàn thành các bài thực hành, bài tập liên quan [S2].",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.4,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.2241,
+        "faithfulness": 0.4215,
+        "citation_validity": 1.0,
+        "citation_accuracy": 0.5,
+        "citation_count": 2,
+        "confidence": 0.8921,
+        "retrieval_latency_seconds": 1.6518,
+        "generation_latency_seconds": 2.5958,
+        "total_latency_seconds": 4.2476
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "b7479c2690a04394",
+            "score": 0.050495,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/NQ 269 - Quy che dao tao dai hoc chinh quy cua HVNH.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/NQ 269 - Quy che dao tao dai hoc chinh quy cua HVNH.md | NHỮNG QUY ĐỊNH CHUNG",
+            "text_preview": "HỘI ĐỒNG HỌC VIỆN CHỦ TICH PGS. TS. Bùi Hữu Toàn | ## QUY CHẾ (Ban hành kèm theo Nghị quyết số 269/NQ-HĐHV ngày 04 tháng 12 năm 2024 của Hội đồng Học viện Ngân hàng) ## Chương I ## NHỮNG QUY ĐỊNH CHUNG Điều 1. Phạm vi điều chính và đối tượng áp dụng 1. Quy chế này quy định về tổ chức và quan lý đào ..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "aea24d71db302d4b",
+            "score": 0.363368,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 36-2007 - Quy dinh dao tao VLVH tai HVNH.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 36-2007 - Quy dinh dao tao VLVH tai HVNH.md | Chương 2: TỔ CHỨC ĐÀO TẠO > Điều 5. Đánh giá học phần",
+            "text_preview": "bắt buộc và tự chọn, đề cương chi tiết học phần và điều kiện để được đăng ký học cho từng học phần, lịch kiểm tra và thi, hình thức kiểm tra và thi các học phần, giáo trình, tài liệu có liên quan. Đối với những lớp đào tạo theo hợp đồng đặt lớp tại cơ sở giáo dục địa phương là trường đại học, trường..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "0cbfe6b7f031806f",
+            "score": 0.393888,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/NQ 269 - Quy che dao tao dai hoc chinh quy cua HVNH.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/NQ 269 - Quy che dao tao dai hoc chinh quy cua HVNH.md | LAP KE HOẠCH VÀ TO CHỨC GIẢNG DẠY",
+            "text_preview": "giờ/ngày. 5. Phòng Đào tạo xây dựng kế hoạch mởcác lớp học phần theo nguyện vọng của sinh viên vào học kỳ chính và học kỳ hè bao gồm: Kế hoạch đăng ký nguyện vọng của sinh viên; Mở lớp học phần theo nguyện vọng; Kế hoạch đăng ký học theo nguyện vọng. Kế hoạch mở lớp nguyện vọng được thông báo trên c..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "e9a4c4752dcc5573",
+            "score": 0.424146,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 25-2006 - Huong dan quy che dao tao dai hoc cao dang chinh quy.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 25-2006 - Huong dan quy che dao tao dai hoc cao dang chinh quy.md | Chương II: TỔ CHỨC ĐÀO TẠO > Điều 4. Thời gian và kế hoạch đào tạo",
+            "text_preview": "tuỳ ý để tích luỹ đủ số học phần quy định cho mỗi chương trình. 3. (Có bổ sung) Đơn vị học trình được sử dụng để tính khối lượng học tập của sinh viên. Một đơn vị học trình được quy định bằng 15 tiết học lý thuyết; bằng 30 tiết thực hành, thí nghiệm hay thảo luận; bằng 60 giờ thực tập tại cơ sở; hoặ..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "12f772719724b63e",
+            "score": 0.050695,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 25-2006 - Huong dan quy che dao tao dai hoc cao dang chinh quy.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 25-2006 - Huong dan quy che dao tao dai hoc cao dang chinh quy.md | Chương II: TỔ CHỨC ĐÀO TẠO > Điều 6. Điều kiện để sinh viên được học tiếp, được nghỉ học tạm thời, được tạm ngừng học",
+            "text_preview": "trình (hoặc ngành đào tạo) đã đăng ký. 2. Đối với những trường xác định điểm xét tuyển vào trường theo nhóm chương trình (hoặc theo ngành đào tạo) trong kỳ thi tuyển sinh thì đầu khoá học, trường công bố công khai chỉ tiêu đào tạo cho từng chương trình (hoặc từng ngành đào tạo). Sau khi sinh viên kế..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "admission_2025",
+      "category": "regulation",
+      "question": "Thông tin tuyển sinh đại học chính quy năm 2025 của Học viện Ngân hàng nằm trong tài liệu nào?",
+      "expected_paths": [
+        "data/processed/QuyDinhQuyCheHVNH/Thong tin tuyen sinh dai hoc chinh quy nam 2025 - NHH.md"
+      ],
+      "answer": "Thông tin tuyển sinh đại học chính quy năm 2025 của Học viện Ngân hàng nằm trong tài liệu \"THÔNG TIN TUYỂN SINH ĐẠI HỌC CHÍNH QUY NĂM 2025 - HỌC VIỆN NGÂN HÀNG\" [S1].",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.2,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.6818,
+        "faithfulness": 0.6167,
+        "citation_validity": 1.0,
+        "citation_accuracy": 1.0,
+        "citation_count": 1,
+        "confidence": 0.6913,
+        "retrieval_latency_seconds": 1.7458,
+        "generation_latency_seconds": 2.8598,
+        "total_latency_seconds": 4.6056
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "31bed632622fccaa",
+            "score": 0.344872,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/Thong tin tuyen sinh dai hoc chinh quy nam 2025 - NHH.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/Thong tin tuyen sinh dai hoc chinh quy nam 2025 - NHH.md | THÔNG TIN TUYỂN SINH ĐẠI HỌC CHÍNH QUY NĂM 2025 - HỌC VIỆN NGÂN HÀNG",
+            "text_preview": "# THÔNG TIN TUYỂN SINH ĐẠI HỌC CHÍNH QUY NĂM 2025 - HỌC VIỆN NGÂN HÀNG\n\n## I. THÔNG TIN CHUNG\n- **Tên cơ sở đào tạo:** Học viện Ngân hàng\n- **Mã trường:** NHH\n- **Địa chỉ trụ sở và phân hiệu:**\n    - Trụ sở chính: Số 12 đường Chùa Bộc, P. Quang Trung, Q. Đống Đa, TP. Hà Nội.\n    - Phân hiệu Bắc Ninh..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "52c18a68717eb195",
+            "score": 0.453049,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/NQ 269 - Quy che dao tao dai hoc chinh quy cua HVNH.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/NQ 269 - Quy che dao tao dai hoc chinh quy cua HVNH.md | NHỮNG QUY ĐỊNH DO I VỚI SINH VIÊN",
+            "text_preview": "ký kết với HVNH về hợp tác trong đào tạo và được công nhận các tín chỉ học đạt tại các trường này, nếu có đủ các điều kiện quy định. 2. Danh sách các trường có ký kết hợp tác với HVNH, điều kiện sinh viên được học tại trường đại học khác, quy trình thực hiện đăng ký học tại trường đại học khác, quy ..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "ffd4ca561f70c30d",
+            "score": 0.480158,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 3337 - Quy dinh chuan dau ra ngoai ngu va CNTT.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 3337 - Quy dinh chuan dau ra ngoai ngu va CNTT.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG",
+            "text_preview": "# NGÂN HÀNG NHÀ NƯỚC VIỆT NAM — HỌC VIỆN NGÂN HÀNG\n\n**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM** **Độc lập - Tự do - Hạnh phúc**\n\nSố: 3337/QĐ-HVNH\n\n*Hà Nội, ngày 07 tháng 11 năm 2023*\n\n---\n\n## QUYẾT ĐỊNH\n\n### Về việc ban hành Quy định chuẩn đầu ra năng lực ngoại ngữ và kỹ năng sử dụng công nghệ thông tin ..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "d140568c4857f503",
+            "score": 0.046851,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 2862 - Huong dan quy doi tin chi HVNH va ECTS.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 2862 - Huong dan quy doi tin chi HVNH va ECTS.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM",
+            "text_preview": "## NGÂN HÀNG NHÀ NƯỚC VIỆT NAM\n\n## HỌC VIỆN NGÂN HÀNG\n\n## CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\n\nĐộc lập - Tự do - Hạnh phúc\n\nSố: 2862/QĐ-HVNH\n\nHà Nội, ngày 01 tháng 7 năm 2024\n\n## QUYẾT ĐỊNH\n\nVề việc ban hành Hướng dẫn quy đổi tín chỉ học tập của Học viện Ngân hàng và tín chỉ học tập của Hệ thống chuy..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "f1cfe9df14304d5a",
+            "score": 0.460422,
+            "source_path": "data/processed/QuyDinhQuyCheHVNH/QD 309 - Cong nhan chung chi nghe nghiep du dieu kien chuyen doi tin chi.md",
+            "citation": "data/processed/QuyDinhQuyCheHVNH/QD 309 - Cong nhan chung chi nghe nghiep du dieu kien chuyen doi tin chi.md | NGÂN HÀNG NHÀ NƯỚC VIỆT NAM",
+            "text_preview": "NGÂN HÀNG NHÀ NƯỚC VIỆT NAM\n\nSố: 309/QĐ-HVNH\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nHà Nội, ngày 10 tháng 01 năm 2024\n\n**QUYẾT ĐỊNH**\n**Về việc công nhận các chứng chỉ nghề nghiệp đủ điều kiện chuyển đổi kết quả học tập, chuyển đổi tín chỉ đối với chương trình đào tạo trình..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tsql_trigger",
+      "category": "course_material",
+      "question": "Trong môn Cơ sở dữ liệu, T-SQL định nghĩa Trigger là gì và cú pháp CREATE TRIGGER như thế nào?",
+      "expected_paths": [
+        "data/processed/csdl/Chuong 5 - Ngon ngu T-SQL.md"
+      ],
+      "answer": "Trong môn Cơ sở dữ liệu, T-SQL định nghĩa Trigger là một kiểu Stored Procedure đặc biệt, không có tham số và không có giá trị trả về, được thực thi tự động khi xảy ra một sự kiện trên Database server (chèn, cập nhật hoặc xóa trong một bảng) nhằm đảm bảo tính toàn vẹn và tính nhất quán của dữ liệu [S1].\n\nCú pháp để tạo Trigger trong T-SQL như sau:\n\n```sql\nCREATE [OR REPLACE] TRIGGER trigger_name\n{BEFORE | AFTER | INSTEAD OF}\n{INSERT [OR] | UPDATE [OR] | DELETE}\n[OF col_name]\nON table_name\n[REFERENCING OLD AS o NEW AS n]\n[FOR EACH ROW]\nWHEN (condition)\nBEGIN\n   --- sql statements\nEND;\n```\n[Cú pháp này giúp định nghĩa Trigger với các sự kiện cụ thể trên bảng hoặc khung nhìn.] [S4].",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.2,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.2017,
+        "faithfulness": 0.1643,
+        "citation_validity": 1.0,
+        "citation_accuracy": 0.5,
+        "citation_count": 2,
+        "confidence": 0.6977,
+        "retrieval_latency_seconds": 1.6937,
+        "generation_latency_seconds": 3.7046,
+        "total_latency_seconds": 5.3983
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "a16bbe854a4af06b",
+            "score": 0.325245,
+            "source_path": "data/processed/csdl/Chuong 5 - Ngon ngu T-SQL.md",
+            "citation": "data/processed/csdl/Chuong 5 - Ngon ngu T-SQL.md | 5. Tạo bẫy dữ liệu - Trigger",
+            "text_preview": "Ho_Ten, MaL From Sinh_Vien Where MaL=@Ml End ``` T-SQL 48 - **Xóa thủ tục** - **Cú pháp:** **DROP PROC | PROCEDURE [tên người sở hữu.] tên_thủ_tục** - **Ví dụ:** **Drop PROC Pro_DS** # Bài tập 1. Tạo/thực thi thủ tục cho biết danh sách kết quả sinh viên theo kỳ thi và theo mã sinh viên 2. Tạo/thực t..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "fd5afe9cf4bd6980",
+            "score": 0.342474,
+            "source_path": "data/processed/hqtcsdl/Chuong 3 - Ngon ngu PL-SQL.md",
+            "citation": "data/processed/hqtcsdl/Chuong 3 - Ngon ngu PL-SQL.md | Hàm",
+            "text_preview": "in ( Select Tencb, Quequan, Madetai From canbo join detai on canbo.macb = detai.macb Where quequan = qq) Loop dbms_output.put_line('Ten can bo:'||ds.Tencb|| ' Que quan:'||ds.QueQuan||' Ma de tai:'|| ds.Madetai); End loop; End; ``` - **Thực thi thủ tục** `execute ds_dt('&qq');` Enter Substitution Var..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "83b7da7c7b1c6eb1",
+            "score": 0.056249,
+            "source_path": "data/processed/htttql/Chương 2 - Các hệ thống thông tin cộng tác.md",
+            "citation": "data/processed/htttql/Chương 2 - Các hệ thống thông tin cộng tác.md | Yêu cầu của HTTT hỗ trợ các mục đích của hệ thống cộng tác",
+            "text_preview": "system? 4. **Quy trình**: Các quy trình của hệ thống thông tin cộng tác xác định các tiêu chuẩn, chính sách và kỹ thuật để tiến hành công việc của nhóm. Ví dụ quy trình xem xét tài liệu để giảm bớt sự nhầm lẫn và tăng cường kiểm soát, nhóm có thể thiết lập một quy trình chỉ định ai sẽ xem xét tài li..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "b57dd2a4d34d858b",
+            "score": 0.366069,
+            "source_path": "data/processed/hqtcsdl/Chuong 3 - Ngon ngu PL-SQL.md",
+            "citation": "data/processed/hqtcsdl/Chuong 3 - Ngon ngu PL-SQL.md | Trigger DML",
+            "text_preview": "giới hạn dữ liệu đầu vào - **Khác nhau**: | TRIGGER | RÀNG BUỘC | | :--- | :--- | | Trigger chỉ áp dụng cho dữ liệu mới | Ràng buộc áp dụng cho cả dữ liệu mới và dữ liệu đang tồn tại | | Có thể thực thi những điều kiện phức tạp mà ràng buộc không làm được | Ràng buộc viết dễ hơn, ít mắc lỗi hơn | # ..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "838d6f794733e44d",
+            "score": 0.056833,
+            "source_path": "data/processed/hqtcsdl/Chuong 4 - Quan tri co so du lieu Oracle.md",
+            "citation": "data/processed/hqtcsdl/Chuong 4 - Quan tri co so du lieu Oracle.md | Hạn mức (Quota)",
+            "text_preview": "trong câu lệnh **CREATE USER** hoặc **ALTER USER** - Mặc định cài đặt của default tablespace của tất cả người dùng là tablespace **SYSTEM** - Nên chỉ định tablespace cụ thể (nếu có thể) để lưu trữ dữ liệu người dùng, không nên lưu trong tablespace **SYSTEM** (để giảm sự tranh chấp) - Sử dụng câu lện..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sql_join",
+      "category": "course_material",
+      "question": "Trong ngôn ngữ SQL, INNER JOIN, LEFT OUTER JOIN, RIGHT OUTER JOIN và FULL OUTER JOIN được giải thích như thế nào?",
+      "expected_paths": [
+        "data/processed/csdl/Chuong 4 - Ngon ngu SQL.md",
+        "data/processed/hqtcsdl/Chuong 2 - Co ban ve SQL.md"
+      ],
+      "answer": "Trong ngôn ngữ SQL, các loại nối được giải thích như sau:\n\n1. **INNER JOIN**: Thực hiện nối giữa hai bảng, chỉ hiển thị các bản ghi thỏa mãn điều kiện kết nối. Cú pháp: \n   ```sql\n   SELECT danh_sách_cột\n   FROM bảng_1 INNER JOIN bảng_2\n   ON bảng_1.tên_cột SO_SÁNH bảng_2.tên_cột\n   ```\n   Ví dụ:\n   ```sql\n   Select Sinh_Vien.MaSV, HDem, Ten, MaMH, Diem\n   From Sinh_Vien Inner Join Ket_Qua On\n   Sinh_Vien.MaSV = Ket_Qua.MaSV\n   ``` \n   [S1]\n\n2. **LEFT OUTER JOIN**: Kết quả trả về bao gồm tất cả bản ghi từ bảng bên trái và các bản ghi tương ứng từ bảng bên phải. Nếu không có bản ghi tương ứng, sẽ hiển thị giá trị NULL. Cú pháp:\n   ```sql\n   SELECT danh_sách_cột\n   FROM bảng_1 LEFT OUTER JOIN bảng_2\n   ON bảng_1.tên_cột SO_SÁNH bảng_2.tên_cột\n   ``` \n   [S3]\n\n3. **RIGHT OUTER JOIN**: Kết quả trả về bao gồm tất cả bản ghi từ bảng bên phải và các bản ghi tương ứng từ bảng bên trái. Nếu không có bản ghi tương ứng, sẽ hiển thị giá trị NULL. Cú pháp:\n   ```sql\n   SELECT danh_sách_cột\n   FROM bảng_1 RIGHT OUTER JOIN bảng_2\n   ON bảng_1.tên_cột SO_SÁNH bảng_2.tên_cột\n   ``` \n   [S2]\n\n4. **FULL OUTER JOIN**: Kết quả trả về bao gồm tất cả bản ghi từ cả hai bảng. Nếu không có bản ghi tương ứng ở một trong hai bảng, sẽ hiển thị giá trị NULL. Cú pháp:\n   ```sql\n   SELECT danh_sách_cột\n   FROM bảng_1 FULL OUTER JOIN bảng_2\n   ON bảng_1.tên_cột SO_SÁNH bảng_2.tên_cột\n   ``` \n   [S4]",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 1.0,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.1429,
+        "faithfulness": 0.0,
+        "citation_validity": 1.0,
+        "citation_accuracy": 1.0,
+        "citation_count": 4,
+        "confidence": 0.7694,
+        "retrieval_latency_seconds": 1.7299,
+        "generation_latency_seconds": 7.3944,
+        "total_latency_seconds": 9.1243
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "3e8d15d5055a6709",
+            "score": 0.350857,
+            "source_path": "data/processed/csdl/Chuong 4 - Ngon ngu SQL.md",
+            "citation": "data/processed/csdl/Chuong 4 - Ngon ngu SQL.md | 4. Truy vấn dữ liệu từ nhiều bảng > Các loại nối",
+            "text_preview": "| Ngôn ngữ SQL - **Các môn học có số lượng sinh viên thi lớn hơn 1:** `Select MaMH, COUNT(MaSV) as TongSo From Ket_Qua` `Group by MaMH Having COUNT(MaSV)>1` - **Cho danh sách các khoa có ít hơn hoặc bằng 3 lớp** `Select MaKh, COUNT(MaL) so_lop From Lop` `Group by MaKH` `Having COUNT(MaL)<=3` Ngôn ng..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "451b9b3976e76f7f",
+            "score": 0.323492,
+            "source_path": "data/processed/csdl/Chuong 4 - Ngon ngu SQL.md",
+            "citation": "data/processed/csdl/Chuong 4 - Ngon ngu SQL.md | 4. Truy vấn dữ liệu từ nhiều bảng > Các loại nối",
+            "text_preview": "Huyen | NULL | NULL | | 13 | 6 | Tran Le | Khanh | CSDL1 | 7 | | 14 | 6 | Tran Le | Khanh | TDC | 0 | | 15 | 6 | Tran Le | Khanh | TDC | 0 | | 16 | 7 | Hoang Hai | Ha | NULL | NULL | | 17 | 8 | Nguyen T... | Thanh | NULL | NULL | Ngôn ngữ SQL **Nối ngoài phải** | Cột | Cột | | :--- | :--- | | A B C ..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "242e3e73f4981439",
+            "score": 0.352709,
+            "source_path": "data/processed/hqtcsdl/Chuong 2 - Co ban ve SQL.md",
+            "citation": "data/processed/hqtcsdl/Chuong 2 - Co ban ve SQL.md | Lấy dữ liệu từ nhiều bảng",
+            "text_preview": "| 50 | # Hàm rẽ nhánh ... - **Hàm CASE** ```sql CASE [ expression ] WHEN condition_1 THEN result_1 WHEN condition_2 THEN result_2 ... WHEN condition_n THEN result_n ELSE result END ``` - *Chú ý: Nếu không có ELSE thì hàm CASE sẽ trả về giá trị NULL* # Hàm rẽ nhánh ... ❖ **Ví dụ** ```sql select case ..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "f3643ac475d6419e",
+            "score": 0.404386,
+            "source_path": "data/processed/csdl/Chuong 4 - Ngon ngu SQL.md",
+            "citation": "data/processed/csdl/Chuong 4 - Ngon ngu SQL.md | 4. Truy vấn dữ liệu từ nhiều bảng > Nối ngoài hai phía",
+            "text_preview": "| Cong nghe Thong tin B K13 | | 5 | 8 | Nguyen Tuan | Thanh | CNTTBK13 | Cong nghe Thong tin B K13 | | 6 | 3 | Le Thanh | Huong | CNTTBK14 | Cong nghe Thong tin B K14 | | 7 | NULL | NULL | NULL | TAAK14 | Tieng Anh A K14 | | 8 | 4 | Le Thi | Huyen | TABK14 | Tieng Anh B K14 | | 9 | 5 | Le | Huyen | ..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "fab01fa451103fc1",
+            "score": 0.056506,
+            "source_path": "data/processed/hqtcsdl/Chuong 2 - Co ban ve SQL.md",
+            "citation": "data/processed/hqtcsdl/Chuong 2 - Co ban ve SQL.md | Lấy dữ liệu từ nhiều bảng",
+            "text_preview": "| - **OUTER JOIN: FULL JOIN** ```sql SELECT columns FROM table1 FULL [OUTER] JOIN table2 ON table1.column = table2.column; ``` ![Biểu đồ Venn thể hiện FULL JOIN: cả hai vòng tròn TABLE 1 và TABLE 2 đều được tô màu] - **Ví dụ** ```sql select s.masv, s.tensv, t.tentinh from sinhvien s FULL OUTER JOIN ..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "database_keys",
+      "category": "course_material",
+      "question": "Khóa chính, khóa ngoại và ràng buộc toàn vẹn trong cơ sở dữ liệu quan hệ là gì?",
+      "expected_paths": [
+        "data/processed/csdl/Chuong 2 - Cac khai niem trong CSDL quan he.md",
+        "data/processed/tkcsdl/Chuong 2 - Cac khai niem trong thiet ke co so du lieu quan he.md"
+      ],
+      "answer": "Khóa chính, khóa ngoại và ràng buộc toàn vẹn trong cơ sở dữ liệu quan hệ được định nghĩa như sau:\n\n1. **Khóa chính (Primary Key)**: Là một khóa dự tuyển được chỉ định để xác định tất cả các thuộc tính khác trong quan hệ, không chứa giá trị rỗng. Khóa chính đảm bảo tính duy nhất cho mỗi bản ghi trong bảng [S2].\n\n2. **Khóa ngoại (Foreign Key)**: Là một hoặc một tổ hợp thuộc tính là khóa chính của một quan hệ khác, được mang sang làm thuộc tính của quan hệ hiện tại. Khóa ngoại giúp thiết lập mối quan hệ giữa các bảng trong cơ sở dữ liệu [S2].\n\n3. **Ràng buộc toàn vẹn (Integrity Constraints)**: Là các quy tắc được đặt vào một đối tượng cơ sở dữ liệu (thường là một bảng hoặc một cột) để giới hạn giá trị dữ liệu cho phép đối với đối tượng đó. Các loại ràng buộc toàn vẹn bao gồm ràng buộc khóa, ràng buộc miền giá trị, và ràng buộc tham chiếu [S1], [S2]. \n\nNhư vậy, các khái niệm này đóng vai trò quan trọng trong việc duy trì tính chính xác và nhất quán của dữ liệu trong cơ sở dữ liệu quan hệ.",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.6,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.1436,
+        "faithfulness": 0.184,
+        "citation_validity": 1.0,
+        "citation_accuracy": 1.0,
+        "citation_count": 4,
+        "confidence": 0.6705,
+        "retrieval_latency_seconds": 1.586,
+        "generation_latency_seconds": 6.0622,
+        "total_latency_seconds": 7.6483
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "0e21dbf83ac11c9f",
+            "score": 0.412794,
+            "source_path": "data/processed/csdl/Chuong 2 - Cac khai niem trong CSDL quan he.md",
+            "citation": "data/processed/csdl/Chuong 2 - Cac khai niem trong CSDL quan he.md | HỌC VIỆN NGÂN HÀNG",
+            "text_preview": "# HỌC VIỆN NGÂN HÀNG\n\n# CHƯƠNG 2\n\n# CÁC KHÁI NIỆM TRONG CSDL QUAN HỆ\n\n# NỘI DUNG CHÍNH\n\n- **Mô hình cơ sở dữ liệu quan hệ**\n- **Các ràng buộc toàn vẹn trên quan hệ**\n- **Các phép toán đại số trong CSDL quan hệ**\n\n# 1. Mô hình CSDL quan hệ\n\n- **Mô hình quan hệ** là cách biểu diễn dữ liệu dưới dạng qu..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "cdf3481020ca693d",
+            "score": 0.433395,
+            "source_path": "data/processed/tkcsdl/Chuong 2 - Cac khai niem trong thiet ke co so du lieu quan he.md",
+            "citation": "data/processed/tkcsdl/Chuong 2 - Cac khai niem trong thiet ke co so du lieu quan he.md | Ràng buộc khóa",
+            "text_preview": "| Ha Noi | 2300000.00 | | 4 | Tran Hong Nam | 1976-08-07 00:00:00.000 | Nam Dinh | 3200000.00 | | 5 | Le Thi Hang | 1976-03-04 00:00:00.000 | Thanh Hoa | 6700000.00 | - Thuộc tính - Bộ - Ngôi - Lực lượng # Đặc điểm của quan hệ - **Phần tử nằm chỗ giao nhau giữa dòng và cột là duy nhất** - **Các phần..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "8d9230fba6d1d824",
+            "score": 0.048348,
+            "source_path": "data/processed/tkcsdl/Chuong 5 - Thiet ke CSDL muc vat ly.md",
+            "citation": "data/processed/tkcsdl/Chuong 5 - Thiet ke CSDL muc vat ly.md | HỌC VIỆN NGÂN HÀNG",
+            "text_preview": "# HỌC VIỆN NGÂN HÀNG\n\n# CHƯƠNG 5\n\n# THIẾT KẾ CSDL MỨC VẬT LÝ\n\n# Các giai đoạn thiết kế\n\n- **Khái niệm**\n    - Sơ đồ thực thể liên kết (ERD)\n\n- **Logic**\n    - Lược đồ quan hệ\n    - Chuẩn hóa\n\n- **Vật lý**\n    - Bảng và mối quan hệ\n\n# Thiết kế CSDL mức vật lý\n\n- **Thiết kế vật lý** là quá trình xác đ..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "67f44b189053846e",
+            "score": 0.051244,
+            "source_path": "data/processed/pttkht/ch06_thiet_ke_co_so_du_lieu.md",
+            "citation": "data/processed/pttkht/ch06_thiet_ke_co_so_du_lieu.md | Chương 6: Thiết kế cơ sở dữ liệu",
+            "text_preview": "# Chương 6: Thiết kế cơ sở dữ liệu\n\n## Nội dung chính\n- Mô hình dữ liệu và các loại mô hình dữ liệu.\n- Mô hình dữ liệu quan hệ.\n- Các dạng chuẩn và chuẩn hóa quan hệ.\n- Chuẩn hóa biểu đồ lớp.\n- Thiết kế cơ sở dữ liệu vật lý.\n\n## Tổng quan\nChương này trình bày thiết kế cơ sở dữ liệu trong phát triển ..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "c4bf70f0c0e40792",
+            "score": 0.459136,
+            "source_path": "data/processed/tkcsdl/Chuong 2 - Cac khai niem trong thiet ke co so du lieu quan he.md",
+            "citation": "data/processed/tkcsdl/Chuong 2 - Cac khai niem trong thiet ke co so du lieu quan he.md | Ví dụ > Bản số của quan hệ:",
+            "text_preview": "từ - **Ký pháp:** - Tên mối quan hệ (nằm trong hình thoi) - **Có 2 loại quan hệ:** - Quan hệ tương tác - Quan hệ sở hữu/phụ thuộc - **Mối quan hệ cũng có thuộc tính** # Ví dụ ## Sơ đồ thực thể - mối quan hệ (ERD) - **Khách hàng**: MaKH, HoTen, DiaChi - **Hàng**: MaH, TenHang, Gia - **Mua**: NgayMua,..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "functional_dependency",
+      "category": "course_material",
+      "question": "Phụ thuộc hàm A -> B, xác định khóa, chuẩn hóa 1NF 2NF 3NF trong thiết kế cơ sở dữ liệu quan hệ",
+      "expected_paths": [
+        "data/processed/tkcsdl/Chuong 2 - Cac khai niem trong thiet ke co so du lieu quan he.md",
+        "data/processed/tkcsdl/Chuong 4 - Thiet ke CSDL muc logic.md"
+      ],
+      "answer": "Phụ thuộc hàm A -> B trong thiết kế cơ sở dữ liệu quan hệ có thể được xác định như sau:\n\n1. **Phụ thuộc hàm**: B gọi là phụ thuộc hàm vào A nếu với mọi giá trị hợp lệ của A xác định duy nhất giá trị của B, ký hiệu là A → B [S1].\n\n2. **Xác định khóa**:\n   - Những thuộc tính xuất hiện duy nhất phía trái của các phụ thuộc hàm chắc chắn tham gia vào khóa.\n   - Những thuộc tính xuất hiện duy nhất phía phải của các phụ thuộc hàm thì không tham gia vào khóa [S1].\n\n3. **Chuẩn hóa**:\n   - **1NF (1st Normal Form)**: Một quan hệ ở dạng chuẩn 1 nếu toàn bộ thuộc tính của quan hệ đều có giá trị đơn. Cần tách các ô chứa giá trị đa trị và xác định lại khóa chính [S2].\n   - **2NF (2nd Normal Form)**: Quan hệ đạt 2NF nếu nó ở 1NF và không có phụ thuộc hàm bộ phận vào khóa ghép [S2].\n   - **3NF (3rd Normal Form)**: Quan hệ đạt 3NF nếu nó ở 2NF và mọi thuộc tính không phải là khóa không phụ thuộc bắc cầu vào thuộc tính khóa [S5].\n\nQuá trình chuẩn hóa giúp giảm thiểu dư thừa dữ liệu và đảm bảo tính toàn vẹn của cơ sở dữ liệu [S2].",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.6,
+        "context_recall": 1.0,
+        "expected_path_coverage": 0.5,
+        "answer_relevance": 0.1837,
+        "faithfulness": 0.3166,
+        "citation_validity": 1.0,
+        "citation_accuracy": 0.5,
+        "citation_count": 6,
+        "confidence": 0.7806,
+        "retrieval_latency_seconds": 1.7179,
+        "generation_latency_seconds": 3.9903,
+        "total_latency_seconds": 5.7082
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "3fe6a95a348a01c9",
+            "score": 0.316272,
+            "source_path": "data/processed/tkcsdl/Chuong 2 - Cac khai niem trong thiet ke co so du lieu quan he.md",
+            "citation": "data/processed/tkcsdl/Chuong 2 - Cac khai niem trong thiet ke co so du lieu quan he.md | Phụ thuộc hàm",
+            "text_preview": "Chris Lucero | Info Systems | 41,500 | C++ | 4/22/2012 | | 190 | Lorenzo Davis | Finance | 38,000 | Investments | 5/7/2012 | | 150 | Susan Martin | Marketing | 38,500 | SPSS | 6/19/2012 | | 150 | Susan Martin | Marketing | 38,500 | TQM | 8/12/2012 | | Emp_ID | Name | Dept | Salary | | :--- | :--- | ..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "67f44b189053846e",
+            "score": 0.043301,
+            "source_path": "data/processed/pttkht/ch06_thiet_ke_co_so_du_lieu.md",
+            "citation": "data/processed/pttkht/ch06_thiet_ke_co_so_du_lieu.md | Chương 6: Thiết kế cơ sở dữ liệu",
+            "text_preview": "# Chương 6: Thiết kế cơ sở dữ liệu\n\n## Nội dung chính\n- Mô hình dữ liệu và các loại mô hình dữ liệu.\n- Mô hình dữ liệu quan hệ.\n- Các dạng chuẩn và chuẩn hóa quan hệ.\n- Chuẩn hóa biểu đồ lớp.\n- Thiết kế cơ sở dữ liệu vật lý.\n\n## Tổng quan\nChương này trình bày thiết kế cơ sở dữ liệu trong phát triển ..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "cdf3481020ca693d",
+            "score": 0.347357,
+            "source_path": "data/processed/tkcsdl/Chuong 2 - Cac khai niem trong thiet ke co so du lieu quan he.md",
+            "citation": "data/processed/tkcsdl/Chuong 2 - Cac khai niem trong thiet ke co so du lieu quan he.md | Ràng buộc khóa",
+            "text_preview": "| Ha Noi | 2300000.00 | | 4 | Tran Hong Nam | 1976-08-07 00:00:00.000 | Nam Dinh | 3200000.00 | | 5 | Le Thi Hang | 1976-03-04 00:00:00.000 | Thanh Hoa | 6700000.00 | - Thuộc tính - Bộ - Ngôi - Lực lượng # Đặc điểm của quan hệ - **Phần tử nằm chỗ giao nhau giữa dòng và cột là duy nhất** - **Các phần..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "8d9230fba6d1d824",
+            "score": 0.051259,
+            "source_path": "data/processed/tkcsdl/Chuong 5 - Thiet ke CSDL muc vat ly.md",
+            "citation": "data/processed/tkcsdl/Chuong 5 - Thiet ke CSDL muc vat ly.md | HỌC VIỆN NGÂN HÀNG",
+            "text_preview": "# HỌC VIỆN NGÂN HÀNG\n\n# CHƯƠNG 5\n\n# THIẾT KẾ CSDL MỨC VẬT LÝ\n\n# Các giai đoạn thiết kế\n\n- **Khái niệm**\n    - Sơ đồ thực thể liên kết (ERD)\n\n- **Logic**\n    - Lược đồ quan hệ\n    - Chuẩn hóa\n\n- **Vật lý**\n    - Bảng và mối quan hệ\n\n# Thiết kế CSDL mức vật lý\n\n- **Thiết kế vật lý** là quá trình xác đ..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "5aeed8aa7550ea42",
+            "score": 0.385978,
+            "source_path": "data/processed/tkcsdl/Chuong 2 - Cac khai niem trong thiet ke co so du lieu quan he.md",
+            "citation": "data/processed/tkcsdl/Chuong 2 - Cac khai niem trong thiet ke co so du lieu quan he.md | 3NF (3rd Normal Form) > Chuyển quan hệ về dạng chuẩn 3:",
+            "text_preview": "| E305 | Kinh doanh | E906 | | E508 | Quản trị | E908 | | Mã NV | Mã DA | Số giờ | | :--- | :--- | :--- | | E101 | P27 | 90 | | E101 | P51 | 101 | | E101 | P20 | 60 | | E305 | P27 | 109 | | E305 | P22 | 98 | | E508 | P51 | Null | # 3NF (3rd Normal Form) ## Một quan hệ ở dạng chuẩn 3 nếu: - Quan hệ ở..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "er_model",
+      "category": "course_material",
+      "question": "Mô hình thực thể liên kết ER và các bước thiết kế CSDL mức khái niệm nằm trong tài liệu nào?",
+      "expected_paths": [
+        "data/processed/tkcsdl/Chuong 3 - Thiet ke CSDL muc khai niem.md"
+      ],
+      "answer": "Mô hình thực thể liên kết ER và các bước thiết kế CSDL mức khái niệm nằm trong tài liệu \"CHƯƠNG 3 - THIẾT KẾ CSDL MỨC KHÁI NIỆM\" [S1].",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.2,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.7895,
+        "faithfulness": 0.552,
+        "citation_validity": 1.0,
+        "citation_accuracy": 1.0,
+        "citation_count": 1,
+        "confidence": 0.6807,
+        "retrieval_latency_seconds": 1.836,
+        "generation_latency_seconds": 1.699,
+        "total_latency_seconds": 3.535
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "bf7082357fcd1428",
+            "score": 0.378678,
+            "source_path": "data/processed/tkcsdl/Chuong 3 - Thiet ke CSDL muc khai niem.md",
+            "citation": "data/processed/tkcsdl/Chuong 3 - Thiet ke CSDL muc khai niem.md | CHƯƠNG 3",
+            "text_preview": "# CHƯƠNG 3\n\n# THIẾT KẾ CSDL MỨC KHÁI NIỆM\n\n# Vòng đời phát triển CSDL\n\n| Giai đoạn | Nội dung chi tiết |\n| :--- | :--- |\n| **Khởi tạo** | - Tìm hiểu công ty<br>- Xác định bài toán và các ràng buộc<br>- Xác định mục tiêu |\n| **Thiết kế** | - Thiết kế mức khái niệm<br>- Lựa chọn hệ quản trị CSDL<br>- ..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "7d088e56617783f2",
+            "score": 0.364789,
+            "source_path": "data/processed/tkcsdl/Chuong 1 - Gioi thieu thiet ke co so du lieu quan he.md",
+            "citation": "data/processed/tkcsdl/Chuong 1 - Gioi thieu thiet ke co so du lieu quan he.md | 1.3. Vòng đời phát triển CSDL",
+            "text_preview": "máy scan, loa,...) **CÀI ĐẶT:** - **Chuẩn bị cơ sở hạ tầng:** Các thiết bị phần cứng, hệ điều hành, hệ quản trị cơ sở dữ liệu, các phần mềm hỗ trợ lập trình, cơ sở dữ liệu đã thiết kế cũng được thực thi. - **Xây dựng các tính năng của hệ thống** - Lập trình viên: xây dựng tính năng - Tester: Kiểm th..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "67f44b189053846e",
+            "score": 0.048809,
+            "source_path": "data/processed/pttkht/ch06_thiet_ke_co_so_du_lieu.md",
+            "citation": "data/processed/pttkht/ch06_thiet_ke_co_so_du_lieu.md | Chương 6: Thiết kế cơ sở dữ liệu",
+            "text_preview": "# Chương 6: Thiết kế cơ sở dữ liệu\n\n## Nội dung chính\n- Mô hình dữ liệu và các loại mô hình dữ liệu.\n- Mô hình dữ liệu quan hệ.\n- Các dạng chuẩn và chuẩn hóa quan hệ.\n- Chuẩn hóa biểu đồ lớp.\n- Thiết kế cơ sở dữ liệu vật lý.\n\n## Tổng quan\nChương này trình bày thiết kế cơ sở dữ liệu trong phát triển ..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "9a4d99e3e7a11dc7",
+            "score": 0.381826,
+            "source_path": "data/processed/csdl/Chuong 1 - Tong quan ve co so du lieu.md",
+            "citation": "data/processed/csdl/Chuong 1 - Tong quan ve co so du lieu.md | 6. Cc m hnh CSDL",
+            "text_preview": "| PROJECT | | | | :--- | :--- | :--- | | PNAME | PNUMBER | PLOCATION | | EMPLOYEE | | | | | :--- | :--- | :--- | :--- | | NAME | SSN | BDATE | ADDRESS | **a. DEPARTMENT:** Research - Smith - Max - John - Grace Administration - Elite - James - Frank **b. DEPARTMENT:** Research - Product A - Product B..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "100b600c2686f2aa",
+            "score": 0.048975,
+            "source_path": "data/processed/pttkht/ch08_kiem_thu_he_thong.md",
+            "citation": "data/processed/pttkht/ch08_kiem_thu_he_thong.md | Chương 8: Kiểm thử hệ thống",
+            "text_preview": "# Chương 8: Kiểm thử hệ thống\n\n## Nội dung chính\n- Khái niệm và mục tiêu kiểm thử.\n- Các loại lỗi trong kiểm thử.\n- Những tài liệu cần thiết trước khi kiểm thử.\n- Tiến trình kiểm thử.\n- Nguyên tắc, cấp độ và chiến lược kiểm thử phần mềm.\n\n## Tổng quan\nChương này trình bày kiểm thử hệ thống trong gia..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hypothesis_testing",
+      "category": "course_material",
+      "question": "Trong xác suất thống kê bài 8, kiểm định giả thuyết về kỳ vọng, phương sai và xác suất được trình bày như thế nào?",
+      "expected_paths": [
+        "data/processed/xstk/bai_08_kiem_dinh_gia_thuyet_thong_ke.md"
+      ],
+      "answer": "Trong bài 8 về kiểm định giả thuyết thống kê, các nội dung liên quan đến kiểm định giả thuyết về kỳ vọng, phương sai và xác suất được trình bày như sau:\n\n1. **Kiểm định giả thuyết về kỳ vọng**: Đưa ra các giả thuyết như $H_0$: Nhu cầu trung bình về loại hàng hóa là một giá trị cụ thể và $H_1$: Nhu cầu trung bình khác giá trị đó. Việc kiểm định dựa vào mẫu để chấp nhận hoặc bác bỏ các giả thuyết này [S1].\n\n2. **Kiểm định giả thuyết về phương sai**: Tương tự như kiểm định về kỳ vọng, nhưng tập trung vào việc kiểm tra sự khác biệt về phương sai của tổng thể so với một giá trị đã biết hoặc giữa các tổng thể khác nhau [S1].\n\n3. **Kiểm định giả thuyết về xác suất**: Kiểm định này liên quan đến việc xác định tỉ lệ hoặc xác suất của một sự kiện trong tổng thể, ví dụ như tỉ lệ người thích một loại hàng hóa nào đó [S1].\n\nTóm lại, kiểm định giả thuyết trong thống kê bao gồm việc xác định các giả thuyết về kỳ vọng, phương sai và xác suất, và sử dụng mẫu để đưa ra quyết định chấp nhận hoặc bác bỏ các giả thuyết này.",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.2,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.1846,
+        "faithfulness": 0.2846,
+        "citation_validity": 1.0,
+        "citation_accuracy": 1.0,
+        "citation_count": 3,
+        "confidence": 0.6699,
+        "retrieval_latency_seconds": 1.9245,
+        "generation_latency_seconds": 4.6174,
+        "total_latency_seconds": 6.542
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "b2cb4166a4b62fbf",
+            "score": 0.414896,
+            "source_path": "data/processed/xstk/bai_08_kiem_dinh_gia_thuyet_thong_ke.md",
+            "citation": "data/processed/xstk/bai_08_kiem_dinh_gia_thuyet_thong_ke.md | BÀI 8",
+            "text_preview": "### BÀI 8\n\n#### KIỂM ĐỊNH GIẢ THUYẾT THỐNG KÊ\n\n**NỘI DUNG CHÍNH:**\n- Khái niệm giả thuyết thống kê.\n- Phương pháp chung để kiểm định giả thuyết.\n- Kiểm định giả thuyết về kỳ vọng.\n- Kiểm định giả thuyết về phương sai.\n- Kiểm định giả thuyết về xác suất.\n\n## KHÁI NIỆM GIẢ THUYẾT THỐNG KÊ\n\nKhi nghiên ..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "3bae746743fe9834",
+            "score": 0.047318,
+            "source_path": "data/processed/xstk/bai_06_thong_ke_mo_ta.md",
+            "citation": "data/processed/xstk/bai_06_thong_ke_mo_ta.md | BÀI 6",
+            "text_preview": "### BÀI 6\n\n#### THỐNG KÊ MÔ TẢ\n\n**NỘI DUNG CHÍNH:**\n- Tổng thể và mẫu.\n- Mẫu ngẫu nhiên tổng quát và mẫu ngẫu nhiên cụ thể.\n- Các cách trình bày một mẫu.\n- Một số đặc trưng mẫu: trung bình mẫu, phương sai mẫu, độ lệch chuẩn mẫu, tỉ lệ mẫu.\n\n## THỐNG KÊ LÀ GÌ?\n\nThống kê là khoa học về các phương pháp..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "4a8e79082aee9df8",
+            "score": 0.434043,
+            "source_path": "data/processed/xstk/bai_04_tham_so_dac_trung_bien_ngau_nhien.md",
+            "citation": "data/processed/xstk/bai_04_tham_so_dac_trung_bien_ngau_nhien.md | KỲ VỌNG > 3. Ý nghĩa kinh tế của kỳ vọng",
+            "text_preview": "định như sau: - Nếu $X$ là biến ngẫu nhiên rời rạc với $P\\{X=x_j\\}=p_j$, thì: $$ E(X)=\\sum_j x_jp_j. $$ - Nếu $X$ là biến ngẫu nhiên liên tục với hàm mật độ $p(x)$, thì: $$ E(X)=\\int_{-\\infty}^{+\\infty}xp(x)\\,dx. $$ Kỳ vọng không phải bao giờ cũng tồn tại. ### 2. Ví dụ tính kỳ vọng **Ví dụ:** Một cơ..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "8d9230fba6d1d824",
+            "score": 0.047331,
+            "source_path": "data/processed/tkcsdl/Chuong 5 - Thiet ke CSDL muc vat ly.md",
+            "citation": "data/processed/tkcsdl/Chuong 5 - Thiet ke CSDL muc vat ly.md | HỌC VIỆN NGÂN HÀNG",
+            "text_preview": "# HỌC VIỆN NGÂN HÀNG\n\n# CHƯƠNG 5\n\n# THIẾT KẾ CSDL MỨC VẬT LÝ\n\n# Các giai đoạn thiết kế\n\n- **Khái niệm**\n    - Sơ đồ thực thể liên kết (ERD)\n\n- **Logic**\n    - Lược đồ quan hệ\n    - Chuẩn hóa\n\n- **Vật lý**\n    - Bảng và mối quan hệ\n\n# Thiết kế CSDL mức vật lý\n\n- **Thiết kế vật lý** là quá trình xác đ..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "664c67954f8626e5",
+            "score": 0.482169,
+            "source_path": "data/processed/xstk/bai_04_tham_so_dac_trung_bien_ngau_nhien.md",
+            "citation": "data/processed/xstk/bai_04_tham_so_dac_trung_bien_ngau_nhien.md | BÀI 4",
+            "text_preview": "### BÀI 4\n\n#### THAM SỐ ĐẶC TRƯNG CỦA BIẾN NGẪU NHIÊN\n\n**NỘI DUNG CHÍNH:**\n- Mode, kỳ vọng, phương sai và độ lệch chuẩn của biến ngẫu nhiên.\n- Ý nghĩa thực tế của các tham số đặc trưng.\n- Biến ngẫu nhiên rời rạc hai chiều.\n- Phân phối biên, phân phối có điều kiện, hiệp phương sai và hệ số tương quan..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "confidence_interval",
+      "category": "course_material",
+      "question": "Ước lượng khoảng tin cậy cho tham số thống kê được trình bày trong bài nào?",
+      "expected_paths": [
+        "data/processed/xstk/bai_07_uoc_luong_tham_so.md"
+      ],
+      "answer": "Ước lượng khoảng tin cậy cho tham số thống kê được trình bày trong Bài 7, với nội dung chính về ước lượng tham số, bao gồm ước lượng điểm và ước lượng khoảng [S1].",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.4,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.619,
+        "faithfulness": 0.5931,
+        "citation_validity": 1.0,
+        "citation_accuracy": 1.0,
+        "citation_count": 1,
+        "confidence": 0.7407,
+        "retrieval_latency_seconds": 1.7015,
+        "generation_latency_seconds": 2.5733,
+        "total_latency_seconds": 4.2748
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "fb35a48096376540",
+            "score": 0.447518,
+            "source_path": "data/processed/xstk/bai_07_uoc_luong_tham_so.md",
+            "citation": "data/processed/xstk/bai_07_uoc_luong_tham_so.md | BÀI 7",
+            "text_preview": "### BÀI 7\n\n#### ƯỚC LƯỢNG THAM SỐ\n\n**NỘI DUNG CHÍNH:**\n- Đặt vấn đề về ước lượng tham số.\n- Ước lượng điểm.\n- Ước lượng khoảng.\n- Khoảng tin cậy cho kỳ vọng, phương sai và xác suất.\n- Xác định độ tin cậy hoặc kích thước mẫu.\n\n## ĐẶT VẤN ĐỀ\n\nTrong nhiều bài toán thống kê, tham số của tổng thể chưa bi..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "9ea2c998c77bdb24",
+            "score": 0.071099,
+            "source_path": "data/processed/ATBMTT/C6_Dam bao an toan cho he thong thong tin.md",
+            "citation": "data/processed/ATBMTT/C6_Dam bao an toan cho he thong thong tin.md | 6.3. Một số giải pháp an toàn cho HTTT > 6.3.1.3 Kiến trúc SSL > SSL Record Protocol",
+            "text_preview": "| | :--- | :--- | :--- | :--- | | **SSL Record Protocol** | | **TCP** | | **IP** | ### SSL Record Protocol - **Dịch vụ cung cấp: cung cấp 2 dịch vụ:** - Tin cậy (Confidentiality): giao thức bắt tay xác định một khóa bí mật chia sẻ mà được dùng cho cho việc mã hóa thông thường. - Toàn vẹn thông điệp ..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "cc6a7d978b024fdb",
+            "score": 0.444266,
+            "source_path": "data/processed/xstk/bai_07_uoc_luong_tham_so.md",
+            "citation": "data/processed/xstk/bai_07_uoc_luong_tham_so.md | ƯỚC LƯỢNG KHOẢNG",
+            "text_preview": "lượng không chệch và vững của $V(X)$. - Tỉ lệ mẫu: $$ F=\\frac{m}{n} $$ là ước lượng không chệch, hiệu quả và vững của $P(A)$, nếu $m$ là số lần biến cố $A$ xuất hiện khi phép thử lặp lại $n$ lần. - Đại lượng: $$ MS=\\frac{1}{n}\\sum_{i=1}^{n}(X_i-\\overline{X})^2 $$ là ước lượng chệch của $V(X)$. **Ví ..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "23b3459f80ca69f9",
+            "score": 0.072809,
+            "source_path": "data/processed/php/chuong_00_gioi_thieu_mon_hoc.md",
+            "citation": "data/processed/php/chuong_00_gioi_thieu_mon_hoc.md | CHƯƠNG 0. GIỚI THIỆU MÔN HỌC",
+            "text_preview": "# CHƯƠNG 0. GIỚI THIỆU MÔN HỌC\n\n**NỘI DUNG CHÍNH:**\n- Giới thiệu môn học Lập trình Web với PHP & MySQL.\n- Thông tin học phần, thời lượng và cách đánh giá.\n- Tài liệu tham khảo và yêu cầu đối với học viên.\n- Tiến trình học tập và tổng quan chương trình.\n- Tổng quan lập trình web, website, Web server ..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "3bae746743fe9834",
+            "score": 0.470354,
+            "source_path": "data/processed/xstk/bai_06_thong_ke_mo_ta.md",
+            "citation": "data/processed/xstk/bai_06_thong_ke_mo_ta.md | BÀI 6",
+            "text_preview": "### BÀI 6\n\n#### THỐNG KÊ MÔ TẢ\n\n**NỘI DUNG CHÍNH:**\n- Tổng thể và mẫu.\n- Mẫu ngẫu nhiên tổng quát và mẫu ngẫu nhiên cụ thể.\n- Các cách trình bày một mẫu.\n- Một số đặc trưng mẫu: trung bình mẫu, phương sai mẫu, độ lệch chuẩn mẫu, tỉ lệ mẫu.\n\n## THỐNG KÊ LÀ GÌ?\n\nThống kê là khoa học về các phương pháp..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "backpropagation",
+      "category": "course_material",
+      "question": "Lan truyền ngược trong mạng neural network hoạt động như thế nào?",
+      "expected_paths": [
+        "data/processed/tri tue nhan tao/Lecture 8-9 - Neural networks.md"
+      ],
+      "answer": "Lan truyền ngược (Backpropagation) trong mạng neural network hoạt động bằng cách truy tìm \"nguồn gốc\" của sai số từ lớp đầu ra (Output) và lan truyền ngược lại từng lớp phía trước để tính toán xem mỗi neuron đóng góp bao nhiêu vào sai số đó. Cơ chế này áp dụng quy tắc chuỗi (Chain Rule) trong đạo hàm để tính toán các Gradient từ lớp cuối cùng về lớp đầu tiên, giúp tối ưu hóa tốc độ và tránh việc phải tính toán lại các đạo hàm trùng lặp [S1].",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.4,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.1758,
+        "faithfulness": 0.3207,
+        "citation_validity": 1.0,
+        "citation_accuracy": 1.0,
+        "citation_count": 1,
+        "confidence": 0.756,
+        "retrieval_latency_seconds": 1.8123,
+        "generation_latency_seconds": 2.259,
+        "total_latency_seconds": 4.0712
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "70c513a34540f134",
+            "score": 0.394154,
+            "source_path": "data/processed/tri tue nhan tao/Lecture 8-9 - Neural networks.md",
+            "citation": "data/processed/tri tue nhan tao/Lecture 8-9 - Neural networks.md | LÀM SAO MẠNG NEURON CÓ THỂ \"HỌC\"?",
+            "text_preview": "+ b^{(l)}$$ $$A^{(l)} = f(Z^{(l)})$$ Trong đó: - $W^{(l)}$: Ma trận trọng số của lớp - $A^{(l-1)}$: Vector đầu ra của lớp trước đó. - $f$: Hàm kích hoạt (áp dụng trên từng phần tử - element-wise). # QUY TRÌNH LAN TRUYỀN THẲNG (FORWARD PROPAGATION) *Cách dữ liệu \"chảy\" qua mạng:* - Dữ liệu đầu vào $X..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "4e2b927c48496248",
+            "score": 0.089264,
+            "source_path": "data/processed/mang/chuong_02_cac_mo_hinh_truyen_thong.md",
+            "citation": "data/processed/mang/chuong_02_cac_mo_hinh_truyen_thong.md | Chương 2: Các mô hình truyền thông > Mô hình TCP/IP > Các tầng TCP/IP",
+            "text_preview": "không dây. | ## Mô hình OSI ### Bảy tầng OSI **Mô hình / Quy trình / Cấu trúc:** | Tầng | Tên | Chức năng chính | |---|---|---| | 7 | Application | Cung cấp dịch vụ mạng cho ứng dụng. | | 6 | Presentation | Biểu diễn, mã hóa, nén dữ liệu. | | 5 | Session | Thiết lập, quản lý phiên truyền thông. | | ..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "e43a4623522d406c",
+            "score": 0.416306,
+            "source_path": "data/processed/tri tue nhan tao/Lecture 8-9 - Neural networks.md",
+            "citation": "data/processed/tri tue nhan tao/Lecture 8-9 - Neural networks.md | CÁC HÀM KÍCH HOẠT PHỔ BIẾN",
+            "text_preview": "quả của hàm tổng: $y = f(z)$ - **Tại sao cần tính Phi tuyến (Non-linearity)?** - Nếu không có hàm kích hoạt phi tuyến, việc chồng nhiều lớp neuron (Deep Network) cũng chỉ tương đương với một hàm tuyến tính đơn giản. - Giúp mạng neuron có khả năng học và xấp xỉ các hàm số phức tạp trong thực tế. - **..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "2f78b3399bf00df9",
+            "score": 0.472967,
+            "source_path": "data/processed/tri tue nhan tao/Lecture 11,12 - Xử lý ngôn ngữ tự nhiên.md",
+            "citation": "data/processed/tri tue nhan tao/Lecture 11,12 - Xử lý ngôn ngữ tự nhiên.md | Biểu diễn vector của một từ",
+            "text_preview": "my all-time favorite movie, a story of selflessness, sacrifice and dedication to a noble ca... | positive | | I sure would like to see a resurrection of a up dated Seahunt series with the tech they have today i... | positive | | This show was an amazing, fresh & innovative idea in the 70's when it f..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "8fcc9364a70a2d83",
+            "score": 0.090793,
+            "source_path": "data/processed/nhập môn cntt/ch6_communications_networks_and_cyberthreats.md",
+            "citation": "data/processed/nhập môn cntt/ch6_communications_networks_and_cyberthreats.md | Chapter 6: Communications, Networks, & Cyberthreats > Thuật ngữ quan trọng",
+            "text_preview": "thể giả mạo danh tính, mở tài khoản, mua hàng hoặc truy cập dịch vụ trái phép. **Thuật ngữ cần nhớ:** - `Privacy`: quyền riêng tư. - `Identity theft`: đánh cắp danh tính. - `Personal information`: thông tin cá nhân. - `Authentication`: xác thực người dùng. **Ví dụ / ứng dụng:** - Dùng mật khẩu mạnh,..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "feature_extraction",
+      "category": "course_material",
+      "question": "Các kỹ thuật trích xuất đặc trưng cho dữ liệu văn bản, hình ảnh và âm thanh là gì?",
+      "expected_paths": [
+        "data/processed/tri tue nhan tao/Lecture 5 - Feature extraction,  model building & evaluation.md"
+      ],
+      "answer": "Chưa tìm thấy đủ thông tin trong tài liệu về các kỹ thuật trích xuất đặc trưng cho dữ liệu văn bản, hình ảnh và âm thanh.",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.2,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.7778,
+        "faithfulness": 0.0,
+        "citation_validity": 0.0,
+        "citation_accuracy": 0.0,
+        "citation_count": 0,
+        "confidence": 0.6683,
+        "retrieval_latency_seconds": 1.7787,
+        "generation_latency_seconds": 2.4683,
+        "total_latency_seconds": 4.247
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "7773a18a4dc95abd",
+            "score": 0.420633,
+            "source_path": "data/processed/tri tue nhan tao/Lecture 5 - Feature extraction,  model building & evaluation.md",
+            "citation": "data/processed/tri tue nhan tao/Lecture 5 - Feature extraction,  model building & evaluation.md | HC VIN NGN HNG",
+            "text_preview": "# HC VIN NGN HNG\n\n# IS54A  TR TU NHN TO\n\n# Chương 3\n\n# Machine Learning Pipeline (tiếp)\n\nTS. Vũ Trọng Sinh\nsinhvt@hvnh.edu.vn\n\n# Nội dung\n\n- Trích xuất đặc trưng (Feature Extraction)\n- Xây dựng mô hình (Model Building)\n- Đánh giá mô hình (Model Evaluation)\n\n# Trích xuất đặc trưng (Feature extraction..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "b1620894cb4da099",
+            "score": 0.517612,
+            "source_path": "data/processed/tri tue nhan tao/Lecture 11,12 - Xử lý ngôn ngữ tự nhiên.md",
+            "citation": "data/processed/tri tue nhan tao/Lecture 11,12 - Xử lý ngôn ngữ tự nhiên.md | 4.3 Cách tiếp cận giải quyết các task trong NLP",
+            "text_preview": "Nhận diện ký tự quang học: Chuyển đổi văn bản từ hình ảnh (chẳng hạn như ảnh chụp sách, tài liệu in) thành văn bản kỹ thuật số. - **Speech Recognition - Nhận diện giọng nói**: Chuyển đổi âm thanh giọng nói thành văn bản. VD: Google Speech-to-Text, Whisper - **Speech Segmentation - Phân đoạn giọng nó..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "e2d25673ab2faf92",
+            "score": 0.048254,
+            "source_path": "data/processed/tri tue nhan tao/Lecture 13 14 - Computer Vision.md",
+            "citation": "data/processed/tri tue nhan tao/Lecture 13 14 - Computer Vision.md | Một số bài toán liên quan đến khuôn mặt > Đâu là bài toán đơn giản / phức tạp nhất?",
+            "text_preview": "**Ứng dụng:** Xe tự lái nhận diện đâu là vùng \"đường đi\", đâu là \"vỉa hè\". # Phân vùng thực thể (Instance Segmentation) - **Định nghĩa:** Kết hợp giữa Object Detection và Semantic Segmentation. - **Đặc điểm:** Không chỉ phân loại pixel theo lớp mà còn tách biệt từng cá thể riêng lẻ. Ví dụ: Mỗi con c..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "1b3b55791cc0bb99",
+            "score": 0.443785,
+            "source_path": "data/processed/tri tue nhan tao/Lecture 11,12 - Xử lý ngôn ngữ tự nhiên.md",
+            "citation": "data/processed/tri tue nhan tao/Lecture 11,12 - Xử lý ngôn ngữ tự nhiên.md | Phân tích ngữ pháp > Stemming (Rút gọn từ gốc)",
+            "text_preview": "các mức hiểu ngôn ngữ tự nhiên như sau: - Morphological analysis – mức từ vựng - Syntactic analysis – mức ngữ pháp - Semantic analysis – mức ngữ nghĩa - Discourse – mức ẩn dụ # Phân tích từ vựng - **Tokenization**: phân tách đoạn văn bản thành các “token” - **Word segmentation**: Phân tách đoạn văn ..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "2273f164c142b788",
+            "score": 0.480314,
+            "source_path": "data/processed/khaiphavphantichdulieu/chuong_1_tong_quan_pt_va_kpdl_v2.md",
+            "citation": "data/processed/khaiphavphantichdulieu/chuong_1_tong_quan_pt_va_kpdl_v2.md | Phần dữ liệu từcác dữ liệu nguồn được quan tâm.",
+            "text_preview": "các lĩnh vực liên quan Học máy với khai phá dữ liệu Một số nội dung học máy với khai phá dữ liệu: Machine Learning Unsupervised Supervised “Natural groupings” Reinforcement 3. Khai phá dữ liệu và các lĩnh vực liên quan Trực quan hóa với khai phá dữ liệu  Dữ liệu: 3D cubes,distribution charts, curv..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "software_architecture_patterns",
+      "category": "course_material",
+      "question": "Trong Chương 3 Mẫu thiết kế Kiến trúc phần mềm, Adapter, Bridge, Composite, Decorator và Observer Pattern được mô tả như thế nào?",
+      "expected_paths": [
+        "data/processed/kientrucphanmem/Chương 3 - Mẫu thiết kế Kiến trúc phần mềm.md"
+      ],
+      "answer": "Trong Chương 3 Mẫu thiết kế Kiến trúc phần mềm, các mẫu thiết kế được mô tả như sau:\n\n1. **Adapter Pattern (Mẫu Adapter)**: Chuyển đổi giao diện của một lớp thành giao diện khác mà một client mong muốn sử dụng. Điều này cho phép các lớp làm việc cùng nhau mặc dù chúng có các giao diện không tương thích [S1].\n\n2. **Bridge Pattern (Mẫu Bridge)**: Tách biệt một phần logic từ một lớp và đưa nó vào một lớp khác, với mục tiêu làm cho cả hai có thể thay đổi độc lập với nhau [S1].\n\n3. **Composite Pattern (Mẫu Composite)**: Tạo ra một cấu trúc cây để đại diện cho một nhóm các đối tượng. Điều này cho phép client xử lý các đối tượng đơn lẻ và các nhóm đối tượng theo cùng một cách [S1].\n\n4. **Decorator Pattern (Mẫu Decorator)**: Thêm các tính năng mới cho đối tượng mà không làm thay đổi giao diện của nó. Điều này cho phép mở rộng tính năng của một đối tượng mà không phải sửa đổi lớp đó [S1].\n\n5. **Observer Pattern (Mẫu Observer)**: Chưa tìm thấy đủ thông tin trong tài liệu để mô tả mẫu này.",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.6,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.191,
+        "faithfulness": 0.2324,
+        "citation_validity": 1.0,
+        "citation_accuracy": 1.0,
+        "citation_count": 4,
+        "confidence": 0.785,
+        "retrieval_latency_seconds": 1.7131,
+        "generation_latency_seconds": 5.6196,
+        "total_latency_seconds": 7.3327
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "da824dcb6795e539",
+            "score": 0.303286,
+            "source_path": "data/processed/kientrucphanmem/Chương 3 - Mẫu thiết kế Kiến trúc phần mềm.md",
+            "citation": "data/processed/kientrucphanmem/Chương 3 - Mẫu thiết kế Kiến trúc phần mềm.md | Mẫu thiết kế",
+            "text_preview": "các mẫu trong các tòa nhà và thị trấn, nhưng những gì ông ấy nói là đúng về các mẫu thiết kế hướng đối tượng. Đây là ý tưởng để áp dụng cho nhiều ngành khác đặc biệt ngành Kiến trúc phần mềm. 4/16/24 Chương 3: Mẫu thiết kế Kiến trúc phần mềm 3 # Mẫu thiết kế là gì? Nói chung, một mẫu có bốn yếu tố t..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "531306f5af3e4b96",
+            "score": 0.351817,
+            "source_path": "data/processed/kientrucphanmem/Chương 3 - Mẫu thiết kế Kiến trúc phần mềm.md",
+            "citation": "data/processed/kientrucphanmem/Chương 3 - Mẫu thiết kế Kiến trúc phần mềm.md | CHƯƠNG 3",
+            "text_preview": "# CHƯƠNG 3\n\n# MẪU THIẾT KẾ KIẾN TRÚC PHẦN MỀM\n\nHà Nội - 2024\n\n# Nội dung trình bày\n\n- **Mẫu thiết kế Kiến trúc phần mềm là gì?**\n- **Giới thiệu các loại Mẫu thiết kế Kiến trúc phần mềm**\n\n---\nChương 1: Tổng quan Kiến trúc phần mềm\n\n# Mẫu thiết kế là gì?\n\n- Nhà kiến trúc Christopher Alexander nói: **..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "cda5e47f99f49651",
+            "score": 0.434165,
+            "source_path": "data/processed/kientrucphanmem/Chương 4 - Phương pháp Kiến trúc phần mềm.md",
+            "citation": "data/processed/kientrucphanmem/Chương 4 - Phương pháp Kiến trúc phần mềm.md | Phương pháp Kiến trúc phần mềm",
+            "text_preview": "# Phương pháp Kiến trúc phần mềm\n\n- Phương pháp kiến trúc phần mềm (**Software Architecture Methodology**) là một cách tiếp cận hệ thống hóa và tổ chức các thành phần của một hệ thống phần mềm. Nó không chỉ tập trung vào việc thiết kế các thành phần cụ thể, mà còn quan tâm đến cách các thành phần nà..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "554bdb7440530091",
+            "score": 0.385837,
+            "source_path": "data/processed/kientrucphanmem/Chương 3 - Mẫu thiết kế Kiến trúc phần mềm.md",
+            "citation": "data/processed/kientrucphanmem/Chương 3 - Mẫu thiết kế Kiến trúc phần mềm.md | Mẫu thiết kế",
+            "text_preview": "và cập nhật tự động.<br><br>**Strategy Pattern (Mẫu Strategy)**: Định nghĩa một tập hợp các thuật toán, đóng gói mỗi thuật toán và làm cho chúng có thể thay đổi linh hoạt. Client có thể chọn một thuật toán cụ thể từ tập hợp và thay đổi nó theo nhu cầu của mình.<br><br>**Command Pattern (Mẫu Command)..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "84c71e1143cf7e15",
+            "score": 0.053782,
+            "source_path": "data/processed/kientrucphanmem/Chương 1 - Tổng quan Kiến trúc phần mềm.md",
+            "citation": "data/processed/kientrucphanmem/Chương 1 - Tổng quan Kiến trúc phần mềm.md | Sn xut phn mm kh khn (2) > Mức độ tái sử dụng phần mềm",
+            "text_preview": "CORBA - Chuẩn W3C: Các công nghệ Web - Chuẩn OASIS: quy trình nghiệp vụ 01/12/202 Chương 1: Tổng quan Kiến trúc phần mềm ## Sản xuất phần mềm khó khăn (1) - Sự phức tạp bắt nguồn từ - Đổi mới kỹ thuật, công nghệ nhanh chóng - Cạnh tranh quốc tế mạnh mẽ - Vấn đề tâm lý - Vấn đề tổ chức - Thiếu chuyên..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "network_security",
+      "category": "course_material",
+      "question": "An ninh mạng gồm những nguy cơ và biện pháp bảo vệ nào?",
+      "expected_paths": [
+        "data/processed/mang/chuong_06_an_ninh_mang.md"
+      ],
+      "answer": "An ninh mạng gồm các nguy cơ và biện pháp bảo vệ như sau:\n\n### Nguy cơ\n1. **Truy cập trái phép**: Người dùng không có quyền có thể truy cập vào tài nguyên mạng [S1].\n2. **Phá hoại và mất mát dữ liệu**: Dữ liệu có thể bị đánh cắp hoặc thay đổi do các cuộc tấn công hoặc lỗi hệ thống [S2].\n3. **Phần mềm độc hại**: Các mối đe dọa từ virus, malware có thể làm hỏng hệ thống và dữ liệu [S2].\n\n### Biện pháp bảo vệ\n1. **Kiểm soát quyền truy cập**: Xác định quyền của người dùng trên tài nguyên mạng để hạn chế thiệt hại [S1].\n2. **Mã hóa dữ liệu**: Bảo vệ dữ liệu khi lưu trữ và truyền thông để ngăn chặn truy cập trái phép [S1].\n3. **Tường lửa (Firewall)**: Kiểm soát lưu lượng mạng và ngăn chặn truy cập trái phép [S1].\n4. **Chiến lược bảo vệ như Least Privilege**: Cấp quyền tối thiểu cần thiết cho người dùng để giảm thiểu rủi ro [S1].\n5. **Bảo vệ vật lý**: Bảo vệ phần cứng và môi trường vật lý để ngăn chặn trộm cắp và phá hoại [S1].\n\nNhững biện pháp này cần được kết hợp để tạo thành một hệ thống bảo vệ an ninh mạng hiệu quả.",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.4,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.0968,
+        "faithfulness": 0.3791,
+        "citation_validity": 1.0,
+        "citation_accuracy": 0.75,
+        "citation_count": 8,
+        "confidence": 0.7713,
+        "retrieval_latency_seconds": 1.7593,
+        "generation_latency_seconds": 4.9257,
+        "total_latency_seconds": 6.685
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "a97211d6bb8f7843",
+            "score": 0.344856,
+            "source_path": "data/processed/mang/chuong_06_an_ninh_mang.md",
+            "citation": "data/processed/mang/chuong_06_an_ninh_mang.md | Chương 6: An ninh mạng",
+            "text_preview": "# Chương 6: An ninh mạng\n\n## Nội dung chính\n- Các mức bảo vệ an toàn thông tin trên mạng.\n- Quyền truy cập và kiểm soát thao tác trên tài nguyên.\n- Mã hóa, bảo vệ vật lý và tường lửa.\n- Các chiến lược bảo vệ mạng.\n- Nguyên tắc least privilege, defence in depth và các nguyên tắc liên quan.\n\n## Tổng q..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "0f46d03fcc26cfcd",
+            "score": 0.068709,
+            "source_path": "data/processed/nhập môn cntt/ch9_digital_age_society_and_information_technology.md",
+            "citation": "data/processed/nhập môn cntt/ch9_digital_age_society_and_information_technology.md | Chapter 9: The Challenges of the Digital Age: Society & Information Technology Today",
+            "text_preview": "# Chapter 9: The Challenges of the Digital Age: Society & Information Technology Today\n\n## Nội dung chính\n- Vấn đề an ninh (Security Issues) trong máy tính và truyền thông.\n- Các mối đe dọa đối với hệ thống máy tính và truyền thông.\n- Biện pháp bảo vệ an ninh (Security Safeguards).\n- Quyền riêng tư ..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "84f8e2705eb0ed4f",
+            "score": 0.360125,
+            "source_path": "data/processed/mang/chuong_06_an_ninh_mang.md",
+            "citation": "data/processed/mang/chuong_06_an_ninh_mang.md | Chương 6: An ninh mạng > Câu hỏi ôn tập",
+            "text_preview": "tác của người dùng trên tài nguyên. - Mã hóa bảo vệ dữ liệu khi lưu trữ và truyền thông. - Firewall kiểm soát lưu lượng và ngăn truy cập trái phép. - Các chiến lược như least privilege và defence in depth giúp xây dựng hệ thống bảo vệ bền vững hơn. ## Thuật ngữ quan trọng | Thuật ngữ | Giải thích | ..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "9546027b7bbc8561",
+            "score": 0.420517,
+            "source_path": "data/processed/nlsud/chuong_06_mang_may_tinh_va_khong_gian_mang.md",
+            "citation": "data/processed/nlsud/chuong_06_mang_may_tinh_va_khong_gian_mang.md | Chương 6: Mạng máy tính và không gian mạng > Câu hỏi ôn tập",
+            "text_preview": "mạng. - Không gian mạng mở rộng hoạt động số nhưng cũng đặt ra yêu cầu an ninh mạng. ## Thuật ngữ quan trọng | Thuật ngữ | Giải thích | |---|---| | Mạng máy tính | Tập hợp máy tính và thiết bị kết nối để trao đổi thông tin, chia sẻ dữ liệu và tài nguyên. | | LAN | Mạng cục bộ trong phạm vi nhỏ. | | ..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "ae2d11bb9b000bd5",
+            "score": 0.080337,
+            "source_path": "data/processed/htttql/Chương 11-Quản lý hệ thống thông tin.md",
+            "citation": "data/processed/htttql/Chương 11-Quản lý hệ thống thông tin.md | Những vị trí công việc nào liên quan đến IS?",
+            "text_preview": "năng chính của phòng HTTT - Lên kế hoạch sử dụng HTTT để hoàn thành mục tiêu và chiến lược của tổ chức. - Quản lý các mối quan hệ gia công phần mềm. - Bảo vệ dữ liệu và thông tin. - Phát triển, vận hành, bảo trì các ứng dụng phần mềm. - Phát triển, vận hành, bảo trì cơ sở hạ tầng phần cứng. # Phòng ..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "java_jdbc",
+      "category": "course_material",
+      "question": "Kết nối cơ sở dữ liệu JDBC trong Java được hướng dẫn ở tài liệu nào?",
+      "expected_paths": [
+        "data/processed/java/oop_05_ket_noi_co_so_du_lieu_jdbc.md"
+      ],
+      "answer": "Kết nối cơ sở dữ liệu JDBC trong Java được hướng dẫn ở tài liệu \"Bài 5: Kết nối cơ sở dữ liệu JDBC\" [S1].",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.4,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.75,
+        "faithfulness": 0.5339,
+        "citation_validity": 1.0,
+        "citation_accuracy": 1.0,
+        "citation_count": 1,
+        "confidence": 0.7767,
+        "retrieval_latency_seconds": 1.7355,
+        "generation_latency_seconds": 2.8696,
+        "total_latency_seconds": 4.6051
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "e3ba7608e34e12a4",
+            "score": 0.328045,
+            "source_path": "data/processed/java/oop_05_ket_noi_co_so_du_lieu_jdbc.md",
+            "citation": "data/processed/java/oop_05_ket_noi_co_so_du_lieu_jdbc.md | Bài 5: Kết nối cơ sở dữ liệu JDBC",
+            "text_preview": "# Bài 5: Kết nối cơ sở dữ liệu JDBC\n\n## Nội dung chính\n- Khái niệm JDBC và vai trò trong kết nối cơ sở dữ liệu.\n- Kiến trúc JDBC và Driver Manager.\n- Các loại JDBC driver.\n- Các bước truy cập cơ sở dữ liệu từ Java.\n- Nạp trình điều khiển, thiết lập kết nối và tạo `Statement`.\n- Thực thi câu lệnh SQL..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "440c45aa96a7e57f",
+            "score": 0.419815,
+            "source_path": "data/processed/java/oop_05_ket_noi_co_so_du_lieu_jdbc.md",
+            "citation": "data/processed/java/oop_05_ket_noi_co_so_du_lieu_jdbc.md | Bài 5: Kết nối cơ sở dữ liệu JDBC > Tạo đối tượng Statement",
+            "text_preview": "\" + e.getMessage()); } ``` Một số tên driver trong slide: ```java Class.forName(\"org.gjf.mm.mysql.Driver\"); Class.forName(\"oracle.jdbc.driver.OracleDriver\"); Class.forName(\"com.sybase.jdbc.SybDriver\"); Class.forName(\"sun.jdbc.odbc.JdbcOdbcDriver\"); ``` ## Thiết lập kết nối Kết nối được tạo bằng phươ..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "b05df70e66a82102",
+            "score": 0.061024,
+            "source_path": "data/processed/java/oop_00_gioi_thieu_mon_hoc.md",
+            "citation": "data/processed/java/oop_00_gioi_thieu_mon_hoc.md | Bài 0: Giới thiệu môn học",
+            "text_preview": "# Bài 0: Giới thiệu môn học\n\n## Nội dung chính\n- Mục tiêu của học phần Lập trình hướng đối tượng với Java.\n- Tài liệu tham khảo chính và tài liệu đọc thêm.\n- Quy định đánh giá: chuyên cần, kiểm tra giữa kỳ và bài tập lớn cuối kỳ.\n- Kế hoạch học tập theo từng chương.\n- Yêu cầu đối với sinh viên khi h..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "133f2e5ea56d1d34",
+            "score": 0.497479,
+            "source_path": "data/processed/java/oop_01_tong_quan_ngon_ngu_java.md",
+            "citation": "data/processed/java/oop_01_tong_quan_ngon_ngu_java.md | Bài 1: Tổng quan ngôn ngữ Java",
+            "text_preview": "# Bài 1: Tổng quan ngôn ngữ Java\n\n## Nội dung chính\n- Lịch sử hình thành và phát triển của Java.\n- Các đặc trưng chính của Java.\n- Java như một ngôn ngữ lập trình, môi trường phát triển và môi trường thực thi.\n- Các công nghệ Java: J2SE, J2EE, J2ME.\n- Các dạng ứng dụng Java.\n- Bộ công cụ JDK, máy ảo..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "29fafa568da99581",
+            "score": 0.062276,
+            "source_path": "data/processed/java/oop_00_gioi_thieu_mon_hoc.md",
+            "citation": "data/processed/java/oop_00_gioi_thieu_mon_hoc.md | Bài 0: Giới thiệu môn học > Thuật ngữ quan trọng",
+            "text_preview": "| | Thực hành | Thực hành nội dung chương 4 | | Ôn tập | Ôn tập và kiểm tra viết | | Chương 5 | Vào/ra tệp và xử lý ngoại lệ | | Thực hành | Thực hành nội dung chương 5 | | Chương 6 | Lập trình giao diện trong Java | | Chương 7 | Kết nối cơ sở dữ liệu | | Tổng kết | Ôn tập và hoàn thiện bài tập lớn ..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "web_dom",
+      "category": "course_material",
+      "question": "JavaScript DOM dùng để thao tác với HTML như thế nào?",
+      "expected_paths": [
+        "data/processed/thietkeweb/lecture_11_javascript_html_dom.md"
+      ],
+      "answer": "JavaScript DOM (Document Object Model) cho phép thao tác với HTML thông qua các phương thức và thuộc tính của nó. Cụ thể:\n\n1. **Truy cập và thay đổi HTML element**: JavaScript có thể thay đổi tất cả HTML element trong trang, bao gồm việc thay đổi nội dung, thuộc tính và kiểu dáng CSS của chúng. Ví dụ, để thay đổi nội dung của một element, bạn có thể sử dụng `innerHTML` như sau: `document.getElementById(id).innerHTML = newHTML` [S1].\n\n2. **Thêm hoặc xóa HTML element**: JavaScript có khả năng thêm mới hoặc xóa các HTML element hiện có trong trang. Điều này cho phép tạo ra nội dung động và tương tác hơn cho người dùng [S1].\n\n3. **Phản hồi sự kiện**: JavaScript có thể phản hồi tất cả các sự kiện HTML hiện có trong trang, cũng như tạo ra các sự kiện mới. Điều này giúp cải thiện tính tương tác của trang web [S1].\n\n4. **Thay đổi thuộc tính của element**: Bạn có thể thay đổi giá trị của một thuộc tính bằng cách sử dụng cú pháp như `document.getElementById(id).attribute = newValue` [S1].\n\nTóm lại, JavaScript DOM cung cấp một cách mạnh mẽ để tương tác và điều khiển nội dung của trang web một cách linh hoạt và động.",
+      "metrics": {
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "hit_at_5": true,
+        "mrr": 1.0,
+        "first_relevant_rank": 1,
+        "context_precision": 0.4,
+        "context_recall": 1.0,
+        "expected_path_coverage": 1.0,
+        "answer_relevance": 0.0791,
+        "faithfulness": 0.2205,
+        "citation_validity": 1.0,
+        "citation_accuracy": 1.0,
+        "citation_count": 4,
+        "confidence": 0.7727,
+        "retrieval_latency_seconds": 1.6848,
+        "generation_latency_seconds": 4.7549,
+        "total_latency_seconds": 6.4397
+      },
+      "retrieval": {
+        "method": "semantic+rerank+keyword",
+        "top_results": [
+          {
+            "rank": 1,
+            "chunk_id": "89d7ddae1d22ec2a",
+            "score": 0.340354,
+            "source_path": "data/processed/thietkeweb/lecture_11_javascript_html_dom.md",
+            "citation": "data/processed/thietkeweb/lecture_11_javascript_html_dom.md | HTML DOM",
+            "text_preview": "Nội dung 7.1. Document Object Model (DOM). 7.2. Event handling. 7.3. Form validation. 7.4. AJAX. 7.1. Document Object Model (DOM) HTML DOM. DOM method. DOM document. DOM element. DOM changing HTML. DOM changing CSS. DOM DOM là một chuẩn của W3C (World Wide Web Consortium). \"W3C Document Object Model..."
+          },
+          {
+            "rank": 2,
+            "chunk_id": "26576e7df4d08e2e",
+            "score": 0.434424,
+            "source_path": "data/processed/thietkeweb/lecture_12_web_design_frameworks.md",
+            "citation": "data/processed/thietkeweb/lecture_12_web_design_frameworks.md | BÀI 12",
+            "text_preview": "### BÀI 12\n\n#### BÀI GIẢNG 12: WEB DESIGN FRAMEWORKS\n\nThiết kế Web - Bài giảng 12: Web Design Frameworks\n\nTS. Vũ Trọng Sinh. T: 097 567 4039. Khoa Công nghệ thông tin & Kinh tế số. E: sinhvt@hvnh.edu.vn. W: itde.hvnh.edu.vn\n\nNội dung\n\n8.1. jQuery\n\n8.2. Bootstrap\n\n8.1. jQuery\n\njQuery intro. jQuery sy..."
+          },
+          {
+            "rank": 3,
+            "chunk_id": "395ad6d00ad96580",
+            "score": 0.344828,
+            "source_path": "data/processed/thietkeweb/lecture_11_javascript_html_dom.md",
+            "citation": "data/processed/thietkeweb/lecture_11_javascript_html_dom.md | BÀI 11",
+            "text_preview": "### BÀI 11\n\n#### BÀI GIẢNG 11: JAVASCRIPT & HTML DOM\n\nThiết kế Web - Bài giảng 11: JavaScript & HTML DOM\n\nNội dung\n\n7.1. Document Object Model (DOM). 7.2. Event handling. 7.3. Form validation. 7.4. AJAX.\n\n7.1. Document Object Model (DOM)\n\nHTML DOM. DOM method. DOM document. DOM element. DOM changing..."
+          },
+          {
+            "rank": 4,
+            "chunk_id": "83b7da7c7b1c6eb1",
+            "score": 0.089159,
+            "source_path": "data/processed/htttql/Chương 2 - Các hệ thống thông tin cộng tác.md",
+            "citation": "data/processed/htttql/Chương 2 - Các hệ thống thông tin cộng tác.md | Yêu cầu của HTTT hỗ trợ các mục đích của hệ thống cộng tác",
+            "text_preview": "system? 4. **Quy trình**: Các quy trình của hệ thống thông tin cộng tác xác định các tiêu chuẩn, chính sách và kỹ thuật để tiến hành công việc của nhóm. Ví dụ quy trình xem xét tài liệu để giảm bớt sự nhầm lẫn và tăng cường kiểm soát, nhóm có thể thiết lập một quy trình chỉ định ai sẽ xem xét tài li..."
+          },
+          {
+            "rank": 5,
+            "chunk_id": "47a1e833225e806e",
+            "score": 0.456383,
+            "source_path": "data/processed/thietkeweb/lecture_9_javascript_basics.md",
+            "citation": "data/processed/thietkeweb/lecture_9_javascript_basics.md | BÀI 9",
+            "text_preview": "### BÀI 9\n\n#### BÀI GIẢNG 9: JAVASCRIPT CƠ BẢN\n\nThiết kế Web - Bài giảng 9: JavaScript\n\nNội dung\n\n6.1. Giới thiệu JavaScript. 6.2. Cú pháp cơ bản. 6.3. Variable và data type. 6.4. Operator.\n\n6.1. Giới thiệu JavaScript\n\nJavaScript là gì?\n\n- Một client-side scripting language -> chạy trên máy của ngườ..."
+          }
+        ]
+      }
+    }
+  ]
+}
