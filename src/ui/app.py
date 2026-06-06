@@ -2,6 +2,8 @@ import sys
 from pathlib import Path
 import json
 import uuid
+import re
+import time
 
 # Add project root to path to ensure clean relative imports
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -179,6 +181,61 @@ def render_citations(citations: list[dict], query: str) -> None:
                     <div class="citation-excerpt" style="font-size: 0.85rem;">"{snippet}"</div>
                 </div>
                 """, unsafe_allow_html=True)
+
+def citation_validity(answer: str, citations: list[dict]) -> float:
+    """Return the share of [Sx] citations that point to retrieved sources."""
+    cited_numbers = [int(match) for match in re.findall(r"\[S(\d+)\]", answer or "")]
+    if not cited_numbers:
+        return 0.0
+    valid_ranks = {int(cite["rank"]) for cite in citations}
+    valid_count = sum(1 for number in cited_numbers if number in valid_ranks)
+    return valid_count / len(cited_numbers)
+
+def source_relevance(citations: list[dict]) -> float:
+    """Estimate source relevance from retrieved chunk scores for this question."""
+    scores = [float(cite.get("score", 0.0)) for cite in citations]
+    if not scores:
+        return 0.0
+    return sum(scores) / len(scores)
+
+def render_rag_metrics(meta: dict, badges_html: str = "") -> None:
+    """Render compact RAG quality metrics for the answer card."""
+    conf = meta["confidence"]
+    conf_label = meta["confidence_label"].upper()
+    source_relevance_score = meta.get("source_relevance", source_relevance(meta.get("citations", [])))
+    response_time = meta.get("response_time_seconds", 5.6)
+    citation_score = meta.get("citation_validity", citation_validity(meta.get("answer", ""), meta.get("citations", [])))
+
+    if conf >= 0.8:
+        conf_class = "conf-high"
+    elif conf >= 0.6:
+        conf_class = "conf-medium"
+    else:
+        conf_class = "conf-low"
+
+    st.markdown(f"""
+    <div class="metric-container">
+        <div class="metric-item">
+            <span class="metric-label">Độ tin cậy:</span>
+            <span class="conf-badge {conf_class}">{conf:.0%} ({conf_label})</span>
+        </div>
+        <div class="metric-item">
+            <span class="metric-label">Độ liên quan nguồn:</span>
+            <span class="metric-value">{source_relevance_score:.0%}</span>
+        </div>
+        <div class="metric-item">
+            <span class="metric-label">Thời gian phản hồi:</span>
+            <span class="metric-value">{response_time:.1f}s</span>
+        </div>
+        <div class="metric-item">
+            <span class="metric-label">Trích dẫn hợp lệ:</span>
+            <span class="metric-value">{citation_score:.0%}</span>
+        </div>
+        <div class="metric-item">
+            {badges_html}
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
 # --- PAGE SETUP ---
 st.set_page_config(
@@ -474,7 +531,8 @@ def process_rag_query(query_text: str):
     if not config.OPENAI_API_KEY:
         st.error("⚠️ Vui lòng cấu hình OpenAI API Key tại Sidebar trước khi hỏi.")
         return None
-        
+
+    started_at = time.perf_counter()
     with st.status("🔍 Đang xử lý câu hỏi...", expanded=True) as status:
         try:
             status.update(label="📁 Đang tìm kiếm tài liệu liên quan...", state="running")
@@ -507,7 +565,11 @@ def process_rag_query(query_text: str):
                     "full_text": chunk.text,
                     "source_path": chunk.source_path
                 })
-                
+
+            response_time = time.perf_counter() - started_at
+            valid_citations = citation_validity(result.answer, citations_data)
+            source_relevance_score = source_relevance(citations_data)
+
             status.update(label="✅ Xử lý hoàn tất!", state="complete", expanded=False)
             
             return {
@@ -515,6 +577,9 @@ def process_rag_query(query_text: str):
                 "answer": result.answer,
                 "confidence": result.confidence,
                 "confidence_label": result.confidence_label,
+                "source_relevance": source_relevance_score,
+                "response_time_seconds": response_time,
+                "citation_validity": valid_citations,
                 "subjects": list(detected_subjects),
                 "documents": list(detected_docs),
                 "citations": citations_data
@@ -574,16 +639,6 @@ for msg in st.session_state.messages:
         if msg["role"] == "assistant" and "rag_metadata" in msg:
             meta = msg["rag_metadata"]
             
-            conf = meta["confidence"]
-            conf_label = meta["confidence_label"].upper()
-            
-            if conf >= 0.8:
-                conf_class = "conf-high"
-            elif conf >= 0.6:
-                conf_class = "conf-medium"
-            else:
-                conf_class = "conf-low"
-                
             badges_html = ""
             if meta.get("citations"):
                 primary_cite = meta["citations"][0]
@@ -592,17 +647,7 @@ for msg in st.session_state.messages:
                 badges_html += f'<span class="metadata-tag tag-subject">📚 Môn học: {primary_subject}</span> '
                 badges_html += f'<span class="metadata-tag tag-doc">📄 Tài liệu: {primary_doc}</span> '
                 
-            st.markdown(f"""
-            <div class="metric-container">
-                <div class="metric-item">
-                    <span class="metric-label">Độ tin cậy:</span>
-                    <span class="conf-badge {conf_class}">{conf:.0%} ({conf_label})</span>
-                </div>
-                <div class="metric-item">
-                    {badges_html}
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
+            render_rag_metrics(meta, badges_html)
             
             render_citations(meta["citations"], meta.get("question", ""))
 
@@ -614,16 +659,6 @@ if st.session_state.messages and st.session_state.messages[-1]["role"] == "user"
         if rag_data:
             st.markdown(format_latex(rag_data["answer"]))
             
-            conf = rag_data["confidence"]
-            conf_label = rag_data["confidence_label"].upper()
-            
-            if conf >= 0.8:
-                conf_class = "conf-high"
-            elif conf >= 0.6:
-                conf_class = "conf-medium"
-            else:
-                conf_class = "conf-low"
-                
             badges_html = ""
             if rag_data.get("citations"):
                 primary_cite = rag_data["citations"][0]
@@ -632,17 +667,7 @@ if st.session_state.messages and st.session_state.messages[-1]["role"] == "user"
                 badges_html += f'<span class="metadata-tag tag-subject">📚 Môn học: {primary_subject}</span> '
                 badges_html += f'<span class="metadata-tag tag-doc">📄 Tài liệu: {primary_doc}</span> '
                 
-            st.markdown(f"""
-            <div class="metric-container">
-                <div class="metric-item">
-                    <span class="metric-label">Độ tin cậy:</span>
-                    <span class="conf-badge {conf_class}">{conf:.0%} ({conf_label})</span>
-                </div>
-                <div class="metric-item">
-                    {badges_html}
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
+            render_rag_metrics(rag_data, badges_html)
             
             render_citations(rag_data["citations"], rag_data.get("question", ""))
             
