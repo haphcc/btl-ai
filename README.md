@@ -40,7 +40,31 @@ Dự án xây dựng hệ thống Chatbot hỏi đáp thông tin trường học
 
 4. **Cấu hình môi trường:**
    - Sao chép file `.env.example` thành `.env`.
-   - Điền các API Key cần thiết (OpenAI, Gemini, hoặc cấu hình local model).
+   - Điền `OPENAI_API_KEY` của bạn vào file `.env`.
+
+5. **Cài đặt Vector Database (ChromaDB):**
+   Để chạy chatbot ngay mà không cần mất thời gian trích xuất và tạo vector (embedding) cho dữ liệu tài liệu học tập từ đầu, dự án cung cấp sẵn file cơ sở dữ liệu vector đã được build.
+   - **Tải file nén Vector Database:** [chroma_db_openai_text-embedding-3-small.zip](https://github.com/user-attachments/files/28299928/chroma_db_openai_text-embedding-3-small.zip)
+   - **Cách cài đặt:**
+     1. Tải file nén `.zip` ở đường dẫn phía trên.
+     2. Giải nén nội dung file zip vào thư mục `database/` của dự án.
+     3. Đảm bảo cấu trúc thư mục sau khi giải nén khớp chính xác với sơ đồ dưới đây (không bị lồng thêm thư mục trùng tên):
+        ```text
+        BTL-AI/
+        └── database/
+            └── chroma_db/
+                ├── chroma.sqlite3
+                └── a335fa59-808b-4651-9993-66e182159bd3/ (hoặc thư mục uuid tương tự chứa dữ liệu index)
+        ```
+     4. Kiểm tra cấu hình trong file `.env` để đảm bảo sử dụng đúng cơ sở dữ liệu đã tải (mặc định cấu hình này đã có sẵn trong `.env.example`):
+        ```env
+        VECTOR_DB_PATH=./database/chroma_db
+        CHROMA_COLLECTION_NAME=bav_itde_chunks
+        EMBEDDING_PROVIDER=openai
+        EMBEDDING_MODEL_NAME=text-embedding-3-small
+        ```
+        > [!IMPORTANT]
+        > Do cơ sở dữ liệu này được sinh ra bởi mô hình `text-embedding-3-small` của OpenAI, bạn **bắt buộc** phải cung cấp `OPENAI_API_KEY` hợp lệ trong file `.env` để chatbot có thể thực hiện tìm kiếm ngữ nghĩa (Semantic/Hybrid Search).
 
 ## 💻 Hướng dẫn sử dụng
 
