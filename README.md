@@ -63,9 +63,7 @@ Dự án xây dựng hệ thống Chatbot hỏi đáp thông tin trường học
         EMBEDDING_PROVIDER=openai
         EMBEDDING_MODEL_NAME=text-embedding-3-small
         ```
-        > [!IMPORTANT]
-        > Do cơ sở dữ liệu này được sinh ra bởi mô hình `text-embedding-3-small` của OpenAI, bạn **bắt buộc** phải cung cấp `OPENAI_API_KEY` hợp lệ trong file `.env` để chatbot có thể thực hiện tìm kiếm ngữ nghĩa (Semantic/Hybrid Search).
-
+        
 ## 💻 Hướng dẫn sử dụng
 
 Dự án hỗ trợ hai giao diện chính để tương tác với Chatbot: Giao diện dòng lệnh (CLI) và Giao diện Web (Streamlit).
