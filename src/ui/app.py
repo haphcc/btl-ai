@@ -19,17 +19,41 @@ from src.generation.rag_answer import answer_question, estimate_confidence
 
 # --- AUTO-DOWNLOAD VECTOR DB FOR DEPLOYMENT ---
 DB_URL = "https://github.com/user-attachments/files/28299928/chroma_db_openai_text-embedding-3-small.zip"
-DB_PATH = PROJECT_ROOT / "database" / "chroma_db"
+DB_FOLDER = PROJECT_ROOT / "database"
+DB_PATH = DB_FOLDER / "chroma_db"
 
 def download_database():
     if not DB_PATH.exists():
         with st.spinner("Đang tải cơ sở dữ liệu vector từ GitHub... (Chỉ lần đầu chạy)"):
             try:
+                # Tạo thư mục database/ nếu chưa có
+                DB_FOLDER.mkdir(parents=True, exist_ok=True)
+                
                 response = requests.get(DB_URL)
                 z = zipfile.ZipFile(io.BytesIO(response.content))
-                # Giải nén vào thư mục database/
-                z.extractall(PROJECT_ROOT / "database")
+                
+                # Kiểm tra cấu trúc file zip trước khi giải nén
+                # Nếu file zip chứa thư mục gốc là 'chroma_db/', ta giải nén vào DB_FOLDER
+                # Nếu file zip chứa trực tiếp file 'chroma.sqlite3', ta giải nén vào DB_PATH
+                z.extractall(DB_FOLDER)
+                
+                # Kiểm tra lại sau khi giải nén xem có bị lồng thư mục không
+                # Một số file zip khi nén cả thư mục sẽ tạo ra cấu trúc database/chroma_db/chroma_db/...
+                nested_path = DB_PATH / "chroma_db"
+                if nested_path.exists():
+                    import shutil
+                    # Di chuyển nội dung từ thư mục bị lồng ra ngoài
+                    for item in nested_path.iterdir():
+                        dest = DB_PATH / item.name
+                        if dest.exists():
+                            if dest.is_dir(): shutil.rmtree(dest)
+                            else: dest.unlink()
+                        shutil.move(str(item), str(DB_PATH))
+                    nested_path.rmdir()
+                
                 st.success("Tải database thành công!")
+                # Refresh lại app để nhận database mới
+                st.rerun()
             except Exception as e:
                 st.error(f"Lỗi khi tải database: {e}")
 
