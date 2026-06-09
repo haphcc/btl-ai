@@ -11,8 +11,30 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.append(str(PROJECT_ROOT))
 
 import streamlit as st
+import requests
+import zipfile
+import io
 from src.core.config import config
 from src.generation.rag_answer import answer_question, estimate_confidence
+
+# --- AUTO-DOWNLOAD VECTOR DB FOR DEPLOYMENT ---
+DB_URL = "https://github.com/user-attachments/files/28299928/chroma_db_openai_text-embedding-3-small.zip"
+DB_PATH = PROJECT_ROOT / "database" / "chroma_db"
+
+def download_database():
+    if not DB_PATH.exists():
+        with st.spinner("Đang tải cơ sở dữ liệu vector từ GitHub... (Chỉ lần đầu chạy)"):
+            try:
+                response = requests.get(DB_URL)
+                z = zipfile.ZipFile(io.BytesIO(response.content))
+                # Giải nén vào thư mục database/
+                z.extractall(PROJECT_ROOT / "database")
+                st.success("Tải database thành công!")
+            except Exception as e:
+                st.error(f"Lỗi khi tải database: {e}")
+
+# Gọi hàm tải database trước khi app chạy
+download_database()
 
 # Define chat history save directory
 CHAT_HISTORY_DIR = PROJECT_ROOT / "data" / "chat_history"
