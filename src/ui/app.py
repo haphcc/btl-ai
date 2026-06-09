@@ -30,8 +30,9 @@ DB_FOLDER = PROJECT_ROOT / "database"
 DB_PATH = DB_FOLDER / "chroma_db"
 
 def download_database():
-    # Kiểm tra database đã sẵn sàng chưa (phải tồn tại file chroma.sqlite3)
-    is_ready = DB_PATH.exists() and (DB_PATH / "chroma.sqlite3").exists()
+    # Kiểm tra database đã sẵn sàng chưa (phải tồn tại file chroma.sqlite3 và kích thước > 1MB)
+    db_file = DB_PATH / "chroma.sqlite3"
+    is_ready = DB_PATH.exists() and db_file.exists() and db_file.stat().st_size > 1000000
     
     if not is_ready:
         if "downloading" not in st.session_state:

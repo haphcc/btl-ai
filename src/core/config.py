@@ -6,11 +6,15 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
 class Config:
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
     GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
-    VECTOR_DB_PATH = os.getenv("VECTOR_DB_PATH", "./database/chroma_db")
+    VECTOR_DB_PATH = os.getenv("VECTOR_DB_PATH", str(PROJECT_ROOT / "database" / "chroma_db"))
     CHROMA_COLLECTION_NAME = os.getenv("CHROMA_COLLECTION_NAME", "bav_itde_chunks")
 
     # Ingestion chunking defaults. Values are token estimates unless a tokenizer is added.
