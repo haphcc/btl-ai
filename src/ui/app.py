@@ -1,4 +1,11 @@
 import sys
+# Override sqlite3 with pysqlite3 for Streamlit Cloud deployment
+try:
+    __import__('pysqlite3')
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+except ImportError:
+    pass
+
 from pathlib import Path
 import json
 import uuid
@@ -23,16 +30,27 @@ DB_FOLDER = PROJECT_ROOT / "database"
 DB_PATH = DB_FOLDER / "chroma_db"
 
 def download_database():
-    # Kiểm tra kĩ hơn: nếu thư mục tồn tại nhưng rỗng cũng coi như chưa có
-    is_ready = DB_PATH.exists() and any(DB_PATH.iterdir())
+    # Kiểm tra database đã sẵn sàng chưa (phải tồn tại file chroma.sqlite3)
+    is_ready = DB_PATH.exists() and (DB_PATH / "chroma.sqlite3").exists()
     
     if not is_ready:
         if "downloading" not in st.session_state:
             st.session_state.downloading = True
             with st.spinner("Đang tải cơ sở dữ liệu vector từ GitHub... (Chỉ lần đầu chạy)"):
                 try:
+                    # Clean up old database directory if it exists to avoid corruption
+                    if DB_PATH.exists():
+                        import shutil
+                        shutil.rmtree(DB_PATH)
+                        
                     DB_FOLDER.mkdir(parents=True, exist_ok=True)
-                    response = requests.get(DB_URL)
+                    
+                    # Tải file zip với User-Agent và timeout
+                    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+                    response = requests.get(DB_URL, headers=headers, timeout=120)
+                    response.raise_for_status()
+                    
+                    # Giải nén
                     z = zipfile.ZipFile(io.BytesIO(response.content))
                     z.extractall(DB_FOLDER)
                     
@@ -52,7 +70,8 @@ def download_database():
                 except Exception as e:
                     st.error(f"Lỗi khi tải database: {e}")
                 finally:
-                    del st.session_state.downloading
+                    if "downloading" in st.session_state:
+                        del st.session_state.downloading
             
             if st.session_state.get("download_complete"):
                 st.success("Tải database thành công!")
@@ -61,6 +80,7 @@ def download_database():
 
 # Gọi hàm tải database
 download_database()
+
 
 # Define chat history save directory
 CHAT_HISTORY_DIR = PROJECT_ROOT / "data" / "chat_history"
