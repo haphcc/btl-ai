@@ -1,12 +1,3 @@
----
-title: Hvnhitdechat
-emoji: 🚀
-colorFrom: red
-colorTo: red
-sdk: docker
-app_port: 8501
----
-
 # 🤖 RAG Chatbot - BTL Trí tuệ nhân tạo
 
 Dự án xây dựng hệ thống Chatbot hỏi đáp thông tin trường học và tài liệu môn học dựa trên kỹ thuật **Retrieval-Augmented Generation (RAG)**.
